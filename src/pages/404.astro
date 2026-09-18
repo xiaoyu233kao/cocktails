@@ -1,0 +1,14 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { withBase } from '../lib/paths';
+---
+<BaseLayout title="页面未找到｜Cocktail Atlas">
+  <section class="catalog-hero">
+    <div class="shell">
+      <span class="eyebrow">404 · LOST POUR</span>
+      <h1>这杯还没调好。</h1>
+      <p>页面可能已移动，或者酒名拼写需要再确认一次。</p>
+      <a class="button" href={withBase('recipes/')}>回到配方目录</a>
+    </div>
+  </section>
+</BaseLayout>

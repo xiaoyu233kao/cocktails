@@ -1,0 +1,67 @@
+---
+import '../styles/global.css';
+import { withBase } from '../lib/paths';
+import Lightbox from '../components/Lightbox.astro';
+
+interface Props {
+  title?: string;
+  description?: string;
+  image?: string;
+}
+
+const {
+  title = 'Cocktail Atlas｜鸡尾酒配方图鉴',
+  description = '以 IBA 标准为线索，整理经典鸡尾酒的配方、风味与调制方式。',
+  image,
+} = Astro.props;
+const canonical = Astro.site ? new URL(Astro.url.pathname, Astro.site).toString() : Astro.url.toString();
+const socialImage = image ? new URL(withBase(image), Astro.site || Astro.url).toString() : undefined;
+---
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#161515" />
+    <link rel="icon" href={withBase('favicon.svg')} />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    {socialImage && <meta property="og:image" content={socialImage} />}
+    <title>{title}</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">跳到主要内容</a>
+    <header class="site-header">
+      <div class="shell header-inner">
+        <a class="brand" href={withBase('')} aria-label="Cocktail Atlas 首页">
+          <span class="brand-mark" aria-hidden="true">CA</span>
+          <span>
+            <span class="brand-wordmark">Cocktail Atlas</span>
+            <span class="brand-subtitle">鸡尾酒配方图鉴</span>
+          </span>
+        </a>
+        <nav class="site-nav" aria-label="主导航">
+          <a href={withBase('recipes/')}>配方目录</a>
+          <a href={withBase('about/')}>关于</a>
+        </nav>
+      </div>
+    </header>
+    <main id="main-content">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="shell footer-inner">
+        <div class="footer-note">
+          <p>为在家调酒的人整理的经典配方索引。标准配方优先参考 IBA，故事与变体分别标注来源。</p>
+          <p>请适量饮酒，未达法定饮酒年龄请勿饮酒。</p>
+        </div>
+        <div class="footer-meta">COCKTAIL ATLAS<br />静态内容 · 2026</div>
+      </div>
+    </footer>
+    <Lightbox />
+  </body>
+</html>

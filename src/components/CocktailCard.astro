@@ -1,0 +1,52 @@
+---
+import { withBase, cocktailPath } from '../lib/paths';
+import { labelFor } from '../lib/labels';
+
+interface Props {
+  entry: any;
+}
+
+const { entry } = Astro.props;
+const { data } = entry;
+const detailUrl = cocktailPath(data.slug);
+const imageUrl = withBase(data.image);
+const search = [
+  data.nameZh,
+  data.nameEn,
+  data.category,
+  data.baseSpirit,
+  ...data.flavors,
+  ...data.styles,
+  ...data.tags,
+  ...data.ingredients.flatMap((item: any) => [item.nameZh, item.nameEn, ...item.aliases]),
+].join(' ');
+---
+<article
+  class="cocktail-card"
+  data-cocktail-card
+  data-base={data.baseSpirit}
+  data-flavors={data.flavors.join(',')}
+  data-styles={data.styles.join(',')}
+  data-ingredients={data.ingredients.flatMap((item: any) => [item.nameZh, item.nameEn, ...item.aliases]).join('|')}
+  data-search={search}
+>
+  <button
+    class="card-media"
+    type="button"
+    data-lightbox-src={imageUrl}
+    data-lightbox-alt={data.imageAlt}
+    data-lightbox-caption={`${data.nameZh} · ${data.nameEn}`}
+    aria-label={`查看${data.nameZh}大图`}
+  >
+    <img src={imageUrl} alt={data.imageAlt} loading="lazy" width="1200" height="900" />
+    <span class="card-zoom-label">查看大图</span>
+  </button>
+  <a class="card-body card-body-link" href={detailUrl} aria-label={`查看${data.nameZh}配方`}>
+    <div class="card-kicker">{labelFor(data.baseSpirit)} · {data.category}</div>
+    <h2 class="card-title">{data.nameZh}</h2>
+    <div class="card-subtitle">{data.nameEn}</div>
+    <div class="card-tags">
+      {data.flavors.slice(0, 2).map((tag: string) => <span class="tag">{labelFor(tag)}</span>)}
+    </div>
+  </a>
+</article>

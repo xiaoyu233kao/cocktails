@@ -1,0 +1,32 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+<BaseLayout title="关于这个图鉴｜Cocktail Atlas" description="Cocktail Atlas 的内容来源、图片记录与维护方法。">
+  <section class="catalog-hero">
+    <div class="shell">
+      <span class="eyebrow">ABOUT THE ATLAS</span>
+      <h1>关于这个图鉴</h1>
+      <p>这里收录约 30 款常见经典鸡尾酒，中文为主，保留中英文名称和标准配方出处。</p>
+    </div>
+  </section>
+  <section class="section section--tight">
+    <div class="shell detail-content">
+      <div class="detail-main">
+        <section>
+          <h2>内容原则</h2>
+          <p class="story">主配方优先参考 International Bartenders Association（IBA）当前目录。步骤用原创中文描述，原料用量保留来源中的单位与文字。故事和变体只有在能逐条附来源时才会出现。</p>
+        </section>
+        <section>
+          <h2>图片记录</h2>
+          <p class="story">图片全部本地化保存。许可照片记录作者、来源、授权和必要署名；生成示意图会明确标记，不将其描述为真实成品。</p>
+        </section>
+      </div>
+      <aside class="detail-aside">
+        <section>
+          <h2>维护入口</h2>
+          <p class="story">新增一杯酒时，按仓库里的 CONTENT-SCHEMA.md 创建同名 Markdown 文件与图片，并在提交前运行内容校验和生产构建。</p>
+        </section>
+      </aside>
+    </div>
+  </section>
+</BaseLayout>

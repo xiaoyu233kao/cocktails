@@ -1,0 +1,72 @@
+---
+slug: "cosmopolitan"
+nameZh: "大都会"
+nameEn: "Cosmopolitan"
+category: "Contemporary Classics"
+baseSpirit: "vodka"
+flavors:
+  - "citrus"
+  - "fruity"
+  - "sour"
+styles:
+  - "shaken"
+  - "up"
+  - "sour"
+ingredients:
+  - nameZh: "柠檬味伏特加"
+    nameEn: "Vodka Citron"
+    amount: "40 ml"
+    aliases: ["citron vodka", "vodka", "柠檬伏特加"]
+  - nameZh: "君度"
+    nameEn: "Cointreau"
+    amount: "15 ml"
+    aliases: ["triple sec", "orange liqueur", "君度酒"]
+  - nameZh: "鲜榨青柠汁"
+    nameEn: "Fresh Lime Juice"
+    amount: "15 ml"
+    aliases: ["lime juice", "青柠汁", "酸橙汁"]
+  - nameZh: "蔓越莓汁"
+    nameEn: "Cranberry Juice"
+    amount: "30 ml"
+    aliases: ["cranberry", "蔓越莓汁"]
+tags: ["vodka", "citrus", "fruity", "sour", "shaken", "up"]
+summary: "柑橘伏特加、君度、青柠和蔓越莓组成明亮而酸甜的粉红色短饮。"
+steps:
+  - "将所有原料加入装有冰块的调酒器。"
+  - "充分摇匀后滤入大号鸡尾酒杯。"
+glass: "Large cocktail glass"
+garnish: "柠檬皮扭饰"
+image: "/images/cocktails/cosmopolitan.webp"
+imageAlt: "粉红色大都会盛在鸡尾酒杯中并以柠檬皮装饰"
+imageCredit:
+  kind: "generated"
+  creator: "OpenAI image generation"
+  source: "OpenAI built-in image generation"
+  license: "Project-generated asset; no third-party photo license claimed."
+  modified: true
+  attribution: null
+  checkedAt: 2026-09-18
+source:
+  label: "IBA Cosmopolitan"
+  url: "https://iba-world.com/iba-cocktail/cosmopolitan/"
+  checkedAt: 2026-09-18
+story:
+  text: "Cosmopolitan 的早期版本和现代版本有多条发展线索；Difford's Guide 将其现代配方的形成与 1980 年代美国酒吧文化联系在一起，并区分了早期同名饮品。"
+  source:
+    label: "Cosmopolitan cocktail history, Difford's Guide"
+    url: "https://www.diffordsguide.com/g/1236/cosmopolitan-cocktail/history"
+    checkedAt: 2026-09-18
+variants:
+  - name: "Dale DeGroff's Cosmopolitan"
+    description: "以新鲜橙皮挤香并使用橙味利口酒调整柑橘层次；这是酒吧实践中的非 IBA 变体。"
+    source:
+      label: "Cosmopolitan riffs and variations, Difford's Guide"
+      url: "https://www.diffordsguide.com/g/1236/cosmopolitan-cocktail/riffs-variations"
+      checkedAt: 2026-09-18
+  - name: "1934 Cosmopolitan"
+    description: "早期同名版本以杜松子酒、柑橘汁和橙味利口酒为主，与现代伏特加版本不同。"
+    source:
+      label: "Cosmopolitan Cocktail (1934), Difford's Guide"
+      url: "https://www.diffordsguide.com/cocktails/recipe/595/cosmopolitan-cocktail-1934-recipe"
+      checkedAt: 2026-09-18
+---

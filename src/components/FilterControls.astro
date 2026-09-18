@@ -1,0 +1,79 @@
+---
+import FilterGroup from './FilterGroup.astro';
+
+interface Props {
+  entries: any[];
+}
+
+const { entries } = Astro.props;
+const unique = (values: string[]) => [...new Set(values)].sort((a, b) => a.localeCompare(b));
+const bases = unique(entries.map((entry) => entry.data.baseSpirit));
+const flavors = unique(entries.flatMap((entry) => entry.data.flavors));
+const styles = unique(entries.flatMap((entry) => entry.data.styles));
+// One checkbox per canonical ingredient keeps the menu readable. The card's
+// data-ingredients attribute still carries English names and aliases so the
+// selected canonical name can match the complete search vocabulary.
+const ingredients = unique(entries.flatMap((entry) => entry.data.ingredients.map((item: any) => item.nameZh)));
+
+---
+<section class="catalog-controls" aria-label="筛选配方">
+  <div class="search-field">
+    <label for="cocktail-search">搜索酒名或原料</label>
+    <span class="search-icon" aria-hidden="true">⌕</span>
+    <input id="cocktail-search" type="search" placeholder="搜索中文、英文酒名或原料…" autocomplete="off" data-cocktail-search />
+  </div>
+  <div class="filters">
+    <FilterGroup id="base" label="基酒" values={bases} />
+    <FilterGroup id="flavor" label="口味" values={flavors} />
+    <FilterGroup id="style" label="风格" values={styles} />
+    <FilterGroup id="ingredient" label="原料" values={ingredients} />
+  </div>
+  <div class="control-footer">
+    <span class="result-count" data-result-count aria-live="polite">共 {entries.length} 款</span>
+    <button class="clear-filters" type="button" data-clear-filters>清除筛选</button>
+  </div>
+</section>
+<script>
+  // @ts-nocheck
+  const search = document.querySelector('[data-cocktail-search]');
+  const cards = [...document.querySelectorAll('[data-cocktail-card]')];
+  const resultCount = document.querySelector('[data-result-count]');
+  const empty = document.querySelector('[data-no-results]');
+  const normalize = (value) => value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[\p{P}\p{S}\s]+/gu, '');
+  const selected = (name) => [...document.querySelectorAll(`[data-filter="${name}"]:checked`)].map((input) => normalize(input.value));
+  const list = (value) => value.split(',').map(normalize).filter(Boolean);
+  const ingredientList = (value) => value.split('|').map(normalize).filter(Boolean);
+
+  const filter = () => {
+    const query = normalize(search?.value || '');
+    const base = selected('base');
+    const flavor = selected('flavor');
+    const style = selected('style');
+    const ingredient = selected('ingredient');
+    let visible = 0;
+    cards.forEach((card) => {
+      const searchText = normalize(card.dataset.search || '');
+      const cardBase = normalize(card.dataset.base || '');
+      const cardFlavors = list(card.dataset.flavors || '');
+      const cardStyles = list(card.dataset.styles || '');
+      const cardIngredients = ingredientList(card.dataset.ingredients || '');
+      const matches = (!query || searchText.includes(query))
+        && (!base.length || base.includes(cardBase))
+        && (!flavor.length || flavor.some((item) => cardFlavors.includes(item)))
+        && (!style.length || style.some((item) => cardStyles.includes(item)))
+        && (!ingredient.length || ingredient.every((item) => cardIngredients.includes(item)));
+      card.hidden = !matches;
+      if (matches) visible += 1;
+    });
+    if (resultCount) resultCount.textContent = `显示 ${visible} / ${cards.length} 款`;
+    empty?.classList.toggle('is-visible', visible === 0);
+  };
+  search?.addEventListener('input', filter);
+  document.querySelectorAll('[data-filter]').forEach((input) => input.addEventListener('change', filter));
+  document.querySelector('[data-clear-filters]')?.addEventListener('click', () => {
+    if (search) search.value = '';
+    document.querySelectorAll('[data-filter]').forEach((input) => { input.checked = false; });
+    filter();
+  });
+  filter();
+</script>

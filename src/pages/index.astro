@@ -1,0 +1,71 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import CocktailGrid from '../components/CocktailGrid.astro';
+import { withBase } from '../lib/paths';
+
+const entries = (await getCollection('cocktails')).sort((a, b) => a.data.nameEn.localeCompare(b.data.nameEn));
+const curatedSlugs = ['margarita', 'mojito', 'negroni', 'old-fashioned', 'whiskey-sour', 'daiquiri', 'espresso-martini', 'paloma'];
+const entriesBySlug = new Map(entries.map((entry) => [entry.data.slug, entry]));
+const featured = curatedSlugs.map((slug) => entriesBySlug.get(slug)).filter(Boolean);
+---
+<BaseLayout>
+  <section class="hero">
+    <div class="hero-art" aria-hidden="true">
+      <img src={withBase('images/cocktails/negroni.webp')} alt="" width="1200" height="900" />
+    </div>
+    <div class="shell hero-copy">
+      <span class="eyebrow">THE HOME BAR INDEX</span>
+      <h1><span>把一杯经典，</span><span>调得漂亮。</span></h1>
+      <p class="hero-intro">从标准配方开始，认识每一杯酒的风味、手法与来处。为中文家庭调酒者整理的经典鸡尾酒图鉴。</p>
+      <div class="hero-actions">
+        <a class="button" href={withBase('recipes/')}>浏览配方目录</a>
+        <a class="button button--ghost" href="#featured">看看精选酒款</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="featured">
+    <div class="shell">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">CURATED POUR</span>
+          <h2>先从这些开始</h2>
+          <p>经典、好找、适合建立家庭酒吧的第一批配方。</p>
+        </div>
+        <a href={withBase('recipes/')}>查看全部 {entries.length} 款 →</a>
+      </div>
+      {featured.length ? <CocktailGrid entries={featured} /> : (
+        <div class="no-results is-visible">配方正在整理中，很快会在这里见面。</div>
+      )}
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="shell">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">HOW TO USE</span>
+          <h2>按你的酒柜找答案</h2>
+        </div>
+      </div>
+      <div class="howto-grid">
+        <article class="card-body" style="padding: 1.3rem; background: var(--surface); border-radius: var(--radius-md);">
+          <div class="card-kicker">01 · SEARCH</div>
+          <h3>搜酒名或原料</h3>
+          <p class="card-subtitle">中英文名称和常见原料别名都已加入索引。</p>
+        </article>
+        <article class="card-body" style="padding: 1.3rem; background: var(--surface); border-radius: var(--radius-md);">
+          <div class="card-kicker">02 · FILTER</div>
+          <h3>组合筛选</h3>
+          <p class="card-subtitle">按基酒、口味、风格和原料，把范围缩小到今晚想喝的那杯。</p>
+        </article>
+        <article class="card-body" style="padding: 1.3rem; background: var(--surface); border-radius: var(--radius-md);">
+          <div class="card-kicker">03 · POUR</div>
+          <h3>照着标准配方调</h3>
+          <p class="card-subtitle">每一杯都保留 IBA 来源、步骤、杯具和装饰信息。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

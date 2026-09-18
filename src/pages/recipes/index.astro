@@ -1,0 +1,28 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import CocktailGrid from '../../components/CocktailGrid.astro';
+import FilterControls from '../../components/FilterControls.astro';
+
+const entries = (await getCollection('cocktails')).sort((a, b) => a.data.nameEn.localeCompare(b.data.nameEn));
+---
+<BaseLayout title="配方目录｜Cocktail Atlas" description="按基酒、口味、风格和原料筛选经典鸡尾酒配方。">
+  <section class="catalog-hero">
+    <div class="shell">
+      <span class="eyebrow">THE INDEX</span>
+      <h1>配方目录</h1>
+      <p>从一杯清爽的 Highball，到需要慢慢搅拌的经典短饮。搜索、组合筛选，找到适合你今晚酒柜的配方。</p>
+    </div>
+  </section>
+  <section class="section section--tight" aria-labelledby="catalog-heading">
+    <div class="shell">
+      <h2 id="catalog-heading" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);">全部鸡尾酒</h2>
+      <FilterControls entries={entries} />
+      <div style="height: 2.5rem;"></div>
+      {entries.length ? <CocktailGrid entries={entries} /> : (
+        <div class="no-results is-visible" data-no-results>配方正在整理中，很快会在这里见面。</div>
+      )}
+      {entries.length > 0 && <div class="no-results" data-no-results>没有找到匹配的配方。试试清除一个筛选条件，或换个原料关键词。</div>}
+    </div>
+  </section>
+</BaseLayout>

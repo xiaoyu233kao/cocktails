@@ -1,0 +1,22 @@
+---
+import { labelFor } from '../lib/labels';
+
+interface Props {
+  id: string;
+  label: string;
+  values: string[];
+}
+
+const { id, label, values } = Astro.props;
+---
+<details class="filter-popover">
+  <summary>{label}</summary>
+  <div class="filter-options">
+      {values.map((value, index) => (
+        <label class="filter-option">
+          <input id={`${id}-${index}`} type="checkbox" value={value} data-filter={id} aria-label={labelFor(value)} />
+          <span>{labelFor(value)}</span>
+      </label>
+    ))}
+  </div>
+</details>

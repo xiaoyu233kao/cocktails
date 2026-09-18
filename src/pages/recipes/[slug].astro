@@ -1,0 +1,101 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { withBase } from '../../lib/paths';
+import { displayDate, labelFor } from '../../lib/labels';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('cocktails');
+  return entries.map((entry) => ({ params: { slug: entry.data.slug }, props: { entry } }));
+}
+
+const { entry } = Astro.props;
+const { data } = entry;
+const imageUrl = withBase(data.image);
+---
+<BaseLayout title={`${data.nameZh}｜${data.nameEn}｜Cocktail Atlas`} description={data.summary} image={data.image}>
+  <article>
+    <header class="detail-header">
+      <div class="shell">
+        <nav class="breadcrumb" aria-label="面包屑导航"><a href={withBase('recipes/')}>配方目录</a><span aria-hidden="true"> / </span>{data.nameZh}</nav>
+        <div class="detail-heading">
+          <div>
+            <span class="eyebrow">{labelFor(data.baseSpirit)} · {data.category}</span>
+            <h1 class="detail-title">{data.nameZh}</h1>
+            <div class="detail-title-en">{data.nameEn}</div>
+            <p class="detail-summary">{data.summary}</p>
+          </div>
+          <button
+            class="detail-art-button"
+            type="button"
+            data-lightbox-src={imageUrl}
+            data-lightbox-alt={data.imageAlt}
+            data-lightbox-caption={`${data.nameZh} · ${data.nameEn}`}
+            aria-label={`查看${data.nameZh}大图`}
+          >
+            <img src={imageUrl} alt={data.imageAlt} width="1200" height="900" />
+          </button>
+        </div>
+      </div>
+    </header>
+    <div class="shell detail-content">
+      <div class="detail-main">
+        <section aria-labelledby="ingredients-heading">
+          <h2 id="ingredients-heading">IBA 标准原料</h2>
+          <ul class="ingredients">
+            {data.ingredients.map((ingredient) => (
+              <li class="ingredient-row">
+                <span class="ingredient-name"><span>{ingredient.nameZh}</span><span class="ingredient-en">{ingredient.nameEn}</span></span>
+                <span class="ingredient-amount">{ingredient.amount}</span>
+              </li>
+            ))}
+          </ul>
+          <span class="source-note">来源：<a class="source-link" href={data.source.url} rel="noreferrer">{data.source.label}</a> · 核对于 {displayDate(data.source.checkedAt)}</span>
+        </section>
+        <section aria-labelledby="steps-heading">
+          <h2 id="steps-heading">调制步骤</h2>
+          <ol class="steps">
+            {data.steps.map((step) => <li>{step}</li>)}
+          </ol>
+        </section>
+        {data.story && <section aria-labelledby="story-heading">
+          <h2 id="story-heading">一小段背景</h2>
+          <p class="story">{data.story.text}</p>
+          <a class="source-link" href={data.story.source.url} rel="noreferrer">{data.story.source.label} ↗</a>
+        </section>}
+        {data.variants.length > 0 && <section aria-labelledby="variants-heading">
+          <h2 id="variants-heading">常见变体</h2>
+          <div class="variant-list">
+            {data.variants.map((variant) => <article class="variant">
+              <h3>{variant.name}</h3>
+              <p>{variant.description}</p>
+              <a class="source-link" href={variant.source.url} rel="noreferrer">{variant.source.label} ↗</a>
+            </article>)}
+          </div>
+        </section>}
+      </div>
+      <aside class="detail-aside">
+        <section aria-labelledby="profile-heading">
+          <h2 id="profile-heading">这杯酒</h2>
+          <dl class="meta-list">
+            <div class="meta-item"><dt>口味</dt><dd>{data.flavors.map(labelFor).join(' · ')}</dd></div>
+            <div class="meta-item"><dt>风格</dt><dd>{data.styles.map(labelFor).join(' · ')}</dd></div>
+            <div class="meta-item"><dt>杯具</dt><dd>{data.glass}</dd></div>
+            <div class="meta-item"><dt>装饰</dt><dd>{data.garnish}</dd></div>
+          </dl>
+        </section>
+        <section aria-labelledby="credit-heading">
+          <h2 id="credit-heading">图片记录</h2>
+          <p class="credit">{data.imageCredit.kind === 'generated' ? '生成示意图' : '授权照片'} · {data.imageCredit.creator}</p>
+          <p class="credit">
+            {data.imageCredit.sourceUrl ? <a class="source-link" href={data.imageCredit.sourceUrl} rel="noreferrer">{data.imageCredit.source}</a> : data.imageCredit.source}
+            {' · '}
+            {data.imageCredit.licenseUrl ? <a class="source-link" href={data.imageCredit.licenseUrl} rel="noreferrer">{data.imageCredit.license}</a> : data.imageCredit.license}
+          </p>
+          {data.imageCredit.attribution && <p class="credit">署名：{data.imageCredit.attribution}</p>}
+          <span class="source-note">核对于 {displayDate(data.imageCredit.checkedAt)}</span>
+        </section>
+      </aside>
+    </div>
+  </article>
+</BaseLayout>

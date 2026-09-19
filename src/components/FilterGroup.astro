@@ -1,22 +1,53 @@
 ---
 import { labelFor } from '../lib/labels';
 
+interface FilterOption {
+  value: string;
+  label?: string;
+  description?: string;
+}
+
 interface Props {
   id: string;
   label: string;
-  values: string[];
+  values?: string[];
+  options?: FilterOption[];
+  help?: string;
+  variant?: 'popover' | 'chips';
 }
 
-const { id, label, values } = Astro.props;
+const { id, label, values = [], options, help, variant = 'popover' } = Astro.props;
+const filterOptions: FilterOption[] = options ?? values.map((value) => ({ value }));
 ---
-<details class="filter-popover">
-  <summary>{label}</summary>
-  <div class="filter-options">
-      {values.map((value, index) => (
-        <label class="filter-option">
-          <input id={`${id}-${index}`} type="checkbox" value={value} data-filter={id} aria-label={labelFor(value)} />
-          <span>{labelFor(value)}</span>
-      </label>
-    ))}
-  </div>
-</details>
+{variant === 'chips' ? (
+  <fieldset class="filter-chip-group">
+    <legend class="filter-group-heading">
+      <span>{label}</span>
+      <span class="filter-count" data-filter-count={id} hidden>0</span>
+    </legend>
+    {help && <p class="filter-help">{help}</p>}
+    <div class="filter-chip-list">
+      {filterOptions.map((option, index) => (
+        <label class="filter-option filter-chip" title={option.description}>
+          <input id={`${id}-${index}`} type="checkbox" value={option.value} data-filter={id} aria-label={option.label ?? labelFor(option.value)} />
+          <span>{option.label ?? labelFor(option.value)}</span>
+        </label>
+      ))}
+    </div>
+  </fieldset>
+) : (
+  <details class="filter-popover">
+    <summary>
+      <span>{label}</span>
+      <span class="filter-count" data-filter-count={id} hidden>0</span>
+    </summary>
+    <div class="filter-options">
+      {filterOptions.map((option, index) => (
+        <label class="filter-option" title={option.description}>
+          <input id={`${id}-${index}`} type="checkbox" value={option.value} data-filter={id} aria-label={option.label ?? labelFor(option.value)} />
+          <span>{option.label ?? labelFor(option.value)}</span>
+        </label>
+      ))}
+    </div>
+  </details>
+)}

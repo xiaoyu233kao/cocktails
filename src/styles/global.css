@@ -208,9 +208,14 @@ h1, h2, h3 { font-family: var(--font-serif); line-height: 1.15; }
 .search-field input { width: 100%; min-height: 3rem; padding: 0.7rem 1rem 0.7rem 2.85rem; color: var(--ink); background: var(--canvas); border: 1px solid var(--line-strong); border-radius: 999px; }
 .search-field input::placeholder { color: var(--muted); }
 .search-icon { position: absolute; top: 0.8rem; left: 1rem; color: var(--accent); font-size: 1.1rem; }
-.filters { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0.6rem; }
+.filters { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem 0.6rem; align-items: start; }
+.filter-chip-group { min-width: 0; padding: 0; border: 0; }
+.filter-group-heading { display: flex; align-items: center; gap: 0.45rem; padding: 0; margin: 0 0 0.35rem; color: var(--muted-strong); font-size: 0.82rem; font-weight: 600; }
+.filter-help { margin: 0 0 0.55rem; color: var(--muted); font-size: 0.7rem; line-height: 1.4; }
+.filter-count { display: inline-grid; min-width: 1.2rem; min-height: 1.2rem; place-items: center; padding: 0.1rem 0.3rem; color: var(--canvas); background: var(--accent); border-radius: 999px; font-family: var(--font-mono); font-size: 0.62rem; font-weight: 600; line-height: 1; }
+.filter-count[hidden] { display: none; }
 .filter-popover { position: relative; }
-.filter-popover summary { display: flex; min-height: 2.6rem; align-items: center; justify-content: space-between; padding: 0.55rem 0.75rem; color: var(--muted-strong); background: var(--canvas); border: 1px solid var(--line); border-radius: var(--radius-sm); cursor: pointer; list-style: none; font-size: 0.82rem; }
+.filter-popover summary { display: flex; min-height: 2.6rem; align-items: center; justify-content: space-between; gap: 0.45rem; padding: 0.55rem 0.75rem; color: var(--muted-strong); background: var(--canvas); border: 1px solid var(--line); border-radius: var(--radius-sm); cursor: pointer; list-style: none; font-size: 0.82rem; }
 .filter-popover summary::-webkit-details-marker { display: none; }
 .filter-popover summary::after { color: var(--accent); content: '+'; font-family: var(--font-mono); }
 .filter-popover[open] summary::after { content: '−'; }
@@ -218,6 +223,13 @@ h1, h2, h3 { font-family: var(--font-serif); line-height: 1.15; }
 .filter-option { display: flex; align-items: center; gap: 0.55rem; padding: 0.45rem 0.35rem; color: var(--muted-strong); font-size: 0.78rem; cursor: pointer; }
 .filter-option:hover { color: var(--ink); background: var(--accent-dim); }
 .filter-option input { accent-color: var(--accent); }
+.filter-chip-list { display: flex; flex-wrap: wrap; gap: 0.45rem; }
+.filter-chip { position: relative; display: inline-flex; padding: 0; background: transparent; border-radius: 999px; }
+.filter-chip:hover { background: transparent; }
+.filter-chip input { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; opacity: 0; }
+.filter-chip span { display: inline-flex; min-height: 2rem; align-items: center; padding: 0.4rem 0.7rem; color: var(--muted-strong); background: var(--canvas); border: 1px solid var(--line); border-radius: 999px; font-size: 0.74rem; line-height: 1.2; transition: color 180ms ease, background 180ms ease, border-color 180ms ease; }
+.filter-chip:hover span, .filter-chip input:checked + span { color: var(--canvas); background: var(--accent); border-color: var(--accent); }
+.filter-chip input:focus-visible + span { outline: 2px solid var(--accent-bright); outline-offset: 2px; }
 .control-footer { display: flex; align-items: center; justify-content: space-between; gap: 0.8rem; }
 .result-count { color: var(--muted); font-size: 0.82rem; }
 .clear-filters { padding: 0; color: var(--accent-bright); background: none; border: 0; cursor: pointer; font-size: 0.78rem; }
@@ -293,6 +305,7 @@ h1, h2, h3 { font-family: var(--font-serif); line-height: 1.15; }
   .site-nav a { font-size: 0.78rem; }
   .hero { min-height: 36rem; padding: 5rem 0 3.25rem; }
   .cocktail-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.75rem; }
+  .filters { grid-template-columns: 1fr; }
   .howto-grid { grid-template-columns: 1fr; }
   .card-body { padding-top: 0.65rem; }
   .card-title { font-size: 1rem; }

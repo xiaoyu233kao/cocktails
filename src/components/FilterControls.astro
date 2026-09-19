@@ -1,15 +1,17 @@
 ---
 import FilterGroup from './FilterGroup.astro';
+import { assertTaxonomyCoverage, flavorGroups, groupOptions, styleGroups } from '../lib/taxonomy';
 
 interface Props {
   entries: any[];
 }
 
 const { entries } = Astro.props;
+assertTaxonomyCoverage(entries);
 const unique = (values: string[]) => [...new Set(values)].sort((a, b) => a.localeCompare(b));
 const bases = unique(entries.map((entry) => entry.data.baseSpirit));
-const flavors = unique(entries.flatMap((entry) => entry.data.flavors));
-const styles = unique(entries.flatMap((entry) => entry.data.styles));
+const flavorOptions = groupOptions(flavorGroups, entries, 'flavors');
+const styleOptions = groupOptions(styleGroups, entries, 'styles');
 // One checkbox per canonical ingredient keeps the menu readable. The card's
 // data-ingredients attribute still carries English names and aliases so the
 // selected canonical name can match the complete search vocabulary.
@@ -24,9 +26,21 @@ const ingredients = unique(entries.flatMap((entry) => entry.data.ingredients.map
   </div>
   <div class="filters">
     <FilterGroup id="base" label="基酒" values={bases} />
-    <FilterGroup id="flavor" label="口味" values={flavors} />
-    <FilterGroup id="style" label="风格" values={styles} />
     <FilterGroup id="ingredient" label="原料" values={ingredients} />
+    <FilterGroup
+      id="flavor"
+      label="口味"
+      options={flavorOptions}
+      variant="chips"
+      help="同组多选取任一，不同类别同时生效。"
+    />
+    <FilterGroup
+      id="style"
+      label="风格"
+      options={styleOptions}
+      variant="chips"
+      help="同组多选取任一，不同类别同时生效。"
+    />
   </div>
   <div class="control-footer">
     <span class="result-count" data-result-count aria-live="polite">共 {entries.length} 款</span>
@@ -44,6 +58,16 @@ const ingredients = unique(entries.flatMap((entry) => entry.data.ingredients.map
   const list = (value) => value.split(',').map(normalize).filter(Boolean);
   const ingredientList = (value) => value.split('|').map(normalize).filter(Boolean);
 
+  const updateSelectedCounts = () => {
+    document.querySelectorAll('[data-filter-count]').forEach((count) => {
+      const filterName = count.dataset.filterCount;
+      const amount = filterName ? document.querySelectorAll(`[data-filter="${filterName}"]:checked`).length : 0;
+      count.textContent = String(amount);
+      count.toggleAttribute('hidden', amount === 0);
+      count.setAttribute('aria-label', `已选择 ${amount} 项`);
+    });
+  };
+
   const filter = () => {
     const query = normalize(search?.value || '');
     const base = selected('base');
@@ -54,19 +78,20 @@ const ingredients = unique(entries.flatMap((entry) => entry.data.ingredients.map
     cards.forEach((card) => {
       const searchText = normalize(card.dataset.search || '');
       const cardBase = normalize(card.dataset.base || '');
-      const cardFlavors = list(card.dataset.flavors || '');
-      const cardStyles = list(card.dataset.styles || '');
+      const cardFlavors = list(card.dataset.flavorGroups || '');
+      const cardStyles = list(card.dataset.styleGroups || '');
       const cardIngredients = ingredientList(card.dataset.ingredients || '');
       const matches = (!query || searchText.includes(query))
         && (!base.length || base.includes(cardBase))
         && (!flavor.length || flavor.some((item) => cardFlavors.includes(item)))
         && (!style.length || style.some((item) => cardStyles.includes(item)))
-        && (!ingredient.length || ingredient.every((item) => cardIngredients.includes(item)));
+        && (!ingredient.length || ingredient.some((item) => cardIngredients.includes(item)));
       card.hidden = !matches;
       if (matches) visible += 1;
     });
     if (resultCount) resultCount.textContent = `显示 ${visible} / ${cards.length} 款`;
     empty?.classList.toggle('is-visible', visible === 0);
+    updateSelectedCounts();
   };
   search?.addEventListener('input', filter);
   document.querySelectorAll('[data-filter]').forEach((input) => input.addEventListener('change', filter));

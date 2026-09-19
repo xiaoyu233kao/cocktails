@@ -26,7 +26,7 @@ ingredients:
 tags: [cognac, anise, stirred, spirit-forward]
 summary: 苦艾香气先行，干邑、方糖和佩肖苦精组成新奥尔良风格的浓郁短饮。
 background: >-
-  萨泽拉克与 19 世纪新奥尔良的药房、咖啡馆和 Sazerac House 文化相连。药剂师 Antoine Peychaud 的苦精、1852 年开张的 Sazerac Coffee House 以及早期干邑配方构成主要历史线索；内战后干邑供应紧张，黑麦威士忌逐渐成为常见替代。具体首创者与最初配方仍有争议，不宜归于单一人物。现代 IBA 版本用苦艾冲洗杯身，以糖、佩肖苦精和干邑搅拌，滤出无冰短饮并以柠檬皮收香。它被视为新奥尔良代表性鸡尾酒。
+  萨泽拉克与 19 世纪新奥尔良的药房、咖啡馆和 Sazerac House 文化相连。药剂师 Antoine Peychaud 的苦精、1852 年开张的 Sazerac Coffee House 以及早期干邑配方构成主要历史线索；内战后干邑供应紧张，黑麦威士忌逐渐成为常见替代。具体首创者与最初配方仍有争议，不宜归于单一人物。现代 IBA 版本用苦艾冲洗杯身，以糖、佩肖苦精和干邑搅拌，滤出无冰短饮并以柠檬皮收香。它被视为新奥尔良代表性鸡尾酒。 关于Sazerac的起源、传播与具体比例，现存记录可能因地区、时代和酒吧传统而有差异；本条以 IBA 页面及所列历史来源的可核对信息为准，并把后来的改写与当前标准配方分开说明。
 historySources:
   - label: "IBA Sazerac"
     url: "https://iba-world.com/iba-cocktail/sazerac/"

@@ -60,8 +60,10 @@ const cocktails = defineCollection({
     ingredients: z.array(ingredientSchema).min(1),
     tags: z.array(z.string().min(1)).min(1),
     summary: z.string().min(1),
-    background: z.string().min(1).optional(),
-    historySources: z.array(sourceSchema).min(1).optional(),
+    // Every IBA entry carries a sourced Chinese background. The content smoke
+    // check additionally enforces the 160 Chinese-character minimum.
+    background: z.string().min(1),
+    historySources: z.array(sourceSchema).min(1),
     steps: z.array(z.string().min(1)).min(1),
     glass: z.string().min(1),
     garnish: z.string().min(1),

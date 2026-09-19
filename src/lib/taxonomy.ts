@@ -27,21 +27,21 @@ export const flavorGroups: TaxonomyGroup[] = [
     id: 'citrus-refreshing',
     label: '清爽柑橘',
     description: '柑橘酸度、清新感或轻盈气泡带来的爽口风味。',
-    values: ['fresh', 'refreshing', 'sour', 'tart', 'grapefruit', 'orange', 'dry'],
-    matches: (entry) => entry.flavors.some((value) => ['fresh', 'refreshing', 'sour', 'tart', 'grapefruit', 'orange', 'dry'].includes(value))
+    values: ['fresh', 'refreshing', 'sour', 'tart', 'grapefruit', 'orange', 'dry', 'sparkling', 'tannic', 'agave', 'bright'],
+    matches: (entry) => entry.flavors.some((value) => ['fresh', 'refreshing', 'sour', 'tart', 'grapefruit', 'orange', 'dry', 'sparkling', 'tannic', 'agave', 'bright'].includes(value))
       || entry.styles.includes('sour'),
   },
   {
     id: 'fruity-tropical',
     label: '果香热带',
     description: '水果、桃子、椰子和热带果味主导的风味。',
-    values: ['fruity', 'peach', 'tropical', 'coconut'],
+    values: ['fruity', 'peach', 'tropical', 'coconut', 'apple', 'apricot', 'cherry', 'berry', 'grape'],
   },
   {
     id: 'herbal-floral',
     label: '草本花香',
     description: '草本、薄荷或花香带来的清幽香气。',
-    values: ['herbal', 'floral', 'minty', 'anise'],
+    values: ['herbal', 'floral', 'minty', 'mint', 'anise', 'cooling'],
   },
   {
     id: 'bitter-aperitif',
@@ -53,19 +53,19 @@ export const flavorGroups: TaxonomyGroup[] = [
     id: 'sweet-rounded',
     label: '甜润醇厚',
     description: '甜润、丝滑或带有可乐焦糖感的圆润风味。',
-    values: ['sweet', 'creamy', 'silky', 'cola'],
+    values: ['sweet', 'creamy', 'silky', 'cola', 'honey', 'cocoa', 'rich'],
   },
   {
     id: 'spiced-smoky',
     label: '辛香烟熏',
     description: '香料、辛辣、姜、木质或烟熏带来的暖感。',
-    values: ['spiced', 'spicy', 'ginger', 'woody', 'smoky'],
+    values: ['spiced', 'spicy', 'ginger', 'woody', 'smoky', 'warming', 'strong'],
   },
   {
     id: 'coffee-nutty',
     label: '咖啡坚果',
     description: '咖啡烘焙香和杏仁、坚果等浓郁香气。',
-    values: ['coffee', 'nutty'],
+    values: ['coffee', 'nutty', 'cocoa'],
   },
   {
     id: 'savory-salty',
@@ -80,23 +80,23 @@ export const styleGroups: TaxonomyGroup[] = [
     id: 'spirit-forward',
     label: '烈酒主导',
     description: '酒体集中、适合慢饮的经典短饮。',
-    values: ['spirit-forward', 'stirred', 'up'],
-    matches: (entry) => entry.styles.includes('spirit-forward')
+    values: ['spirit-forward', 'stirred', 'up', 'martini', 'equal-parts', 'absinthe-rinse', 'rocks'],
+    matches: (entry) => entry.styles.some((value) => ['spirit-forward', 'up', 'martini', 'equal-parts', 'absinthe-rinse', 'rocks'].includes(value))
       || (entry.styles.includes('stirred') && !entry.styles.includes('brunch') && !entry.styles.includes('highball')),
   },
   {
     id: 'sour-short',
     label: '酸酒短饮',
     description: '以柑橘和糖平衡酸度，摇匀后小杯享用。',
-    values: ['sour', 'short'],
+    values: ['sour', 'short', 'layered'],
     matches: (entry) => entry.styles.includes('sour') || entry.styles.includes('short'),
   },
   {
     id: 'refreshing-long',
     label: '清爽长饮',
     description: '加苏打、姜汁或其他 mixer，适合慢慢畅饮。',
-    values: ['highball', 'long', 'fizz', 'mule', 'sling'],
-    matches: (entry) => ['highball', 'long', 'fizz', 'mule', 'sling'].some((value) => entry.styles.includes(value)),
+    values: ['highball', 'long', 'fizz', 'mule', 'sling', 'punch', 'crushed-ice', 'cobbler', 'refreshing'],
+    matches: (entry) => ['highball', 'long', 'fizz', 'mule', 'sling', 'punch', 'crushed-ice', 'cobbler', 'refreshing'].some((value) => entry.styles.includes(value)),
   },
   {
     id: 'sparkling-aperitif',
@@ -109,16 +109,16 @@ export const styleGroups: TaxonomyGroup[] = [
     id: 'tropical-iced',
     label: '热带冰饮',
     description: '热带风味、碎冰或搅打质地，适合轻松场合。',
-    values: ['tropical', 'blended', 'frozen', 'muddled'],
-    matches: (entry) => ['tropical', 'blended', 'frozen', 'muddled'].some((value) => entry.styles.includes(value))
+    values: ['tropical', 'blended', 'frozen', 'muddled', 'swizzled', 'smash', 'tiki'],
+    matches: (entry) => ['tropical', 'blended', 'frozen', 'muddled', 'swizzled', 'smash', 'tiki'].some((value) => entry.styles.includes(value))
       || entry.flavors.includes('tropical'),
   },
   {
     id: 'after-dinner',
     label: '餐后甜饮',
     description: '咖啡和甜香明显，适合餐后或夜晚饮用。',
-    values: ['after-dinner'],
-    matches: (entry) => entry.styles.includes('after-dinner') || entry.flavors.some((value) => ['coffee', 'creamy'].includes(value)),
+    values: ['after-dinner', 'hot'],
+    matches: (entry) => entry.styles.some((value) => ['after-dinner', 'hot'].includes(value)) || entry.flavors.some((value) => ['coffee', 'creamy'].includes(value)),
   },
 ];
 

@@ -22,7 +22,7 @@ ingredients:
 tags: [aperitif, bittersweet, built, aperitivo]
 summary: 普罗塞克、阿佩罗和苏打水组成低负担、带橙香的起泡开胃酒。
 background: >-
-  Spritz 的名称通常被认为来自德语 spritzen（喷洒），19 世纪奥匈统治时期士兵把威尼托葡萄酒加水稀释的习惯是最常见的历史解释，但确切起点与统一配方并无单一结论。20 世纪后苦味利口酒和起泡酒逐渐加入，形成今日 aperitivo 结构；不同城市仍有 Select、Campari 等地方版本。IBA 以普罗塞克、阿佩罗和苏打水构成，葡萄酒杯加冰并以橙片收香。现代 Spritz 以低酒精感、气泡和橙香成为意大利开胃酒文化的国际符号。
+  Spritz 的名称通常被认为来自德语 spritzen（喷洒），19 世纪奥匈统治时期士兵把威尼托葡萄酒加水稀释的习惯是最常见的历史解释，但确切起点与统一配方并无单一结论。20 世纪后苦味利口酒和起泡酒逐渐加入，形成今日 aperitivo 结构；不同城市仍有 Select、Campari 等地方版本。IBA 以普罗塞克、阿佩罗和苏打水构成，葡萄酒杯加冰并以橙片收香。现代 Spritz 以低酒精感、气泡和橙香成为意大利开胃酒文化的国际符号。 关于Spritz的起源、传播与具体比例，现存记录可能因地区、时代和酒吧传统而有差异；本条以 IBA 页面及所列历史来源的可核对信息为准，并把后来的改写与当前标准配方分开说明。
 historySources:
   - label: "IBA Spritz"
     url: "https://iba-world.com/iba-cocktail/spritz/"

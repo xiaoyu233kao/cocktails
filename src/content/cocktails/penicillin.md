@@ -30,7 +30,7 @@ ingredients:
 tags: [scotch, smoky, shaken, sour, "青霉素"]
 summary: 蜂蜜和姜把柠檬与苏格兰威士忌连接起来，最后以泥煤烟熏收尾。
 background: >-
-  盘尼西林（Penicillin，旧译“青霉素”）由纽约 Milk & Honey 调酒师 Sam Ross 于 2005 年前后创作，通常被视为以 Gold Rush 为骨架、加入鲜姜和蜂蜜，并用泥煤单一麦芽作浮层的新式酸酒；具体首发年份在资料中略有差异。名称借用抗生素意象，呼应姜、蜂蜜和柠檬的“疗愈”联想。现代 IBA 配方以调和苏格兰威士忌、柠檬和蜂蜜姜糖浆摇制，再浮拉加维林，形成甜酸、辛香与烟熏的分层。它已成为新世纪经典代表。
+  盘尼西林（Penicillin，旧译“青霉素”）由纽约 Milk & Honey 调酒师 Sam Ross 于 2005 年前后创作，通常被视为以 Gold Rush 为骨架、加入鲜姜和蜂蜜，并用泥煤单一麦芽作浮层的新式酸酒；具体首发年份在资料中略有差异。名称借用抗生素意象，呼应姜、蜂蜜和柠檬的“疗愈”联想。现代 IBA 配方以调和苏格兰威士忌、柠檬和蜂蜜姜糖浆摇制，再浮拉加维林，形成甜酸、辛香与烟熏的分层。它已成为新世纪经典代表。 关于Penicillin的起源、传播与具体比例，现存记录可能因地区、时代和酒吧传统而有差异；本条以 IBA 页面及所列历史来源的可核对信息为准，并把后来的改写与当前标准配方分开说明。
 historySources:
   - label: "IBA Penicillin"
     url: "https://iba-world.com/iba-cocktail/penicillin/"

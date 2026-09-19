@@ -1,12 +1,16 @@
 ---
+import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
+
+const entries = await getCollection('cocktails');
+const entryCount = entries.length;
 ---
-<BaseLayout title="关于这个图鉴｜Cocktail Atlas" description="Cocktail Atlas 的内容来源、图片记录与维护方法。">
+<BaseLayout title="关于这个图鉴｜Cocktail Atlas" description={`Cocktail Atlas 收录 ${entryCount} 款 IBA 鸡尾酒，记录内容来源、图片记录与维护方法。`}>
   <section class="catalog-hero">
     <div class="shell">
       <span class="eyebrow">ABOUT THE ATLAS</span>
       <h1>关于这个图鉴</h1>
-      <p>这里收录约 30 款常见经典鸡尾酒，中文为主，保留中英文名称和标准配方出处。</p>
+      <p>这里收录 IBA 当前目录的 {entryCount} 款经典鸡尾酒，中文为主，保留中英文名称和标准配方出处。</p>
     </div>
   </section>
   <section class="section section--tight">
@@ -18,7 +22,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         </section>
         <section>
           <h2>图片记录</h2>
-          <p class="story">当前首批 30 款图片全部采用统一风格的 AI 生成示意图，由 OpenAI image generation 的 built-in source 生成并本地化保存为 WebP；页面不会将其描述为真实成品。若未来采用授权照片，仍需记录作者、来源、许可和必要署名。</p>
+          <p class="story">当前目录的 {entryCount} 张图片全部采用统一风格的 AI 生成示意图，由 OpenAI image generation 的 built-in source 生成并本地化保存为 WebP；页面不会将其描述为真实成品。若未来采用授权照片，仍需记录作者、来源、许可和必要署名。</p>
         </section>
       </div>
       <aside class="detail-aside">

@@ -26,7 +26,7 @@ ingredients:
 tags: [pisco, citrus, shaken, sour, "秘鲁酸酒"]
 summary: 皮斯科的葡萄香气与柠檬、糖浆和蛋清形成细腻泡沫。
 background: >-
-  皮斯科酸的早期谱系通常与秘鲁利马 Morris’ Bar 的 Victor Morris 相连，1916 年前后他被视为把皮斯科、柠檬、糖和蛋清组合成现代酸酒的重要人物；但智利与秘鲁都发展出自己的传统，创作归属与具体演变尚无一致结论。名称直接来自基酒 pisco 与 sour 结构。现代 IBA 配方以皮斯科、柠檬、糖浆和蛋清摇出细密泡沫，表面滴苦精。它如今既是秘鲁国家饮品象征，也是南美酸酒的代表。
+  皮斯科酸的早期谱系通常与秘鲁利马 Morris’ Bar 的 Victor Morris 相连，1916 年前后他被视为把皮斯科、柠檬、糖和蛋清组合成现代酸酒的重要人物；但智利与秘鲁都发展出自己的传统，创作归属与具体演变尚无一致结论。名称直接来自基酒 pisco 与 sour 结构。现代 IBA 配方以皮斯科、柠檬、糖浆和蛋清摇出细密泡沫，表面滴苦精。它如今既是秘鲁国家饮品象征，也是南美酸酒的代表。 关于Pisco Sour的起源、传播与具体比例，现存记录可能因地区、时代和酒吧传统而有差异；本条以 IBA 页面及所列历史来源的可核对信息为准，并把后来的改写与当前标准配方分开说明。
 historySources:
   - label: "IBA Pisco Sour"
     url: "https://iba-world.com/iba-cocktail/pisco-sour/"

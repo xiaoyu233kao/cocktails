@@ -45,6 +45,14 @@ tags:
   - bitter
   - aperitivo
 summary: 三等分结构带来草本、苦甜与柑橘香气。
+background: 尼格罗尼的现代传播与意大利开胃酒传统密切相关，常见历史线索会提到佛罗伦萨、Caffè Casoni 与 Camillo Negroni 等名字，但不同资料对首创年份、地点和人物关系的叙述并不完全一致。它属于以烈酒、苦味利口酒和甜味美思构成的等量结构，橙皮带出香气，也让酒体在苦甜与草本之间保持清晰轮廓。如今尼格罗尼既是 IBA 经典目录中的标准配方，也是酒吧文化中最容易辨认的开胃酒之一；介绍时应把可核实的史料与后来流行的传说分开，并保留来源和核对日期。
+historySources:
+  - label: IBA Negroni
+    url: https://iba-world.com/iba-cocktail/negroni/
+    checkedAt: 2026-09-18
+  - label: Campari — Negroni History
+    url: https://www.campari.com/our-cocktails/negroni/
+    checkedAt: 2026-09-18
 steps:
   - 将所有原料加入装有冰块的搅拌杯。
   - 搅拌至充分冰镇后滤入杯中。
@@ -73,10 +81,12 @@ variants:
 ```
 
 Required fields are `slug`, `nameZh`, `nameEn`, `category`, `baseSpirit`,
-`flavors`, `styles`, `ingredients`, `tags`, `summary`, `steps`, `glass`,
-`garnish`, `image`, `imageAlt`, `imageCredit`, and `source`. `story` is optional: omit it
-when its history cannot be sourced. `variants` is optional and every listed
-variant must carry its own source.
+`flavors`, `styles`, `ingredients`, `tags`, `summary`, `background`,
+`historySources`, `steps`, `glass`, `garnish`, `image`, `imageAlt`,
+`imageCredit`, and `source`. `story` is optional: omit it when its history
+cannot be sourced. `variants` is optional and every listed variant must carry
+its own source. Each background should contain at least about 160 Chinese
+characters and each history source must include a label, URL, and check date.
 
 Use one canonical `baseSpirit` value so the filter stays stable: `gin`,
 `vodka`, `rum`, `tequila`, `whiskey`, `brandy`, `pisco`, `cachaca`, `wine`,
@@ -110,7 +120,7 @@ basename as the Markdown file. Prefer a 4:3 image with a minimum width of
 asset. A `.avif` sibling is welcome for optimization, but the `.webp` path
 must remain available as the fallback referenced by frontmatter.
 
-当前首批 30 款图片全部是统一风格的 AI 生成示意图，默认使用
+当前 IBA 目录的 102 款图片全部是统一风格的 AI 生成示意图，默认使用
 `OpenAI image generation` 的 built-in source。新增配方也应生成同系列图片，并在
 `imageCredit` 使用上面的 `generated` 记录。若未来采用授权照片，才将 `kind` 改为
 `photo`，并记录作者、来源、`sourceUrl`、许可、`licenseUrl`、修改权限、必要署名和核对日期。

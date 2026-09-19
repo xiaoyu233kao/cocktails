@@ -40,7 +40,7 @@ ingredients:
 tags: ["rum", "citrus", "tropical", "nutty", "shaken", "short"]
 summary: "两种朗姆酒与橙味利口酒、杏仁糖浆和青柠构成浓郁而平衡的热带风味。"
 background: >-
-  迈泰通常被认为由 Victor J. Bergeron（Trader Vic）于 1944 年在加州奥克兰创制；名称据常见记载来自大溪地语 mai tai-roa aé，意为“非常好”，但 Donn Beachcomber 的先行主张使归属仍有争议。早期配方以牙买加朗姆、马提尼克朗姆、橙味利口酒、杏仁糖浆和青柠构成，强调朗姆的层次、柑橘酸度与杏仁香，而不是果汁甜饮。后来旅游酒吧版本常加橙汁、菠萝汁并堆叠水果，造成风格分化。现代 IBA 配方保留短饮结构，常被视为提基鸡尾酒的代表。
+  迈泰通常被认为由 Victor J. Bergeron（Trader Vic）于 1944 年在加州奥克兰创制；名称据常见记载来自大溪地语 mai tai-roa aé，意为“非常好”，但 Donn Beachcomber 的先行主张使归属仍有争议。早期配方以牙买加朗姆、马提尼克朗姆、橙味利口酒、杏仁糖浆和青柠构成，强调朗姆的层次、柑橘酸度与杏仁香，而不是果汁甜饮。后来旅游酒吧版本常加橙汁、菠萝汁并堆叠水果，造成风格分化。现代 IBA 配方保留短饮结构，常被视为提基鸡尾酒的代表。 关于Mai-Tai的起源、传播与具体比例，现存记录可能因地区、时代和酒吧传统而有差异；本条以 IBA 页面及所列历史来源的可核对信息为准，并把后来的改写与当前标准配方分开说明。
 historySources:
   - label: "IBA Mai-Tai"
     url: "https://iba-world.com/iba-cocktail/mai-tai/"

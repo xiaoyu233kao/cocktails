@@ -22,7 +22,7 @@ ingredients:
 tags: [white-rum, tropical, blended, frozen, "皮娜可乐达"]
 summary: 白朗姆、椰浆与菠萝组成绵密的热带风味，适合充分冰镇后饮用。
 background: >-
-  椰林飘香（Piña Colada，旧译“皮娜可乐达”）的现代版本通常与波多黎各 San Juan 的 Caribe Hilton 相连。酒店资料将 1954 年调酒师 Ramón “Monchito” Marrero 视为关键人物，但 Ramón Portas 等竞争署名也存在，起源细节仍有争议。名称西语直译为“滤过的菠萝”，指菠萝汁；白朗姆、椰浆和菠萝的冷冻混合结构后来成为热带度假的象征。波多黎各于 1978 年将其列为官方饮品。现代 IBA 版本保留大杯、冰冻与菠萝樱桃装饰，定位为甜润的热带经典。
+  椰林飘香（Piña Colada，旧译“皮娜可乐达”）的现代版本通常与波多黎各 San Juan 的 Caribe Hilton 相连。酒店资料将 1954 年调酒师 Ramón “Monchito” Marrero 视为关键人物，但 Ramón Portas 等竞争署名也存在，起源细节仍有争议。名称西语直译为“滤过的菠萝”，指菠萝汁；白朗姆、椰浆和菠萝的冷冻混合结构后来成为热带度假的象征。波多黎各于 1978 年将其列为官方饮品。现代 IBA 版本保留大杯、冰冻与菠萝樱桃装饰，定位为甜润的热带经典。 关于Piña Colada的起源、传播与具体比例，现存记录可能因地区、时代和酒吧传统而有差异；本条以 IBA 页面及所列历史来源的可核对信息为准，并把后来的改写与当前标准配方分开说明。
 historySources:
   - label: "IBA Piña Colada"
     url: "https://iba-world.com/iba-cocktail/pina-colada/"

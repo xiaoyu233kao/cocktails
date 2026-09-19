@@ -22,7 +22,7 @@ ingredients:
 tags: [gin, bitter, stirred, aperitivo]
 summary: 金酒、金巴利与甜红味美思各一份，苦甜与柑橘香气平衡鲜明。
 background: >-
-  尼格罗尼的定型故事常放在 1919 年佛罗伦萨 Caffè Casoni：Count Camillo Negroni 据说请调酒师 Fosco Scarselli 以金酒替代 Americano 的苏打水，形成更强的苦甜结构；这一故事有品牌与历史资料支持，但细节仍不应写成绝对事实。名称来自 Negroni 家族。经典配方以金酒、金巴利和甜红味美思各一份，搅拌后在古典杯大冰块上呈现，以橙片收香。它从意大利开胃酒文化进入全球酒吧，现代常被视作平衡苦味、柑橘与草本香气的标志性短饮。
+  尼格罗尼的定型故事常放在 1919 年佛罗伦萨 Caffè Casoni：Count Camillo Negroni 据说请调酒师 Fosco Scarselli 以金酒替代 Americano 的苏打水，形成更强的苦甜结构；这一故事有品牌与历史资料支持，但细节仍不应写成绝对事实。名称来自 Negroni 家族。经典配方以金酒、金巴利和甜红味美思各一份，搅拌后在古典杯大冰块上呈现，以橙片收香。它从意大利开胃酒文化进入全球酒吧，现代常被视作平衡苦味、柑橘与草本香气的标志性短饮。 关于Negroni的起源、传播与具体比例，现存记录可能因地区、时代和酒吧传统而有差异；本条以 IBA 页面及所列历史来源的可核对信息为准，并把后来的改写与当前标准配方分开说明。
 historySources:
   - label: "IBA Negroni"
     url: "https://iba-world.com/iba-cocktail/negroni/"

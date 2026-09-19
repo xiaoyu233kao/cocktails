@@ -32,7 +32,7 @@ ingredients:
 tags: ["gin", "citrus", "sparkling", "sweet", "shaken", "highball", "fizz"]
 summary: "金酒、柠檬和糖浆摇匀后加苏打，酸甜中带有轻快气泡。"
 background: >-
-  金菲士属于 19 世纪美国兴起的 fizz 家族，名称来自英文 fizz（嘶嘶作响），指柑橘酸甜基酒加苏打后的气泡感。新奥尔良调酒师 Henry C. Ramos 于 1888 年推出更复杂的 Ramos Gin Fizz，使家族声名大振，但普通 Gin Fizz 与 Ramos 版本应区分。IBA 版本以金酒、柠檬、糖浆摇匀后加苏打，倒入细长杯且通常不加冰，强调清爽、明亮和即时饮用。它后来成为高球与早午餐酒单中常见的经典款。
+  金菲士属于 19 世纪美国兴起的 fizz 家族，名称来自英文 fizz（嘶嘶作响），指柑橘酸甜基酒加苏打后的气泡感。新奥尔良调酒师 Henry C. Ramos 于 1888 年推出更复杂的 Ramos Gin Fizz，使家族声名大振，但普通 Gin Fizz 与 Ramos 版本应区分。IBA 版本以金酒、柠檬、糖浆摇匀后加苏打，倒入细长杯且通常不加冰，强调清爽、明亮和即时饮用。它后来成为高球与早午餐酒单中常见的经典款。 关于Gin Fizz的起源、传播与具体比例，现存记录可能因地区、时代和酒吧传统而有差异；本条以 IBA 页面及所列历史来源的可核对信息为准，并把后来的改写与当前标准配方分开说明。
 historySources:
   - label: "IBA Gin Fizz"
     url: "https://iba-world.com/iba-cocktail/gin-fizz/"

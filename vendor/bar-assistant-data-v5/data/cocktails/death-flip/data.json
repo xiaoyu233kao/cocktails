@@ -1,0 +1,90 @@
+{
+    "_id": "death-flip",
+    "name": "Death Flip",
+    "instructions": "1. Combine all ingredients in a mixing tin and shake with ice. Strain into a sour glass.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "When this cocktail first appeared on the menu at the Black Pearl in Melbourne, in 2010, no ingredients were listed. And if you asked what was in the drink, the bartender would not tell you. The only thing offering the customer a hint as to what they were getting into was the ominous description: “You don’t wanna meet this cocktail in a dark alley.”\n\nOf course, plenty of people stepped up to take the bait, and many ended up liking the cocktail—something that likely wouldn’t have happened if the ingredients were listed: tequila, yellow Chartreuse, Jägermeister and a whole egg. To date, it is the only flip to become a modern classic.",
+    "source": "https://punchdrink.com/recipes/death-flip/",
+    "garnish": "Garnish with freshly grated nutmeg.",
+    "abv": 30.84,
+    "tags": [
+        "Flip"
+    ],
+    "glass": "Coupe",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///death-flip.webp",
+            "sort": 1,
+            "placeholder_hash": "5/cJHwQcT2q8Q3i3iTemmVh1eHAnBXgB",
+            "copyright": "Punch"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "tequila-blanco",
+            "name": "Tequila Blanco",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "yellow-chartreuse",
+            "name": "Yellow Chartreuse",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "jagermeister",
+            "name": "Jägermeister",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 4,
+            "amount": 1,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "egg",
+            "name": "Egg",
+            "sort": 5,
+            "amount": 1,
+            "units": "whole",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

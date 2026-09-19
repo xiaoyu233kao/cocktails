@@ -1,0 +1,78 @@
+{
+    "_id": "the-mystical-one",
+    "name": "The Mystical One",
+    "instructions": "1. Combine the 3 sage leaves and the cinnamon syrup in a cocktail shaker and use a muddler to lightly crush the sage.\n2. Add the lime juice and bourbon.\n3. Add ice and shake until chilled.\n4. Strain into a coupe and garnish with a sage leaf.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "This simple, holiday-ready rendition of a Whiskey Sour combines the one-two punch of sage and cinnamon alongside lime juice in place of lemon.",
+    "source": "https://punchdrink.com/recipes/the-mystical-one/",
+    "garnish": "sage leaf",
+    "abv": 19.69,
+    "tags": [
+        "Winter"
+    ],
+    "glass": "Coupe",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///the-mystical-one.webp",
+            "sort": 0,
+            "placeholder_hash": "ZwgKFwQIpXg6upttpzdal4WGZqAJBLkC",
+            "copyright": "Punch Staff | Lizzie Munro"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "bourbon-whiskey",
+            "name": "Bourbon Whiskey",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "sage",
+            "name": "Sage",
+            "sort": 2,
+            "amount": 3,
+            "units": "leaves",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cinnamon-syrup",
+            "name": "Cinnamon syrup",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 4,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

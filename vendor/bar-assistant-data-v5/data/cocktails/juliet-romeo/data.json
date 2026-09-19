@@ -1,0 +1,90 @@
+{
+    "_id": "juliet-romeo",
+    "name": "Juliet & Romeo",
+    "instructions": "1. Combine cucumber and salt in a mixing tin and muddle.\n2. Add all remaining ingredients and shake with ice.\n3. Strain into a chilled coupe.\n4. Garnish with mint leaf, 1 dash of rosewater on the mint leaf and 3 dashes of Angostura bitters.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A gin cocktail recipe that would appeal to gin haters. A mix of gin, lime juice, cucumber, sugar, mint, salt and rose water.",
+    "source": "https://punchdrink.com/recipes/juliet-romeo/",
+    "garnish": "mint leaf, 1 dash of rosewater, 3 dashes of Angostura bitters.",
+    "abv": 18.29,
+    "tags": [
+        "Citrusy"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///juliet-romeo.webp",
+            "sort": 0,
+            "placeholder_hash": "E/gNDwIvVnWPloh1eQeFJnaZc+AYkGYG",
+            "copyright": "Punch Staff | Lizzie Munro"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "preferably Beefeater",
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cucumber",
+            "name": "Cucumber",
+            "sort": 4,
+            "amount": 3,
+            "units": "slice",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "mint",
+            "name": "Mint",
+            "sort": 5,
+            "amount": 1,
+            "units": "sprigs",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "_id": "trinidad-sour",
+    "name": "Trinidad Sour",
+    "instructions": "1. Pour all ingredients into a cocktail shaker\n2. Shake well with ice\n3. Strain into a chilled cocktail glass.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Unusually for a cocktail, it uses Angostura bitters as a base spirit rather than as a flavoring, the bitters being the single largest component of the drink in its IBA formulation.",
+    "source": "https://iba-world.com/trinidad-sour/",
+    "garnish": null,
+    "abv": 18.57,
+    "tags": [
+        "IBA Cocktail",
+        "New Era Drinks",
+        "Sour"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///trinidad-sour.webp",
+            "sort": 1,
+            "placeholder_hash": "8NcFDwSwBaaKr2WFY8hX6ClpCJDLBIkJ",
+            "copyright": "A Couple Cooks"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "angostura-aromatic-bitters",
+            "name": "Angostura aromatic bitters",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orgeat-syrup",
+            "name": "Orgeat Syrup",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "rye-whiskey",
+            "name": "Rye whiskey",
+            "sort": 4,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

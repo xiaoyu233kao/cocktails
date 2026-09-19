@@ -1,0 +1,67 @@
+{
+    "_id": "paradise",
+    "name": "Paradise",
+    "instructions": "Pour all ingredients into cocktail shaker, shake well with ice, strain into chilled cocktail glass.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The earliest known in-print recipe for the Paradise Cocktail was written by Harry Craddock in 1930. This cocktail is prepared using gin, apricot brandy (apricot liqueur), and orange juice in a 2:1:1 ratio, with a splash of lemon juice.",
+    "source": "https://iba-world.com/paradise/",
+    "garnish": null,
+    "abv": 24.62,
+    "tags": [
+        "IBA Cocktail",
+        "The Unforgettables"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///paradise.webp",
+            "sort": 1,
+            "placeholder_hash": "eRgGHwL1F5h3fYVzeNg4yDd9edCHCI0I",
+            "copyright": "Wikipedia"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "apricot-brandy",
+            "name": "Apricot Brandy",
+            "sort": 2,
+            "amount": 20,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orange-juice",
+            "name": "Orange juice",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

@@ -1,0 +1,100 @@
+{
+    "_id": "mojito",
+    "name": "Mojito",
+    "instructions": "Mix mint springs with sugar and lime juice. Add splash of soda water and fill the glass with ice. Pour the rum and top with soda water. Light stir to involve all ingredients.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The combination of mint, lime, and rum creates a delightful balance of sweetness, acidity, and herbal freshness. Mojitos are popular in bars and restaurants and are often associated with a laid-back and tropical vibe. They are a favorite cocktail for summer gatherings and outdoor events.",
+    "source": "https://iba-world.com/mojito/",
+    "garnish": "Garnish with sprigs of mint and slice of lime.",
+    "abv": 24.24,
+    "tags": [
+        "Contemporary Classics",
+        "IBA Cocktail",
+        "Mojito"
+    ],
+    "glass": "Highball",
+    "method": "Build",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///mojito.webp",
+            "sort": 1,
+            "placeholder_hash": "MhkGFwB+WaaZf6RjaURa55hGDYp09hkH",
+            "copyright": "Bon Apetite"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "light-rum",
+            "name": "Light Rum",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": 60,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "mint",
+            "name": "Mint",
+            "sort": 3,
+            "amount": 6,
+            "units": "sprigs",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "sugar",
+            "name": "Sugar",
+            "sort": 4,
+            "amount": 2,
+            "units": "tsp",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": [
+                {
+                    "_id": "simple-syrup",
+                    "name": "Simple Syrup",
+                    "amount": 22.5,
+                    "units": "ml",
+                    "amount_max": null
+                }
+            ]
+        },
+        {
+            "_id": "club-soda",
+            "name": "Club soda",
+            "sort": 5,
+            "amount": 1,
+            "units": "topup",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

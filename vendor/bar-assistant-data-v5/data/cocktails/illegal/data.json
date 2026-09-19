@@ -1,0 +1,115 @@
+{
+    "_id": "illegal",
+    "name": "Illegal",
+    "instructions": "Pour all ingredients into the shaker. Shake vigorously with ice.  Strain into a chilled cocktail glass, or “on the rocks” in a traditional clay or terracotta mug.",
+    "created_at": null,
+    "updated_at": null,
+    "description": null,
+    "source": "https://iba-world.com/illegal/",
+    "garnish": null,
+    "abv": 16.12,
+    "tags": [
+        "IBA Cocktail",
+        "New Era Drinks"
+    ],
+    "glass": "Fizzio",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///illegal.webp",
+            "sort": 1,
+            "placeholder_hash": "XvgJFwIraXifhId1h0eWWId1VuIGBo8C",
+            "copyright": "The Shaken Cocktail"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "mezcal",
+            "name": "Mezcal",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "light-rum",
+            "name": "Light Rum",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "falernum",
+            "name": "Falernum",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "maraschino",
+            "name": "Maraschino",
+            "sort": 4,
+            "amount": 1,
+            "units": "teaspoon",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 5,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 6,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "egg-white",
+            "name": "Egg White",
+            "sort": 7,
+            "amount": 1,
+            "units": "drops",
+            "optional": true,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

@@ -1,0 +1,115 @@
+{
+    "_id": "flannel-shirt",
+    "name": "Flannel Shirt",
+    "instructions": "1. Add all ingredients to a cocktail shaker.\n2. Add ice and shake until chilled.\n3. Strain into a rocks glass over ice.\n4. Garnish with an orange peel.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Bartender Jeffrey Morgenthaler of the Clyde Common in Portland, Oregon, created the Flannel Shirt for an autumnal event. Using classic fall flavors—apple, earth, spice and smoke—he whipped up this fleecy, bone-warming drink with the bold backbone of Scotch and a supporting cast of apple cider, St. Elizabeth Allspice Dram and super-bold Averna. Morgenthaler says, “It reminds me of a hot drink that you’d have on Thanksgiving morning—only served cold.”",
+    "source": "https://punchdrink.com/recipes/flannel-shirt/",
+    "garnish": "orange peel",
+    "abv": 19.41,
+    "tags": [
+        "Sour",
+        "Fruity"
+    ],
+    "glass": "Lowball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": "Jeffrey Morgenthaler",
+    "images": [
+        {
+            "uri": "file:///flannel-shirt.webp",
+            "sort": 1,
+            "placeholder_hash": "XQgKDwKGiWeymXh1mbiZqIiP9blGj3cF",
+            "copyright": "Punch Staff | Daniel Krieger"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "scotch-whiskey",
+            "name": "Scotch whiskey",
+            "sort": 1,
+            "amount": 52.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "apple-cider",
+            "name": "Apple Cider",
+            "sort": 2,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "amaro-averna",
+            "name": "Amaro Averna",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 4,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "demerara-syrup",
+            "name": "Demerara Syrup",
+            "sort": 5,
+            "amount": 1,
+            "units": "barspoon",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "allspice-dram",
+            "name": "Allspice dram",
+            "sort": 6,
+            "amount": 0.5,
+            "units": "barspoon",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "angostura-aromatic-bitters",
+            "name": "Angostura aromatic bitters",
+            "sort": 7,
+            "amount": 2,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

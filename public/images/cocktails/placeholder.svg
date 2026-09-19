@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
-  <defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#3a2920"/><stop offset="1" stop-color="#151414"/></linearGradient></defs>
-  <rect width="1200" height="900" fill="url(#g)"/>
-  <circle cx="840" cy="340" r="180" fill="#e4a45e" fill-opacity=".14"/>
-  <path d="M430 260h340l-35 80H465l-35-80Zm45 110h250v180c0 74-56 134-125 134s-125-60-125-134V370Zm-70-145h390" fill="none" stroke="#e4a45e" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="600" y="760" text-anchor="middle" fill="#f6f1e9" font-family="sans-serif" font-size="34" letter-spacing="7">COCKTAIL ATLAS</text>
-</svg>

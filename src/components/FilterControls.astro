@@ -4,21 +4,18 @@ import { assertTaxonomyCoverage, flavorGroups, groupOptions, styleGroups } from 
 
 interface Props {
   entries: any[];
+  indexUrl?: string;
 }
 
-const { entries } = Astro.props;
+const { entries, indexUrl = '/data/recipes-index.json' } = Astro.props;
 assertTaxonomyCoverage(entries);
 const unique = (values: string[]) => [...new Set(values)].sort((a, b) => a.localeCompare(b));
 const bases = unique(entries.map((entry) => entry.data.baseSpirit));
 const flavorOptions = groupOptions(flavorGroups, entries, 'flavors');
 const styleOptions = groupOptions(styleGroups, entries, 'styles');
-// One checkbox per canonical ingredient keeps the menu readable. The card's
-// data-ingredients attribute still carries English names and aliases so the
-// selected canonical name can match the complete search vocabulary.
 const ingredients = unique(entries.flatMap((entry) => entry.data.ingredients.map((item: any) => item.nameZh)));
-
 ---
-<section class="catalog-controls" aria-label="筛选配方">
+<section class="catalog-controls" aria-label="筛选配方" data-filter-controls data-index-url={indexUrl} data-entry-count={entries.length}>
   <div class="search-field">
     <label for="cocktail-search">搜索酒名或原料</label>
     <span class="search-icon" aria-hidden="true">⌕</span>
@@ -26,21 +23,9 @@ const ingredients = unique(entries.flatMap((entry) => entry.data.ingredients.map
   </div>
   <div class="filters">
     <FilterGroup id="base" label="基酒" values={bases} />
-    <FilterGroup id="ingredient" label="原料" values={ingredients} />
-    <FilterGroup
-      id="flavor"
-      label="口味"
-      options={flavorOptions}
-      variant="chips"
-      help="同组多选取任一，不同类别同时生效。"
-    />
-    <FilterGroup
-      id="style"
-      label="风格"
-      options={styleOptions}
-      variant="chips"
-      help="同组多选取任一，不同类别同时生效。"
-    />
+    <FilterGroup id="ingredient" label="原料" values={ingredients} searchable />
+    <FilterGroup id="flavor" label="口味" options={flavorOptions} variant="chips" help="同组多选取任一，不同类别同时生效。" />
+    <FilterGroup id="style" label="风格" options={styleOptions} variant="chips" help="同组多选取任一，不同类别同时生效。" />
   </div>
   <div class="control-footer">
     <span class="result-count" data-result-count aria-live="polite">共 {entries.length} 款</span>
@@ -49,14 +34,61 @@ const ingredients = unique(entries.flatMap((entry) => entry.data.ingredients.map
 </section>
 <script>
   // @ts-nocheck
+  const controls = document.querySelector('[data-filter-controls]');
   const search = document.querySelector('[data-cocktail-search]');
-  const cards = [...document.querySelectorAll('[data-cocktail-card]')];
+  const grid = document.querySelector('[data-cocktail-grid]');
   const resultCount = document.querySelector('[data-result-count]');
   const empty = document.querySelector('[data-no-results]');
-  const normalize = (value) => value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[\p{P}\p{S}\s]+/gu, '');
+  const pagination = document.querySelector('[data-pagination]');
+  const indexUrl = controls?.dataset.indexUrl || grid?.dataset.recipesIndex;
+  const initialMarkup = grid?.innerHTML || '';
+  const initialCount = grid ? grid.querySelectorAll('[data-cocktail-card]').length : 0;
+  const initialTotal = Number(controls?.dataset.entryCount || initialCount);
+  const normalize = (value) => String(value || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[\p{P}\p{S}\s]+/gu, '');
   const selected = (name) => [...document.querySelectorAll(`[data-filter="${name}"]:checked`)].map((input) => normalize(input.value));
-  const list = (value) => value.split(',').map(normalize).filter(Boolean);
-  const ingredientList = (value) => value.split('|').map(normalize).filter(Boolean);
+  const selectedFilters = () => ({
+    query: normalize(search?.value || ''),
+    base: selected('base'),
+    flavor: selected('flavor'),
+    style: selected('style'),
+    ingredient: selected('ingredient'),
+  });
+  let indexPromise;
+  let requestVersion = 0;
+
+  const escapeHtml = (value) => String(value ?? '').replace(/[&<>"']/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[char]));
+  const siteBase = indexUrl ? indexUrl.replace(/data\/recipes-index\.json.*$/, '') : '/';
+  const detailUrl = (slug) => `${siteBase}recipes/${encodeURIComponent(slug)}/`;
+  const imageUrl = (image) => `${siteBase}${String(image || '').replace(/^\//, '')}`;
+  const renderCard = (entry) => `<article class="cocktail-card" data-cocktail-card>
+    <a class="card-media" href="${detailUrl(entry.slug)}" aria-label="查看${escapeHtml(entry.nameZh)}配方">
+      <img src="${imageUrl(entry.image)}" alt="${escapeHtml(entry.imageAlt)}" loading="lazy" width="1200" height="900" />
+      <span class="card-zoom-label">查看配方</span>
+    </a>
+    <a class="card-body card-body-link" href="${detailUrl(entry.slug)}" aria-label="查看${escapeHtml(entry.nameZh)}配方">
+      <div class="card-kicker">${escapeHtml(entry.baseLabel)} · ${escapeHtml(entry.category)}</div>
+      <h2 class="card-title">${escapeHtml(entry.nameZh)}</h2>
+      <div class="card-subtitle">${escapeHtml(entry.nameEn)}</div>
+      <div class="card-tags">${entry.flavorLabels.slice(0, 2).map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join('')}</div>
+    </a>
+  </article>`;
+
+  const matches = (entry, filters) => {
+    const ingredientValues = entry.ingredients.flatMap((item) => [item.nameZh, item.nameEn, ...(item.aliases || [])]).map(normalize);
+    return (!filters.query || entry.search.includes(filters.query))
+      && (!filters.base.length || filters.base.includes(normalize(entry.baseSpirit)))
+      && (!filters.flavor.length || filters.flavor.some((item) => entry.flavorGroups.includes(item)))
+      && (!filters.style.length || filters.style.some((item) => entry.styleGroups.includes(item)))
+      && (!filters.ingredient.length || filters.ingredient.some((item) => ingredientValues.some((value) => value.includes(item) || item.includes(value))));
+  };
+
+  const loadIndex = async () => {
+    if (!indexPromise) indexPromise = fetch(indexUrl).then((response) => {
+      if (!response.ok) throw new Error(`recipe index request failed: ${response.status}`);
+      return response.json();
+    }).then((payload) => payload.entries || []);
+    return indexPromise;
+  };
 
   const updateSelectedCounts = () => {
     document.querySelectorAll('[data-filter-count]').forEach((count) => {
@@ -68,37 +100,46 @@ const ingredients = unique(entries.flatMap((entry) => entry.data.ingredients.map
     });
   };
 
-  const filter = () => {
-    const query = normalize(search?.value || '');
-    const base = selected('base');
-    const flavor = selected('flavor');
-    const style = selected('style');
-    const ingredient = selected('ingredient');
-    let visible = 0;
-    cards.forEach((card) => {
-      const searchText = normalize(card.dataset.search || '');
-      const cardBase = normalize(card.dataset.base || '');
-      const cardFlavors = list(card.dataset.flavorGroups || '');
-      const cardStyles = list(card.dataset.styleGroups || '');
-      const cardIngredients = ingredientList(card.dataset.ingredients || '');
-      const matches = (!query || searchText.includes(query))
-        && (!base.length || base.includes(cardBase))
-        && (!flavor.length || flavor.some((item) => cardFlavors.includes(item)))
-        && (!style.length || style.some((item) => cardStyles.includes(item)))
-        && (!ingredient.length || ingredient.some((item) => cardIngredients.includes(item)));
-      card.hidden = !matches;
-      if (matches) visible += 1;
-    });
-    if (resultCount) resultCount.textContent = `显示 ${visible} / ${cards.length} 款`;
-    empty?.classList.toggle('is-visible', visible === 0);
-    updateSelectedCounts();
+  const apply = async () => {
+    const version = ++requestVersion;
+    const filters = selectedFilters();
+    const hasFilter = Boolean(filters.query || filters.base.length || filters.flavor.length || filters.style.length || filters.ingredient.length);
+    if (!hasFilter) {
+      if (grid) grid.innerHTML = initialMarkup;
+      if (pagination) pagination.hidden = false;
+      if (resultCount) resultCount.textContent = `共 ${initialTotal} 款`;
+      empty?.classList.remove('is-visible');
+      updateSelectedCounts();
+      return;
+    }
+    try {
+      const records = await loadIndex();
+      if (version !== requestVersion) return;
+      const visible = records.filter((entry) => matches(entry, filters));
+      if (grid) grid.innerHTML = visible.map(renderCard).join('');
+      if (pagination) pagination.hidden = true;
+      if (resultCount) resultCount.textContent = `显示 ${visible.length} / ${records.length} 款`;
+      empty?.classList.toggle('is-visible', visible.length === 0);
+      updateSelectedCounts();
+    } catch (error) {
+      console.error(error);
+      if (resultCount) resultCount.textContent = '搜索索引暂时不可用';
+    }
   };
-  search?.addEventListener('input', filter);
-  document.querySelectorAll('[data-filter]').forEach((input) => input.addEventListener('change', filter));
+
+  let searchTimer;
+  search?.addEventListener('input', () => { clearTimeout(searchTimer); searchTimer = setTimeout(apply, 140); });
+  document.querySelectorAll('[data-filter]').forEach((input) => input.addEventListener('change', apply));
+  document.querySelectorAll('[data-filter-option-search]').forEach((input) => input.addEventListener('input', () => {
+    const query = normalize(input.value);
+    const labels = input.closest('.filter-options')?.querySelectorAll('[data-filter-option-label]') || [];
+    labels.forEach((label) => { label.hidden = Boolean(query) && !normalize(label.dataset.filterOptionLabel).includes(query); });
+  }));
   document.querySelector('[data-clear-filters]')?.addEventListener('click', () => {
     if (search) search.value = '';
     document.querySelectorAll('[data-filter]').forEach((input) => { input.checked = false; });
-    filter();
+    document.querySelectorAll('[data-filter-option-search]').forEach((input) => { input.value = ''; input.dispatchEvent(new Event('input')); });
+    apply();
   });
-  filter();
+  updateSelectedCounts();
 </script>

@@ -1,0 +1,61 @@
+{
+    "_id": "calvados-tonic",
+    "name": "Calvados & Tonic",
+    "instructions": "1. Pour the Calvados into a Burgundy glass over ice.\n2. Top with tonic water.\n3. Garnish with a lemon twist.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The Calvados & Tonic is a staple in Normandy. Sarah Morrissey presents hers in a Burgundy glass with heaps of ice and a ton of tonic.",
+    "source": "https://punchdrink.com/recipes/calvados-tonic/",
+    "garnish": "Lemon twist",
+    "abv": 15,
+    "tags": [
+        "Fruity",
+        "Bitter"
+    ],
+    "glass": "Wine",
+    "method": "Layer",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///calvados-tonic-1.webp",
+            "sort": 1,
+            "placeholder_hash": "MegFJwT2U2mebYd5pPhHqVeGZeBHJX8E",
+            "copyright": "Punch Staff"
+        },
+        {
+            "uri": "file:///calvados-tonic-2.webp",
+            "sort": 2,
+            "placeholder_hash": "bdcJFwJ0eHiQmofMibd5hpmYCYlIoLEG",
+            "copyright": "Punch Staff"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "apple-brandy",
+            "name": "Apple Brandy",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "tonic",
+            "name": "Tonic",
+            "sort": 2,
+            "amount": 100,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

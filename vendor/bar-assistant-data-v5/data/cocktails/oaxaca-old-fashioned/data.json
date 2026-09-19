@@ -1,0 +1,93 @@
+{
+    "_id": "oaxaca-old-fashioned",
+    "name": "Oaxaca Old Fashioned",
+    "instructions": "Combine all the ingredients except the orange twist in an Old Fashioned glass filled with one large ice cube. Stir until chilled. To top with a flamed orange twist, carefully hold a piece of orange peel about the size of a silver dollar, skin side down, over the drink. Light a match and use it to warm the skin side of the peel. Holding the match a few inches above the drink, quickly squeeze the peel in the direction of the match. The oil from the peel will briefly ignite, landing over the drink’s surface.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A Mexican-accented Old Fashioned riff, created by Phil Ward, mixes reposado tequila with mezcal and mole bitters.",
+    "source": "https://imbibemagazine.com/recipe/oaxaca-old-fashioned-recipe/",
+    "garnish": "orange twist",
+    "abv": 29.63,
+    "tags": [
+        "Old Fashioned",
+        "Smokey"
+    ],
+    "glass": "Lowball",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///oaxaca-old-fashioned-1.webp",
+            "sort": 1,
+            "placeholder_hash": "8igKHwTVr0WJd4mYVpZ3eIiHp2BJDYYB",
+            "copyright": "Epicurious"
+        },
+        {
+            "uri": "file:///oaxaca-old-fashioned-2.webp",
+            "sort": 2,
+            "placeholder_hash": "WDkOHwRlRoiAhnhliZmIZ2h3eAJHJ3AE",
+            "copyright": "zestfulkitchen"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "tequila-reposado",
+            "name": "Tequila Reposado",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "mezcal",
+            "name": "Mezcal",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "agave-syrup",
+            "name": "Agave Syrup",
+            "sort": 3,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "mole-bitters",
+            "name": "Mole Bitters",
+            "sort": 4,
+            "amount": 2,
+            "units": "dashes",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": [
+                {
+                    "_id": "angostura-aromatic-bitters",
+                    "name": "Angostura aromatic bitters",
+                    "amount": null,
+                    "units": null,
+                    "amount_max": null
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,103 @@
+{
+    "_id": "art-of-choke",
+    "name": "Art of Choke",
+    "instructions": "1. Muddle mint and syrup in a mixing glass\n2. Add remaining with ice and stir for 20 seconds\n3. Strain into a chilled rocks glass with fresh ice",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A drink that broke all the rules when Kyle Davidson first conjured it in 2008. Now it's a modern classic. What's interesting is opting for a split base where one half is an overproof amaro instead of a spirit. Also wild - this is a stirred cocktail!",
+    "source": "https://www.liberandcompany.com/collections/recipes/products/art-of-choke",
+    "garnish": "Mint sprig",
+    "abv": 23.11,
+    "tags": [
+        "Citrusy",
+        "Herbacious"
+    ],
+    "glass": "Lowball",
+    "method": "Muddle",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///art-of-choke.webp",
+            "sort": 1,
+            "placeholder_hash": "XPgJHwbCimLGdlhvapeHhnV8VwWZZJAJ",
+            "copyright": "LiberAndCo |  Scott Kallstrand"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "light-rum",
+            "name": "Light Rum",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cynar",
+            "name": "Cynar",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "green-chartreuse",
+            "name": "Green Chartreuse",
+            "sort": 3,
+            "amount": 1,
+            "units": "barspoon",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "demerara-syrup",
+            "name": "Demerara Syrup",
+            "sort": 4,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 5,
+            "amount": 1,
+            "units": "barspoon",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "mint",
+            "name": "Mint",
+            "sort": 6,
+            "amount": 1,
+            "units": "sprig",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

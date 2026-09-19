@@ -1,0 +1,64 @@
+{
+    "_id": "rusty-ringo",
+    "name": "Rusty Ringo",
+    "instructions": "1. Combine all ingredients in a mixing glass with ice and stir for 60 rotations.\n2. Strain into a rocks glass over a large ice cube.\n3. Garnish with gold leaf.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "From New York's Bar Goto, a modern interpretation of the Rusty Nail cocktail recipe made with calvados, Scotch and Drambuie liqueur.",
+    "source": "https://punchdrink.com/recipes/rusty-ringo/",
+    "garnish": "gold leaf",
+    "abv": 33.33,
+    "tags": [],
+    "glass": "Lowball",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///rusty-ringo.webp",
+            "sort": 0,
+            "placeholder_hash": "0GkGHwQhd6aDeIdwilh4SZiHKTMHoHMD",
+            "copyright": "Punch Staff"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "apple-brandy",
+            "name": "Apple Brandy",
+            "sort": 1,
+            "amount": 52.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "scotch-whiskey",
+            "name": "Scotch whiskey",
+            "sort": 2,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "drambuie",
+            "name": "Drambuie",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

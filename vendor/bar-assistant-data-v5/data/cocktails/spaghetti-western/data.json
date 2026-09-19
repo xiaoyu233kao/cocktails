@@ -1,0 +1,84 @@
+{
+    "_id": "spaghetti-western",
+    "name": "Spaghetti Western",
+    "instructions": "1. Add ingredients and cubed ice to a mixing glass.\n3. Stir for 30-45 seconds.\n4. Strain into a lowball glass over a clear ice cube.\n5. Garnish with grapefruit twist.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The Spaghetti Western is a tequila-based cocktail recipe that was created in 2011 by Jessica Gonzalez at Death & Company in New York City, New York. This variation was adapted from the book Mezcal + Tequila Cocktails: Mixed Drinks for the Golden Age of Agave by Robert Simonson.",
+    "source": "https://sipsfromscripts.com/spaghetti-western-cocktail-recipe/",
+    "garnish": "Grapefruit Twist",
+    "abv": 31.9,
+    "tags": [
+        "Dry"
+    ],
+    "glass": "Lowball",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///spaghetti-western-1.webp",
+            "sort": 1,
+            "placeholder_hash": "kxgKFwI8a5mbl3gwiVeHiJmHSTA3ApAC",
+            "copyright": "Reddit"
+        },
+        {
+            "uri": "file:///spaghetti-western-2.webp",
+            "sort": 2,
+            "placeholder_hash": "5VkGJwT6VnNzp2eVdzemiIV0ebMHOHwA",
+            "copyright": "Sips From Scripts"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "tequila-reposado",
+            "name": "Tequila Reposado",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "amaro-nonino",
+            "name": "Amaro Nonino",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "mezcal",
+            "name": "Mezcal",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orange-bitters",
+            "name": "Orange bitters",
+            "sort": 4,
+            "amount": 1,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

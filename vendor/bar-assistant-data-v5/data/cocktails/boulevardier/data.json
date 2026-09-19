@@ -1,0 +1,76 @@
+{
+    "_id": "boulevardier",
+    "name": "Boulevardier",
+    "instructions": "Pour all ingredients into mixing glass with ice cubes. Stir well. Strain into a chilled cocktail glass.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The boulevardier is similar to a Negroni, sharing two of its three ingredients. It is differentiated by its use of bourbon whiskey or rye whiskey as its principal component instead of gin. Paul Clark, writing for the food blog Serious Eats, says, &quot;This isn&#039;t a Negroni. It is, however, the Negroni&#039;s long-lost autumnal cousin.&quot;",
+    "source": "https://iba-world.com/boulevardier/",
+    "garnish": "Garnish with orange zest, optionally a lemon zest.",
+    "abv": 24.52,
+    "tags": [
+        "IBA Cocktail",
+        "The Unforgettables",
+        "Negroni"
+    ],
+    "glass": "Lowball",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": "negroni",
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///boulevardier.webp",
+            "sort": 1,
+            "placeholder_hash": "TygKFwY4h3e/lJVnand3iYZ7mFYJSZYA",
+            "copyright": "Reddit"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "bourbon-whiskey",
+            "name": "Bourbon Whiskey",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": [
+                {
+                    "_id": "rye-whiskey",
+                    "name": "Rye whiskey",
+                    "amount": null,
+                    "units": null,
+                    "amount_max": null
+                }
+            ]
+        },
+        {
+            "_id": "campari",
+            "name": "Campari",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "sweet-vermouth",
+            "name": "Sweet Vermouth",
+            "sort": 3,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

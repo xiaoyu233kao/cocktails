@@ -1,0 +1,88 @@
+{
+    "_id": "love-murder",
+    "name": "Love & Murder",
+    "instructions": "1. Combine all the ingredients into your cocktail shaker\n2. Shake with ice for 12-15 seconds\n3. Double strain into a coupe glass",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Two polarising liqueurs come together resulting in a herbaceous, bittersweet concoction. Served at Porchlight in NYC and created by Nick Bennett. Whilst it does have a decent amount of sugar in the drink the strong flavours keep you intrigued.",
+    "source": "https://stevethebartender.com.au/love-murder-cocktail-recipe/",
+    "garnish": null,
+    "abv": 17.07,
+    "tags": [],
+    "glass": "Coupe",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///love-murder.webp",
+            "sort": 1,
+            "placeholder_hash": "USgSDwRah4hgdniMeEeoWJaIVwELB4gB",
+            "copyright": "Steve the Bartender"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "green-chartreuse",
+            "name": "Green Chartreuse",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "campari",
+            "name": "Campari",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 3,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 4,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "saline-solution",
+            "name": "Saline solution",
+            "sort": 5,
+            "amount": 5,
+            "units": "drops",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

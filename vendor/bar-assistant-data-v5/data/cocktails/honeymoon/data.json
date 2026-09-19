@@ -1,0 +1,86 @@
+{
+    "_id": "honeymoon",
+    "name": "Honeymoon",
+    "instructions": "1. Combine all ingredients over ice and shake\n2. Strain into a chilled cocktail glass, serve up",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A bright and balanced sour built on apple brandy",
+    "source": "https://tuxedono2.com/honeymoon-cocktail-recipe",
+    "garnish": null,
+    "abv": 27.43,
+    "tags": [
+        "Brandy"
+    ],
+    "glass": "Nick and Nora",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///honeymoon.webp",
+            "sort": 1,
+            "placeholder_hash": "SQgGHwIHx2dyhYmGema3OKeHeIBYB4QG",
+            "copyright": "TuxedoNo2"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "apple-brandy",
+            "name": "Apple Brandy",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cointreau",
+            "name": "Cointreau",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "benedictine",
+            "name": "Bénédictine",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": [
+                {
+                    "_id": "drambuie",
+                    "name": "Drambuie",
+                    "amount": null,
+                    "units": null,
+                    "amount_max": null
+                }
+            ]
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 4,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

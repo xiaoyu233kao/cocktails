@@ -1,0 +1,86 @@
+{
+    "_id": "mexican-razor-blade",
+    "name": "Mexican Razor Blade",
+    "instructions": "1. Add ingredients to a shaking tin with ice and shake until chilled.\n2. Strain into a coupe, if using, or a rocks glass over fresh ice.\n3. Float a cucumber slice as garnish and sprinkle piquín chile, cayenne or other powdered chile on top.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The Mexican Razor Blade is anything but basic. Simple but bold, the recipe is a mix of cucumber, lime, syrup and tequila or mezcal.",
+    "source": "https://punchdrink.com/recipes/mexican-razor-blade/",
+    "garnish": "cucumber slice and piquín chile, cayenne or other powdered chile",
+    "abv": 17.07,
+    "tags": [
+        "Citrusy"
+    ],
+    "glass": "Lowball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///mexican-razor-blade.webp",
+            "sort": 0,
+            "placeholder_hash": "KAgSHwLFaod0ZYhwhziHSIiGuDBmClIK",
+            "copyright": "Punch Staff | Lizzie Munro"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "tequila-blanco",
+            "name": "Tequila Blanco",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": [
+                {
+                    "_id": "mezcal",
+                    "name": "Mezcal",
+                    "amount": null,
+                    "units": null,
+                    "amount_max": null
+                }
+            ]
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cucumber",
+            "name": "Cucumber",
+            "sort": 4,
+            "amount": 2,
+            "units": "slice",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

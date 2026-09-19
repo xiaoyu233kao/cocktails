@@ -1,0 +1,90 @@
+{
+    "_id": "tonic-rickey",
+    "name": "Tonic Rickey",
+    "instructions": "1. In a lowball glass filled with ice, add the lime juice and simple syrup. Stir to combine.\n2. Slowly stir in the tonic water and seltzer water.\n3. Top with the bitters and serve.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "This simple non-alcoholic Tonic Rickey from cocktail blogger Camille Wilson combines lime juice, simple syrup, tonic water, seltzer water, and Angostura bitters.",
+    "source": "https://www.liquor.com/tonic-rickey-cocktail-recipe-7091318",
+    "garnish": "Bitters",
+    "abv": 0.29,
+    "tags": [
+        "Virgin"
+    ],
+    "glass": "Lowball",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///tonic-rickey.webp",
+            "sort": 1,
+            "placeholder_hash": "pjkKNwZefYiwh4h8aohnh2h3maAHCXsB",
+            "copyright": "Liquor.com"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 1,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "tonic",
+            "name": "Tonic",
+            "sort": 3,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "club-soda",
+            "name": "Club soda",
+            "sort": 4,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "angostura-aromatic-bitters",
+            "name": "Angostura aromatic bitters",
+            "sort": 5,
+            "amount": 3,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

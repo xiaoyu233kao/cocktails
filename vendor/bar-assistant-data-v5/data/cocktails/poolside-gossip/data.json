@@ -1,0 +1,112 @@
+{
+    "_id": "poolside-gossip",
+    "name": "Poolside Gossip",
+    "instructions": "1. Add 1 strawberry to a shaker and muddle.\n2. Add the remaining ingredients, except the sparkling wine, to the shaker.\n3. Shake with ice, strain into an ice-filled glass.\n4. Top with sparkling wine.\n5. Garnish.\n\nLemongrass Vodka:\n- Add 7 1/2 grams of loose-leaf lemongrass tea to 750ml of vodka or 3 3/4 grams of tea to 375ml of vodka.\n- Allow the mixture to steep for 2 hours.\n- Afterward, strain out the tea.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Inspired by summertime memories and photographer Slim Aaron's iconic midcentury \"Poolside Gossip\" photo, Alicia Perry, beverage director of San Diego hospitality group CH Projects created this sessionable spritz.",
+    "source": "https://imbibemagazine.com/recipe/poolside-gossip-a-summer-spritz/",
+    "garnish": "Lemon wheel and edible flower",
+    "abv": 11.61,
+    "tags": [],
+    "glass": "Wine",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///poolside-gossip.webp",
+            "sort": 1,
+            "placeholder_hash": "mCgSDwJ/Znhmd3eGiIiHeHeH+JYTb2gB",
+            "copyright": "Imbibe Magazine | James Tran"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "vodka",
+            "name": "Vodka",
+            "sort": 1,
+            "amount": 1,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "Lemongrass-infused",
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 2,
+            "amount": 0.75,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "peach-liqueur",
+            "name": "Peach liqueur",
+            "sort": 3,
+            "amount": 0.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 4,
+            "amount": 0.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "strawberry",
+            "name": "Strawberry",
+            "sort": 5,
+            "amount": 1,
+            "units": "whole",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "peychauds-bitters",
+            "name": "Peychauds Bitters",
+            "sort": 6,
+            "amount": 2,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "prosecco",
+            "name": "Prosecco",
+            "sort": 7,
+            "amount": 3,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

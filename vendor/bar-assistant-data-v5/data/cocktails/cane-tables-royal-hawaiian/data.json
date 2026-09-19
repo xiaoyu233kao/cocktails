@@ -1,0 +1,79 @@
+{
+    "_id": "cane-tables-royal-hawaiian",
+    "name": "Cane & Table’s Royal Hawaiian",
+    "instructions": "1. Combine all ingredients in a shaker.\n2. Add a handful of pebble ice and whip-shake.\n3. Pour into a chilled double rocks glass, and top with more pebble ice.\n4. Garnish with a mint bouquet and serve with a straw.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A tropical gin cocktail recipe, the Royal Hawaiian is reimagined at Cane & Table, where the pineapple drink is served on crushed ice.",
+    "source": "https://punchdrink.com/recipes/cane-tables-royal-hawaiian/",
+    "garnish": "mint bouquet",
+    "abv": 13.71,
+    "tags": [
+        "Citrusy",
+        "Fruity"
+    ],
+    "glass": "Lowball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///cane-tables-royal-hawaiian.webp",
+            "sort": 1,
+            "placeholder_hash": "nQgWHwRQh4eFl3iYZ4eGmIZqaFBpVpAH",
+            "copyright": "Punch Staff | Lizzie Munro"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "preferably Bombay Dry",
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orgeat-syrup",
+            "name": "Orgeat Syrup",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "pineapple-juice",
+            "name": "Pineapple juice",
+            "sort": 4,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

@@ -1,0 +1,93 @@
+{
+    "_id": "suffering-bastard",
+    "name": "Suffering Bastard",
+    "instructions": "Pour all ingredients into a cocktail shaker except the ginger beer, shake well with ice, Pour unstrained into a Collins glass or in the original S. Bastard mug and top up with ginger beer.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "When ordered in Tiki bars the Suffering Bastard is often served in the uniquely shaped and eponymously named \"Suffering Bastard Tiki mug\", made to look like a squat fellow with a hangover holding his hands over the top of his head in pain.",
+    "source": "https://iba-world.com/suffering-bastard/",
+    "garnish": "Garnish with mint springs and optionally an orange slice as well.",
+    "abv": 25.6,
+    "tags": [
+        "IBA Cocktail",
+        "New Era Drinks",
+        "Brandy",
+        "Tiki"
+    ],
+    "glass": "Tiki",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///suffering-bastard.webp",
+            "sort": 1,
+            "placeholder_hash": "qxgKDwK4RZ5vh2etiHh2iHiHhwp5/HAH",
+            "copyright": "Keg Works"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "cognac",
+            "name": "Cognac",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "angostura-aromatic-bitters",
+            "name": "Angostura aromatic bitters",
+            "sort": 4,
+            "amount": 2,
+            "units": "dashes",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "ginger-beer",
+            "name": "Ginger beer",
+            "sort": 5,
+            "amount": 1,
+            "units": "topup",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

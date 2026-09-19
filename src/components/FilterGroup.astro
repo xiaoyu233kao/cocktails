@@ -14,9 +14,10 @@ interface Props {
   options?: FilterOption[];
   help?: string;
   variant?: 'popover' | 'chips';
+  searchable?: boolean;
 }
 
-const { id, label, values = [], options, help, variant = 'popover' } = Astro.props;
+const { id, label, values = [], options, help, variant = 'popover', searchable = false } = Astro.props;
 const filterOptions: FilterOption[] = options ?? values.map((value) => ({ value }));
 ---
 {variant === 'chips' ? (
@@ -42,8 +43,9 @@ const filterOptions: FilterOption[] = options ?? values.map((value) => ({ value 
       <span class="filter-count" data-filter-count={id} hidden>0</span>
     </summary>
     <div class="filter-options">
+      {searchable && <label class="filter-option-search"><span class="sr-only">查找{label}</span><input type="search" placeholder={`查找${label}…`} autocomplete="off" data-filter-option-search={id} /></label>}
       {filterOptions.map((option, index) => (
-        <label class="filter-option" title={option.description}>
+        <label class="filter-option" title={option.description} data-filter-option-label={option.label ?? labelFor(option.value)}>
           <input id={`${id}-${index}`} type="checkbox" value={option.value} data-filter={id} aria-label={option.label ?? labelFor(option.value)} />
           <span>{option.label ?? labelFor(option.value)}</span>
         </label>

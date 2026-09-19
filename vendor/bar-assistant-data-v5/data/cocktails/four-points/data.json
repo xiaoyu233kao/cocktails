@@ -1,0 +1,80 @@
+{
+    "_id": "four-points",
+    "name": "Four Points",
+    "instructions": "1. Add all ingredients to a cocktail shaker\n2. Add ice and shake hard for 20 seconds\n3. Strain into a chilled coupe",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A very tropical Last Word. Bright, funky and perfectly balanced.",
+    "source": "https://www.liberandcompany.com/collections/recipes/products/four-points",
+    "garnish": "3 cherries",
+    "abv": 22.4,
+    "tags": [
+        "Sweet",
+        "Fruity",
+        "Sour"
+    ],
+    "glass": "Coupe",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///four-points.webp",
+            "sort": 1,
+            "placeholder_hash": "1RgKFwIKaJeDiIiWiUelKKeWmsA4B3IJ",
+            "copyright": "LiberAndCo | Caer Maiko Ferguson"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "dark-rum",
+            "name": "Dark Rum",
+            "sort": 1,
+            "amount": 37.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "passionfruit-syrup",
+            "name": "Passionfruit syrup",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "green-chartreuse",
+            "name": "Green Chartreuse",
+            "sort": 3,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 4,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

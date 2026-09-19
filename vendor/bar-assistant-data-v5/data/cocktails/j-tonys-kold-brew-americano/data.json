@@ -1,0 +1,92 @@
+{
+    "_id": "j-tonys-kold-brew-americano",
+    "name": "J & Tony’s Kold Brew Americano",
+    "instructions": "1. Fill a Collins glass with ice. Add the first four ingredients and stir.\n2. Top with seltzer, then garnish with half an orange wheel.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "This Americano cocktail recipe combines the Italian cocktail and the espresso drink for a bitter, low-proof serve.",
+    "source": "https://punchdrink.com/recipes/j-tonys-kold-brew-americano/",
+    "garnish": "half orange wheel",
+    "abv": 7.45,
+    "tags": [
+        "Coffee",
+        "Bitter",
+        "Sweet"
+    ],
+    "glass": "Highball",
+    "method": "Build",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///j-tonys-kold-brew-americano.webp",
+            "sort": 1,
+            "placeholder_hash": "njgOFwybiHe/d4eTZ3eIiIiE9wJ1a2AM",
+            "copyright": "Punch Staff | Arlene Ibarra"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "campari",
+            "name": "Campari",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "sweet-vermouth",
+            "name": "Sweet Vermouth",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "coffee",
+            "name": "Coffee",
+            "sort": 3,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "Cold brew",
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 4,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "club-soda",
+            "name": "Club soda",
+            "sort": 5,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

@@ -1,0 +1,92 @@
+{
+    "_id": "blackberry-whiskey-smash",
+    "name": "Blackberry Whiskey Smash",
+    "instructions": "1. Muddle berries, mint, and syrup in a mixing tin \n2. Add lemon juice, whiskey and ice \n3. Shake until chilled\n4. Double strain over crushed ice into a rocks glass",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Fruit-forward without being too sweet. A perfect spring and early summer drink.",
+    "source": "https://www.liberandcompany.com/collections/recipes/products/blackberry-whiskey-smash",
+    "garnish": "Mint Blackberries",
+    "abv": 17.45,
+    "tags": [
+        "Smash",
+        "Sweet",
+        "Fruity"
+    ],
+    "glass": "Lowball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///blackberry-whiskey-smash.webp",
+            "sort": 1,
+            "placeholder_hash": "rUgKDwZToZolg4d/p0eqlniZ2K0Nl8YA",
+            "copyright": "LiberAndCo | Juliet Beletic"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "whiskey",
+            "name": "Whiskey",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "blackberries",
+            "name": "Blackberries",
+            "sort": 4,
+            "amount": 4,
+            "units": "whole",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "mint",
+            "name": "Mint",
+            "sort": 5,
+            "amount": 1,
+            "units": "sprig",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

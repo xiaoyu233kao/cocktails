@@ -1,0 +1,91 @@
+{
+    "_id": "mr-brown",
+    "name": "Mr. Brown",
+    "instructions": "1. Combine all ingredients in a mixing glass with ice and stir until chilled.\n2. Strain into a rocks glass over a large ice cube.\n3. Garnish with an orange twist.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A modern Manhattan cocktail recipe, a combination of bourbon, Coffee Heering, and vanilla syrup served on the rocks.",
+    "source": "https://punchdrink.com/recipes/mr-brown/",
+    "garnish": "orange twist",
+    "abv": 27.17,
+    "tags": [
+        "Manhattan",
+        "Coffee"
+    ],
+    "glass": "Lowball",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///mr-brown.webp",
+            "sort": 1,
+            "placeholder_hash": "3TgSLwiZmFVwc4aFdninZ5iHhXBJB4YD",
+            "copyright": "Punch Staff | Lizzie Munro"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "bourbon-whiskey",
+            "name": "Bourbon Whiskey",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "coffee-liqueur",
+            "name": "Coffee liqueur",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "preferably Coffee Heering",
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 3,
+            "amount": 1,
+            "units": "barspoon",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "Vanilla infused",
+            "substitutes": []
+        },
+        {
+            "_id": "orange-bitters",
+            "name": "Orange bitters",
+            "sort": 4,
+            "amount": 1,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "angostura-aromatic-bitters",
+            "name": "Angostura aromatic bitters",
+            "sort": 5,
+            "amount": 1,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

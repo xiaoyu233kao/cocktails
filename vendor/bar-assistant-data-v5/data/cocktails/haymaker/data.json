@@ -1,0 +1,78 @@
+{
+    "_id": "haymaker",
+    "name": "Haymaker",
+    "instructions": "1. Add all of the ingredients to a shaker, fill with ice, and shake well. Double strain into a rocks glass filled with fresh ice. Garnish with a large dollop of fresh whipped cream, a sprinkle of Maldon salt, and instant espresso powder.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "This rich combo of rye whiskey, espresso, and cream drinks like a boozy iced latte.",
+    "source": "https://imbibemagazine.com/recipe/haymaker-espresso-cocktail/",
+    "garnish": "Whipped cream, sea salt, instant coffee powder",
+    "abv": 11.08,
+    "tags": [
+        "Coffee"
+    ],
+    "glass": "Lowball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///haymaker.webp",
+            "sort": 1,
+            "placeholder_hash": "1ygOFwSTiXiAlYeIdxephYloWIcIdYMA",
+            "copyright": "Imbibe Magazine | Jason Varney"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "rye-whiskey",
+            "name": "Rye whiskey",
+            "sort": 1,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "Rittenhouse",
+            "substitutes": []
+        },
+        {
+            "_id": "espresso",
+            "name": "Espresso",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "freshly brewed, or sub a coffee concentrate",
+            "substitutes": []
+        },
+        {
+            "_id": "coffee-liqueur",
+            "name": "Coffee liqueur",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orgeat-syrup",
+            "name": "Orgeat Syrup",
+            "sort": 4,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

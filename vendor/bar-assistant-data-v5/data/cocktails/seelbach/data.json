@@ -1,0 +1,88 @@
+{
+    "_id": "seelbach",
+    "name": "Seelbach",
+    "instructions": "1. Add the bourbon, Cointreau, Angostura bitters and Peychaud’s bitters into a mixing glass with ice and stir until well-chilled.\n2. Strain into a chilled flute.\n3. Top with cold Champagne or other sparkling wine.\n3. Garnish with an orange twist.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The Seelbach Cocktail may not be a julep, but it doesn't have to be: it's respectable, powerful, and delicious right down to the bottom of the glass.",
+    "source": "https://www.seriouseats.com/seelbach-cocktail-recipe",
+    "garnish": "Orange twist",
+    "abv": 17.78,
+    "tags": [],
+    "glass": "Champagne",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///seelbach.webp",
+            "sort": 1,
+            "placeholder_hash": "eAgGFwL4J8iGe4R5hqlXqGd4eMBnB3wG",
+            "copyright": "The Educated Barfly"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "bourbon-whiskey",
+            "name": "Bourbon Whiskey",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cointreau",
+            "name": "Cointreau",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "angostura-aromatic-bitters",
+            "name": "Angostura aromatic bitters",
+            "sort": 3,
+            "amount": 5,
+            "units": "dashes",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "peychauds-bitters",
+            "name": "Peychauds Bitters",
+            "sort": 4,
+            "amount": 5,
+            "units": "dashes",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "champagne",
+            "name": "Champagne",
+            "sort": 5,
+            "amount": 90,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "_id": "revolver",
+    "name": "Revolver",
+    "instructions": "1. Combine all ingredients over ice and stir around 15 seconds\n2. Strain into a chilled coupe and garnish",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A San Francisco original, and an exceptional coffee-laced riff on the Manhattan",
+    "source": "https://tuxedono2.com/revolver-cocktail-recipe",
+    "garnish": "orange peel for garnish",
+    "abv": 29.94,
+    "tags": [],
+    "glass": "Cocktail",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///revolver.webp",
+            "sort": 0,
+            "placeholder_hash": "BQgGBwI7hphyVpiPaNdqhoeHnPPpOZ8M",
+            "copyright": "TuxedoNo2"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "bourbon-whiskey",
+            "name": "Bourbon Whiskey",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "coffee-liqueur",
+            "name": "Coffee liqueur",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orange-bitters",
+            "name": "Orange bitters",
+            "sort": 3,
+            "amount": 2,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

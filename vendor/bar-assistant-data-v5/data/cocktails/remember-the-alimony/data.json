@@ -1,0 +1,66 @@
+{
+    "_id": "remember-the-alimony",
+    "name": "Remember the Alimony",
+    "instructions": "1. Combine all the ingredients except the orange twist in a rocks glass filled with one large piece of ice.\n2. Stir until chilled, about 30 seconds.\n3. Express an orange twist over the drink and drop into the glass.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A split base of fino sherry and Cynar are finished with a measure of gin for a thoroughly modern sherry cocktail recipe.",
+    "source": "https://punchdrink.com/recipes/remember-the-alimony/",
+    "garnish": "orange twist",
+    "abv": 18.43,
+    "tags": [
+        "Negroni"
+    ],
+    "glass": "Lowball",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///remember-the-alimony.webp",
+            "sort": 0,
+            "placeholder_hash": "LQgOFwS/kaddpnZbh4h3R4mGB2QIMJUA",
+            "copyright": "Punch Staff | Lizzie Munro"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "sherry",
+            "name": "Sherry",
+            "sort": 1,
+            "amount": 37.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "Fino",
+            "substitutes": []
+        },
+        {
+            "_id": "cynar",
+            "name": "Cynar",
+            "sort": 2,
+            "amount": 37.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

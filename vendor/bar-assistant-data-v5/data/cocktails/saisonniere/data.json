@@ -1,0 +1,78 @@
+{
+    "_id": "saisonniere",
+    "name": "Saisonnière",
+    "instructions": "1. Add all ingredients to a cocktail shaker.\n2. Add ice and shake until chilled.\n3. Strain into a chilled coupe glass.\n4. Garnish with a sage leaf and a lemon twist.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The winter version of Lafayette's seasonally changing staple cocktail recipe—hence, the name Saisonnière—is an herbal riff on the basic sour.",
+    "source": "https://punchdrink.com/recipes/saisonniere/",
+    "garnish": "sage leaf and a lemon twist",
+    "abv": 17.23,
+    "tags": [
+        "Citrusy"
+    ],
+    "glass": "Coupe",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///saisonniere.webp",
+            "sort": 0,
+            "placeholder_hash": "pRgOHwSVd2hgeIdyeGeGaJeIuQg4q4AH",
+            "copyright": "Punch Staff | Daniel Krieger"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "vodka",
+            "name": "Vodka",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "pear-brandy-williams",
+            "name": "Pear Brandy (Williams)",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "demerara-syrup",
+            "name": "Demerara Syrup",
+            "sort": 4,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

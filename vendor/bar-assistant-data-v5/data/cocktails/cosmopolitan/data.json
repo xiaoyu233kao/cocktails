@@ -1,0 +1,87 @@
+{
+    "_id": "cosmopolitan",
+    "name": "Cosmopolitan",
+    "instructions": "Add all ingredients into a cocktail shaker filled with ice. Shake well and strain into a large cocktail glass.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A cosmopolitan, or informally a cosmo, is a relative of cranberry coolers.\n\nThe cosmopolitan gained popularity in the 1990s. It was further popularized among young women by its frequent mention on the television program Sex and the City, where Sarah Jessica Parker's character, Carrie Bradshaw, commonly ordered the drink when out with her girlfriends. The film adaptation made a reference to its popularity when Miranda asks why they stopped drinking them, Carrie replies \"because everyone else started.\"",
+    "source": "https://iba-world.com/cosmopolitan/",
+    "garnish": "Garnish with a lemon twist.",
+    "abv": 17.6,
+    "tags": [
+        "Contemporary Classics",
+        "IBA Cocktail"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///cosmopolitan.webp",
+            "sort": 1,
+            "placeholder_hash": "cBgKDwRXdodzd3efeseYZ2aVCvZnC58H",
+            "copyright": "Amanda's Cookin'"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "vodka",
+            "name": "Vodka",
+            "sort": 1,
+            "amount": 40,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": [
+                {
+                    "_id": "vodka-citron",
+                    "name": "Vodka Citron",
+                    "amount": null,
+                    "units": null,
+                    "amount_max": null
+                }
+            ]
+        },
+        {
+            "_id": "cointreau",
+            "name": "Cointreau",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cranberry-juice",
+            "name": "Cranberry juice",
+            "sort": 4,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

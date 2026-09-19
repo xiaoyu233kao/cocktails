@@ -1,0 +1,79 @@
+{
+    "_id": "fumata-bianca",
+    "name": "Fumata Bianca",
+    "instructions": "1. Combine all the ingredients except the grapefruit twist in a collins glass.\n2. Add ice and top with club soda.\n3. Express a grapefruit twist over the drink and drop into the glass.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "This cocktail recipe is a soft, yet edgy mixture of sweet blanca vermouth, herbal Suze, and smoky mezcal that goes down easy.",
+    "source": "https://punchdrink.com/recipes/fumata-bianca/",
+    "garnish": "grapefruit twist",
+    "abv": 18.18,
+    "tags": [
+        "Fruity",
+        "Smokey"
+    ],
+    "glass": "Highball",
+    "method": "Build",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///fumata-bianca.webp",
+            "sort": 1,
+            "placeholder_hash": "aToGRwKrWHh0ZKmAaHd2SXhoZlCHA1wM",
+            "copyright": "Punch Staff | Lizzie Munro"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "vermouth-bianco",
+            "name": "Vermouth Bianco",
+            "sort": 1,
+            "amount": 1,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "suze",
+            "name": "Suze",
+            "sort": 2,
+            "amount": 1,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "mezcal",
+            "name": "Mezcal",
+            "sort": 3,
+            "amount": 0.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "preferably Del Maguey Vida",
+            "substitutes": []
+        },
+        {
+            "_id": "club-soda",
+            "name": "Club soda",
+            "sort": 4,
+            "amount": 1,
+            "units": "topup",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

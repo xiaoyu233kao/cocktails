@@ -1,0 +1,88 @@
+{
+    "_id": "chocolate-martica",
+    "name": "Chocolate Martica",
+    "instructions": "Stir all of the ingredients with ice, then strain into a chilled glass.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "This simple variation on a Death & Co modern classic from 2007 was one of the first to tap chocolate bitters’ flavor potential.",
+    "source": "https://imbibemagazine.com/elements-chocolate-bitters/",
+    "garnish": null,
+    "abv": 27.18,
+    "tags": [],
+    "glass": "Coupe",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///chocolate-martica.webp",
+            "sort": 1,
+            "placeholder_hash": "GzkKDwRXpnmmd3hoqAanqXiGiEcGZ3MA",
+            "copyright": ""
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "jamaican-rum",
+            "name": "Jamaican Rum",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cognac",
+            "name": "Cognac",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "sweet-vermouth",
+            "name": "Sweet Vermouth",
+            "sort": 3,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "maraschino",
+            "name": "Maraschino",
+            "sort": 4,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "angostura-cocoa-bitters",
+            "name": "Angostura cocoa bitters",
+            "sort": 5,
+            "amount": 2,
+            "units": "dashes",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "Bittermens Xocolatl Mole recommended",
+            "substitutes": []
+        }
+    ]
+}

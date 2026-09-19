@@ -1,0 +1,100 @@
+{
+    "_id": "bywater",
+    "name": "Bywater",
+    "instructions": "1. Stir all ingredients until chilled in a mixing glass filled with ice.\n2. Strain into a coupe or a Nick & Nora glass.\n3. Express an orange twist over the surface, then discard. Garnish with a cherry.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The Bywater is a rum and Chartreuse cocktail recipe from New Orleans that riffs on the Brooklyn, itself a Manhattan riff.",
+    "source": "https://punchdrink.com/recipes/bywater/",
+    "garnish": "orange twist (expressed and discarded), cherry",
+    "abv": 31.22,
+    "tags": [],
+    "glass": "Nick and Nora",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///bywater.webp",
+            "sort": 0,
+            "placeholder_hash": "ZykOFwSLd4eaiHd/hmhmmId2WIcFRWgA",
+            "copyright": "Punch Staff | Cory Fontenot"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "dark-rum",
+            "name": "Dark Rum",
+            "sort": 1,
+            "amount": 52.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "amaro-averna",
+            "name": "Amaro Averna",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "green-chartreuse",
+            "name": "Green Chartreuse",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "falernum",
+            "name": "Falernum",
+            "sort": 4,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "peychauds-bitters",
+            "name": "Peychauds Bitters",
+            "sort": 5,
+            "amount": 2,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orange-bitters",
+            "name": "Orange bitters",
+            "sort": 6,
+            "amount": 2,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

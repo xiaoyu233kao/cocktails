@@ -1,0 +1,86 @@
+{
+    "_id": "gin-basil-smash",
+    "name": "Gin Basil Smash",
+    "instructions": "1. Muddle basil leaves in a shaker tin.\n2. Add remaining ingredients and ice and shake until chilled.\n3. Double strain into a rocks glass filled with ice.\n4. Garnish with basil leaves.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "At Le Lion where the drink was created in 2008, 300 to 500 have been sold every week since its debut—22,000 a year—and the bar goes through more than 3,100 bottles of gin every twelve months. The drink is served at bars all across Germany—so much so that one bartender, griping about the amount of basil-muddling required to make it, once called it “Meyer’s curse.”",
+    "source": "https://punchdrink.com/recipes/gin-basil-smash/",
+    "garnish": "Basil leaves",
+    "abv": 17.07,
+    "tags": [
+        "Summer",
+        "Bright",
+        "Smash"
+    ],
+    "glass": "Lowball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///gin-basil-smash-1.webp",
+            "sort": 1,
+            "placeholder_hash": "EwkOFwQFeKmhiGdia4h4d3h3iAM85oAK",
+            "copyright": "Punch Staff"
+        },
+        {
+            "uri": "file:///gin-basil-smash-2.webp",
+            "sort": 2,
+            "placeholder_hash": "2ggKFwYKdqdVeXdSfIloZ3dqdwhX+YEN",
+            "copyright": ""
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "basil",
+            "name": "Basil",
+            "sort": 2,
+            "amount": 10,
+            "units": "leaves",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 3,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 4,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

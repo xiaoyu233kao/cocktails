@@ -1,0 +1,88 @@
+{
+    "_id": "twelve-mile-limit",
+    "name": "Twelve Mile Limit",
+    "instructions": "1. In a cocktail shaker, add all the ingredients\n2. Shake with ice for 10-12 seconds\n3. Double strain into a chilled coupe\n4. Garnish with a twist of lemon",
+    "created_at": null,
+    "updated_at": null,
+    "description": "During the 18th century the US territorial waters were limited to 3 nautical miles. Throughout Prohibition it was legal to supply alcohol outside of these waters so parties hosted out at sea were common. This 3 mile limitation was later extended to 12 miles which led to the name inspiration for this Prohibition-era drink featuring grenadine.",
+    "source": "https://stevethebartender.com.au/twelve-mile-limit-cocktail-recipe/",
+    "garnish": null,
+    "abv": 21.33,
+    "tags": [],
+    "glass": "Coupe",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///twelve-mile-limit.webp",
+            "sort": 1,
+            "placeholder_hash": "zgcKHwJmh3hwd3Z8eSaYt3eEqTf3WnIP",
+            "copyright": "Steve the Bartender"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "light-rum",
+            "name": "Light Rum",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "rye-whiskey",
+            "name": "Rye whiskey",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cognac",
+            "name": "Cognac",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "grenadine-syrup",
+            "name": "Grenadine Syrup",
+            "sort": 4,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 5,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

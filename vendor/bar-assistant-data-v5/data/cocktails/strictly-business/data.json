@@ -1,0 +1,102 @@
+{
+    "_id": "strictly-business",
+    "name": "Strictly Business",
+    "instructions": "1. Add all of the ingredients to a shaker with ice.\n2. Shake to chill and strain over fresh ice in a glass.\n3. Garnish.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The Gold Rush, a modern classic created by Milk & Honey's T.J. Siegal and the late Sasha Petraske, serves as the foundation for this rye whiskey cocktail at Polite Provisions. \"When developing this menu, we specifically pulled inspiration from those who had the greatest influence on our cocktail program to date, and many of the teachings of Sasha Petraske hold strong,\" says Alicia Perry, beverage director for CH Projects. In this twist, rye steps in for bourbon, and oloroso sherry, sweet vermouth, and herbed bitters follow, creating a \"fresh qualities, pleasantly herbed, rich and impactful, with a clean, nuanced honeysuckle finish,\" Perry adds.",
+    "source": "https://imbibemagazine.com/recipe/strictly-business-from-polite-provisions/",
+    "garnish": "Star anise",
+    "abv": 15.62,
+    "tags": [
+        "Dessert"
+    ],
+    "glass": "Lowball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///strictly-business.webp",
+            "sort": 1,
+            "placeholder_hash": "VDkKFwQvqHeHWpeYa4R3d1aJ5oBHC2QG",
+            "copyright": "Imbibe Magazine | Shannon Partrick"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "rye-whiskey",
+            "name": "Rye whiskey",
+            "sort": 1,
+            "amount": 1.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 2,
+            "amount": 0.75,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "honey-syrup",
+            "name": "Honey Syrup",
+            "sort": 3,
+            "amount": 0.75,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "2 1/2:1 honey to water",
+            "substitutes": []
+        },
+        {
+            "_id": "sherry",
+            "name": "Sherry",
+            "sort": 4,
+            "amount": 0.25,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "Oloroso",
+            "substitutes": []
+        },
+        {
+            "_id": "sweet-vermouth",
+            "name": "Sweet Vermouth",
+            "sort": 5,
+            "amount": 0.25,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "bouquet-bitters",
+            "name": "Bouquet bitters",
+            "sort": 6,
+            "amount": 2,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

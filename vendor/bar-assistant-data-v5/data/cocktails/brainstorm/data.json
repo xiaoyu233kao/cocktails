@@ -1,0 +1,76 @@
+{
+    "_id": "brainstorm",
+    "name": "Brainstorm",
+    "instructions": "1. Stir all of the ingredients with ice, then strain into a chilled glass.\n2. Twist an orange peel over the cocktail and use as garnish.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "This classic Irish whiskey cocktail from Hugo Ensslin’s 1917 Recipes for Mixed Drinks has been adapted for contemporary use, with the French vermouth and honeyed herbal liqueur Bénédictine given greater billing in the glass.",
+    "source": "https://imbibemagazine.com/recipe/brainstorm-irish-whiskey-cocktail/",
+    "garnish": "Orange twist",
+    "abv": 30.25,
+    "tags": [],
+    "glass": "Coupe",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///brainstorm.webp",
+            "sort": 1,
+            "placeholder_hash": "WZoGFwImcyD/jDqKlJmWZ6ZLKPRaQY8E",
+            "copyright": "Imbibe Magazine"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "irish-whiskey",
+            "name": "Irish whiskey",
+            "sort": 1,
+            "amount": 2,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "dry-vermouth",
+            "name": "Dry Vermouth",
+            "sort": 2,
+            "amount": 0.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "benedictine",
+            "name": "Bénédictine",
+            "sort": 3,
+            "amount": 0.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orange-bitters",
+            "name": "Orange bitters",
+            "sort": 4,
+            "amount": 1,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

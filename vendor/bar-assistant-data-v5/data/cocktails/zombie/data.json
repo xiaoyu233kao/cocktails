@@ -1,0 +1,140 @@
+{
+    "_id": "zombie",
+    "name": "Zombie",
+    "instructions": "1. Add all ingredients into an electric blender with 170 grams of cracked ice.\n2. With pulse bottom blend for a few seconds.\n3. Serve in a tall tumbler glass.\n\nDonn’s Mix: 2 parts of fresh yellow grapefruit and 1 part of cinnamon syrup",
+    "created_at": null,
+    "updated_at": null,
+    "description": "It first appeared in late 1934, invented by Donn Beach at his Hollywood Don the Beachcomber restaurant. It was popularized on the East coast soon afterwards at the 1939 New York World's Fair.",
+    "source": "https://iba-world.com/zombie/",
+    "garnish": "Garnish with mint leaves.",
+    "abv": 23.39,
+    "tags": [
+        "Contemporary Classics",
+        "IBA Cocktail",
+        "Tiki"
+    ],
+    "glass": "Highball",
+    "method": "Blend",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///zombie.webp",
+            "sort": 1,
+            "placeholder_hash": "rhgKJwT2O5R5lnmGeXeIh3iImXB4CHEG",
+            "copyright": "Punch Drink"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "jamaican-rum",
+            "name": "Jamaican Rum",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "brown-rum",
+            "name": "Brown Rum",
+            "sort": 2,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "demerara-rum",
+            "name": "Demerara Rum",
+            "sort": 3,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 4,
+            "amount": 20,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "falernum",
+            "name": "Falernum",
+            "sort": 5,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "donns-mix",
+            "name": "Donn's Mix",
+            "sort": 6,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "grenadine-syrup",
+            "name": "Grenadine Syrup",
+            "sort": 7,
+            "amount": 1,
+            "units": "tsp",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "angostura-aromatic-bitters",
+            "name": "Angostura aromatic bitters",
+            "sort": 8,
+            "amount": 1,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "pernod",
+            "name": "Pernod",
+            "sort": 9,
+            "amount": 6,
+            "units": "drops",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

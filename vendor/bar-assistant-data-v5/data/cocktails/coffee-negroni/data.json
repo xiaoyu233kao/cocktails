@@ -1,0 +1,67 @@
+{
+    "_id": "coffee-negroni",
+    "name": "Coffee Negroni",
+    "instructions": "Stir all ingredients in an ice-filled mixing glass, then strain into an ice-filled rocks glass",
+    "created_at": null,
+    "updated_at": null,
+    "description": "It’s commonly been said that the only thing better than a Negroni is a Coffee Negroni. And considering the drink is an equal part mix of Coffee Liqueur, Campari & Gin, we’ve got to agree.",
+    "source": "https://cocktailsdistilled.com/recipe/coffee-negroni/",
+    "garnish": "Orange twist",
+    "abv": 23.61,
+    "tags": [
+        "Negroni",
+        "Coffee"
+    ],
+    "glass": "Lowball",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///coffee-negroni.webp",
+            "sort": 1,
+            "placeholder_hash": "oSgOHwRjh3afh3hYdrloaJqXiAFXCHAE",
+            "copyright": ""
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "campari",
+            "name": "Campari",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "coffee-liqueur",
+            "name": "Coffee liqueur",
+            "sort": 3,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

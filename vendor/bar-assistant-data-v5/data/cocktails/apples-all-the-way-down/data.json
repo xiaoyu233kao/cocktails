@@ -1,0 +1,90 @@
+{
+    "_id": "apples-all-the-way-down",
+    "name": "Apples All the Way Down",
+    "instructions": "1. Add syrup, lemon, and brandy to a highball glass filled with ice\n2. Top with cider and stir\n3. Slap a sprig of rosemary to release its oils and garnish",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A dash of bitters and fresh rosemary balance the sweetness of this bright highball that's brimming with fall fruit flavor.",
+    "source": "https://www.liberandcompany.com/collections/recipes/products/apples-all-the-way-down",
+    "garnish": "Sprig of rosemary",
+    "abv": 10.52,
+    "tags": [
+        "Fruity"
+    ],
+    "glass": "Highball",
+    "method": "Build",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///apples-all-the-way-down.webp",
+            "sort": 1,
+            "placeholder_hash": "zjgKHwYIqpZ2eIeBiWeXmJp4qFBYCnQF",
+            "copyright": "LiberAndCo"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "apple-brandy",
+            "name": "Apple Brandy",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "grenadine-syrup",
+            "name": "Grenadine Syrup",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "angostura-aromatic-bitters",
+            "name": "Angostura aromatic bitters",
+            "sort": 4,
+            "amount": 1,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "apple-cider",
+            "name": "Apple Cider",
+            "sort": 5,
+            "amount": 120,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

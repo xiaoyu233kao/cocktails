@@ -1,0 +1,78 @@
+{
+    "_id": "bebbo",
+    "name": "Bebbo",
+    "instructions": "1. Combine all ingredients in a cocktail shaker.\n2. Add ice and shake until well-chilled.\n3. Strain into a chilled coupe and garnish with a stripe of Angostura bitters.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The Bebbo is a cocktail recipe that riffs on the classic Bee’s Knees. The gin drink is made with lemon and orange juices plus honey syrup.",
+    "source": "https://punchdrink.com/recipes/bebbo/",
+    "garnish": "Angostura bitters",
+    "abv": 18.29,
+    "tags": [
+        "Citrusy"
+    ],
+    "glass": "Coupe",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///bebbo.webp",
+            "sort": 1,
+            "placeholder_hash": "UhgOFwIlqnaAd3mOeIhYqYiEeUBpCIcH",
+            "copyright": "Punch Staff | Lizzie Munro"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 2,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "preferably Four Pillars Rare Dry",
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 2,
+            "amount": 0.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orange-juice",
+            "name": "Orange juice",
+            "sort": 3,
+            "amount": 0.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "honey-syrup",
+            "name": "Honey Syrup",
+            "sort": 4,
+            "amount": 0.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

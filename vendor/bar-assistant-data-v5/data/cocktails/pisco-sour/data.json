@@ -1,0 +1,80 @@
+{
+    "_id": "pisco-sour",
+    "name": "Pisco Sour",
+    "instructions": "Add all ingredients into a shaker with ice.\nShake and strain into a chilled goblet glass.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A pisco sour is an alcoholic cocktail of Peruvian origin that is typical of the cuisines from Peru. The drink's name comes from pisco, which is its base liquor, and the cocktail term sour, in reference to sour citrus juice and sweetener components.\nThe Peruvian pisco sour uses Peruvian pisco as the base liquor and adds freshly squeezed lemon juice, simple syrup, ice, egg white, and Angostura bitters.\nThe Chilean version is similar, but uses Chilean pisco and Pica lime, and excludes the bitters and egg white.\nOther variants of the cocktail include those created with fruits like pineapple or plants such as coca leaves.",
+    "source": "https://iba-world.com/pisco-sour/",
+    "garnish": "Few dashes of Amargo or Angostura bitters on top as an aromatic garnish.",
+    "abv": 17.45,
+    "tags": [
+        "Contemporary Classics",
+        "IBA Cocktail",
+        "Sour"
+    ],
+    "glass": "Nick and Nora",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///pisco-sour.webp",
+            "sort": 1,
+            "placeholder_hash": "YwgSFwBqiHd/iYeJd3d3h4d4V5AnEJkF",
+            "copyright": "Liquor.com / Tim Nusog"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "pisco",
+            "name": "Pisco",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 3,
+            "amount": 20,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "egg-white",
+            "name": "Egg White",
+            "sort": 4,
+            "amount": 1,
+            "units": "drops",
+            "optional": true,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "_id": "employees-onlys-mezcal-margarita",
+    "name": "Employees Only’s Mezcal Margarita",
+    "instructions": "1. Add all ingredients to a shaker, and add ice.\n2. Shake until chilled and strain into ice-filled tumbler glass.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Steve Schneider, principal bartender at New York’s Employees Only, has a long history with Margaritas. “I love Margaritas, I always have,” he says. “The Margarita has been a progression of my career, because in my 13 years behind the bar, it’s been the drink I’ve always had to make, even if it was in a shitty dive bar, with 18 beers on tap, making disco drinks.”\n\nNow, the mezcal-spiked version is a regular after-hours feature at EO, where the rest of the staff shares his love of the classic.",
+    "source": "https://punchdrink.com/recipes/employees-onlys-mezcal-margarita/",
+    "garnish": null,
+    "abv": 20,
+    "tags": [
+        "Citrusy",
+        "Margarita"
+    ],
+    "glass": null,
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///employees-onlys-mezcal-margarita.webp",
+            "sort": 0,
+            "placeholder_hash": "tPgFFwKU9oiKiHVmiMh4d5d7dmA4A3gD",
+            "copyright": "Punch Staff | Lizzie Munro"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "mezcal",
+            "name": "Mezcal",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "agave-syrup",
+            "name": "Agave Syrup",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cointreau",
+            "name": "Cointreau",
+            "sort": 4,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

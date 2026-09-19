@@ -1,0 +1,92 @@
+{
+    "_id": "champagne-cocktail",
+    "name": "Champagne Cocktail",
+    "instructions": "Place the sugar cube with 2 dashes of bitters in a large Champagne glass, add the cognac. Pour gently chilled Champagne.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A recipe for the cocktail appears as early as \"Professor\" Jerry Thomas' Bon Vivant's Companion (1862), which omits the brandy or cognac and is considered to be the \"classic\" American version.",
+    "source": "https://iba-world.com/champagne-cocktail/",
+    "garnish": "Garnish with orange zest and maraschino cherry.",
+    "abv": 13.45,
+    "tags": [
+        "Contemporary Classics",
+        "IBA Cocktail",
+        "Wine"
+    ],
+    "glass": "Champagne",
+    "method": "Build",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///champagne-cocktail.webp",
+            "sort": 1,
+            "placeholder_hash": "DPgJDwBHqWdxhniOiQeH14hyivEGeW8A",
+            "copyright": "A Couple Cooks"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "champagne",
+            "name": "Champagne",
+            "sort": 1,
+            "amount": 90,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cognac",
+            "name": "Cognac",
+            "sort": 2,
+            "amount": 10,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "angostura-aromatic-bitters",
+            "name": "Angostura aromatic bitters",
+            "sort": 3,
+            "amount": 2,
+            "units": "dashes",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "grand-marnier",
+            "name": "Grand Marnier",
+            "sort": 4,
+            "amount": 1,
+            "units": "drops",
+            "optional": true,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "sugar",
+            "name": "Sugar",
+            "sort": 5,
+            "amount": 1,
+            "units": "cube",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

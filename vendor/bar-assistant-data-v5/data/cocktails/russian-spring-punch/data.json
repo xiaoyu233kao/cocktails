@@ -1,0 +1,91 @@
+{
+    "_id": "russian-spring-punch",
+    "name": "Russian Spring Punch",
+    "instructions": "Pour all ingredients into a cocktail shaker except the sparkling wine, shake well with ice, strain into a chilled tall tumbler glass filled with ice, and top up with sparkling wine.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The Russian Spring Punch was created in London, England by Dick Bradsell in the 1980s. He claims not to remember which bar he was working at at the time, but tells the story of how he created the recipe for personal friends wishing to hold a cocktail party while minimizing the amount of money they had to spend on alcohol. Participants were provided with the vodka, cassis, sugar syrup and lemon juice, and were asked to bring their own sparkling wine. It is named for the russian vodka, and the Tom Collins, which is a spring drink.",
+    "source": "https://iba-world.com/russian-spring-punch/",
+    "garnish": "Garnish with blackberries and optionally a lemon slice as well.",
+    "abv": 14.67,
+    "tags": [
+        "IBA Cocktail",
+        "New Era Drinks"
+    ],
+    "glass": "Highball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///russian-spring-punch.webp",
+            "sort": 1,
+            "placeholder_hash": "1VgKJwwL2oiDloqJfESXV4l5lnBKCIYG",
+            "copyright": "Liquido Spirits"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "vodka",
+            "name": "Vodka",
+            "sort": 1,
+            "amount": 25,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 2,
+            "amount": 25,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "creme-de-cassis",
+            "name": "Crème de cassis",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 4,
+            "amount": 10,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "champagne",
+            "name": "Champagne",
+            "sort": 5,
+            "amount": 1,
+            "units": "topup",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

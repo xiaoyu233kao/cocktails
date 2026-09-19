@@ -1,0 +1,102 @@
+{
+    "_id": "koffie-van-brunt",
+    "name": "Koffie Van Brunt",
+    "instructions": "1. Fill a 12-ounce heat-proof mug halfway with boiling water.\n2. Drop a small mixing tin directly into the water to create a double boiler effect.\n3. Add the rum, Cherry Heering and simple syrup into the tin and let sit while preparing a shot of espresso.\n4. Once the espresso is ready, pour the hot water out of the mug and pour the contents of the tin directly into the mug.\n5. Add five ounces of hot water and top with the espresso shot.\n6. Shake two ounces of cream in a cocktail shaker until thick but pourable and carefully pour on top of the drink.\n7. Garnish with grated orange zest and cinnamon.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "This hot, rum-based cocktail recipe reads like an unorthodox twist on an Irish Coffee. The drink is topped with a cream float.",
+    "source": "https://punchdrink.com/recipes/koffie-van-brunt/",
+    "garnish": "orange zest, cinnamon",
+    "abv": 4.48,
+    "tags": [
+        "Coffee"
+    ],
+    "glass": "Glass mug",
+    "method": "Build",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///koffie-van-brunt.webp",
+            "sort": 1,
+            "placeholder_hash": "nBgSDwKJdZdvh4d3h3eIZoh4SPRHMJcA",
+            "copyright": "Punch Staff | Lizzie Munro"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "dark-rum",
+            "name": "Dark Rum",
+            "sort": 1,
+            "amount": 1,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "preferably Bacardi 8",
+            "substitutes": []
+        },
+        {
+            "_id": "cherry-heering",
+            "name": "Cherry heering",
+            "sort": 2,
+            "amount": 0.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 3,
+            "amount": 0.75,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "water",
+            "name": "Water",
+            "sort": 4,
+            "amount": 5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "Hot",
+            "substitutes": []
+        },
+        {
+            "_id": "espresso",
+            "name": "Espresso",
+            "sort": 5,
+            "amount": 1,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cream",
+            "name": "Cream",
+            "sort": 6,
+            "amount": 2,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

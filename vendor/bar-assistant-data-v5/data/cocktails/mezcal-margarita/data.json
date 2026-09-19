@@ -1,0 +1,66 @@
+{
+    "_id": "mezcal-margarita",
+    "name": "Mezcal Margarita",
+    "instructions": "1. Combine all ingredients in a mixing tin and shake with ice.\n2. Strain into a chilled coupe or into a rocks glass over a large ice cube.\n3. Garnish with a lime wedge.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Potent, piquant, perfectly balanced, this simple mezcal Margarita recipe comes from Phil Ward's now-shuttered agave bar, Mayahuel.",
+    "source": "https://punchdrink.com/recipes/mayahuel-mezcal-margarita/",
+    "garnish": "lime wedge",
+    "abv": 25.6,
+    "tags": [
+        "Margarita"
+    ],
+    "glass": "Lowball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": "margarita",
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///mezcal-margarita.webp",
+            "sort": 1,
+            "placeholder_hash": "5VoKHwIodphdp5iCaQa5uFd3mN+495UM",
+            "copyright": "Punch Staff"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "mezcal",
+            "name": "Mezcal",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cointreau",
+            "name": "Cointreau",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

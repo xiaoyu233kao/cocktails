@@ -1,0 +1,80 @@
+{
+    "_id": "whiskey-sour",
+    "name": "Whiskey Sour",
+    "instructions": "1. Pour all ingredients into a cocktail shaker filled with ice.\n2. Shake well.\n3. Strain into cobbler glass.\n4. If served “On the rocks”, strain ingredients into an old fashioned glass filled with ice.\n\nNOTE:\nIf egg white is used shake little harder to release and incorporate the foam from the egg white.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The oldest historical mention of a whiskey sour was published in the Wisconsin newspaper, Waukesha Plain Dealer, in 1870. With egg white included, it is sometimes called a Boston Sour; when the whiskey used is a Scotch, it is called a Scotch Sour. With a few bar spoons of full-bodied red wine floated on top, it is often referred to as a New York Sour. It is shaken and served either straight up or over ice.",
+    "source": "https://iba-world.com/whiskey-sour/",
+    "garnish": "Garnish with a half orange slice and maraschino cherry, optionally use orange zest.",
+    "abv": 16,
+    "tags": [
+        "IBA Cocktail",
+        "The Unforgettables",
+        "Sour"
+    ],
+    "glass": "Lowball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///whiskey-sour.webp",
+            "sort": 1,
+            "placeholder_hash": "ZKcJNxBHiYh0cYeVf5eJeKV3aSAHNnAD",
+            "copyright": "VinePair"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "bourbon-whiskey",
+            "name": "Bourbon Whiskey",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 2,
+            "amount": 25,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 3,
+            "amount": 20,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "egg-white",
+            "name": "Egg White",
+            "sort": 4,
+            "amount": 1,
+            "units": "drops",
+            "optional": true,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

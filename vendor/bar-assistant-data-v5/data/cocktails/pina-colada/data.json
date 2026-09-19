@@ -1,0 +1,68 @@
+{
+    "_id": "pina-colada",
+    "name": "Piña Colada",
+    "instructions": "Blend all the ingredients with ice in an electric blender, pour into a large glass, and serve with straws.\n\n**Note:**\nHistorically a few drops of fresh lime juice were added to taste. 4 slices of fresh pineapple can be used instead of juice",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The name piña colada (Spanish) literally means \"strained pineapple\", a reference to the freshly pressed and strained pineapple juice used in the drink's preparation.",
+    "source": "https://iba-world.com/pina-colada/",
+    "garnish": "Garnish with a slice of pineapple with a cocktail cherry.",
+    "abv": 12.31,
+    "tags": [
+        "Contemporary Classics",
+        "IBA Cocktail",
+        "Tiki"
+    ],
+    "glass": "Hurricane",
+    "method": "Blend",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": 1950,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///pina-colada.webp",
+            "sort": 1,
+            "placeholder_hash": "TQgOHwIIyXdkd3eXe1Z3l4iGmZAYCpYD",
+            "copyright": "A Couple Cooks"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "light-rum",
+            "name": "Light Rum",
+            "sort": 1,
+            "amount": 50,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cream-of-coconut",
+            "name": "Cream of Coconut",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "pineapple-juice",
+            "name": "Pineapple juice",
+            "sort": 3,
+            "amount": 50,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

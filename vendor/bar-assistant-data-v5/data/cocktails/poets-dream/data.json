@@ -1,0 +1,79 @@
+{
+    "_id": "poets-dream",
+    "name": "Poet’s Dream",
+    "instructions": "Combine all ingredients in a mixing glass and stir with ice. Strain into a chilled coupe and garnish.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Manhattan’s Lantern’s Keep adapted this poetic sipper from a 1930s English bar guide. 2 oz. gin 3/4 oz. dry vermouth 1/4 oz. Bénédictine 2 dash orange bitters Tools: mixing glass, barspoon, strainer Glass: coupe Garnish: lemon twist Combine all ingredients in a mixing glass and stir with ice. Strain into a chilled coupe and garnish. […]",
+    "source": "https://imbibemagazine.com/recipe/poets-dream-recipe/",
+    "garnish": "lemon twist",
+    "abv": 26.43,
+    "tags": [
+        "Herbal",
+        "Classics"
+    ],
+    "glass": "Coupe",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///poets-dream.webp",
+            "sort": 1,
+            "placeholder_hash": "nBgOFwJWmHdgdoh5eaeYZ4eG2cMGr30C",
+            "copyright": "Reddit"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "dry-vermouth",
+            "name": "Dry Vermouth",
+            "sort": 2,
+            "amount": 0.75,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "benedictine",
+            "name": "Bénédictine",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orange-bitters",
+            "name": "Orange bitters",
+            "sort": 4,
+            "amount": 2,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

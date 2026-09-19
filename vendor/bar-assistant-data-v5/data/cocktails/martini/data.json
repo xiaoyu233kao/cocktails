@@ -1,0 +1,74 @@
+{
+    "_id": "martini",
+    "name": "Martini",
+    "instructions": "1. Pour all ingredients into mixing glass with ice cubes.\n2. Stir well.\n3. Strain into chilled martini cocktail glass.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "This classic is a contentious and sensitive topic with serious Martini drinkers. The way one drinks a Martini is simply a matter of personal preference.",
+    "source": "https://iba-world.com/dry-martini/",
+    "garnish": "Squeeze oil from lemon peel onto the drink, or garnish with green olives if requested.",
+    "abv": 27.22,
+    "tags": [
+        "IBA Cocktail",
+        "The Unforgettables",
+        "Dry"
+    ],
+    "glass": "Cocktail",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///martini-1.webp",
+            "sort": 1,
+            "placeholder_hash": "EQgSDwJbd4dgaId5iJiISYZ3Kp+/8PQN",
+            "copyright": "Punch |  Lizzie Munro"
+        },
+        {
+            "uri": "file:///martini-2.webp",
+            "sort": 2,
+            "placeholder_hash": "lBgGDwKgujooSpejaBqomWp5mLB5DJsH",
+            "copyright": "Getty Images/iStockphoto"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "dry-vermouth",
+            "name": "Dry Vermouth",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orange-bitters",
+            "name": "Orange bitters",
+            "sort": 3,
+            "amount": 2,
+            "units": "dashes",
+            "optional": true,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

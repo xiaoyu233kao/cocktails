@@ -1,0 +1,69 @@
+{
+    "_id": "dirty-martini",
+    "name": "Dirty Martini",
+    "instructions": "1. Select and pre-chill a Martini glass.\n2. Prepare garnish of skewered Green Olives.\n3. Stir all ingredients with ice.\n4. Strain into chilled glass.\n5. Garnish with skewered olives.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The Dirty Martini is a popular cocktail that adds olive brine to the classic Martini, giving it a savory flavor. It can be made with either gin or vodka, depending on personal preference.",
+    "source": null,
+    "garnish": "Garnish with skewered olives.",
+    "abv": 23.97,
+    "tags": [
+        "Dry",
+        "Savory",
+        "Briny",
+        "Classics"
+    ],
+    "glass": "Cocktail",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": "martini",
+    "year": 1930,
+    "author": "G. F. Steele",
+    "images": [
+        {
+            "uri": "file:///dirty-martini.webp",
+            "sort": 1,
+            "placeholder_hash": "yygKFwQIx2djiHeIiCbId3eKiAekh0AK",
+            "copyright": "Imbibe Magazine |  Lindsay Eberly"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "dry-vermouth",
+            "name": "Dry Vermouth",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "olive-brine",
+            "name": "Olive brine",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

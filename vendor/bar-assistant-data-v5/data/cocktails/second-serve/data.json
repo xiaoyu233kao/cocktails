@@ -1,0 +1,90 @@
+{
+    "_id": "second-serve",
+    "name": "Second Serve",
+    "instructions": "1. Add all ingredients except soda water to a cocktail shaker.\n2. Shake and strain into an ice-filled Collins glass.\n3. Top with soda and garnish with a half orange wheel.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "As a lower-alcohol, softer-hitting cocktail recipe, this combination of Amaro Montenegro and fino sherry is a Spain vs. Italy matchup.",
+    "source": "https://punchdrink.com/recipes/second-serve/",
+    "garnish": "half orange wheel",
+    "abv": 4.91,
+    "tags": [
+        "Savory"
+    ],
+    "glass": "Highball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///second-serve.webp",
+            "sort": 1,
+            "placeholder_hash": "WTkOJwYH+oiBhmiJi1aHZ3hnVhDZRpAM",
+            "copyright": "Punch Staff | Shannon Sturgis"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "amaro-montenegro",
+            "name": "Amaro Montenegro",
+            "sort": 1,
+            "amount": 1,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "fino",
+            "name": "Fino",
+            "sort": 2,
+            "amount": 1,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "such as Valdespino Inocente",
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 3,
+            "amount": 1,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 4,
+            "amount": 0.75,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "club-soda",
+            "name": "Club soda",
+            "sort": 5,
+            "amount": 1,
+            "units": "topup",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

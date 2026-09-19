@@ -1,0 +1,100 @@
+{
+    "_id": "scotch-and-coconut",
+    "name": "Scotch and Coconut",
+    "instructions": "1. A day ahead of making the cocktail, freeze the coconut water in a large ice cube mold.\n2. When ready to make the drink, combine the ingredients in a shaker with ice and stir until chilled.\n3. Strain into a rocks glass over the frozen coconut water ice.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A split base of rum and Scotch might sound like the perfect match for cold-weather sipping, but when curaçao and coconut water enter the equation, the combo takes a turn for the tropical.",
+    "source": "https://imbibemagazine.com/recipe/scotch-and-coconut-cocktail/",
+    "garnish": null,
+    "abv": 28.19,
+    "tags": [],
+    "glass": "Lowball",
+    "method": "Build",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///scotch-and-coconut.webp",
+            "sort": 1,
+            "placeholder_hash": "HfgJFwRfa5nOZom5ZqlnemZ3CUOKQJcJ",
+            "copyright": "Imbibe Magazine"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "dark-rum",
+            "name": "Dark Rum",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "scotch-whiskey",
+            "name": "Scotch whiskey",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "coconut-water",
+            "name": "Coconut water",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cointreau",
+            "name": "Cointreau",
+            "sort": 4,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "demerara-syrup",
+            "name": "Demerara Syrup",
+            "sort": 5,
+            "amount": 1,
+            "units": "barspoon",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "mole-bitters",
+            "name": "Mole Bitters",
+            "sort": 6,
+            "amount": 2,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

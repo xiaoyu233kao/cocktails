@@ -1,0 +1,80 @@
+{
+    "_id": "margarita",
+    "name": "Margarita",
+    "instructions": "1. Add all ingredients into a shaker with ice.\n2. Shake and strain into a chilled cocktail glass",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The true Margarita—a blend of fresh lime juice, tequila and orange liqueur with an optional sweetener—is a potent, well-built entry in the cocktail canon. Plenty claim credit for its invention: a restaurateur based south of Tijuana in the 1930s, a socialite in Acapulco in the 1940s. Others believe it evolved as a south-of-the-border twist on the then-popular Daisy (the Spanish word for “daisy” is “Margarita,” after all), dreamed up during Prohibition when Americans would travel abroad to drink. The Margarita was named Esquire’s cocktail of the month in December 1953, and it has hardly flagged in popularity since, rising in stature alongside tequila, which got a pop-culture boost from the Eagles (“Tequila Sunrise”), Rolling Stones (the Cocaine and Tequila Sunrise Tour of ’72), and of course, Jimmy Buffet (“Margaritaville”).",
+    "source": "https://iba-world.com/margarita/",
+    "garnish": "Half salt rim (Optional)",
+    "abv": 24,
+    "tags": [
+        "Contemporary Classics",
+        "IBA Cocktail",
+        "Margarita"
+    ],
+    "glass": "Margarita",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///margarita.webp",
+            "sort": 1,
+            "placeholder_hash": "GAgODwJVh4h/d4d2iXeId4h4iPtm/cYJ",
+            "copyright": "Punch"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "tequila-blanco",
+            "name": "Tequila Blanco",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "triple-sec",
+            "name": "Triple Sec",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "agave-syrup",
+            "name": "Agave Syrup",
+            "sort": 4,
+            "amount": 1,
+            "units": "barspoon",
+            "optional": true,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

@@ -1,0 +1,90 @@
+{
+    "_id": "cameron-park-spritz",
+    "name": "Cameron Park Spritz",
+    "instructions": "1. Add the Aperol, elderflower liqueur, and mezcal to an ice-filled glass. Add a splash of sparkling water, then top with 2-3 oz. of sparkling wine. Garnish.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Named after a Hispanic neighborhood in Brownsville, Texas, this Spritz incorporates flavors that nod to that heritage, says Christopher Galicia, beverage director and junior partner with Ramblas Hospitality Group. “Coming into summer, we wanted a spritz that was lively, floral, and had a little bit more backbone,” says Galicia. “Mezcal and St-Germain play these roles perfectly and produce a deliciously bold spritz.”",
+    "source": "https://imbibemagazine.com/recipe/cameron-park-spritz/",
+    "garnish": "Dehydrated half orange wheel",
+    "abv": 14.55,
+    "tags": [
+        "Dessert"
+    ],
+    "glass": "Wine",
+    "method": "Build",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///cameron-park-spritz.webp",
+            "sort": 1,
+            "placeholder_hash": "r1oKJwbvZoWMdZiId2Z4mIdpKFBXA5AG",
+            "copyright": "Imbibe Magazine | John Valls"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "aperol",
+            "name": "Aperol",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "st-germain",
+            "name": "St-Germain",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "mezcal",
+            "name": "Mezcal",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "club-soda",
+            "name": "Club soda",
+            "sort": 4,
+            "amount": 0,
+            "units": "splash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "prosecco",
+            "name": "Prosecco",
+            "sort": 5,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": 75,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

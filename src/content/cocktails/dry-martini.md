@@ -21,7 +21,7 @@ ingredients:
     nameEn: "Dry Vermouth"
     amount: "10 ml"
     aliases: ["dry vermouth", "vermouth", "干味美思"]
-tags: ["gin", "herbal", "dry", "citrus", "stirred", "up", "spirit-forward", "干马丁尼", "干马提尼"]
+tags: ["gin","herbal","dry","citrus","stirred","up","spirit-forward","干马丁尼","干马提尼","Martini"]
 summary: "金酒为主、干味美思作点缀，靠低温搅拌呈现清晰而干爽的酒体。"
 steps:
   - "把金酒和干味美思倒入装有冰块的搅拌杯。"

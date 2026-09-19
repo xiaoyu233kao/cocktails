@@ -1,0 +1,114 @@
+{
+    "_id": "wiz-fizz",
+    "name": "Wiz Fizz",
+    "instructions": "1. Fill a highball glass 1/5 full with root beer and set aside.\n2. Combine the remaining ingredients, except the cream, in a mixing tin and dry shake without ice.\n3. Add the cream and dry shake again.\n4. Add ice and shake again for 30 to 40 seconds.\n5. Strain the ice out of the shaker and dry shake once more for 1 minute.\n6. Pour the contents of the shaker into the highball glass and allow to settle before adding a final topper.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "In this fizzy cocktail recipe, gin, Cynar, lemon, and vanilla syrup act as a base, while egg white and heavy cream combine for a rich body.",
+    "source": "https://punchdrink.com/recipes/wiz-fizz/",
+    "garnish": "Garnish with grated nutmeg and a straw.",
+    "abv": 9.93,
+    "tags": [
+        "Fizz"
+    ],
+    "glass": "Highball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///wiz-fizz.webp",
+            "sort": 1,
+            "placeholder_hash": "lDgKFwT5e0rwmomVu0pm15t6VwurppAK",
+            "copyright": "Punch Staff"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cynar",
+            "name": "Cynar",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 4,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "egg-white",
+            "name": "Egg White",
+            "sort": 5,
+            "amount": 1,
+            "units": "1",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cream",
+            "name": "Cream",
+            "sort": 6,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "root-beer",
+            "name": "Root beer",
+            "sort": 7,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

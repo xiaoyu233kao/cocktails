@@ -1,0 +1,67 @@
+{
+    "_id": "limoncello-spritz",
+    "name": "Limoncello Spritz",
+    "instructions": "1. Build all ingredients into ice-filled glass and briefly stir.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Limoncello Spritz is a refreshing and easy Italian cocktail made with Limoncello liqueur and sparkling water.",
+    "source": "https://www.diffordsguide.com/cocktails/recipe/4242/limoncello-spritz",
+    "garnish": "Lemon slice",
+    "abv": 14.35,
+    "tags": [
+        "Spritz",
+        "Summer"
+    ],
+    "glass": "Wine",
+    "method": "Build",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": "",
+    "images": [
+        {
+            "uri": "file:///limoncello-spritz.webp",
+            "sort": 1,
+            "placeholder_hash": "7ggKFwRKh4d9iYiPiDd2d5iIyAv5moQP",
+            "copyright": "Delish"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "limoncello",
+            "name": "Limoncello",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "prosecco",
+            "name": "Prosecco",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "club-soda",
+            "name": "Club soda",
+            "sort": 3,
+            "amount": 20,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

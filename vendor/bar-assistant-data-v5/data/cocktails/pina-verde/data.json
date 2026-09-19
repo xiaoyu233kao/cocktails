@@ -1,0 +1,79 @@
+{
+    "_id": "pina-verde",
+    "name": "Piña Verde",
+    "instructions": "1. Combine all ingredients in a cocktail shaker with ice and shake until chilled.\n2. Strain into rocks glass over pebble ice.\n3. Garnish with a mint sprig.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "This Piña Colada riff relies on Green Chartreuse rather than rum. Pineapple juice and lime add a fruity kick, and Coco Lopez adds coconut.",
+    "source": "https://punchdrink.com/recipes/pina-verde/",
+    "garnish": "mint sprig",
+    "abv": 15.53,
+    "tags": [
+        "Herbacious",
+        "Fruity"
+    ],
+    "glass": "Lowball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///pina-verde.webp",
+            "sort": 1,
+            "placeholder_hash": "WBkSHwgJdphxh3ileoiWdmh5mAK5p2AI",
+            "copyright": "Punch Staff | Lizzie Munro"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "green-chartreuse",
+            "name": "Green Chartreuse",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "pineapple-juice",
+            "name": "Pineapple juice",
+            "sort": 2,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cream-of-coconut",
+            "name": "Cream of Coconut",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 4,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

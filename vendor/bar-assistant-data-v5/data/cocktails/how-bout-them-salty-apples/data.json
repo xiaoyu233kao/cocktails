@@ -1,0 +1,90 @@
+{
+    "_id": "how-bout-them-salty-apples",
+    "name": "How Bout Them Salty Apples",
+    "instructions": "1. Stir ingredients with ice for 30 seconds\n2. Serve over large rock",
+    "created_at": null,
+    "updated_at": null,
+    "description": "This drink was made by our friend @anushu802 on Instagram. This is the perfect Fall drink- bitter, sweet, complex, and incorporates apples and Bonal.",
+    "source": "https://www.liberandcompany.com/collections/recipes/products/how-bout-them-salty-apples",
+    "garnish": "apple fan",
+    "abv": 23.82,
+    "tags": [
+        "Autumn"
+    ],
+    "glass": "Lowball",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///how-bout-them-salty-apples.webp",
+            "sort": 1,
+            "placeholder_hash": "kSgWFwR7h4hgZ3eHiJiGeXl26hA2DmAD",
+            "copyright": "LiberAndCo | @anushu802"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "apple-brandy",
+            "name": "Apple Brandy",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "sweet-vermouth",
+            "name": "Sweet Vermouth",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cynar",
+            "name": "Cynar",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "demerara-syrup",
+            "name": "Demerara Syrup",
+            "sort": 4,
+            "amount": 1,
+            "units": "barspoon",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "allspice-dram",
+            "name": "Allspice dram",
+            "sort": 5,
+            "amount": 1,
+            "units": "barspoon",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "_id": "hemingway-special",
+    "name": "Hemingway Special",
+    "instructions": "Pour all ingredients into a shaker with ice. Shake well and strain into a large cocktail glass.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Ernest Hemingway, who stayed in Cuba, tried the Floridita's signature drink, the Floridita Daiquiri, and said \"That's good but I prefer it without sugar and double rum,\" which became a cocktail now known as the Hemingway Daiquiri or the Papa Doble. This recipe was later modified further, adding grapefruit juice to the mix, at which point the drink was dubbed the \"Hemingway Special\".",
+    "source": "https://iba-world.com/hemingway-special/",
+    "garnish": null,
+    "abv": 17.72,
+    "tags": [
+        "Contemporary Classics",
+        "IBA Cocktail"
+    ],
+    "glass": "Coupe",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///hemingway-special.webp",
+            "sort": 1,
+            "placeholder_hash": "MggGFwKFWHdUhnmAl5d2WIh3p/B5B44E",
+            "copyright": "Liquor.com / Tim Nusog"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "dark-rum",
+            "name": "Dark Rum",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "grapefruit-juice",
+            "name": "Grapefruit juice",
+            "sort": 2,
+            "amount": 40,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "maraschino",
+            "name": "Maraschino",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 4,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

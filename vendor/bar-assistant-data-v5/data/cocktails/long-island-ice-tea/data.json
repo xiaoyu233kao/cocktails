@@ -1,0 +1,127 @@
+{
+    "_id": "long-island-ice-tea",
+    "name": "Long Island Ice Tea",
+    "instructions": "Add all ingredients into a highball glass filled with ice.\nStir gently.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The cocktail has been criticized for its large number of ingredients, making it cumbersome to prepare in busy bars. It is considered a favorite of university students in the United States and it has thus garnered negative connotations as \"an act of mixological atrocity favored by college students and wastrels\", in the words of one food critic.",
+    "source": "https://iba-world.com/long-island-ice-tea/",
+    "garnish": "Lemon Slice (Optional)",
+    "abv": 21.82,
+    "tags": [
+        "Contemporary Classics",
+        "IBA Cocktail"
+    ],
+    "glass": "Highball",
+    "method": "Build",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///long-island-ice-tea.webp",
+            "sort": 1,
+            "placeholder_hash": "TBgGHwQF64asp3mnbmW6d4iJuYA4CWUD",
+            "copyright": "Kitchen Stories"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "vodka",
+            "name": "Vodka",
+            "sort": 1,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "tequila-blanco",
+            "name": "Tequila Blanco",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "light-rum",
+            "name": "Light Rum",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 4,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cointreau",
+            "name": "Cointreau",
+            "sort": 5,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 6,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 7,
+            "amount": 20,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cola",
+            "name": "Cola",
+            "sort": 8,
+            "amount": 1,
+            "units": "topup",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

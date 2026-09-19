@@ -1,0 +1,127 @@
+{
+    "_id": "vieille-place",
+    "name": "Vieille Place",
+    "instructions": "Stir all ingredients with ice and strain into an ice-filled glass",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A twist on the classic Vieux Carré,  the Vieille Place is a balanced, yet spirit-forward, bittersweet aperitif. Created by Robbie Neskens at Bruut in Hassselt , Belgium, this drink incorporates Bourbon, Suze, Cognac, Dry Vermouth, Simple Syrup, a dash of Amaretto, aswell as both a dash of Peychard & Angostura Bitters.",
+    "source": "https://cocktailsdistilled.com/recipe/vieille-place/",
+    "garnish": "Lemon twist",
+    "abv": 23.46,
+    "tags": [
+        "Sweet",
+        "Bitter"
+    ],
+    "glass": "Lowball",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///vieille-place.webp",
+            "sort": 1,
+            "placeholder_hash": "2zkOHwh/aoRzhod3mXmYh3iIhxApGHAB",
+            "copyright": "Reddit"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "bourbon-whiskey",
+            "name": "Bourbon Whiskey",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "brandy",
+            "name": "Brandy",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "suze",
+            "name": "Suze",
+            "sort": 3,
+            "amount": 20,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "dry-vermouth",
+            "name": "Dry Vermouth",
+            "sort": 4,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "amaretto",
+            "name": "Amaretto",
+            "sort": 5,
+            "amount": 5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 6,
+            "amount": 10,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "angostura-aromatic-bitters",
+            "name": "Angostura aromatic bitters",
+            "sort": 7,
+            "amount": 1,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "peychauds-bitters",
+            "name": "Peychauds Bitters",
+            "sort": 8,
+            "amount": 1,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

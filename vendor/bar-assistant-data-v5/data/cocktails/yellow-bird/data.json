@@ -1,0 +1,87 @@
+{
+    "_id": "yellow-bird",
+    "name": "Yellow Bird",
+    "instructions": "Pour all ingredients into a cocktail shaker, shake well with ice, strain into chilled cocktail glass.",
+    "created_at": null,
+    "updated_at": null,
+    "description": null,
+    "source": "https://iba-world.com/yellow-bird/",
+    "garnish": null,
+    "abv": 25.97,
+    "tags": [
+        "IBA Cocktail",
+        "New Era Drinks"
+    ],
+    "glass": "Coupe",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///yellow-bird.webp",
+            "sort": 1,
+            "placeholder_hash": "GOoJLwJViHiHiXhqigaXuGeFavY2CpMC",
+            "copyright": "Cooking to Entertain"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "light-rum",
+            "name": "Light Rum",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "galliano",
+            "name": "Galliano",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": [
+                {
+                    "_id": "drambuie",
+                    "name": "Drambuie",
+                    "amount": null,
+                    "units": null,
+                    "amount_max": null
+                }
+            ]
+        },
+        {
+            "_id": "triple-sec",
+            "name": "Triple Sec",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 4,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

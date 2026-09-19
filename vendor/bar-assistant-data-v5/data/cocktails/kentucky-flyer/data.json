@@ -1,0 +1,66 @@
+{
+    "_id": "kentucky-flyer",
+    "name": "Kentucky Flyer",
+    "instructions": "1. Add the rye whiskey, maraschino liqueur and lemon juice to a shaker with ice and shake until well-chilled.\n2. Strain into a chilled cocktail glass or coupe.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Created by San Francisco bartender Sierra Zimei, the Kentucky Flyer is a variation on the classic Aviation cocktail that subs rye whiskey for gin.",
+    "source": "https://www.liquor.com/recipes/kentucky-flyer/",
+    "garnish": "Garnish with 2 brandied cherries and a mint sprig speared on a pick.",
+    "abv": 25.6,
+    "tags": [
+        "Sour"
+    ],
+    "glass": "Coupe",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///kentucky-flyer.webp",
+            "sort": 0,
+            "placeholder_hash": "JfgFFwIdX5UFjXhJa2g/m4Z7aMA5BZoB",
+            "copyright": "Liquor.com"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "rye-whiskey",
+            "name": "Rye whiskey",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "maraschino",
+            "name": "Maraschino",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

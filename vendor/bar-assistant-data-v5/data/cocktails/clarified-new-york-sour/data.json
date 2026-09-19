@@ -1,0 +1,90 @@
+{
+    "_id": "clarified-new-york-sour",
+    "name": "Clarified New York Sour",
+    "instructions": "1. Combine the bourbon, lemon, and simple syrup and pour over the milk in a glass container.\n2. Let sit for 30 minutes, allowing the milk to curdle.\n3. Strain the milk mixture through a coffee filter.\n4. If it’s not clear, re-pour through the same filter.\n5. To serve, pour the mixture over a large ice cube in a glass.\n6. Float with red wine.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "This clarified take on the New York Sour achieves a silky mouthfeel and a softened acidity, making for an easy-drinking sipper. \"I’m always looking for ways to use fun techniques to make twists on classic cocktails,\" says Prohibition bar manager Jim McCourt. \"I also like the presentation of the contrasting colors.\"",
+    "source": "https://imbibemagazine.com/recipe/clarified-new-york-sour/",
+    "garnish": null,
+    "abv": 15.94,
+    "tags": [
+        "Clarified"
+    ],
+    "glass": "Lowball",
+    "method": "Build",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///clarified-new-york-sour.webp",
+            "sort": 1,
+            "placeholder_hash": "WBiODQIPY5ahZnCnWM/AwGUJDw+Ih4d4iA",
+            "copyright": "Imbibe Magazine | Andrew Cebulka"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "bourbon-whiskey",
+            "name": "Bourbon Whiskey",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "milk",
+            "name": "Milk",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 4,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "red-wine",
+            "name": "Red wine",
+            "sort": 5,
+            "amount": 1,
+            "units": "barspoon",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

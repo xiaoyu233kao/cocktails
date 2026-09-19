@@ -1,0 +1,90 @@
+{
+    "_id": "caribbean-parachute",
+    "name": "Caribbean Parachute",
+    "instructions": "1. Add all of the ingredients except tonic water to a shaker with no ice.\n2. Shake to combine, then add ice and shake well until chilled and foamy.\n3. Add chilled tonic water to an empty Collins glass, then strain the cocktail into the tonic until the top of the drink is half an inch below the rim.\n4. Wait for the foam to completely settle, then finish straining the remainder of the cocktail.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "This rum and tonic adds the building blocks of a Silver Fizz and the balance of a rich amaro, resulting in a beautifully textured highball.",
+    "source": "https://imbibemagazine.com/recipe/caribbean-parachute-rum-highball/",
+    "garnish": null,
+    "abv": 9.15,
+    "tags": [
+        "Summer"
+    ],
+    "glass": "Highball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///caribbean-parachute.webp",
+            "sort": 0,
+            "placeholder_hash": "NBkGHwKb4Hg5lZdGpnd2eId5R2evUPQK",
+            "copyright": "Imbibe Magazine"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "light-rum",
+            "name": "Light Rum",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "amaro-montenegro",
+            "name": "Amaro Montenegro",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 4,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "tonic",
+            "name": "Tonic",
+            "sort": 5,
+            "amount": 90,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

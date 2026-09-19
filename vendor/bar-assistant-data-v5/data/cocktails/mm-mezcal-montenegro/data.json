@@ -1,0 +1,54 @@
+{
+    "_id": "mm-mezcal-montenegro",
+    "name": "M&M Mezcal Montenegro",
+    "instructions": "1. Start by stirring all your ingredients together with ice in a mixing glass, ensuring they're well combined\n2. Aim to stir for about 10-15 seconds; this integrates everything smoothly without diluting the drink too much\n3. Carefully pour this mixture through a strainer into a glass filled with ice, ideally a single large ice block, to keep your drink cold longer with less dilution",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The M & M is a sophisticated cocktail that skillfully combines the deep, herbal flavors of Amaro with the smoky complexity of Mezcal. Served in a cocktail glass, this concoction is a testament to the art of blending contrasting spirits to create a harmony of flavors.\n\nIdeal for those who appreciate a drink with depth and character, the M & M offers a unique tasting experience that seamlessly melds the bitter nuances of Amaro with the rich, smoky notes of Mezcal. This cocktail is perfectly suited for sipping slowly on a relaxed evening, allowing the palate to explore the intricate dance between its bold ingredients.",
+    "source": "https://makemeacocktail.com/cocktail/9631/m-m",
+    "garnish": null,
+    "abv": 26.25,
+    "tags": [
+        "Classics"
+    ],
+    "glass": "Lowball",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///mm-mezcal-montenegro.webp",
+            "sort": 1,
+            "placeholder_hash": "pRgWFwSvaWeUeHijd4iGaJd2aIBaBacF",
+            "copyright": "Lizzie Munro / Broken Shaker"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "amaro-montenegro",
+            "name": "Amaro Montenegro",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "mezcal",
+            "name": "Mezcal",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

@@ -1,0 +1,90 @@
+{
+    "_id": "getaway-car",
+    "name": "Getaway Car",
+    "instructions": "1. Fill a shaker tin half-full with pebble ice.\n2. Add all ingredients and shake.\n3. Fill a Zombie mug half-full with pebble ice.\n4. Strain into the mug, and garnish with a lime wheel and a sprinkle of ancho powder.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Meaghan Dorman's take on the Jungle Bird cocktail recipe swaps in Ancho Reyes for Campari—alongside a kick of ancho chili powder.",
+    "source": "https://punchdrink.com/recipes/getaway-car/",
+    "garnish": "lime wheel and a sprinkle of ancho powder",
+    "abv": 14.22,
+    "tags": [
+        "Fruity"
+    ],
+    "glass": "Highball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///getaway-car.webp",
+            "sort": 1,
+            "placeholder_hash": "dPgNFwIEVGR4iIiJmIeId3h3J3wIQKUC",
+            "copyright": "Punch Staff | Lizzie Munro"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "dark-rum",
+            "name": "Dark Rum",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "preferably Appleton Reserve",
+            "substitutes": []
+        },
+        {
+            "_id": "pineapple-juice",
+            "name": "Pineapple juice",
+            "sort": 2,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "ancho-reyes",
+            "name": "Ancho Reyes",
+            "sort": 3,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 4,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 5,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

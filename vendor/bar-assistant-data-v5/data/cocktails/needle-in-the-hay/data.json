@@ -1,0 +1,79 @@
+{
+    "_id": "needle-in-the-hay",
+    "name": "Needle in the Hay",
+    "instructions": "1. Combine the ingredients into your mixing glass\n2.  Stir for 20-30 seconds with ice\n3. Strain over fresh ice into an old fashioned glass",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The Needle in the Hay was created by Los Angeles-based mixologist Devon Tarby. She was a contributor to the well known cocktail book, Cocktail Codex (from the authors and owners of Death & Co). This Islay whisky cocktail is what you would imagine a Autumn cocktail to be - smoky, sweet maple flavours and undertones of apple from the brandy.",
+    "source": "https://stevethebartender.com.au/needle-in-the-hay-smoky-autumn-cocktail-recipe/",
+    "garnish": "Garnish with a twist of lemon",
+    "abv": 30.43,
+    "tags": [
+        "Smokey",
+        "Sweet"
+    ],
+    "glass": "Lowball",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///needle-in-the-hay.webp",
+            "sort": 1,
+            "placeholder_hash": "4igOHwTPdpWUfFalaGh1x4h3BxdbgLAI",
+            "copyright": "Steve The Bartender"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "islay-scotch-whiskey",
+            "name": "Islay Scotch Whiskey",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "apple-brandy",
+            "name": "Apple Brandy",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "maple-syrup",
+            "name": "Maple syrup",
+            "sort": 3,
+            "amount": 1,
+            "units": "barspoon",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "angostura-aromatic-bitters",
+            "name": "Angostura aromatic bitters",
+            "sort": 4,
+            "amount": 2,
+            "units": "dashes",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

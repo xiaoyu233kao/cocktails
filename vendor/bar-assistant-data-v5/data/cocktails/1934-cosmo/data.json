@@ -1,0 +1,66 @@
+{
+    "_id": "1934-cosmo",
+    "name": "1934 Cosmo",
+    "instructions": "1. Add all ingredients to a cocktail shaker\n2. Add ice and shake hard for 20 seconds\n3. Strain into a chilled coupe\n4. Garnish with an orange twist",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A simple sour can be so different with the right base spirit. The 1934 Cosmo hits its stride with a complex and floral gin. Grab a bottle whose botanicals include multiple berries and flowers. We'd suggest Monkey 47.",
+    "source": "https://www.liberandcompany.com/collections/recipes/products/1934-cosmo",
+    "garnish": "orange twist",
+    "abv": 21.33,
+    "tags": [
+        "Fruity"
+    ],
+    "glass": "Coupe",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///1934-cosmo.webp",
+            "sort": 1,
+            "placeholder_hash": "VEiaFQQPinivh4h3dghvV/AVCgpZWXeXhw",
+            "copyright": "LiberAndCo | Caer Maiko Ferguson"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "raspberry-syrup",
+            "name": "Raspberry Syrup",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

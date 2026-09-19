@@ -1,0 +1,88 @@
+{
+    "_id": "jimmy-dean",
+    "name": "Jimmy Dean",
+    "instructions": "Fill a shaker with ice. Bruise 3 mint leaves between your fingers, then add them to the shaker. Add bourbon, Bärenjäger and orange juice. Shake and strain into a chilled, ice-filled Collins glass. Top with brewed tea, then garnish.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "This brunch cocktail plays off the classic southern flavors of sweet tea and mint, and adds orange juice, bourbon and honey liqueur to the mix.",
+    "source": "https://imbibemagazine.com/recipe/jimmy-dean-cocktail-recipe/",
+    "garnish": "mint sprig",
+    "abv": 9.93,
+    "tags": [],
+    "glass": "Highball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///jimmy-dean.webp",
+            "sort": 0,
+            "placeholder_hash": "aBkONwJXeoeQZHZ5dbaVeYeVqZB1ClYF",
+            "copyright": "Imbibe Magazine | Beall & Thomas"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "mint",
+            "name": "Mint",
+            "sort": 1,
+            "amount": 3,
+            "units": "leaves",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "bourbon-whiskey",
+            "name": "Bourbon Whiskey",
+            "sort": 2,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "honey-liqueur",
+            "name": "Honey liqueur",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orange-juice",
+            "name": "Orange juice",
+            "sort": 4,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "tea",
+            "name": "Tea",
+            "sort": 5,
+            "amount": 120,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "cold black tea",
+            "substitutes": []
+        }
+    ]
+}

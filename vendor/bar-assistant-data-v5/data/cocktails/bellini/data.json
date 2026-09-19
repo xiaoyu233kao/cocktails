@@ -1,0 +1,62 @@
+{
+    "_id": "bellini",
+    "name": "Bellini",
+    "instructions": "1. Pour peach puree into the mixing glass with ice\n2. Add the Prosecco wine.\n3. Stir gently and pour in a chilled flute glass.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The Bellini was invented sometime between 1934 and 1948 by Giuseppe Cipriani, founder of Harry's Bar in Venice, Italy. He named the drink the Bellini because its unique pink color reminded him of the toga of a saint in a painting by 15th-century Venetian artist Giovanni Bellini.\n\nVariations:\n\n**PUCCINI** – Fresh Mandarin Orange Juice;\n\n**ROSSINI** – Fresh Strawberry Puree;\n\n**TINTORETTO** – Fresh Pomegranate Juice.",
+    "source": "https://iba-world.com/bellini/",
+    "garnish": "N/A",
+    "abv": 6.11,
+    "tags": [
+        "Contemporary Classics",
+        "IBA Cocktail",
+        "Fruity"
+    ],
+    "glass": "Champagne",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///bellini-1.webp",
+            "sort": 1,
+            "placeholder_hash": "LjkKHwhiVWN8V3WfhpmnaYd6lyQEaFMA",
+            "copyright": "Olive & Mango"
+        },
+        {
+            "uri": "file:///bellini-2.webp",
+            "sort": 2,
+            "placeholder_hash": "cjkGHwL8I552aZd7hbloiXhqWdAXBH8A",
+            "copyright": "OliveMagazine"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "prosecco",
+            "name": "Prosecco",
+            "sort": 1,
+            "amount": 100,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "white-peach-puree",
+            "name": "White Peach Puree",
+            "sort": 2,
+            "amount": 50,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

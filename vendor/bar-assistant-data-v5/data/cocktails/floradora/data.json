@@ -1,0 +1,88 @@
+{
+    "_id": "floradora",
+    "name": "Floradora",
+    "instructions": "1. Short shake all ingredients except soda water\n2. Strain into a highball glass filled with ice\n3. Top with soda water and stir.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A little spice and a burst of berry flavor - this highball is perfect for a sunny afternoon.",
+    "source": "https://www.liberandcompany.com/collections/fiery-ginger-syrup-recipes/products/floradora",
+    "garnish": "lime wedge or fresh raspberries",
+    "abv": 8.35,
+    "tags": [],
+    "glass": "Highball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///floradora.webp",
+            "sort": 0,
+            "placeholder_hash": "EkkGDwS2W3xgQon3XpbVi1aMxriwB0IF",
+            "copyright": "LiberAndCo"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "raspberry-syrup",
+            "name": "Raspberry Syrup",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "ginger-syrup",
+            "name": "Ginger syrup",
+            "sort": 4,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "club-soda",
+            "name": "Club soda",
+            "sort": 5,
+            "amount": 90,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

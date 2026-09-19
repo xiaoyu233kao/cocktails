@@ -1,0 +1,90 @@
+{
+    "_id": "ciderhouse-mule",
+    "name": "Ciderhouse Mule",
+    "instructions": "1. Add all of the ingredients, except the sparkling rosé, to a shaker with ice.\n2. Shake until chilled.\n3. Add the sparkling rosé to the shaker before straining the cocktail into a glass filled with ice.\n4. Garnish.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Taking the Moscow Mule into spritz territory, Tim Sweeney, head bartender of Pebble Bar in New York City, combines vodka, lime, and ginger syrup with a touch of raspberry liqueur and sparkling rosé.",
+    "source": "https://imbibemagazine.com/recipe/ciderhouse-mule-from-pebble-bar/",
+    "garnish": "Lemon wheel",
+    "abv": 11.54,
+    "tags": [
+        "Mule"
+    ],
+    "glass": "Lowball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///ciderhouse-mule.webp",
+            "sort": 1,
+            "placeholder_hash": "UhgKFwQSm3ZwioaVW6d5Z1aYNwAnBYAE",
+            "copyright": "Imbibe Magazine | Max Flatow/@mflatowphoto"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "vodka",
+            "name": "Vodka",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "chambord",
+            "name": "Chambord",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "ginger-syrup",
+            "name": "Ginger syrup",
+            "sort": 4,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "prosecco",
+            "name": "Prosecco",
+            "sort": 5,
+            "amount": 75,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

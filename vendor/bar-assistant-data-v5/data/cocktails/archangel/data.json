@@ -1,0 +1,66 @@
+{
+    "_id": "archangel",
+    "name": "Archangel",
+    "instructions": "1. In a mixing glass, bruise cucumber slices with a muddler.\n2. Add gin, Aperol, ice and stir until chilled.\n3. Strain into a chilled coupe or cocktail glass.\n4. Garnish with a lemon peel.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A play on a Pink Gin, the Archangel cocktail recipe combines the aromatic subtlety of cucumbers, the orange of Aperol and the strength of gin.",
+    "source": "https://punchdrink.com/recipes/archangel/",
+    "garnish": "lemon peel",
+    "abv": 27.29,
+    "tags": [
+        "Bitter"
+    ],
+    "glass": "Wine",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///archangel.webp",
+            "sort": 0,
+            "placeholder_hash": "XAgSDwJglZqHaJiHh4iHaIh4t/AWDXwC",
+            "copyright": "Punch Staff | Daniel Krieger"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 67.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "aperol",
+            "name": "Aperol",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cucumber",
+            "name": "Cucumber",
+            "sort": 3,
+            "amount": 2,
+            "units": "slice",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

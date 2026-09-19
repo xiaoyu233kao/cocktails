@@ -1,0 +1,76 @@
+{
+    "_id": "lone-ranger",
+    "name": "Lone Ranger",
+    "instructions": "1. Add the tequila, lemon juice and simple syrup to a cocktail shaker with ice and shake until cold.\n2. Add the sparkling wine to the cocktail shaker.\n3. Strain over fresh ice into a Collins glass.\n4. Garnish with a lemon twist.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The Lone Ranger is a French 75 cocktail made with tequila in place of gin or Cognac and brut rosé sparkling wine.",
+    "source": "https://punchdrink.com/recipes/lone-ranger/",
+    "garnish": "lemon twist",
+    "abv": 15.04,
+    "tags": [],
+    "glass": "Highball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///lone-ranger.webp",
+            "sort": 0,
+            "placeholder_hash": "sxgKJwToZ2ePhXl1ebZoiHeId1B4B4QG",
+            "copyright": "Punch Staff"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "tequila-blanco",
+            "name": "Tequila Blanco",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "rose-wine",
+            "name": "Rosé wine",
+            "sort": 4,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "Sparkling",
+            "substitutes": []
+        }
+    ]
+}

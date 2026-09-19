@@ -1,0 +1,75 @@
+{
+    "_id": "negroni",
+    "name": "Negroni",
+    "instructions": "Pour all ingredients directly into a chilled old fashioned glass filled with ice, Stir gently.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A traditionally made Negroni is stirred, not shaken; it is built over ice in an old-fashioned or rocks glass and garnished with a slice of orange. Outside of Italy, an orange peel is often used in place of an orange slice.",
+    "source": "https://iba-world.com/negroni/",
+    "garnish": "Garnish with a half orange slice.",
+    "abv": 25.15,
+    "tags": [
+        "IBA Cocktail",
+        "The Unforgettables",
+        "Negroni",
+        "Bitter"
+    ],
+    "glass": "Lowball",
+    "method": "Build",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///negroni-1.webp",
+            "sort": 1,
+            "placeholder_hash": "4jgGHwa8FpkhYKvMl0vHaSR3TIcHNnIA",
+            "copyright": "Kitchen Swagger"
+        },
+        {
+            "uri": "file:///negroni-2.webp",
+            "sort": 2,
+            "placeholder_hash": "3hcGFwbpvqh/l4ibc3eqo2eI1mIJLZkA",
+            "copyright": "Reddit"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "campari",
+            "name": "Campari",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "sweet-vermouth",
+            "name": "Sweet Vermouth",
+            "sort": 3,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

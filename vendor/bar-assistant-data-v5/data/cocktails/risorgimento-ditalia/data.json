@@ -1,0 +1,90 @@
+{
+    "_id": "risorgimento-ditalia",
+    "name": "Risorgimento d’Italia",
+    "instructions": "1. Combine the first four ingredients in a Collins glass, then stir and add spear ice (or cubes).\n2. Using an atomizer, spritz the absinthe over the top of the drink.\n3. Garnish with an orange slice sprinkled with salt.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A more spiritous twist on the Garibaldi cocktail recipe, this drink sees additions of gin and absinthe to the orange juice and Campari.",
+    "source": "https://punchdrink.com/recipes/risorgimento-ditalia/",
+    "garnish": "orange slice sprinkled with salt",
+    "abv": 11.09,
+    "tags": [
+        "Citrusy"
+    ],
+    "glass": "Highball",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///risorgimento-ditalia.webp",
+            "sort": 1,
+            "placeholder_hash": "2RgGLwYIi2deppdzSleaamiYJpA1AmUC",
+            "copyright": "Punch Staff"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 1.25,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "preferably The Botanist",
+            "substitutes": []
+        },
+        {
+            "_id": "campari",
+            "name": "Campari",
+            "sort": 2,
+            "amount": 0.75,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orange-juice",
+            "name": "Orange juice",
+            "sort": 3,
+            "amount": 3,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "grenadine-syrup",
+            "name": "Grenadine Syrup",
+            "sort": 4,
+            "amount": 1,
+            "units": "barspoon",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "absinthe",
+            "name": "Absinthe",
+            "sort": 5,
+            "amount": 2,
+            "units": "dashes",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "To rinse",
+            "substitutes": []
+        }
+    ]
+}

@@ -1,0 +1,95 @@
+{
+    "_id": "ume-paloma",
+    "name": "Ume Paloma",
+    "instructions": "1. If using, rim a highball glass with sea salt.\n2. Fill the glass with ice cubes.\n3. Add the club soda first, then the other ingredients.\n4. Stir gently to blend.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The Ume Paloma is a highball cocktail recipe combining blanco tequila, umeshu, pink grapefruit juice, lime juice and club soda.",
+    "source": "https://punchdrink.com/recipes/ume-paloma/",
+    "garnish": "sea salt rim (optional)",
+    "abv": 6.93,
+    "tags": [
+        "Refreshing",
+        "Fruity",
+        "Citrusy",
+        "Sour",
+        "Summer",
+        "Aperitivo"
+    ],
+    "glass": null,
+    "method": "Blend",
+    "utensils": [],
+    "parent_cocktail_id": "paloma",
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///ume-paloma.webp",
+            "sort": 1,
+            "placeholder_hash": "qzgKDwInhmn3lnaxlmh6ZoiIxwF5L4AF",
+            "copyright": "Punch Staff | Lizzie Munro"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "club-soda",
+            "name": "Club soda",
+            "sort": 1,
+            "amount": 3,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "tequila-blanco",
+            "name": "Tequila Blanco",
+            "sort": 2,
+            "amount": 1,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "such as Olmeca Altos Plata",
+            "substitutes": []
+        },
+        {
+            "_id": "grapefruit-juice",
+            "name": "Grapefruit juice",
+            "sort": 3,
+            "amount": 1,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "umeshu",
+            "name": "Umeshu",
+            "sort": 4,
+            "amount": 0.75,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "such as Choya Excellent",
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 5,
+            "amount": 1,
+            "units": "barspoon",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

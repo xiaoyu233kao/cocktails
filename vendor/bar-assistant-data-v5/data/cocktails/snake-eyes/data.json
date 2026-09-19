@@ -1,0 +1,90 @@
+{
+    "_id": "snake-eyes",
+    "name": "Snake Eyes",
+    "instructions": "1. Salt the rim of a large rocks glass.\n2. Combine all ingredients in a cocktail shaker, add ice, then shake until chilled.\n3. Fine strain into the large rocks glass filled with ice.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Inspired by the Caribbean combo of blended Scotch and coconut, this cocktail recipe swaps in smoky mezcal in lieu of whisky.",
+    "source": "https://punchdrink.com/recipes/snake-eyes/",
+    "garnish": "salt rim",
+    "abv": 10.87,
+    "tags": [
+        "Smokey"
+    ],
+    "glass": "Lowball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///snake-eyes.webp",
+            "sort": 0,
+            "placeholder_hash": "HwgWFwJJeIZwdod0e3iYWIh4iGBXB3cE",
+            "copyright": "Punch Staff"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "mezcal",
+            "name": "Mezcal",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "preferably Agave de Cortes Espadin",
+            "substitutes": []
+        },
+        {
+            "_id": "coconut-water",
+            "name": "Coconut water",
+            "sort": 2,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 3,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 4,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "creme-de-banane",
+            "name": "Crème de banane",
+            "sort": 5,
+            "amount": 1,
+            "units": "barspoon",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "preferably Tempus Fugit",
+            "substitutes": []
+        }
+    ]
+}

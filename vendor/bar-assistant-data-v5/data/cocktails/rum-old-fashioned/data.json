@@ -1,0 +1,66 @@
+{
+    "_id": "rum-old-fashioned",
+    "name": "Rum Old Fashioned",
+    "instructions": "Add all ingredients to a stirring glass, fill with ice, stir and strain.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The oldest recipe for this cocktail appeared in cocktail guides around 1860 and called for it to be made with gin. A couple of decades later it was made with bourbon, apparently by James E. Pepper, bartender and esteemed bourbon aristocrat, at the Pendennis Club in Louisville, Kentucky. You'll love how delicious the Old Fashioned tastes when made with Reserva Exclusiva. It almost seems like the foundation of the Old Fashioned was laid out with this rum in mind. An incredible mix of rich, bitter and citrusy makes our version of rum a choice for all fans of the old fashion.",
+    "source": "https://rondiplomatico.com/cocktail-list/old-fashioned/",
+    "garnish": "Orange peel",
+    "abv": 30.3,
+    "tags": [
+        "Old Fashioned"
+    ],
+    "glass": "Lowball",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///rum-old-fashioned.webp",
+            "sort": 1,
+            "placeholder_hash": "3QgOFwKTZYmAh3eXh3hol3hodwUoJ3AF",
+            "copyright": ""
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "dark-rum",
+            "name": "Dark Rum",
+            "sort": 1,
+            "amount": 50,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 2,
+            "amount": 5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "angostura-aromatic-bitters",
+            "name": "Angostura aromatic bitters",
+            "sort": 3,
+            "amount": 3,
+            "units": "dashes",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

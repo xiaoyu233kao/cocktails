@@ -1,0 +1,76 @@
+{
+    "_id": "coffee-cigarettes",
+    "name": "Coffee & Cigarettes",
+    "instructions": "1. Combine the ingredients into your mixing glass\n2. Stir with ice for 30-40 seconds\n3. Strain into a chilled stemmed cocktail glass",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The Coffee & Cigarettes cocktail was created by Thomas Waugh and featured in the Death & Co. cocktail book. This riff on a Manhattan / Rob Roy features an Islay Whisky which provides a rich smokiness that compliments the coffee & cacao notes.I highly recommend trying this one!",
+    "source": "https://stevethebartender.com.au/coffee-cigarettes-cocktail-recipe/",
+    "garnish": null,
+    "abv": 29.18,
+    "tags": [],
+    "glass": "Nick and Nora",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///coffee-cigarettes.webp",
+            "sort": 1,
+            "placeholder_hash": "VRgOFwKPdnesaYd4d4iIeHeI+IZ4T4gH",
+            "copyright": "Steve the Bartender"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "islay-scotch-whiskey",
+            "name": "Islay Scotch Whiskey",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "Caol Ila 12 yr",
+            "substitutes": []
+        },
+        {
+            "_id": "coffee-liqueur",
+            "name": "Coffee liqueur",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "sweet-vermouth",
+            "name": "Sweet Vermouth",
+            "sort": 3,
+            "amount": 1,
+            "units": "barspoon",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "Carpano Antica Formula",
+            "substitutes": []
+        },
+        {
+            "_id": "mole-bitters",
+            "name": "Mole Bitters",
+            "sort": 4,
+            "amount": 2,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

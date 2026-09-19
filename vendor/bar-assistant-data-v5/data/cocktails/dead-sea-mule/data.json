@@ -1,0 +1,76 @@
+{
+    "_id": "dead-sea-mule",
+    "name": "Dead Sea Mule",
+    "instructions": "1. Fill a Collins glass with ice, then add the mezcal, lime juice and grenadine.\n2. Top with the ginger beer and stir briefly and gently to combine.\n3. Garnish with the mint sprig and 2 skewered pieces of candied ginger.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A house-made pomegranate grenadine is the key to the Dead Sea Mule, a mezcal-laced twist on the classic Moscow Mule.",
+    "source": "https://www.liquor.com/recipes/dead-sea-mule/",
+    "garnish": null,
+    "abv": 8.31,
+    "tags": [],
+    "glass": null,
+    "method": "Build",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///dead-sea-mule.webp",
+            "sort": 1,
+            "placeholder_hash": "p0gKLw79R6kjmHaadpiHiHh5aGBYBoYE",
+            "copyright": "Liquor.com"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "mezcal",
+            "name": "Mezcal",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "freshly squeezed",
+            "substitutes": []
+        },
+        {
+            "_id": "grenadine-syrup",
+            "name": "Grenadine Syrup",
+            "sort": 3,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "ginger-beer",
+            "name": "Ginger beer",
+            "sort": 4,
+            "amount": 150,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "to top",
+            "substitutes": []
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "_id": "the-st-germain-spritz",
+    "name": "The St-Germain Spritz",
+    "instructions": "1. Combine ingredients in a Collins glass over ice.\n2. Stir.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The St-Germain Cocktail recipe is the classic spritz variation fueled by the iconic elderflower liqueur, Champagne and soda water.",
+    "source": "https://punchdrink.com/recipes/the-st-germain-cocktail/",
+    "garnish": "Garnish with a lemon twist.",
+    "abv": 8.18,
+    "tags": [
+        "Spritz",
+        "Floral"
+    ],
+    "glass": "Highball",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///the-st-germain-spritz.webp",
+            "sort": 1,
+            "placeholder_hash": "2DgGHwQLT5Z+eGeUSolHhol1eWBXCYQH",
+            "copyright": "Punch Staff"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "champagne",
+            "name": "Champagne",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "st-germain",
+            "name": "St-Germain",
+            "sort": 2,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "club-soda",
+            "name": "Club soda",
+            "sort": 3,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

@@ -1,0 +1,88 @@
+{
+    "_id": "fairy-sugar-momma",
+    "name": "Fairy Sugar Momma",
+    "instructions": "Shake ingredients",
+    "created_at": null,
+    "updated_at": null,
+    "description": "As much as I liked the hint of anise in a corpse reviver I never was one to eat a black jelly bean on its own. But I think this drink works so well because all of the ingredients it’s brought together with are also bold and don't allow the absinthe to dominate the drink. It’s black jelly bean on a tropical vacation and it is tasty.",
+    "source": "https://www.reddit.com/r/cocktails/comments/12lv3c5/absinthe_anyone_made_a_fairy_sugar_momma_and_a/",
+    "garnish": null,
+    "abv": 9.88,
+    "tags": [],
+    "glass": "Nick and Nora",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///fairy-sugar-momma.webp",
+            "sort": 1,
+            "placeholder_hash": "UhgKDwI8end6d4ZQaXiJaImYVNUJdJYA",
+            "copyright": "Reddit"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "absinthe",
+            "name": "Absinthe",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orgeat-syrup",
+            "name": "Orgeat Syrup",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "campari",
+            "name": "Campari",
+            "sort": 4,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "pineapple-juice",
+            "name": "Pineapple juice",
+            "sort": 5,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

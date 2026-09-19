@@ -1,0 +1,126 @@
+{
+    "_id": "bahama-mama",
+    "name": "Bahama Mama",
+    "instructions": "1. Combine all ingredients in a mixing tin. Add 5 ice cubes and shake for 5 seconds.\n2. Strain into a Hurricane glass filled with crushed ice.\n3. Garnish with tropical fruit.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Tiki master Paul McGee’s recalibrated version of this classic cocktail recipe involves dialing down the proportions and sweetness.",
+    "source": "https://punchdrink.com/recipes/bahama-mama/",
+    "garnish": "tropical fruit",
+    "abv": 10.56,
+    "tags": [
+        "Fruity"
+    ],
+    "glass": "Tiki",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": 1963,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///bahama-mama.webp",
+            "sort": 1,
+            "placeholder_hash": "ZvgJRwzaVXmPZ4d2mJdmiHeIeIBICHYF",
+            "copyright": "Punch Staff | Lizzie Munro"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "jamaican-rum",
+            "name": "Jamaican Rum",
+            "sort": 1,
+            "amount": 1,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "preferably Plantation Xaymaca",
+            "substitutes": []
+        },
+        {
+            "_id": "overproof-rum",
+            "name": "Overproof Rum",
+            "sort": 2,
+            "amount": 0.75,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "preferably Rum-Bar Overproof White Jamaican Rum",
+            "substitutes": []
+        },
+        {
+            "_id": "pineapple-juice",
+            "name": "Pineapple juice",
+            "sort": 3,
+            "amount": 1,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 4,
+            "amount": 1,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "coconut-syrup",
+            "name": "Coconut Syrup",
+            "sort": 5,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "grenadine-syrup",
+            "name": "Grenadine Syrup",
+            "sort": 6,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orange-curacao",
+            "name": "Orange Curaçao",
+            "sort": 7,
+            "amount": 0.25,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "preferably Pierre Ferrand Dry Curacao",
+            "substitutes": []
+        },
+        {
+            "_id": "creme-de-banane",
+            "name": "Crème de banane",
+            "sort": 8,
+            "amount": 7.5,
+            "units": "barspoon",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "preferably Giffard Banane du Bresil",
+            "substitutes": []
+        }
+    ]
+}

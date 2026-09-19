@@ -1,0 +1,101 @@
+{
+    "_id": "hugo-spritz",
+    "name": "Hugo Spritz",
+    "instructions": "Combine everything in wine glass with ice",
+    "created_at": null,
+    "updated_at": null,
+    "description": "As reported by the magazines Mixology and Der Spiegel, the Hugo was conceived in 2005 by Naturns bar manager Roland Gruber (aka A.K.) at San Zeno Bar, as an alternative to Spritz Veneziano, and quickly spread beyond the borders of South Tyrol. Initially, the recipe provided for the use of lemon balm syrup, then in practice replaced by elderflower syrup, more easily available.",
+    "source": "https://en.wikipedia.org/wiki/Hugo_(cocktail)?useskin=vector",
+    "garnish": "Mint sprig and lime wedge",
+    "abv": 11.06,
+    "tags": [
+        "Wine",
+        "Spritz",
+        "Summer"
+    ],
+    "glass": "Wine",
+    "method": "Build",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///hugo-spritz-1.webp",
+            "sort": 1,
+            "placeholder_hash": "8ugJFwK8fonFg2iNZPiGltN5VYAUncAP",
+            "copyright": "sipandfeast"
+        },
+        {
+            "uri": "file:///hugo-spritz-2.webp",
+            "sort": 2,
+            "placeholder_hash": "kAgKHwAMiMeJdoaDeniIeIeHWIAHgFII",
+            "copyright": "Liquor.com / Tim Nusog"
+        },
+        {
+            "uri": "file:///hugo-spritz-3.webp",
+            "sort": 3,
+            "placeholder_hash": "efgFDwLCaKmammavdagmZneopGIH45MP",
+            "copyright": "liveeatlearn"
+        },
+        {
+            "uri": "file:///hugo-spritz-4.webp",
+            "sort": 4,
+            "placeholder_hash": "yvcJDwIIuGd6dXl2iGeYiHeGl/CI94QJ",
+            "copyright": "Cocktailclub"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "prosecco",
+            "name": "Prosecco",
+            "sort": 1,
+            "amount": 90,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": [
+                {
+                    "_id": "champagne",
+                    "name": "Champagne",
+                    "amount": null,
+                    "units": null,
+                    "amount_max": null
+                },
+                {
+                    "_id": "white-wine",
+                    "name": "White wine",
+                    "amount": null,
+                    "units": null,
+                    "amount_max": null
+                }
+            ]
+        },
+        {
+            "_id": "st-germain",
+            "name": "St-Germain",
+            "sort": 2,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "club-soda",
+            "name": "Club soda",
+            "sort": 3,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

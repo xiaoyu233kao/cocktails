@@ -1,0 +1,64 @@
+{
+    "_id": "elder-fashion-gin",
+    "name": "Elder Fashion (Gin)",
+    "instructions": "Stir everything with ice, strain to glass.",
+    "created_at": null,
+    "updated_at": null,
+    "description": null,
+    "source": "https://www.reddit.com/r/cocktails/comments/10p34wp/elder_fashion/",
+    "garnish": null,
+    "abv": 30,
+    "tags": [],
+    "glass": "Lowball",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///elder-fashion-gin.webp",
+            "sort": 1,
+            "placeholder_hash": "UQgWDwBZd4dwd4iKeWeIeHeJdxBJCGEF",
+            "copyright": "Reddit"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "st-germain",
+            "name": "St-Germain",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orange-bitters",
+            "name": "Orange bitters",
+            "sort": 3,
+            "amount": 2,
+            "units": "dashes",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

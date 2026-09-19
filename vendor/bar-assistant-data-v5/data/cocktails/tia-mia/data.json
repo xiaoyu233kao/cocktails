@@ -1,0 +1,88 @@
+{
+    "_id": "tia-mia",
+    "name": "Tia Mia",
+    "instructions": "1. Add all ingredients into a shaker with ice and shake until well chilled.\n2. Strain into a large rocks glass over crushed or pebbled ice.\n3. Garnish with lime wheel, mint sprig and orchid (optional).",
+    "created_at": null,
+    "updated_at": null,
+    "description": "This smoky twist on a Mai Tai from bartender Ivy Mix combines Jamaican rum with mezcal, orange curaçao, orgeat, and fresh lime juice.",
+    "source": "https://www.liquor.com/tia-mia-cocktail-recipe-7484869",
+    "garnish": null,
+    "abv": 21.33,
+    "tags": [],
+    "glass": "Lowball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///tia-mia.webp",
+            "sort": 0,
+            "placeholder_hash": "7SkGDwLQq2fVhmjRqkjO2Fx6bm6w9SMJ",
+            "copyright": "Liquor.com"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "mezcal",
+            "name": "Mezcal",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "jamaican-rum",
+            "name": "Jamaican Rum",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cointreau",
+            "name": "Cointreau",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orgeat-syrup",
+            "name": "Orgeat Syrup",
+            "sort": 4,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 5,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

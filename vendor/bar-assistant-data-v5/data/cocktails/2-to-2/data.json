@@ -1,0 +1,91 @@
+{
+    "_id": "2-to-2",
+    "name": "2 to 2",
+    "instructions": "1. Add all ingredients to a cocktail shaker\n2. Add ice and shake hard for 10 seconds\n3. Strain into a chilled glass\n4. Garnish with an orange peel",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A bittersweet cocktail that's more accessible than its ingredient list may suggest.",
+    "source": "https://www.liberandcompany.com/collections/recipes/products/2-to-2",
+    "garnish": "Orange peel",
+    "abv": 12.08,
+    "tags": [
+        "Citrusy",
+        "Summer"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///2-to-2.webp",
+            "sort": 1,
+            "placeholder_hash": "G0kKDwJAfYqIlaZrd2eZZ4iHODAKEqQA",
+            "copyright": "LiberAndCo | Juliet Beletic"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "aperol",
+            "name": "Aperol",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "absinthe",
+            "name": "Absinthe",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 3,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 4,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orange-bitters",
+            "name": "Orange bitters",
+            "sort": 5,
+            "amount": 1,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

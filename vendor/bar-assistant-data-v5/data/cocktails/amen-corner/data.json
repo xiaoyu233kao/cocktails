@@ -1,0 +1,79 @@
+{
+    "_id": "amen-corner",
+    "name": "Amen Corner",
+    "instructions": "1. Gently muddle the mint in a mixing tin.\n2. Combine remaining ingredients in the mixing tin and shake with ice.\n3. Strain into a chilled coupe.\n4. Garnish with brandied cherries.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Created by PDT alum Nick Brown, the bourbon-based cocktail recipe is a riff on the classic Paper Plane without the lemon juice.",
+    "source": "https://punchdrink.com/recipes/amen-corner/",
+    "garnish": "brandied cherries",
+    "abv": 25.01,
+    "tags": [
+        "Citrusy",
+        "Fruity"
+    ],
+    "glass": "Coupe",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///amen-corner.webp",
+            "sort": 0,
+            "placeholder_hash": "sSgKFwT4pFqXSpiVaKiIR6d2i7AHCHsB",
+            "copyright": "Punch Staff | Lizzie Munro"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "bourbon-whiskey",
+            "name": "Bourbon Whiskey",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "aperol",
+            "name": "Aperol",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "amaro-nonino",
+            "name": "Amaro Nonino",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "mint",
+            "name": "Mint",
+            "sort": 4,
+            "amount": 4,
+            "units": "leaves",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": 5,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

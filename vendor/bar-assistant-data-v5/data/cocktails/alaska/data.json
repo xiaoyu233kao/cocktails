@@ -1,0 +1,66 @@
+{
+    "_id": "alaska",
+    "name": "Alaska",
+    "instructions": "1. Combine all ingredients with ice in a mixing glass and stir at length, until the sides of the glass are frosty\n2. Strain into a cocktail glass and serve up",
+    "created_at": null,
+    "updated_at": null,
+    "description": "One of the great Chartreuse cocktails and a fundamental three-ingredient recipe",
+    "source": "https://tuxedono2.com/alaska-cocktail-recipe",
+    "garnish": "",
+    "abv": 33.28,
+    "tags": [
+        "Herbacious"
+    ],
+    "glass": "Nick and Nora",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///alaska.webp",
+            "sort": 1,
+            "placeholder_hash": "2DgaFwZnh4eAh3iJiGeXZ4eJd2QIh5YA",
+            "copyright": "Punch"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "yellow-chartreuse",
+            "name": "Yellow Chartreuse",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orange-bitters",
+            "name": "Orange bitters",
+            "sort": 3,
+            "amount": 1,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

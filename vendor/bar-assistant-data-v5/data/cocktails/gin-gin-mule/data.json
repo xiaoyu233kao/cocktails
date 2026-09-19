@@ -1,0 +1,90 @@
+{
+    "_id": "gin-gin-mule",
+    "name": "Gin-Gin Mule",
+    "instructions": "1. Combine the lime juice, syrup and mint in a mixing glass and muddle.\n2. Add the gin and ginger beer and ice and shake well.\n3. Strain into a highball glass filled with ice.\n4. Garnish with mint leaves",
+    "created_at": null,
+    "updated_at": null,
+    "description": "This cocktail recipe is essentially a Mojito (a rum drink) crossed with a Moscow Mule (a vodka drink), but made with gin.",
+    "source": "https://punchdrink.com/recipes/gin-gin-mule/",
+    "garnish": "mint leaves",
+    "abv": 11.29,
+    "tags": [
+        "Mule"
+    ],
+    "glass": "Highball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///gin-gin-mule.webp",
+            "sort": 0,
+            "placeholder_hash": "FwgKFwTN+0jKZojCd7dcSGRo+aJ1j4gK",
+            "copyright": "Punch Staff | Daniel Krieger"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 3,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "mint",
+            "name": "Mint",
+            "sort": 4,
+            "amount": 6,
+            "units": "sprigs",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "ginger-beer",
+            "name": "Ginger beer",
+            "sort": 5,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "_id": "eric-alperins-tuxedo-no-2",
+    "name": "Eric Alperin’s Tuxedo No. 2",
+    "instructions": "1. Combine all ingredients, except absinthe, in a mixing glass over cracked ice and stir until chilled.\n2. Strain into a chilled coupe rinsed or atomized with absinthe.\n3. Express lemon twist, then use as garnish. Finish off with a brandied cherry.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "This variation on the Tuxedo cocktail recipe—a sherry-spiked Martini—dates to the turn of the 20th century and swaps sherry for dry vermouth.",
+    "source": "https://punchdrink.com/recipes/eric-alperins-tuxedo-no-2/",
+    "garnish": "lemon twist and brandied cherry",
+    "abv": 28.16,
+    "tags": [],
+    "glass": "Coupe",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///eric-alperins-tuxedo-no-2.webp",
+            "sort": 0,
+            "placeholder_hash": "DAgKDwAniWhyiJZ5egenh2p8BYEDAkMA",
+            "copyright": "Punch Staff | Dylan + Jeni"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "dry-vermouth",
+            "name": "Dry Vermouth",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "maraschino",
+            "name": "Maraschino",
+            "sort": 3,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orange-bitters",
+            "name": "Orange bitters",
+            "sort": 4,
+            "amount": 2,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "_id": "neruda",
+    "name": "Neruda",
+    "instructions": "Shake the first 3 ingredients together, then pour into an ice-filled glass and top with chilled soda water. Garnish.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "This spirit-free highball skips the booze but not the flavor. “It’s a liquid play on a Sour Patch candy,” says Lore head bartender Marina Markovic. “It’s sweet, refreshing, and gives just enough kick.”",
+    "source": "https://imbibemagazine.com/recipe/neruda-a-spirit-free-highball/",
+    "garnish": "cherries",
+    "abv": 0,
+    "tags": [
+        "Virgin"
+    ],
+    "glass": "Highball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///neruda.webp",
+            "sort": 1,
+            "placeholder_hash": "rlgKHwr0lHqcaIerZmhleYh1qEBGCmQE",
+            "copyright": "Imbibe"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "grenadine-syrup",
+            "name": "Grenadine Syrup",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cinnamon-syrup",
+            "name": "Cinnamon syrup",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "club-soda",
+            "name": "Club soda",
+            "sort": 4,
+            "amount": 1,
+            "units": "topup",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

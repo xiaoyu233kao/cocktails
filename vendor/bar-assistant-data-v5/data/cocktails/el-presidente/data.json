@@ -1,0 +1,84 @@
+{
+    "_id": "el-presidente",
+    "name": "El Presidente",
+    "instructions": "Add all ingredients to a mixing glass with ice and stir until well-chilled. ",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The El Presidente earned its acclaim in Havana during the 1920s through the 1940s during the American Prohibition. It quickly became the preferred drink of the Cuban upper class.",
+    "source": "https://www.liquor.com/recipes/el-presidente/",
+    "garnish": null,
+    "abv": 26.17,
+    "tags": [],
+    "glass": "Cocktail",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///el-presidente.webp",
+            "sort": 1,
+            "placeholder_hash": "8ecFFwTnd2iHeXeIdvoniHd3RICWBHQJ",
+            "copyright": "A Couple Cooks"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "light-rum",
+            "name": "Light Rum",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "dry-vermouth",
+            "name": "Dry Vermouth",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": [
+                {
+                    "_id": "lillet-blanc",
+                    "name": "Lillet Blanc",
+                    "amount": null,
+                    "units": null,
+                    "amount_max": null
+                }
+            ]
+        },
+        {
+            "_id": "orange-curacao",
+            "name": "Orange Curaçao",
+            "sort": 3,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "grenadine-syrup",
+            "name": "Grenadine Syrup",
+            "sort": 4,
+            "amount": 1,
+            "units": "teaspoon",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

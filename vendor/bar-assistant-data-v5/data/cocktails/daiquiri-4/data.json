@@ -1,0 +1,78 @@
+{
+    "_id": "daiquiri-4",
+    "name": "Daiquiri #4",
+    "instructions": "1. Blend all ingredients with a scoop of crushed ice for 15 seconds.\n2. Pour into an 8 1/2-ounce coupe glass.\n3. Serve with straws.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A frozen Daiquiri cocktail recipe from Cafe La Trova, also known as the Hemingway Daiquiri, after the author who was known to drink them.",
+    "source": "https://punchdrink.com/recipes/daiquiri-4-daiquiri-floridita-hemingway-daiquiri/",
+    "garnish": null,
+    "abv": 21.06,
+    "tags": [
+        "Citrusy"
+    ],
+    "glass": "Coupe",
+    "method": "Blend",
+    "utensils": [],
+    "parent_cocktail_id": "daiquiri",
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///daiquiri-4.webp",
+            "sort": 1,
+            "placeholder_hash": "FugRFwIKiYiIhneMdjeoV4aEWQr3sUAM",
+            "copyright": "Punch Staff | Anthony J. Rayburn"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "light-rum",
+            "name": "Light Rum",
+            "sort": 1,
+            "amount": 1.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "maraschino",
+            "name": "Maraschino",
+            "sort": 2,
+            "amount": 0.25,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 3,
+            "amount": 0.75,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "sugar",
+            "name": "Sugar",
+            "sort": 4,
+            "amount": 0.5,
+            "units": "barspoon",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

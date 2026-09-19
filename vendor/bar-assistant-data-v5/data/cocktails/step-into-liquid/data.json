@@ -1,0 +1,69 @@
+{
+    "_id": "step-into-liquid",
+    "name": "Step Into Liquid",
+    "instructions": "Stir with ice, strain into an old fashioned glass with a large ice cube, and garnish with orange oil from a twist.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Two Wednesdays ago, I returned the online recipe flashcards for the Liholiho Yacht Club in San Francisco that I utilized for the Pineapple Dance, and I landed on the Step into Liquid. As for a time estimate, I was able to spot the drink on a 2019 menu on Yelp, and it was perhaps named after the 2003 surfing documentary. While I have had other pineapple rum-Campari drinks in the Negroni ballpark, like the Pineapple Kingston Negroni, Best Fronds, and Jungle Boulevard, they all called for regular sweet vermouth instead of Punt e Mes. Once prepared, the Step into Liquid offered up orange, dark rum, pineapple, and herbal aromas to the nose. Next, grape and caramel notes on the sip gave way to rum, pineapple, bitter orange, and herbal flavors on the swallow.",
+    "source": "https://cocktailvirgin.blogspot.com/2025/07/step-into-liquid.html",
+    "garnish": null,
+    "abv": 28.72,
+    "tags": [
+        "Aperitivo",
+        "Bitter",
+        "Tropical",
+        "Herbal"
+    ],
+    "glass": "Lowball",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///step-into-liquid.webp",
+            "sort": 1,
+            "placeholder_hash": "2okGPwivm1WClmpaiGi3Z0l5iAhZfNIA",
+            "copyright": "Cocktail Slut"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "pineapple-rum",
+            "name": "Pineapple Rum",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "campari",
+            "name": "Campari",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "punt-e-mes",
+            "name": "Punt e Mes",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

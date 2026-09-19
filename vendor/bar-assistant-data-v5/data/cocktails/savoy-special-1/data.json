@@ -1,0 +1,78 @@
+{
+    "_id": "savoy-special-1",
+    "name": "Savoy Special #1",
+    "instructions": "1. Add all ingredients to a mixing glass with ice\n2. Stir 20 seconds and strain into a chilled martini glass",
+    "created_at": null,
+    "updated_at": null,
+    "description": "For those who find martinis overly dry, this variation incorporates a hint of grenadine to craft a smoother and well-balanced flavor profile.",
+    "source": "https://www.liberandcompany.com/collections/recipes/products/savoy-special-1",
+    "garnish": "orange twist",
+    "abv": 25.53,
+    "tags": [
+        "Sweet"
+    ],
+    "glass": "Cocktail",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///savoy-special-1.webp",
+            "sort": 1,
+            "placeholder_hash": "BxgGDwIGyQR6llikaQa2FoaKd0DTB2cH",
+            "copyright": "LiberAndCo | Caer Maiko Ferguson"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": 0,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "dry-vermouth",
+            "name": "Dry Vermouth",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": 0,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "grenadine-syrup",
+            "name": "Grenadine Syrup",
+            "sort": 3,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": 0,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "absinthe",
+            "name": "Absinthe",
+            "sort": 4,
+            "amount": 1,
+            "units": "barspoon",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": 0,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

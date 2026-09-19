@@ -1,0 +1,91 @@
+{
+    "_id": "pasion",
+    "name": "Pasión",
+    "instructions": "1. Add all ingredients except the soda to shaker with ice\n2. Shake for 10 seconds\n3. Strain into Collins glass over large ice column\n4. Top with club soda",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Cocktail by @subtletiki. We mess around with highballs all year round, but especially in the summer months. This cocktail is a regular in the rotation. It features mezcal alongside Aperol, passionfruit syrup, and soda water. Super refreshing.",
+    "source": "https://www.liberandcompany.com/collections/recipes/products/pasion",
+    "garnish": "passionfruit",
+    "abv": 6.07,
+    "tags": [
+        "Tropical",
+        "Tiki"
+    ],
+    "glass": "Highball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///pasion.webp",
+            "sort": 1,
+            "placeholder_hash": "mwgSDwRzd4iliIeQd1d2iIiKmVAWBpYC",
+            "copyright": "LiberAndCo | @subtletiki"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "mezcal",
+            "name": "Mezcal",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "aperol",
+            "name": "Aperol",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "passionfruit-syrup",
+            "name": "Passionfruit syrup",
+            "sort": 4,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "club-soda",
+            "name": "Club soda",
+            "sort": 5,
+            "amount": 90,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

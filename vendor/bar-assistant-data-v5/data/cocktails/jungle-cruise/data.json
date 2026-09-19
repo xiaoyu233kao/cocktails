@@ -1,0 +1,106 @@
+{
+    "_id": "jungle-cruise",
+    "name": "Jungle Cruise",
+    "instructions": "1. Add all of the ingredients, except the sparkling wine, to a shaker.\n2. Break up 2 ice cubes with a rolling pin or muddler until they are in small pieces.\n3. Add ice to the shaker, close, and whip shake until you can no longer hear the clacking ice inside the shaker.\n4. Open the shaker and pour in the sparkling wine.\n5. Then pour directly into the glass.\n6. Garnish.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "This tropical highball with pineapple, gin, Campari, and bubbly is the delicious result of when the French 75 meets the Jungle Bird. \"In a way, the Jungle Cruise also embodies the Negroni's legacy, evolving from classic bitterness into a refreshing, modern delight,\" says Alec Kass, beverage director at New York City's Rosevale Kitchen & Cocktail Room. \"Adult jungle juice done right.\"",
+    "source": "https://imbibemagazine.com/recipe/jungle-cruise-tropical-highball/",
+    "garnish": "Dehydrated pineapple slice",
+    "abv": 12.56,
+    "tags": [
+        "Tropical",
+        "Fruity",
+        "Bitter",
+        "Fizz",
+        "Aperitivo"
+    ],
+    "glass": "Highball",
+    "method": "Muddle",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///jungle-cruise.webp",
+            "sort": 1,
+            "placeholder_hash": "ShgKDwJXaaWAeIeHabiIJ3d+VgA5BJQE",
+            "copyright": "Imbibe Magazine | Carver Road Hospitality"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "pineapple-juice",
+            "name": "Pineapple juice",
+            "sort": 1,
+            "amount": 1.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 2,
+            "amount": 1,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "campari",
+            "name": "Campari",
+            "sort": 3,
+            "amount": 1,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 4,
+            "amount": 0.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 5,
+            "amount": 0.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "prosecco",
+            "name": "Prosecco",
+            "sort": 6,
+            "amount": 1,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

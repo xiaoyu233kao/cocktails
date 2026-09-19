@@ -1,0 +1,88 @@
+{
+    "_id": "floppydisk",
+    "name": "Floppydisk",
+    "instructions": "Shake without soda",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The tricky thing when it comes to low ABV drinks is that the end result doesn’t always give that same feeling of a proper mixed drink. They can easily lack complexity and fall flat. On imbibes website they state this drink is “half the booze and double the flavor” which describes this drink perfectly.",
+    "source": "https://www.reddit.com/r/cocktails/comments/131qe97/made_a_low_abv_cocktail_floppy_disc_and_a_mix_of/",
+    "garnish": "Dried grapefruit",
+    "abv": 5.83,
+    "tags": [],
+    "glass": "Lowball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///floppydisk.webp",
+            "sort": 1,
+            "placeholder_hash": "mBgWHwh4d3hwh3iYiJeGh3eWRwFZJIAG",
+            "copyright": ""
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "grapefruit-juice",
+            "name": "Grapefruit juice",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cynar",
+            "name": "Cynar",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "dry-curacao",
+            "name": "Dry Curaçao",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "mezcal",
+            "name": "Mezcal",
+            "sort": 4,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "club-soda",
+            "name": "Club soda",
+            "sort": 5,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

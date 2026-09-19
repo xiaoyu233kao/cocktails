@@ -1,0 +1,88 @@
+{
+    "_id": "chauncey",
+    "name": "Chauncey",
+    "instructions": "1. Combine all ingredients in a mixing glass with ice.\n2. Stir until chilled.\n3. Strain into a chilled cocktail glass.\n4. Garnish with a lemon or orange twist.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Equal-parts gin, Cognac and rye whiskey with sweet vermouth and orange bitters make up this historic cocktail recipe.",
+    "source": "https://punchdrink.com/recipes/chauncey/",
+    "garnish": "lemon or orange twist",
+    "abv": 28.71,
+    "tags": [],
+    "glass": "Cocktail",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///chauncey.webp",
+            "sort": 0,
+            "placeholder_hash": "thgGFwLmFIWYi3mMgvwml4hmdbAnB2wC",
+            "copyright": "Punch Staff | Lizzie Munro"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cognac",
+            "name": "Cognac",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "rye-whiskey",
+            "name": "Rye whiskey",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "sweet-vermouth",
+            "name": "Sweet Vermouth",
+            "sort": 4,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orange-bitters",
+            "name": "Orange bitters",
+            "sort": 5,
+            "amount": 2,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

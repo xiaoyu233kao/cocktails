@@ -1,0 +1,115 @@
+{
+    "_id": "ghost-coast",
+    "name": "Ghost Coast",
+    "instructions": "1. Combine all ingredients over ice and shake\n2. Strain into a rocks glass over ice and garnish",
+    "created_at": null,
+    "updated_at": null,
+    "description": "An unforgettable tour of western America in cocktail form",
+    "source": "https://tuxedono2.com/ghost-coast-cocktail-recipe",
+    "garnish": "eucalyptus leaf and/or banana chip for garnish",
+    "abv": 13.71,
+    "tags": [
+        "Herbacious",
+        "Fruity"
+    ],
+    "glass": "Lowball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///ghost-coast.webp",
+            "sort": 1,
+            "placeholder_hash": "ySgKJwYJhph2eHdym3d3d4h4h2AnCHUC",
+            "copyright": "TuxedoNo2"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "tequila-reposado",
+            "name": "Tequila Reposado",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "tequila-blanco",
+            "name": "Tequila Blanco",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "creme-de-banane",
+            "name": "Crème de banane",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 4,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "honey-syrup",
+            "name": "Honey Syrup",
+            "sort": 5,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "maple-syrup",
+            "name": "Maple syrup",
+            "sort": 6,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "angostura-aromatic-bitters",
+            "name": "Angostura aromatic bitters",
+            "sort": 7,
+            "amount": 2,
+            "units": "dashes",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

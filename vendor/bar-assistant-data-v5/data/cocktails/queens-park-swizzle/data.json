@@ -1,0 +1,110 @@
+{
+    "_id": "queens-park-swizzle",
+    "name": "Queens Park Swizzle",
+    "instructions": "1. In a tall glass, gently muddle mint leaves with simple syrup and lime juice\n2. Add rum and top with crushed ice\n3. Swizzle briefly to mix until glass frosts\n4. Add more crushed ice, top with bitters and sprig of mint",
+    "created_at": null,
+    "updated_at": null,
+    "description": "An old school island drink with a beautiful presentation",
+    "source": "https://tuxedono2.com/queens-park-swizzle-cocktail-recipe",
+    "garnish": "mint sprig for garnish",
+    "abv": 19.46,
+    "tags": [
+        "Swizzle",
+        "Tiki",
+        "Sweet"
+    ],
+    "glass": "Highball",
+    "method": "Muddle",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///queens-park-swizzle-1.webp",
+            "sort": 1,
+            "placeholder_hash": "BwgKDwIGyGeHh3hzi4WHZ4h3d4BIGYkA",
+            "copyright": "TuxedoNo2"
+        },
+        {
+            "uri": "file:///queens-park-swizzle-2.webp",
+            "sort": 2,
+            "placeholder_hash": "EggOFwIauHZwdXmnbHWFaImHh7A5FosA",
+            "copyright": "Epicurious | Andy Sewell"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "dark-rum",
+            "name": "Dark Rum",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "mint",
+            "name": "Mint",
+            "sort": 4,
+            "amount": 5,
+            "units": "sprigs",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "angostura-aromatic-bitters",
+            "name": "Angostura aromatic bitters",
+            "sort": 5,
+            "amount": 3,
+            "units": "dashes",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "peychauds-bitters",
+            "name": "Peychauds Bitters",
+            "sort": 6,
+            "amount": 2,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

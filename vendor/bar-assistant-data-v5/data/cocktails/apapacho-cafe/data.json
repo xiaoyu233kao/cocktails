@@ -1,0 +1,88 @@
+{
+    "_id": "apapacho-cafe",
+    "name": "Apapacho Café",
+    "instructions": "1. Pour the first 4 ingredients into the glass and gently stir. Add the whipping cream to a shaker with an ice cube and shake very hard. Strain over the cocktail, then grate the nutmeg over the top.\n2. Note: The bar mixes a bit of pinole with nutmeg (4:1) for the garnish, but nutmeg alone works fine if you don&#8217;t have pinole.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "This twist on classic Irish coffee from Rosewood Mayakoba's Zapote Bar, one of the 50 Best Bars in North America, is just the thing for a chilly day. Apapacho, which translates to \"a warm hug,\" combines hot coffee with bourbon and vermouth rosso and is topped with freshly whipped cream.",
+    "source": "https://imbibemagazine.com/recipe/apapacho-irish-coffee/",
+    "garnish": "Grated nutmeg",
+    "abv": 5.52,
+    "tags": [],
+    "glass": "Coupe",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///apapacho-cafe.webp",
+            "sort": 0,
+            "placeholder_hash": "DjkKFwQCe3d3loeTaTm3mIZ7FwZZhJAG",
+            "copyright": "Imbibe Magazine | Courtesy of Zapote Bar/Rosewood Mayakoba"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "bourbon-whiskey",
+            "name": "Bourbon Whiskey",
+            "sort": 1,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "sweet-vermouth",
+            "name": "Sweet Vermouth",
+            "sort": 2,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 3,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "coffee",
+            "name": "Coffee",
+            "sort": 4,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cream",
+            "name": "Cream",
+            "sort": 5,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

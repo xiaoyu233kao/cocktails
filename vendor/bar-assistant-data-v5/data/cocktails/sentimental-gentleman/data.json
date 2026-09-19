@@ -1,0 +1,64 @@
+{
+    "_id": "sentimental-gentleman",
+    "name": "Sentimental Gentleman",
+    "instructions": "1. Stir all ingredients.\n2. Strain into a rocks glass over a large ice cube.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Two Sundays ago, Andrea and I ate dinner at Veggie Galaxy and headed over to Brick and Mortar where bartenders Kenny Belanger and Misty Kalkofen were making drinks. For my first cocktail, I asked Kenny for the Sentimental Gentleman which offered up a peaty smoke aroma from the Scotch that later gained walnut notes as it warmed up. The malt from the Scotch filled the sip, and the swallow was an interplay of the herbal Benedictine and the walnut. Rather poetically, the Sentimental Gentleman got a bit more bitter and sharp over time as it acclimated to room temperature.",
+    "source": "https://cocktailvirgin.blogspot.com/2012/02/sentimental-gentleman.html",
+    "garnish": null,
+    "abv": 32.22,
+    "tags": [],
+    "glass": "Lowball",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///sentimental-gentleman.webp",
+            "sort": 1,
+            "placeholder_hash": "HzkGFwStvER3U5SAWJdmOYeHiCBoCYIF",
+            "copyright": "Reddit"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "scotch-whiskey",
+            "name": "Scotch whiskey",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "benedictine",
+            "name": "Bénédictine",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "walnut-liqueur",
+            "name": "Walnut Liqueur",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

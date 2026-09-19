@@ -19,7 +19,7 @@ ingredients:
     nameEn: Agave Nectar
     amount: 30 ml
     aliases: [agave nectar, agave syrup, 龙舌兰糖浆]
-tags: [tequila, citrus, sweet, agave, refreshing, shaken, rocks, 汤米玛格丽塔]
+tags: ["tequila","citrus","sweet","agave","refreshing","shaken","rocks","汤米玛格丽塔","Tommy’s Margarita","Tommy's Margarita"]
 summary: 100% 龙舌兰、青柠和龙舌兰糖浆构成干净酸甜，突出龙舌兰本身的植物与胡椒香。
 background: >-
   汤米玛格丽塔通常归于旧金山 Tommy’s Mexican Restaurant 的 Julio Bermejo，他在20世纪90年代以高品质100% 龙舌兰、鲜青柠和龙舌兰糖浆重做玛格丽塔，省略橙味利口酒，让酒体更直接。它的比例简单，糖浆与青柠一比一，既能突出龙舌兰的熟成和植物香，也能保持酸甜平衡。IBA 版本摇匀后滤入装冰的古典杯，以青柠片装饰；盐口不是固定要求，可按饮者偏好选择。汤米玛格丽塔后来成为现代龙舌兰酒吧的重要基准，影响了大量强调原料品质和少量配方的酸酒。

@@ -1,0 +1,102 @@
+{
+    "_id": "kingston-club",
+    "name": "Kingston Club",
+    "instructions": "1. Combine all ingredients, except the soda water, in a mixing tin and shake with ice.\n2. Strain into a Collins glass over ice.\n3. Top with soda water.\n4. Garnish with orange twist.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Drambuie gets top billing in this tropical recipe from Jeffrey Morgenthaler, alongside pineapple, lime, Fernet Branca, Angostura and soda.",
+    "source": "https://punchdrink.com/recipes/kingston-club/",
+    "garnish": "orange twist",
+    "abv": 10.98,
+    "tags": [
+        "Tiki"
+    ],
+    "glass": "Highball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///kingston-club.webp",
+            "sort": 1,
+            "placeholder_hash": "KWoKJwR+CEaMdpeGaIeHiGd5N5BnQGYG",
+            "copyright": "Punch Staff"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "drambuie",
+            "name": "Drambuie",
+            "sort": 1,
+            "amount": 1.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "pineapple-juice",
+            "name": "Pineapple juice",
+            "sort": 2,
+            "amount": 1.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 3,
+            "amount": 0.75,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "fernet-branca",
+            "name": "Fernet Branca",
+            "sort": 4,
+            "amount": 1,
+            "units": "barspoon",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "angostura-aromatic-bitters",
+            "name": "Angostura aromatic bitters",
+            "sort": 5,
+            "amount": 3,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "club-soda",
+            "name": "Club soda",
+            "sort": 6,
+            "amount": 1,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

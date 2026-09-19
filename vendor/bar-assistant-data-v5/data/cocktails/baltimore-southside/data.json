@@ -1,0 +1,90 @@
+{
+    "_id": "baltimore-southside",
+    "name": "Baltimore Southside",
+    "instructions": "1. Combine the rum, lemon juice, simple syrup and mint in a shaker with ice.\n2. Shake until chilled.\n3. Strain into a double rocks glass over 1.25-inch ice cubes.\n4. Top with about 1 1/2 ounces of club soda.\n5. Garnish with mint and a lemon wheel.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A Southside that honors the legacy of Baltimore's Black bartenders.",
+    "source": "https://punchdrink.com/recipes/aaron-josephs-southside/",
+    "garnish": "mint bouquet, lemon wheel or dehydrated lemon wheel",
+    "abv": 18.29,
+    "tags": [
+        "Citrusy"
+    ],
+    "glass": "Lowball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///baltimore-southside.webp",
+            "sort": 1,
+            "placeholder_hash": "1PgVHwIFeYmEeXiHeHiHd4h3R6CI9IQI",
+            "copyright": "Punch Staff | Punch"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "light-rum",
+            "name": "Light Rum",
+            "sort": 1,
+            "amount": 2,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "such as Don Q Cristal or El Dorado 3-year",
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 2,
+            "amount": 0.75,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 3,
+            "amount": 0.75,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "mint",
+            "name": "Mint",
+            "sort": 4,
+            "amount": 6,
+            "units": "leaves",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": 8,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "club-soda",
+            "name": "Club soda",
+            "sort": 5,
+            "amount": 1,
+            "units": "topup",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

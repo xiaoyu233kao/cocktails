@@ -1,0 +1,103 @@
+{
+    "_id": "kiwi-swizzle",
+    "name": "Kiwi Swizzle",
+    "instructions": "Muddle kiwi and syrup in the bottom of highball glass\nAdd remaining ingredients and crushed ice until glass is about two-thirds full\nStir 20 seconds and top with more crushed ice and garnish",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Kiwi is underrated and underused! Tiki is the obvious first cocktail style to work kiwi in to, plus tiki and kiwi are surprisingly similar words... Fun! Chartreuse's herbal explosion is tempered by the unrefined cane character of our Demerara Gum Syrup. This is a stellar and novel tropical cocktail.",
+    "source": "https://www.liberandcompany.com/collections/recipes/products/kiwi-swizzle",
+    "garnish": "pineapple fronds slice of kiwi",
+    "abv": 21.72,
+    "tags": [
+        "Citrusy",
+        "Swizzle"
+    ],
+    "glass": "Highball",
+    "method": "Muddle",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///kiwi-swizzle.webp",
+            "sort": 1,
+            "placeholder_hash": "WAgKDwILp2aQd4hoenV4h4h51zCI/ZML",
+            "copyright": "LiberAndCo | Subtle Tiki"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "light-rum",
+            "name": "Light Rum",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "green-chartreuse",
+            "name": "Green Chartreuse",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "demerara-syrup",
+            "name": "Demerara Syrup",
+            "sort": 4,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "kiwi",
+            "name": "Kiwi",
+            "sort": 5,
+            "amount": 1,
+            "units": "whole",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "pineapple-juice",
+            "name": "Pineapple juice",
+            "sort": 6,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

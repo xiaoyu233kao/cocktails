@@ -1,0 +1,90 @@
+{
+    "_id": "queen-of-the-rodeo",
+    "name": "Queen of the Rodeo",
+    "instructions": "1. Add all of the ingredients to a shaker along with ice and shake. Strain into a chilled glass. Garnish.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "This \"gussied-up\" Cosmo recipe replaces Cointreau and cranberry juice for a mix of grenadine, maraschino liqueur, and grapefruit juice.",
+    "source": "https://imbibemagazine.com/recipe/queen-of-the-rodeo-cosmo-recipe/",
+    "garnish": "Lime wheel, a dusting of edible pink glitter (optional)",
+    "abv": 17.25,
+    "tags": [
+        "Sweet"
+    ],
+    "glass": "Coupe",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///queen-of-the-rodeo.webp",
+            "sort": 1,
+            "placeholder_hash": "rSgODwKriHeQeIeVZyeIR4ZoOPY6JH0A",
+            "copyright": "Imbibe"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "vodka",
+            "name": "Vodka",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "maraschino",
+            "name": "Maraschino",
+            "sort": 2,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "grapefruit-juice",
+            "name": "Grapefruit juice",
+            "sort": 4,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "grenadine-syrup",
+            "name": "Grenadine Syrup",
+            "sort": 5,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

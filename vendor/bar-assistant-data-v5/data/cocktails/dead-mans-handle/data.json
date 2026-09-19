@@ -1,0 +1,76 @@
+{
+    "_id": "dead-mans-handle",
+    "name": "Dead Man's Handle",
+    "instructions": "Combine, Shake with Ice. Top with a sprinkle of Tajín seasoning.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "This summery tequila cocktail from Tiffany Kirk at Miss Carousel in Houston gets punched up with Aperol and perfectly sweetened with orgeat.",
+    "source": null,
+    "garnish": "Tajín seasoning",
+    "abv": 16.8,
+    "tags": [],
+    "glass": "Lowball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///dead-mans-handle.webp",
+            "sort": 1,
+            "placeholder_hash": "khgKJwQUuXaAV4hcfpVph3adgkBXCnIF",
+            "copyright": ""
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "tequila-blanco",
+            "name": "Tequila Blanco",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "aperol",
+            "name": "Aperol",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orgeat-syrup",
+            "name": "Orgeat Syrup",
+            "sort": 4,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": 22.5,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

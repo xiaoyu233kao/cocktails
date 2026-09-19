@@ -1,0 +1,90 @@
+{
+    "_id": "apb-melrose-gin-tonic",
+    "name": "APB Melrose Gin & Tonic",
+    "instructions": "1. Add the first 4 ingredients to a shaker with ice. Shake until chilled, then strain into a glass over fresh ice. Add the tonic, top with pebble ice, then drizzle the blue Chareau on top. Garnish.\n2. Blue ChareauAnd 1/8 tsp. of blue spirulina to 1/2 cup Chareau and whisk. Will keep in the refrigerator for 2 weeks.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "This mesmerizingly azure-topped gin and tonic from Los Angeles' APB (A Plant Bar) Melrose draws inspiration from the state of California. Drink creator Julian Cox selected the Golden State's Gray Whale gin for its Californian ingredients, such as citrus and sea kelp. But he says that a botanical forward new Western gin can also be used in its place. \"The cocktail takes you on a journey of floral and citrus flavors,\" Cox says. \"It starts with a light and effervescent quality that lingers through the finish.\"",
+    "source": "https://imbibemagazine.com/recipe/gin-and-tonic-from-apb-melrose/",
+    "garnish": "Thin lemon wheel; viola flowers (optional)",
+    "abv": 10.7,
+    "tags": [
+        "Bitter"
+    ],
+    "glass": "Highball",
+    "method": "Build",
+    "utensils": [],
+    "parent_cocktail_id": "gin-tonic",
+    "year": null,
+    "author": "",
+    "images": [
+        {
+            "uri": "file:///apb-melrose-gin-tonic.webp",
+            "sort": 1,
+            "placeholder_hash": "IBkSLwZQh3hhiYd1iJiJV4d2CGum4GUK",
+            "copyright": "Imbibe Magazine | Kristina Cox/@Kodawari_Global"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "st-germain",
+            "name": "St-Germain",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 3,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 4,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "tonic",
+            "name": "Tonic",
+            "sort": 5,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

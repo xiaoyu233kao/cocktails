@@ -1,0 +1,90 @@
+{
+    "_id": "oaxacanite",
+    "name": "Oaxacanite",
+    "instructions": "1. Combine all the ingredients in your cocktail shaker\n2. Shake with ice for 12-15 seconds\n3. Double strain into a chilled cocktail glass",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Sasha Petraske wasn't a huge fan of mezcal cocktails as he believed it was too dominate in cocktails. Whilst working at the John Dory Oyster Bar, where Sasha was consulting, Ben Long set forth to change this with the Oaxacanite with great success.A tequila and mezcal split base version of a Bees Knees, almost.Featured in Sasha Petraske Regarding Cocktails.",
+    "source": "https://stevethebartender.com.au/oaxacanite-cocktail-recipe/",
+    "garnish": "Garnish with a twist of grapefruit",
+    "abv": 18.39,
+    "tags": [
+        "Smokey"
+    ],
+    "glass": "Nick and Nora",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///oaxacanite.webp",
+            "sort": 0,
+            "placeholder_hash": "pUkKDwJ6iYdwhniEd3d4dodmVvMeOt8C",
+            "copyright": "Steve the Bartender"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "mezcal",
+            "name": "Mezcal",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "tequila-blanco",
+            "name": "Tequila Blanco",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "honey-syrup",
+            "name": "Honey Syrup",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 4,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "angostura-aromatic-bitters",
+            "name": "Angostura aromatic bitters",
+            "sort": 5,
+            "amount": 2,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

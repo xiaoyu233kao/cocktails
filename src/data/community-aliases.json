@@ -1,0 +1,32 @@
+[
+  {
+    "targetSlug": "spritz",
+    "targetNameEn": "Spritz",
+    "aliases": ["Aperol Spritz"]
+  },
+  {
+    "targetSlug": "corpse-reviver-2",
+    "targetNameEn": "Corpse Reviver #2",
+    "aliases": ["Corpse Reviver No. 2", "Corpse Reviver №2"]
+  },
+  {
+    "targetSlug": "long-island-iced-tea",
+    "targetNameEn": "Long Island Iced Tea",
+    "aliases": ["Long Island Ice Tea"]
+  },
+  {
+    "targetSlug": "dry-martini",
+    "targetNameEn": "Dry Martini",
+    "aliases": ["Martini"]
+  },
+  {
+    "targetSlug": "south-side",
+    "targetNameEn": "South Side",
+    "aliases": ["Southside"]
+  },
+  {
+    "targetSlug": "tommys-margarita",
+    "targetNameEn": "Tommy's Margarita",
+    "aliases": ["Tommy’s Margarita", "Tommy's Margarita"]
+  }
+]

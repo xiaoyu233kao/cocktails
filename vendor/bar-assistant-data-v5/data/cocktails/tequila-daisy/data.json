@@ -1,0 +1,80 @@
+{
+    "_id": "tequila-daisy",
+    "name": "Tequila Daisy",
+    "instructions": "1. To prepare a coupe or cocktail glass, rim the edge with sugar.\n2. Combine all ingredients in a cocktail shaker with ice and shake until chilled.\n3. Strain into the prepared coupe or cocktail glass.\n4. Garnish with 3 drops of orange flower water.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A Tequila Daisy cocktail recipe from one of Punch's Best New Bartenders fine-tunes the ratios of the classic drink.",
+    "source": "https://punchdrink.com/recipes/laura-maddoxs-tequila-daisy/",
+    "garnish": "sugar (to rim the glass), orange flower water",
+    "abv": 24,
+    "tags": [
+        "Classics",
+        "Sour",
+        "Citrusy"
+    ],
+    "glass": "Coupe",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///tequila-daisy.webp",
+            "sort": 0,
+            "placeholder_hash": "FCkKDwQSeXhudoeSawe4Vnh5aAFPOMAF",
+            "copyright": "Punch Staff | Nitya Jain"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "tequila-blanco",
+            "name": "Tequila Blanco",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "preferably Cascahuín Tahona",
+            "substitutes": []
+        },
+        {
+            "_id": "cointreau",
+            "name": "Cointreau",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 4,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "_id": "golden-dream",
+    "name": "Golden Dream",
+    "instructions": "Pour all ingredients into shaker filled with ice. Shake briskly for few seconds. Strain into chilled cocktail glass.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The Golden Dream was popular during the 60s and 70s and originated at the Old King Bar in Miami, mixed by Raimundo Alvarez.\n\nThe cocktail was dedicated to actress Joan Crawford and became quite popular at the end of the 1960s on the east coast of the United States.",
+    "source": "https://iba-world.com/golden-dream/",
+    "garnish": null,
+    "abv": 18.81,
+    "tags": [
+        "Contemporary Classics",
+        "IBA Cocktail"
+    ],
+    "glass": "Coupe",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///golden-dream.webp",
+            "sort": 1,
+            "placeholder_hash": "dggGDwD2SLV3hoiJZbo4Z3h4pYBnDEUG",
+            "copyright": "Liquor.com / Tim Nusog"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "galliano",
+            "name": "Galliano",
+            "sort": 1,
+            "amount": 20,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "triple-sec",
+            "name": "Triple Sec",
+            "sort": 2,
+            "amount": 20,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orange-juice",
+            "name": "Orange juice",
+            "sort": 3,
+            "amount": 20,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cream",
+            "name": "Cream",
+            "sort": 4,
+            "amount": 10,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

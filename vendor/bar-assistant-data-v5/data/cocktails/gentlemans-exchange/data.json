@@ -1,0 +1,115 @@
+{
+    "_id": "gentlemans-exchange",
+    "name": "Gentleman’s Exchange",
+    "instructions": "1. Combine all ingredients except the grapefruit peel in a mixing glass and stir for about ten seconds\n2. Pour into a rocks glass over a large cube and garnish with the grapefruit peel",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A strong rocks cocktail with an emphasis on coffee and bourbon",
+    "source": "https://tuxedono2.com/gentleman-s-exchange-cocktail-recipe",
+    "garnish": "grapefruit peel for garnish",
+    "abv": 24.68,
+    "tags": [
+        "Herbacious",
+        "Sweet"
+    ],
+    "glass": "Lowball",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///gentlemans-exchange.webp",
+            "sort": 1,
+            "placeholder_hash": "RBgGFwQIaJmJd4iDe2iYl2mLeZApB5cD",
+            "copyright": "TuxedoNo2"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "rye-whiskey",
+            "name": "Rye whiskey",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "sweet-vermouth",
+            "name": "Sweet Vermouth",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "suze",
+            "name": "Suze",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "amaro-averna",
+            "name": "Amaro Averna",
+            "sort": 4,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "coffee-liqueur",
+            "name": "Coffee liqueur",
+            "sort": 5,
+            "amount": 1,
+            "units": "tsp",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "absinthe",
+            "name": "Absinthe",
+            "sort": 6,
+            "amount": 4,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "angostura-aromatic-bitters",
+            "name": "Angostura aromatic bitters",
+            "sort": 7,
+            "amount": 2,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

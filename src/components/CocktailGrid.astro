@@ -3,10 +3,11 @@ import CocktailCard from './CocktailCard.astro';
 
 interface Props {
   entries: any[];
+  indexUrl?: string;
 }
 
-const { entries } = Astro.props;
+const { entries, indexUrl } = Astro.props;
 ---
-<div class="cocktail-grid" data-cocktail-grid>
+<div class="cocktail-grid" data-cocktail-grid data-recipes-index={indexUrl}>
   {entries.map((entry) => <CocktailCard entry={entry} />)}
 </div>

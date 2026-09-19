@@ -1,0 +1,94 @@
+{
+    "_id": "clover-club",
+    "name": "Clover Club",
+    "instructions": "1. Pour all ingredients into cocktails shaker.\n2. Shake well with ice.\n3. Strain into chilled cocktail glass.\n\nThe egg white is not added for the purpose of giving the drink flavor, but rather acts as an emulsifier. Thus when the drink is shaken a characteristic foamy head is formed.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The Clover Club Cocktail is a drink that pre-dates Prohibition in the United States, and is named for the Philadelphia men's club of the same name, which met in the Bellevue-Stratford Hotel at South Broad and Walnut Streets in Center City. The Clover Club was chartered in 1882.",
+    "source": "https://iba-world.com/clover-club/",
+    "garnish": "Fresh raspberries",
+    "abv": 14.22,
+    "tags": [
+        "IBA Cocktail",
+        "The Unforgettables"
+    ],
+    "glass": "Coupe",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///clover-club.webp",
+            "sort": 1,
+            "placeholder_hash": "CRgKFwRIiYhndYaKiQend6l0evMmCH4B",
+            "copyright": "A Couple Cooks"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "raspberry-syrup",
+            "name": "Raspberry Syrup",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": 0,
+            "note": null,
+            "substitutes": [
+                {
+                    "_id": "grenadine-syrup",
+                    "name": "Grenadine Syrup",
+                    "amount": null,
+                    "units": null,
+                    "amount_max": null
+                },
+                {
+                    "_id": "chambord",
+                    "name": "Chambord",
+                    "amount": null,
+                    "units": null,
+                    "amount_max": null
+                }
+            ]
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 3,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "egg-white",
+            "name": "Egg White",
+            "sort": 4,
+            "amount": 30,
+            "units": "ml",
+            "optional": true,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

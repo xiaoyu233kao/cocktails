@@ -1,0 +1,69 @@
+{
+    "_id": "porto-flip",
+    "name": "Porto Flip",
+    "instructions": "Pour all ingredients into a cocktail shaker, shake well with ice, strain into a chilled cocktail glass.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The Porto Flip was first recorded by Jerry Thomas in his 1862 book The Bartender’s Guide: How to Mix Drinks; A Bon Vivant’s Companion. albeit under the name &quot;Coffee Cocktail&quot;, named for its appearance rather than its ingredients.",
+    "source": "https://iba-world.com/porto-flip/",
+    "garnish": "Sprinkle with ground nutmeg.",
+    "abv": 14.6,
+    "tags": [
+        "IBA Cocktail",
+        "The Unforgettables",
+        "Wine",
+        "Flip"
+    ],
+    "glass": "Coupe",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///porto-flip.webp",
+            "sort": 1,
+            "placeholder_hash": "b+cJBwJjZ4dwdndldZh4h5iGVsCGBIwN",
+            "copyright": "Liquor.com / Tim Nusog"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "brandy",
+            "name": "Brandy",
+            "sort": 1,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "red-wine",
+            "name": "Red wine",
+            "sort": 2,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "egg",
+            "name": "Egg",
+            "sort": 3,
+            "amount": 1,
+            "units": "yolk",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

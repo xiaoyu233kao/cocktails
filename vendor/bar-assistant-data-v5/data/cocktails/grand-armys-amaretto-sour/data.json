@@ -1,0 +1,79 @@
+{
+    "_id": "grand-armys-amaretto-sour",
+    "name": "Grand Army’s Amaretto Sour",
+    "instructions": "1. Combine ingredients in a cocktail shaker and dry-shake without ice.\n2. Add ice and shake again until chilled.\n3. Strain into a rocks glass.\n4. Express an orange twist over the drink, then discard.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "This Amaretto Sour cocktail recipe from New York bar Grand Army combines Campari, amaretto, lemon juice and an egg white.",
+    "source": "https://punchdrink.com/recipes/grand-armys-amaretto-sour/",
+    "garnish": "orange twist (expressed and discarded)",
+    "abv": 13.35,
+    "tags": [
+        "Citrusy",
+        "Sour"
+    ],
+    "glass": "Lowball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": "amaretto-sour",
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///grand-armys-amaretto-sour.webp",
+            "sort": 1,
+            "placeholder_hash": "LDkGFwTRApV0d3y3mraa+Whzd3DXCoQL",
+            "copyright": "Punch Staff | Lizzie Munro"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "amaretto",
+            "name": "Amaretto",
+            "sort": 1,
+            "amount": 2,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "preferably Lazzaroni",
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 2,
+            "amount": 1,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "campari",
+            "name": "Campari",
+            "sort": 3,
+            "amount": 0.25,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "egg-white",
+            "name": "Egg White",
+            "sort": 4,
+            "amount": 1,
+            "units": "whole",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

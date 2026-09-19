@@ -1,0 +1,91 @@
+{
+    "_id": "jungle-bird",
+    "name": "Jungle Bird",
+    "instructions": "1. Add all ingredients to a cocktail shaker\n2. Add a few pieces of ice and whip shake for 5 seconds\n3. Strain into a glass filled with crushed ice",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A tiki cocktail lush with pineapple and lime - plus a hint of Campari's bitterness. The Jungle Bird took off first in 1978 at the Aviary Bar in Kuala Lumpur, but it wasn't until Beachbum Berry himself resurrected it in 2002 that it got back on the radar. This recipe perfectly employs our Pineapple Gum Syrup!",
+    "source": "https://www.liberandcompany.com/products/jungle-bird?_pos=1&_sid=c5ac35365&_ss=r",
+    "garnish": "Lime wedge and pineapple leaves",
+    "abv": 12.89,
+    "tags": [
+        "Tiki",
+        "Summer"
+    ],
+    "glass": "Hurricane",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///jungle-bird.webp",
+            "sort": 1,
+            "placeholder_hash": "FDkKFwQ/pXi6aHasemWZl4d4uEBxHlAF",
+            "copyright": "LiberAndCo"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "dark-rum",
+            "name": "Dark Rum",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "campari",
+            "name": "Campari",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 4,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "pineapple-juice",
+            "name": "Pineapple juice",
+            "sort": 5,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

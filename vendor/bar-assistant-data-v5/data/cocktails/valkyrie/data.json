@@ -1,0 +1,86 @@
+{
+    "_id": "valkyrie",
+    "name": "Valkyrie",
+    "instructions": "Stir with ice and strain into a rocks glass.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "After the Snake in the Grass at Temple Bar, bartender Sam Gabrielli wanted to showcase a drink he created called the Valkyrie. Sam described how he was influenced by Evan Harrison&#039;s Peralta with its rye, Cynar, and grapefruit elements.",
+    "source": "https://cocktailvirgin.blogspot.com/2012/06/valkyrie.html?m=1",
+    "garnish": "Twist a grapefruit peel over the top and discard",
+    "abv": 26.86,
+    "tags": [
+        "Manhattan"
+    ],
+    "glass": "Lowball",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///valkyrie.webp",
+            "sort": 1,
+            "placeholder_hash": "2igKJwYIlqhUi3hze4Zod4d7h4AoB4kB",
+            "copyright": ""
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "rye-whiskey",
+            "name": "Rye whiskey",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "amaro-montenegro",
+            "name": "Amaro Montenegro",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": [
+                {
+                    "_id": "pelinkovac",
+                    "name": "Pelinkovac",
+                    "amount": null,
+                    "units": null,
+                    "amount_max": null
+                }
+            ]
+        },
+        {
+            "_id": "cynar",
+            "name": "Cynar",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "st-germain",
+            "name": "St-Germain",
+            "sort": 4,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

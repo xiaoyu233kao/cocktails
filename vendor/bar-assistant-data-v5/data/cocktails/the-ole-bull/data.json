@@ -1,0 +1,114 @@
+{
+    "_id": "the-ole-bull",
+    "name": "The Ole Bull",
+    "instructions": "Shake ingredients",
+    "created_at": null,
+    "updated_at": null,
+    "description": null,
+    "source": "https://www.reddit.com/r/cocktails/comments/16z9ttn/the_ole_bull_credit_to_death_co/",
+    "garnish": null,
+    "abv": 18.86,
+    "tags": [
+        "Herbacious"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///the-ole-bull.webp",
+            "sort": 1,
+            "placeholder_hash": "UxgKDwILiXd0dYeCe4eouFd1pQIGGIMA",
+            "copyright": "Reddit"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "aquavit",
+            "name": "Aquavit",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "Linie Aquavit",
+            "substitutes": []
+        },
+        {
+            "_id": "dark-rum",
+            "name": "Dark Rum",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "Goslings Black Seal Rum",
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cinnamon-syrup",
+            "name": "Cinnamon syrup",
+            "sort": 4,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "creme-de-cacao-white",
+            "name": "Crème de Cacao (White)",
+            "sort": 5,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "Marie Brizard",
+            "substitutes": []
+        },
+        {
+            "_id": "maple-syrup",
+            "name": "Maple syrup",
+            "sort": 6,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "egg-white",
+            "name": "Egg White",
+            "sort": 7,
+            "amount": 1,
+            "units": "whole",
+            "optional": true,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

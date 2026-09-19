@@ -1,0 +1,90 @@
+{
+    "_id": "st-regis-julep",
+    "name": "St. Regis Julep",
+    "instructions": "1. Add all the ingredients to the julep tin and muddle the mint gently with barspoon. Add 2 cubes of cracked ice, stirring to chill. Add crushed ice to fill halfway; let chill. Add more to fill. Garnish.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "\"The St. Regis Julep was created by the famous John Swago of the old St. Regis in New Orleans. It is one of the first drinks I ever made from Famous New Orleans Drinks and How to Mix 'Em by Stanley Clisby Arthur,\" says Cure bartender Ryan Gannon. \"It is a funky, awesome riff on a julep that I try to make anytime I get a request for a julep.\"",
+    "source": "https://imbibemagazine.com/recipe/st-regis-julep/",
+    "garnish": "Fresh mint bouquet",
+    "abv": 31.17,
+    "tags": [
+        "Julep"
+    ],
+    "glass": "Julep",
+    "method": "Muddle",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///st-regis-julep.webp",
+            "sort": 1,
+            "placeholder_hash": "0BgKFwIib6R6apeGeUmaR3iIhnBqRrIP",
+            "copyright": "Imbibe Magazine"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "rye-whiskey",
+            "name": "Rye whiskey",
+            "sort": 1,
+            "amount": 1.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "jamaican-rum",
+            "name": "Jamaican Rum",
+            "sort": 2,
+            "amount": 0.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "Gannon uses Hamilton Pot Still",
+            "substitutes": []
+        },
+        {
+            "_id": "demerara-syrup",
+            "name": "Demerara Syrup",
+            "sort": 3,
+            "amount": 0.25,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "2:1",
+            "substitutes": []
+        },
+        {
+            "_id": "grenadine-syrup",
+            "name": "Grenadine Syrup",
+            "sort": 4,
+            "amount": 0.5,
+            "units": "barspoon",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "mint",
+            "name": "Mint",
+            "sort": 5,
+            "amount": 6,
+            "units": "leaves",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

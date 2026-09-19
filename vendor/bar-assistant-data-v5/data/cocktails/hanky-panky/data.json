@@ -1,0 +1,67 @@
+{
+    "_id": "hanky-panky",
+    "name": "Hanky Panky",
+    "instructions": "Pour all ingredients into mixing glass with ice cubes. Stir well. Strain into chilled cocktail glass.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The Hanky-Panky was the brainchild of Ada Coleman (known as \"Coley\") who began as a bartender at the Savoy Hotel in 1903. Her benefactor was Rupert D'Oyly Carte, a member of the family that first produced Gilbert and Sullivan operas in London and that built the Savoy Hotel. When Rupert became chairman of the Savoy, Ada was given a position at the hotel's American Bar, where she eventually became the head bartender and made cocktails for the likes of Mark Twain, the Prince of Wales, Prince Wilhelm of Sweden, and Sir Charles Hawtrey.\n\nColeman created the Hanky-Panky for Hawtrey. He was a Victorian and Edwardian actor who mentored Noël Coward. ",
+    "source": "https://iba-world.com/hanky-panky/",
+    "garnish": "Orange zest.",
+    "abv": 24.81,
+    "tags": [
+        "IBA Cocktail",
+        "The Unforgettables"
+    ],
+    "glass": "Nick and Nora",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///hanky-panky.webp",
+            "sort": 1,
+            "placeholder_hash": "NQgKDwL0SHeEfIeHZtk4t1iIZsBmB3wF",
+            "copyright": "Punch / Daniel Krieger"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "sweet-vermouth",
+            "name": "Sweet Vermouth",
+            "sort": 2,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "fernet-branca",
+            "name": "Fernet Branca",
+            "sort": 3,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

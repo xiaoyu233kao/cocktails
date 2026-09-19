@@ -1,0 +1,84 @@
+{
+    "_id": "debbie-dont",
+    "name": "Debbie, Don't",
+    "instructions": "1. Combine all ingredients over ice and shake\n2. Strain into a chilled cocktail glass, serve up",
+    "created_at": null,
+    "updated_at": null,
+    "description": "An adventurous modern cocktail for those with a limited bar",
+    "source": "https://tuxedono2.com/debbie-don-t-cocktail-recipe",
+    "garnish": null,
+    "abv": 16.98,
+    "tags": [],
+    "glass": "Coupe",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///debbie-dont.webp",
+            "sort": 1,
+            "placeholder_hash": "AwgGDwIGpnmGiXZ2eHeIF8eKdtBHB4wD",
+            "copyright": "TuxedoNo2"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "tequila-reposado",
+            "name": "Tequila Reposado",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "amaro-averna",
+            "name": "Amaro Averna",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": [
+                {
+                    "_id": "pelinkovac",
+                    "name": "Pelinkovac",
+                    "amount": null,
+                    "units": null,
+                    "amount_max": null
+                }
+            ]
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "maple-syrup",
+            "name": "Maple syrup",
+            "sort": 4,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

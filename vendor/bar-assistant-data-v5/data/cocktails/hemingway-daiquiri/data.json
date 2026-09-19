@@ -1,0 +1,79 @@
+{
+    "_id": "hemingway-daiquiri",
+    "name": "Hemingway Daiquiri",
+    "instructions": "1. Combine all ingredients in a shaker over cracked ice\n2. Shake until the sides are frosty\n3. Strain into a coupe and garnish with a lime wedge",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A bittersweet twist on the rum classic, with a storied past",
+    "source": "https://tuxedono2.com/hemingway-daiquiri-cocktail-recipe",
+    "garnish": "lime wedge for garnish",
+    "abv": 17.37,
+    "tags": [
+        "Dry",
+        "Bitter"
+    ],
+    "glass": "Coupe",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": "daiquiri",
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///hemingway-daiquiri.webp",
+            "sort": 1,
+            "placeholder_hash": "yPcJBwAIp4d6hXh0ikbHSKeJaNBWmIAF",
+            "copyright": "TuxedoNo2"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "light-rum",
+            "name": "Light Rum",
+            "sort": 1,
+            "amount": 1.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "grapefruit-juice",
+            "name": "Grapefruit juice",
+            "sort": 2,
+            "amount": 0.75,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 3,
+            "amount": 0.75,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "maraschino",
+            "name": "Maraschino",
+            "sort": 4,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

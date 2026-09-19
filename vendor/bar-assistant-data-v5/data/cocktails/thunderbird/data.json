@@ -1,0 +1,114 @@
+{
+    "_id": "thunderbird",
+    "name": "Thunderbird",
+    "instructions": "1. Combine all ingredients, except club soda, in a mixing tin and shake with ice.\n2. Strain into a Collins glass over ice.\n3. Top with club soda.\n4. Garnish with orange wheel.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "At Philadelphia's Zahav, this gin fizz variation strikes an appealing balance between citrus-first refresher and creamy, sweet dessert drink.",
+    "source": "https://punchdrink.com/recipes/thunderbird/",
+    "garnish": "orange wheel",
+    "abv": 14.4,
+    "tags": [
+        "Citrusy"
+    ],
+    "glass": "Highball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///thunderbird.webp",
+            "sort": 1,
+            "placeholder_hash": "GCkSDwJdU3iAZ4daqEmIaIZ49vGKZ58I",
+            "copyright": "Punch Staff | Lizzie Munro"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 2,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "such as Bluecoat",
+            "substitutes": []
+        },
+        {
+            "_id": "maraschino",
+            "name": "Maraschino",
+            "sort": 2,
+            "amount": 0.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "such as Luxardo",
+            "substitutes": []
+        },
+        {
+            "_id": "orange-juice",
+            "name": "Orange juice",
+            "sort": 3,
+            "amount": 1,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 4,
+            "amount": 0.75,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cream",
+            "name": "Cream",
+            "sort": 5,
+            "amount": 0.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 6,
+            "amount": 0.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "1:1",
+            "substitutes": []
+        },
+        {
+            "_id": "sugar",
+            "name": "Sugar",
+            "sort": 7,
+            "amount": 0.5,
+            "units": "barspoon",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "Powdered",
+            "substitutes": []
+        }
+    ]
+}

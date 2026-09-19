@@ -1,0 +1,116 @@
+{
+    "_id": "baby-turtle",
+    "name": "Baby Turtle",
+    "instructions": "1. Add all of the ingredients to a shaker and dry-shake (without ice) to combine.\n2. Add ice to the shaker and shake until chilled.\n3. Double-strain into a double Old-Fashioned glass over ice.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A tequila cocktail recipe that combines reposado tequila, Campari, grapefruit and lime juice, cinnamon syrup and saline.",
+    "source": "https://punchdrink.com/recipes/baby-turtle/",
+    "garnish": "grated cinnamon",
+    "abv": 14.46,
+    "tags": [
+        "Sour",
+        "Bitter",
+        "Citrusy"
+    ],
+    "glass": "Lowball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///baby-turtle.webp",
+            "sort": 1,
+            "placeholder_hash": "iigKFwQEm5WEXpZ6ecdneYiGWFP2NmYP",
+            "copyright": "Punch Staff | Nicola Parisi"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "tequila-reposado",
+            "name": "Tequila Reposado",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "preferably Tequila Ocho",
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "egg-white",
+            "name": "Egg White",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "grapefruit-juice",
+            "name": "Grapefruit juice",
+            "sort": 4,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cinnamon-syrup",
+            "name": "Cinnamon syrup",
+            "sort": 5,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "campari",
+            "name": "Campari",
+            "sort": 6,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "saline-solution",
+            "name": "Saline solution",
+            "sort": 7,
+            "amount": 2,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

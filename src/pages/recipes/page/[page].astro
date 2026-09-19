@@ -1,0 +1,25 @@
+---
+import { getCollection } from 'astro:content';
+import RecipeCatalogPage from '../../../components/RecipeCatalogPage.astro';
+
+export async function getStaticPaths() {
+  const pageSize = 60;
+  const entries = (await getCollection('cocktails')).sort((a, b) => a.data.nameEn.localeCompare(b.data.nameEn));
+  const totalPages = Math.ceil(entries.length / pageSize);
+  return Array.from({ length: Math.max(0, totalPages - 1) }, (_, index) => {
+    const pageNumber = index + 2;
+    return {
+      params: { page: String(pageNumber) },
+      props: {
+        entries,
+        pageEntries: entries.slice((pageNumber - 1) * pageSize, pageNumber * pageSize),
+        pageNumber,
+        totalPages,
+      },
+    };
+  });
+}
+
+const { entries: pageEntriesAll, pageEntries, pageNumber, totalPages: pages } = Astro.props;
+---
+<RecipeCatalogPage entries={pageEntriesAll} pageEntries={pageEntries} pageNumber={pageNumber} totalPages={pages} />

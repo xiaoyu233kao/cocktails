@@ -1,0 +1,78 @@
+{
+    "_id": "endless-summer",
+    "name": "Endless Summer",
+    "instructions": "1. In a large shaking tin, add all ingredients. Add ice, and shake well.\n2. Fine strain into a Collins glass over ice.\n\n\n ## Editors note:\n\nThis drink can easily be scaled up into a large-format cocktail; for guidelines, see &lt;a href=&quot;https://punchdrink.com/articles/five-batched-summer-cocktails-recipes/&quot;&gt;here&lt;/a&gt;.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Yanni Kehagiaras riffs on the Negroni cocktail recipe with Campari, gin, sweet vermouth, and an ounce of pineapple.",
+    "source": "https://punchdrink.com/recipes/endless-summer/",
+    "garnish": null,
+    "abv": 16.51,
+    "tags": [
+        "Citrusy"
+    ],
+    "glass": "Highball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///endless-summer.webp",
+            "sort": 0,
+            "placeholder_hash": "oSgOJwh6hodQhnh0lnmYZ5iGRyB5BIQG",
+            "copyright": "Punch Staff | Jim Sullivan"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "campari",
+            "name": "Campari",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "sweet-vermouth",
+            "name": "Sweet Vermouth",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "pineapple-juice",
+            "name": "Pineapple juice",
+            "sort": 4,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

@@ -1,0 +1,126 @@
+{
+    "_id": "dons-mai-tai",
+    "name": "Don’s Mai Tai",
+    "instructions": "1. Combine all ingredients in a shaker.\n2. Add ice and shake until chilled.\n3. Dump into a double rocks glass and top with crushed ice.\n4. Garnish with a brandied cherry, lime wedge and mint bouquet.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Don’s Mai Tai is a tiki cocktail recipe originally from Don the Beachcomber. The tropical drink combines rum, absinthe, grapefruit and more.",
+    "source": "https://punchdrink.com/recipes/dons-mai-tai/",
+    "garnish": "brandied cherry, lime wedge, fresh mint",
+    "abv": 13.82,
+    "tags": [
+        "Tiki"
+    ],
+    "glass": "Lowball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": "mai-tai",
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///dons-mai-tai.webp",
+            "sort": 1,
+            "placeholder_hash": "IVoGHwg3koe8aHlwpHamW6SVVQJ6d6AK",
+            "copyright": "Punch Staff | Caitlin Isola"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "jamaican-rum",
+            "name": "Jamaican Rum",
+            "sort": 1,
+            "amount": 1,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "preferably Appleton 8-year",
+            "substitutes": []
+        },
+        {
+            "_id": "grapefruit-juice",
+            "name": "Grapefruit juice",
+            "sort": 2,
+            "amount": 20,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "pink grapefruit",
+            "substitutes": []
+        },
+        {
+            "_id": "orange-curacao",
+            "name": "Orange Curaçao",
+            "sort": 3,
+            "amount": 0.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "such as Edmond Briottet",
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 4,
+            "amount": 0.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "falernum",
+            "name": "Falernum",
+            "sort": 5,
+            "amount": 10,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "preferably John D Taylor's Velvet Falernum",
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 6,
+            "amount": 1,
+            "units": "barspoon",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "absinthe",
+            "name": "Absinthe",
+            "sort": 7,
+            "amount": 2,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "preferably Pernod",
+            "substitutes": []
+        },
+        {
+            "_id": "angostura-aromatic-bitters",
+            "name": "Angostura aromatic bitters",
+            "sort": 8,
+            "amount": 2,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

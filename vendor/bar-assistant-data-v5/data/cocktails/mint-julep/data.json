@@ -1,0 +1,69 @@
+{
+    "_id": "mint-julep",
+    "name": "Mint Julep",
+    "instructions": "In Julep Stainless Steel Cup gently muddle the mint with sugar and water. Fill the glass with cracked ice, add the Bourbon and stir well until the cup frosts.",
+    "created_at": null,
+    "updated_at": null,
+    "description": null,
+    "source": "https://iba-world.com/mint-julep/",
+    "garnish": "Garnish with a mint sprig.",
+    "abv": 26.45,
+    "tags": [
+        "Contemporary Classics",
+        "IBA Cocktail",
+        "Julep",
+        "Sweet"
+    ],
+    "glass": "Julep",
+    "method": "Build",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": 1857,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///mint-julep.webp",
+            "sort": 1,
+            "placeholder_hash": "0jgKJwRGe8VgZoiaiiiHhpeXd1BYBXED",
+            "copyright": "Liquor.com / Tim Nusog"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "bourbon-whiskey",
+            "name": "Bourbon Whiskey",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": 75,
+            "note": "preferably Bonded",
+            "substitutes": []
+        },
+        {
+            "_id": "mint",
+            "name": "Mint",
+            "sort": 2,
+            "amount": 4,
+            "units": "sprigs",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

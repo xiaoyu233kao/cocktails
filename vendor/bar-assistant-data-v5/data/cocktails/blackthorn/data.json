@@ -1,0 +1,88 @@
+{
+    "_id": "blackthorn",
+    "name": "Blackthorn",
+    "instructions": "1. Stir all of the ingredients with ice, then strain into a glass filled with fresh ice, and garnish.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "With roots dating back to 19th-century New Orleans, the Blackthorn cocktail is one of the few classics to highlight Irish whiskey. Here's how they make it at Lazy Bird in Chicago.",
+    "source": "https://imbibemagazine.com/recipe/blackthorn-cocktail/",
+    "garnish": "Lemon twist",
+    "abv": 27.31,
+    "tags": [],
+    "glass": "Lowball",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///blackthorn.webp",
+            "sort": 1,
+            "placeholder_hash": "0VkGDwIFZW5lbHCIdzW3xGirljB2qjAH",
+            "copyright": "Imbibe Magazine | John Valls"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "irish-whiskey",
+            "name": "Irish whiskey",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "dry-vermouth",
+            "name": "Dry Vermouth",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "sweet-vermouth",
+            "name": "Sweet Vermouth",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "angostura-aromatic-bitters",
+            "name": "Angostura aromatic bitters",
+            "sort": 4,
+            "amount": 2,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "absinthe",
+            "name": "Absinthe",
+            "sort": 5,
+            "amount": 1,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

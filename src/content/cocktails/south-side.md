@@ -27,7 +27,7 @@ ingredients:
     nameEn: Egg White (Optional)
     amount: Few drops
     aliases: [egg white, egg, 蛋清]
-tags: [gin, citrus, mint, sweet, herbal, shaken, sour, 南区]
+tags: ["gin","citrus","mint","sweet","herbal","shaken","sour","南区","Southside"]
 summary: 金酒酸酒中加入薄荷，清凉、酸甜和杜松子香气在杯中交叠。
 background: >-
   南区的早期记录和命名背景存在多种说法，常见叙述把它与20世纪初纽约南区酒吧、芝加哥或禁酒令时期的地下酒吧文化联系起来，但缺少能完全定案的单一来源。它的结构很接近带薄荷的 Gin Sour：伦敦干金酒、柠檬汁、糖浆和薄荷一起摇制，蛋清可选，用来增加柔滑泡沫。IBA 采用双重过滤后入冰镇鸡尾酒杯，并以薄荷枝装饰，让香气集中在入口和杯沿。与莫希托相比，南区不加入苏打水，酒体更紧致、酸度更清晰，也更适合短饮呈现。

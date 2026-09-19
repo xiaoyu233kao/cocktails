@@ -1,0 +1,68 @@
+{
+    "_id": "aperol-spritz",
+    "name": "Aperol Spritz",
+    "instructions": "Build all ingredients into a wine glass filled with ice. Stir gently.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A Spritz is a Venetian wine-based cocktail, commonly served as an aperitif in Northeast Italy. It consists of prosecco, digestive bitters and soda water. The Spritz became widely popular outside of Italy around 2018 and Aperol Spritz was ranked as the world's ninth bestselling cocktail in 2019 by the website Drinks International.",
+    "source": "https://iba-world.com/spritz/",
+    "garnish": "Garnish with a slice of orange.",
+    "abv": 8.33,
+    "tags": [
+        "IBA Cocktail",
+        "New Era Drinks",
+        "Spritz"
+    ],
+    "glass": "Wine",
+    "method": "Build",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///aperol-spritz.webp",
+            "sort": 1,
+            "placeholder_hash": "DjkKLwoDhJxPgbdveGiGOYiJN/O0U08I",
+            "copyright": "Kitchen Swagger"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "prosecco",
+            "name": "Prosecco",
+            "sort": 1,
+            "amount": 90,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "aperol",
+            "name": "Aperol",
+            "sort": 2,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "club-soda",
+            "name": "Club soda",
+            "sort": 3,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

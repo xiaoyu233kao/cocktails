@@ -1,0 +1,91 @@
+{
+    "_id": "keoke-coffee",
+    "name": "Keoke Coffee",
+    "instructions": "1. In a preheated Irish Coffee glass, add crème de cacao, brandy and brown sugar syrup.\n2. Top up with hot coffee, leaving room for cream.\n3. Finish with a generous float of whipped cream.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "An updated take on the Keoke Coffee cocktail recipe, which adds brandy to the mix and gets served in an Irish Coffee glass.",
+    "source": "https://punchdrink.com/recipes/keoke-coffee/",
+    "garnish": "Garnish with ground cinnamon.",
+    "abv": 12.09,
+    "tags": [
+        "Coffee",
+        "Hot"
+    ],
+    "glass": "Glass mug",
+    "method": "Build",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///keoke-coffee.webp",
+            "sort": 1,
+            "placeholder_hash": "EPgJHwhgiHilk3dshKlod7aEJflpkp8G",
+            "copyright": "Punch Staff"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "coffee",
+            "name": "Coffee",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "creme-de-cacao-dark",
+            "name": "Crème de Cacao (Dark)",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "brandy",
+            "name": "Brandy",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 4,
+            "amount": 1,
+            "units": "barspoon",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cream",
+            "name": "Cream",
+            "sort": 5,
+            "amount": 1,
+            "units": "float",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

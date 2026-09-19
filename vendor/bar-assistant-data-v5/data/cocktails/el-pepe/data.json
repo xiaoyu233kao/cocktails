@@ -1,0 +1,114 @@
+{
+    "_id": "el-pepe",
+    "name": "El Pepe",
+    "instructions": "1. Add all ingredients to a cocktail shaker.\n2. Add ice and shake until chilled.\n3. Strain over a large rock into a rocks glass.\n4. Garnish with a basil leaf.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Although A16’s El Pepe cocktail recipe looks innocent in a glass, it’s delightfully complex, built with a structure similar to Margarita.",
+    "source": "https://punchdrink.com/recipes/el-pepe/",
+    "garnish": "basil leaf",
+    "abv": 21.25,
+    "tags": [
+        "Savory"
+    ],
+    "glass": "Lowball",
+    "method": "Blend",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///el-pepe.webp",
+            "sort": 1,
+            "placeholder_hash": "ITkWHwSXhmdwdoiDiXeIeYiJeAA3OYAI",
+            "copyright": "Punch Staff | Lizzie Munro"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "mezcal",
+            "name": "Mezcal",
+            "sort": 1,
+            "amount": 1,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "such as Del Maguey Vida",
+            "substitutes": []
+        },
+        {
+            "_id": "genepy",
+            "name": "Génépy",
+            "sort": 2,
+            "amount": 0.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "such as Dolin",
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 3,
+            "amount": 0.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 4,
+            "amount": 0.25,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "1:1, sugar to water",
+            "substitutes": []
+        },
+        {
+            "_id": "basil",
+            "name": "Basil",
+            "sort": 5,
+            "amount": 2,
+            "units": "leaves",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "chilli-pepper",
+            "name": "Chilli Pepper",
+            "sort": 6,
+            "amount": 1,
+            "units": "slice",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "thin",
+            "substitutes": []
+        },
+        {
+            "_id": "angostura-aromatic-bitters",
+            "name": "Angostura aromatic bitters",
+            "sort": 7,
+            "amount": 4,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

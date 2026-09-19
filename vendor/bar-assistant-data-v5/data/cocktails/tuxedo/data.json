@@ -1,0 +1,91 @@
+{
+    "_id": "tuxedo",
+    "name": "Tuxedo",
+    "instructions": "Pour all ingredients into mixing glass with ice cubes. Stir well. Strain into chilled martini cocktail glass.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Related to the martini, the Tuxedo has had many variations since its inception in the 1880s. The cocktail is named after the Tuxedo Club in Orange County, New York where it was first mixed. Tuxedo Park, the planned community where the club was built, is itself a derivation of the Lenape word tucseto. The form of menswear by the same name originated at the same country club around the same time.",
+    "source": "https://iba-world.com/tuxedo/",
+    "garnish": "Garnish with cherry and lemon zest",
+    "abv": 24.17,
+    "tags": [
+        "IBA Cocktail",
+        "The Unforgettables"
+    ],
+    "glass": "Cocktail",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///tuxedo.webp",
+            "sort": 1,
+            "placeholder_hash": "kQgKJwQJaIiLhXVmhkm2h4dohvJ3CG8J",
+            "copyright": "Punch"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "dry-vermouth",
+            "name": "Dry Vermouth",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "maraschino",
+            "name": "Maraschino",
+            "sort": 3,
+            "amount": 1,
+            "units": "teaspoon",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "absinthe",
+            "name": "Absinthe",
+            "sort": 4,
+            "amount": 2,
+            "units": "teaspoon",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orange-bitters",
+            "name": "Orange bitters",
+            "sort": 5,
+            "amount": 3,
+            "units": "dashes",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

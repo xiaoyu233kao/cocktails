@@ -1,0 +1,90 @@
+{
+    "_id": "giving-basil",
+    "name": "Giving Basil",
+    "instructions": "1. Add all of the ingredients to a shaker with ice.\n2. Shake, then double strain into a chilled glass.\n3. Spritz with the vanilla tincture, then garnish.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Gabe Fountain, lead bartender of Oklahoma City's The Jones Assembly, took the classic Gimlet, added an herbaceous complexity with Italicus liqueur and basil, then rounded out the flavors and texture with pistachio orgeat for an irresistibly smooth sipper.",
+    "source": "https://imbibemagazine.com/recipe/giving-basil-from-the-jones-assembly/",
+    "garnish": "Small basil leaf or dried basil blossom",
+    "abv": 16,
+    "tags": [
+        "Herbacious"
+    ],
+    "glass": "Coupe",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///giving-basil.webp",
+            "sort": 1,
+            "placeholder_hash": "FjkKDwIQpZiKhnd1eTenSKeJB8MYoIgH",
+            "copyright": "Imbibe Magazine | Bailey Rucker/The Jones Assembly"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "italicus-rosolio-di-bergamotto",
+            "name": "Italicus Rosolio di Bergamotto",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orgeat-syrup",
+            "name": "Orgeat Syrup",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 4,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "basil",
+            "name": "Basil",
+            "sort": 5,
+            "amount": 4,
+            "units": "leaves",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

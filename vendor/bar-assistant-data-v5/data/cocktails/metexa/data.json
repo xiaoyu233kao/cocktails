@@ -1,0 +1,78 @@
+{
+    "_id": "metexa",
+    "name": "Metexa",
+    "instructions": "1. Combine all ingredients in a mixing glass.\n2. Stir with ice.\n3. Strain into a chilled coupe.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The Metexa is a tequila drink made with blanco tequila, Lillet and Swedish punsch. Here, Cocchi Americano swaps in for the Lillet.",
+    "source": "https://punchdrink.com/recipes/metexa/",
+    "garnish": "Garnish with a grapefruit twist.",
+    "abv": 19.25,
+    "tags": [
+        "Citrusy"
+    ],
+    "glass": "Cocktail",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///metexa.webp",
+            "sort": 1,
+            "placeholder_hash": "JVoGFwJQhnedaYeHd3h4t2d4iPFnGk8K",
+            "copyright": "Punch Staff"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "cocchi-aperitivo-americano",
+            "name": "Cocchi Aperitivo Americano",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "tequila-blanco",
+            "name": "Tequila Blanco",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "swedish-punsch",
+            "name": "Swedish punsch",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "grapefruit",
+            "name": "Grapefruit",
+            "sort": 4,
+            "amount": 1,
+            "units": "peel",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

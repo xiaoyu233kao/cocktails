@@ -1,0 +1,55 @@
+{
+    "_id": "rusty-nail",
+    "name": "Rusty Nail",
+    "instructions": "Pour all ingredients directly into an old fashioned glass filled with ice. Stir gently.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A Rusty Nail can be served in an old-fashioned glass on the rocks, or \"up\" in a stemmed glass. It is most commonly served over ice. A Rusty Nail served without ice is sometimes called a Straight Up Nail.\n\n  - **The Rusty Bob**, which substitutes Bourbon whiskey for blended Scotch whisky\n  - **The Rusty Ale**, in which a shot of Drambuie is added to any beer, served without ice.\n  - **The Smoky Nail**, which uses Islay whisky (very smoky in flavor) in place of blended Scotch whisky.\n  - **The Clavo Ahumado** (Spanish for \"smoky nail\"), using mezcal instead of blended Scotch whisky.\n  - **The Railroad Spike**, often served at brunch and made with approximately four parts Cold brewed coffee to one part Drambuie in a tall glass over ice.\n  - **The Donald Sutherland**, which substitutes Canadian rye whisky for blended Scotch whisky.",
+    "source": "https://iba-world.com/rusty-nail/",
+    "garnish": "Garnish with lemon zest.",
+    "abv": 36.36,
+    "tags": [
+        "IBA Cocktail",
+        "The Unforgettables"
+    ],
+    "glass": "Lowball",
+    "method": "Build",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///rusty-nail.webp",
+            "sort": 1,
+            "placeholder_hash": "aCkGLwSv2YnnsIm0njYcVSyNpgOJSYAI",
+            "copyright": "Serious Eats"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "scotch-whiskey",
+            "name": "Scotch whiskey",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "drambuie",
+            "name": "Drambuie",
+            "sort": 2,
+            "amount": 25,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

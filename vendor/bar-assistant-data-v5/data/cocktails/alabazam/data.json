@@ -1,0 +1,91 @@
+{
+    "_id": "alabazam",
+    "name": "Alabazam",
+    "instructions": "1. Combine all ingredients with ice and shake\n2. Strain into a chilled cocktail glass, serve up",
+    "created_at": null,
+    "updated_at": null,
+    "description": "One of the oldest sours, this drink also uses an enormous portion of Angostura bitters",
+    "source": "https://tuxedono2.com/alabazam-cocktail-recipe",
+    "garnish": "",
+    "abv": 25.41,
+    "tags": [
+        "Sour",
+        "Citrusy"
+    ],
+    "glass": "Nick and Nora",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///alabazam.webp",
+            "sort": 1,
+            "placeholder_hash": "xvcFDwIIt2iLdYl4d0enN8h0dsBHB3sD",
+            "copyright": "TuxedoNo2"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "cognac",
+            "name": "Cognac",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "triple-sec",
+            "name": "Triple Sec",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 4,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "angostura-aromatic-bitters",
+            "name": "Angostura aromatic bitters",
+            "sort": 5,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

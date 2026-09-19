@@ -1,0 +1,104 @@
+---
+slug: bahama-mama
+nameZh: 巴哈马妈妈
+nameEn: Bahama Mama
+category: Bar Assistant Community
+baseSpirit: rum
+flavors:
+  - fresh
+  - fruity
+  - tropical
+  - sweet
+  - coffee
+styles:
+  - short
+  - tropical
+ingredients:
+  - nameZh: 牙买加朗姆
+    nameEn: Jamaican Rum
+    amount: 1 oz（preferably Plantation Xaymaca）
+    aliases:
+      - Jamaican Rum
+      - 牙买加朗姆
+  - nameZh: 高度朗姆
+    nameEn: Overproof Rum
+    amount: 0.75 oz（preferably Rum-Bar Overproof White Jamaican Rum）
+    aliases:
+      - Overproof Rum
+      - 高度朗姆
+  - nameZh: 菠萝汁
+    nameEn: Pineapple juice
+    amount: 1 oz
+    aliases:
+      - Pineapple juice
+      - 菠萝汁
+  - nameZh: 柠檬汁
+    nameEn: Lemon juice
+    amount: 1 oz
+    aliases:
+      - Lemon juice
+      - 柠檬汁
+  - nameZh: 椰子糖浆
+    nameEn: Coconut Syrup
+    amount: 15 ml
+    aliases:
+      - Coconut Syrup
+      - 椰子糖浆
+  - nameZh: 石榴糖浆
+    nameEn: Grenadine Syrup
+    amount: 15 ml
+    aliases:
+      - Grenadine Syrup
+      - 石榴糖浆
+  - nameZh: 橙味库拉索
+    nameEn: Orange Curaçao
+    amount: 0.25 oz（preferably Pierre Ferrand Dry Curacao）
+    aliases:
+      - Orange Curaçao
+      - 橙味库拉索
+  - nameZh: 香蕉利口酒
+    nameEn: Crème de banane
+    amount: 7.5 barspoon（preferably Giffard Banane du Bresil）
+    aliases:
+      - Crème de banane
+      - 香蕉利口酒
+tags:
+  - community
+  - bar-assistant
+  - rum
+  - fruity
+  - fresh
+  - tropical
+  - sweet
+  - coffee
+  - short
+summary: 巴哈马妈妈以牙买加朗姆、高度朗姆、菠萝汁为核心，采用摇和调制，呈现清新、果香、热带的风味结构。
+background: 巴哈马妈妈以牙买加朗姆、高度朗姆、菠萝汁为核心，资料记录的基酒结构归入朗姆酒，并采用摇和完成混合。成酒建议装入提基杯，以按资料指定的装饰收尾；清新、果香、热带共同构成它的主要风味，甜酸、酒体和稀释度会随原料与冰量变化。建议先充分冷却，再在合适的冰量下尽快饮用，以保持香气、口感和温度的平衡。当前快照未提供可核验的创制年份或作者，因此不对年代、地点和人物作历史推断；原始来源与快照地址见来源字段。
+historySources:
+  - label: 原始来源 · Bahama Mama
+    url: https://punchdrink.com/recipes/bahama-mama/
+    checkedAt: 2026-09-20
+  - label: Bar Assistant v5 snapshot · Bahama Mama
+    url: https://github.com/bar-assistant/data/blob/5a504d474614494119882eb91a8ffdc5491a483f/data/cocktails/bahama-mama/data.json
+    checkedAt: 2026-09-20
+steps:
+  - 将牙买加朗姆、高度朗姆、菠萝汁、柠檬汁、椰子糖浆加入摇酒器，加入冰块后充分摇和至冰镇；滤入提基杯。
+  - 原资料标注约5秒的处理时间，以便复核冰镇与稀释程度。
+  - 以按资料指定的装饰装饰后尽快饮用。
+glass: Tiki
+garnish: 按资料指定的装饰
+image: /images/cocktails/bahama-mama.svg
+imageAlt: 巴哈马妈妈的程序化酒杯示意图
+imageCredit:
+  kind: generated
+  creator: Cocktail Atlas procedural illustration
+  source: local generator
+  license: Project generated asset
+  modified: true
+  checkedAt: 2026-09-20
+source:
+  label: Bar Assistant v5 snapshot · Bahama Mama
+  url: https://github.com/bar-assistant/data/blob/5a504d474614494119882eb91a8ffdc5491a483f/data/cocktails/bahama-mama/data.json
+  checkedAt: 2026-09-20
+variants: []
+---

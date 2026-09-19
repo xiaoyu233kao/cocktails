@@ -1,0 +1,92 @@
+{
+    "_id": "absinthe-colada",
+    "name": "Absinthe Colada",
+    "instructions": "1. Add all ingredients to a cocktail shaker\n2. Add ice and shake hard for 10 seconds\n3. Strain into a hurricane glass filled with crushed ice",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Mint and coconut are an excellent pairing that's underused in cocktails. This piña colada variant from Maison Premiere in Brooklyn employs mint in two ways in this boldly flavored cocktail.",
+    "source": "https://www.liberandcompany.com/collections/recipes/products/absinthe-colada",
+    "garnish": "fresh mint",
+    "abv": 16,
+    "tags": [
+        "Tiki",
+        "Summer",
+        "Herbacious"
+    ],
+    "glass": "Hurricane",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///absinthe-colada.webp",
+            "sort": 1,
+            "placeholder_hash": "WCgGFwQ7UK3ExlZsmXplhYpyntQHal8C",
+            "copyright": "LiberAndCo"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "absinthe",
+            "name": "Absinthe",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "rhum-agricole",
+            "name": "Rhum agricole",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "coconut-syrup",
+            "name": "Coconut Syrup",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "creme-de-menthe",
+            "name": "Crème de menthe",
+            "sort": 4,
+            "amount": 1,
+            "units": "barspoon",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "pineapple-juice",
+            "name": "Pineapple juice",
+            "sort": 5,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

@@ -1,0 +1,90 @@
+{
+    "_id": "andalusian-buck",
+    "name": "Andalusian Buck",
+    "instructions": "1. Combine gin, sherry, lime juice, and Demerara syrup in a cocktail shaker with ice.\n2. Shake until cold.\n3. I like to add the ginger beer directly to the shaker, then pour slowly over fresh ice in a chilled Collins glass.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "This drink is great because it doesn’t go too far any any direction. It’s not too sweet, there’s only a teaspoon of sugar in the whole thing. It’s not too sour, there’a barely half a lime’s worth of juice. And it’s not too strong, it only calls for an ounce of gin. And between the ginger beer and the Amontillado sherry, it’s absolutely bursting with flavor. In sort, it’s refreshing and crushable, but still interesting, which was exactly the type of drink we specialized in at Clyde Common.",
+    "source": "https://jeffreymorgenthaler.com/andalusian-buck/",
+    "garnish": "Garnish with a lime wheel.",
+    "abv": 10.13,
+    "tags": [
+        "Savory"
+    ],
+    "glass": "Highball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///andalusian-buck.webp",
+            "sort": 1,
+            "placeholder_hash": "nFkKFwYDd3h0mXdzeIeHd3eI92pZ/IgJ",
+            "copyright": "Jeffrey Morgenthaler"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "sherry",
+            "name": "Sherry",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 4,
+            "amount": 1,
+            "units": "barspoon",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "ginger-beer",
+            "name": "Ginger beer",
+            "sort": 5,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

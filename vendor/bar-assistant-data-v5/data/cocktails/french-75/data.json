@@ -1,0 +1,79 @@
+{
+    "_id": "french-75",
+    "name": "French 75",
+    "instructions": "1. Pour all the ingredients, except Champagne, into a shaker.\n2. Shake well and strain into a Champagne flute.\n3. Top up with Champagne.\n4. Stir gently.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The drink dates to World War I, and an early form was created in 1915 at the New York Bar in Paris—later Harry's New York Bar—by barman Harry MacElhone. The combination was said to have such a kick that it felt like being shelled with the powerful French 75mm field gun.",
+    "source": "https://iba-world.com/french-75/",
+    "garnish": null,
+    "abv": 12.8,
+    "tags": [
+        "Contemporary Classics",
+        "IBA Cocktail"
+    ],
+    "glass": "Champagne",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///french-75.webp",
+            "sort": 1,
+            "placeholder_hash": "bggKHwKIiIeeiId9dyd4d3ePxBsGnlAC",
+            "copyright": "Sip and Feast"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "champagne",
+            "name": "Champagne",
+            "sort": 4,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

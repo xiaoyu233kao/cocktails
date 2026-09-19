@@ -1,0 +1,78 @@
+{
+    "_id": "star",
+    "name": "Star",
+    "instructions": "1. Combine all ingredients in a mixing glass and stir for ten seconds\n2. Strain into a cocktail glass and garnish",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A humble riff on the famous Manhattan yields excellent fall flavors",
+    "source": "https://tuxedono2.com/star-cocktail-recipe",
+    "garnish": "lemon twist for garnish",
+    "abv": 26.79,
+    "tags": [
+        "Brandy"
+    ],
+    "glass": "Cocktail",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///star.webp",
+            "sort": 0,
+            "placeholder_hash": "AggCBwAGmJl1mXaId2eIFriKhIBnB3oE",
+            "copyright": "TuxedoNo2"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "apple-brandy",
+            "name": "Apple Brandy",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "sweet-vermouth",
+            "name": "Sweet Vermouth",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 3,
+            "amount": 1,
+            "units": "barspoon",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "angostura-aromatic-bitters",
+            "name": "Angostura aromatic bitters",
+            "sort": 4,
+            "amount": 2,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

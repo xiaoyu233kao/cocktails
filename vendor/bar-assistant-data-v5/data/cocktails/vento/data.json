@@ -1,0 +1,79 @@
+{
+    "_id": "vento",
+    "name": "VE.N.TO",
+    "instructions": "1. Pour all ingredients into the shaker.\n2. Shake vigorously with ice.\n3. Strain into a chilled small tumbler glass filled with ice.\n\nNotes:\nIf desired water can be replaced by chamomile infusion in the honey mix.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The Ve.n.to is one of the new additions to the IBA (International Bartender Association) cocktail list. And it is a truly unusual one, for it is the first-ever Grappa cocktail that made it into one of the lists of the IBA.",
+    "source": "https://iba-world.com/ve-n-to/",
+    "garnish": "Garnish with lemon zest and white grapes.",
+    "abv": 18.46,
+    "tags": [
+        "IBA Cocktail",
+        "New Era Drinks"
+    ],
+    "glass": "Lowball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///vento.webp",
+            "sort": 1,
+            "placeholder_hash": "ewgGFwD4V2eHeHeKdphnqFd4iLBYCY8B",
+            "copyright": "IBA World"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "grappa",
+            "name": "Grappa",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "honey-syrup",
+            "name": "Honey Syrup",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "chamomile-liqueur",
+            "name": "Chamomile Liqueur",
+            "sort": 4,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

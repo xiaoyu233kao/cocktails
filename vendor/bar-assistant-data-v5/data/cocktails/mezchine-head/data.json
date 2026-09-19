@@ -1,0 +1,88 @@
+{
+    "_id": "mezchine-head",
+    "name": "Mezchine Head",
+    "instructions": "1. Add all of the ingredients to a shaker with ice.\n2. Shake and strain into the glass over fresh ice, then garnish.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "This mezcal cocktail \"tastes smoky, gingery, and tropical with a nice little bite from Cynar,\" says Local Republic bartender Jeffrey Talbert.",
+    "source": "https://imbibemagazine.com/recipe/mezchine-head-tropical-mezcal-cocktail/",
+    "garnish": "Pineapple frond",
+    "abv": 12.85,
+    "tags": [],
+    "glass": "Highball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///mezchine-head.webp",
+            "sort": 0,
+            "placeholder_hash": "iSgGHwQKYstSinhlqKl3eHmJtwNGS3AF",
+            "copyright": "Imbibe Magazine | Damian AhChing"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "mezcal",
+            "name": "Mezcal",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cynar",
+            "name": "Cynar",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "pineapple-juice",
+            "name": "Pineapple juice",
+            "sort": 3,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "honey-ginger-syrup",
+            "name": "Honey ginger syrup",
+            "sort": 4,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 5,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

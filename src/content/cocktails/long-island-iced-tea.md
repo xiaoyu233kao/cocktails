@@ -45,7 +45,7 @@ ingredients:
     nameEn: "Cola"
     amount: "Top up"
     aliases: ["cola", "可乐"]
-tags: ["vodka", "citrus", "sweet", "cola", "built", "highball", "long"]
+tags: ["vodka","citrus","sweet","cola","built","highball","long","Long Island Ice Tea"]
 summary: "五种基酒以柠檬和糖浆调和，再用可乐补足颜色和焦糖香。"
 background: >-
   长岛冰茶在 20 世纪 70 年代美国酒吧文化中流行，常见说法将现代版本归于纽约长岛 Oak Beach Inn 的 Robert “Rosebud” Butt；另一种把它归给 Tennessee 的 Old Man Bishop，文献支持较弱，起源尚无一致结论。名称来自成品的茶色，而非真正含茶。五种烈酒以等量少量叠加，配柠檬、糖浆并用可乐补色和气泡，形成类似冰茶的外观。它从比赛与酒吧营销中扩散，如今被视为高酒精、易饮但需注意强度的派对型长饮。 关于Long Island Iced Tea的起源、传播与具体比例，现存记录可能因地区、时代和酒吧传统而有差异；本条以 IBA 页面及所列历史来源的可核对信息为准，并把后来的改写与当前标准配方分开说明。

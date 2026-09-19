@@ -1,0 +1,79 @@
+{
+    "_id": "black-manhattan",
+    "name": "Black Manhattan",
+    "instructions": "1. Combine all ingredients in a mixing glass with ice and stir until chilled.\n2. Strain into a chilled coupe.\n3. Garnish with a cherry.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Amaro Averna stands in for sweet vermouth in this Manhattan-inspired modern classic cocktail recipe from Todd Smith.",
+    "source": "https://punchdrink.com/recipes/black-manhattan/",
+    "garnish": "cherry",
+    "abv": 30.28,
+    "tags": [
+        "Bitter",
+        "Spicy"
+    ],
+    "glass": "Cocktail",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///black-manhattan.webp",
+            "sort": 0,
+            "placeholder_hash": "HkkKJwb8Z0eBjXeEhbdIZ3d3aQp4hnAG",
+            "copyright": "Punch Staff | Lizzie Munro"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "rye-whiskey",
+            "name": "Rye whiskey",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "amaro-averna",
+            "name": "Amaro Averna",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "angostura-aromatic-bitters",
+            "name": "Angostura aromatic bitters",
+            "sort": 3,
+            "amount": 1,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orange-bitters",
+            "name": "Orange bitters",
+            "sort": 4,
+            "amount": 1,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

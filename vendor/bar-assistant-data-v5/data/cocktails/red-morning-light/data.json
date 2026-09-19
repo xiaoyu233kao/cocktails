@@ -1,0 +1,90 @@
+{
+    "_id": "red-morning-light",
+    "name": "Red Morning Light",
+    "instructions": "1. Stir all of the ingredients in a mixing glass with ice until chilled.\n2. Strain into a glass holding a large ice cube.\n3. Use an atomizer to spray the drink with a smoky scotch, then garnish. (Alternately, drip several drops of scotch atop the drink, then garnish.)",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Smoky scotch and bittersweet Campari combine for the perfect cold-weather sipper from Vegas.",
+    "source": "https://imbibemagazine.com/recipe/scotch-cocktail-red-morning-light/",
+    "garnish": "Orange twist",
+    "abv": 25.55,
+    "tags": [
+        "Smokey"
+    ],
+    "glass": "Lowball",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///red-morning-light.webp",
+            "sort": 0,
+            "placeholder_hash": "FhgKDwKCinjfZ2mrhpeGSphX9jOdDOgL",
+            "copyright": "Imbibe Magazine"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "scotch-whiskey",
+            "name": "Scotch whiskey",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "campari",
+            "name": "Campari",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "dry-vermouth",
+            "name": "Dry Vermouth",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "coffee-liqueur",
+            "name": "Coffee liqueur",
+            "sort": 4,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "mole-bitters",
+            "name": "Mole Bitters",
+            "sort": 5,
+            "amount": 2,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

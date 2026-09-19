@@ -1,0 +1,88 @@
+{
+    "_id": "bramble",
+    "name": "Bramble",
+    "instructions": "If crème de mûre is unavailable, many bartenders will substitute creme de cassis for it.\n\n1. Pour all ingredients into a cocktail shaker except the Crème de Mûre\n2. Shake well with ice\n3. Strain into chilled old fashioned glass filled with crushed ice\n4. Pour the blackberry liqueur (Crème de Mûre) over the top of the drink, in a circular motion.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The Bramble was created in London, in 1984, by Dick Bradsell. At the time, Bradsell worked at a bar in Soho called Fred&#039;s Club, and he wanted to create a British cocktail. Memories of going blackberrying in his childhood on the Isle of Wight provided the inspiration for the Bramble.",
+    "source": "https://iba-world.com/bramble/",
+    "garnish": "Garnish optionally with a lemon slice and blackberries.",
+    "abv": 20.66,
+    "tags": [
+        "IBA Cocktail",
+        "New Era Drinks",
+        "Fruity"
+    ],
+    "glass": "Lowball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///bramble.webp",
+            "sort": 1,
+            "placeholder_hash": "00gGFwYQuVdYeIahfRWrpXh5VAm5WIAH",
+            "copyright": "Anders"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 50,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 2,
+            "amount": 25,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 3,
+            "amount": 12,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "creme-de-mure",
+            "name": "Crème de mûre",
+            "sort": 4,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": [
+                {
+                    "_id": "creme-de-cassis",
+                    "name": "Crème de cassis",
+                    "amount": null,
+                    "units": null,
+                    "amount_max": null
+                }
+            ]
+        }
+    ]
+}

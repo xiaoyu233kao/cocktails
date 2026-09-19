@@ -1,0 +1,112 @@
+{
+    "_id": "smoke-follows-beauty",
+    "name": "Smoke Follows Beauty",
+    "instructions": "1. In a shaker, muddle the cucumber and cilantro.\n2. Add the mezcal, infused triple sec, lime juice, agave syrup, and ice, and shake until well-chilled.\n3. Double-strain into a Nick &amp; Nora glass.\n4. Garnish with a chilled slice of jicama seasoned with sal de gusano.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "This mezcal cocktail is both spicy and refreshing, thanks to serrano-infused triple sec, cucumbers, and cilantro.",
+    "source": "https://www.liquor.com/smoke-follows-beauty-cocktail-recipe-5220390",
+    "garnish": null,
+    "abv": 23.47,
+    "tags": [],
+    "glass": "Nick and Nora",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///smoke-follows-beauty.webp",
+            "sort": 1,
+            "placeholder_hash": "ZwgKFwBfeHfRh3iEeYiWZ5aGhsBYCpoD",
+            "copyright": "Liquor.com"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "mezcal",
+            "name": "Mezcal",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cointreau",
+            "name": "Cointreau",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "freshly squeezed",
+            "substitutes": []
+        },
+        {
+            "_id": "agave-syrup",
+            "name": "Agave Syrup",
+            "sort": 4,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cucumber",
+            "name": "Cucumber",
+            "sort": 5,
+            "amount": 3,
+            "units": "slice",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cilantro",
+            "name": "Cilantro",
+            "sort": 6,
+            "amount": 2,
+            "units": "stalks",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "chilli-pepper",
+            "name": "Chilli Pepper",
+            "sort": 7,
+            "amount": 1,
+            "units": "slice",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

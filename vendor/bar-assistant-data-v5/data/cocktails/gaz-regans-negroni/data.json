@@ -1,0 +1,67 @@
+{
+    "_id": "gaz-regans-negroni",
+    "name": "Gaz Regan’s Negroni",
+    "instructions": "1. Combine all ingredients in a mixing glass over ice and stir until chilled.\n2. Strain into a rocks glass over fresh ice.\n3. Garnish with an orange twist.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "In Gaz Regan's nontraditional take on the classic Negroni cocktail recipe, Jägermeister stands in for Campari.",
+    "source": "https://punchdrink.com/recipes/gaz-regans-negroni/",
+    "garnish": "orange twist",
+    "abv": 28.18,
+    "tags": [
+        "Negroni",
+        "Bitter"
+    ],
+    "glass": "Lowball",
+    "method": "Build",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///gaz-regans-negroni.webp",
+            "sort": 0,
+            "placeholder_hash": "iygGDwIDeoeyZ4mJVmlmqYeUisBOGf0J",
+            "copyright": "Punch Staff | Lizzie Munro"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "jagermeister",
+            "name": "Jägermeister",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "sweet-vermouth",
+            "name": "Sweet Vermouth",
+            "sort": 3,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

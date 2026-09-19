@@ -1,0 +1,76 @@
+{
+    "_id": "paper-airplane",
+    "name": "Paper Airplane",
+    "instructions": "Build all ingredients in cocktail shaker. Shake vigorously with ice. Strain up into coupe or Nick and Nora glass and finish with lime zest.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Mezcal riff on the classic Paper Airplane cocktail",
+    "source": "https://www.ilegalmezcal.com/paper-airplane/",
+    "garnish": "lime zest",
+    "abv": 18.2,
+    "tags": [],
+    "glass": "Nick and Nora",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///paper-airplane.webp",
+            "sort": 1,
+            "placeholder_hash": "k1kKJwZdmnjwqomHjkmoaHaoq2AZCpMB",
+            "copyright": ""
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "mezcal",
+            "name": "Mezcal",
+            "sort": 1,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "triple-sec",
+            "name": "Triple Sec",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "aperol",
+            "name": "Aperol",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 4,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

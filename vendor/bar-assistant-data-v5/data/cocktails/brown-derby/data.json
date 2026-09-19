@@ -1,0 +1,76 @@
+{
+    "_id": "brown-derby",
+    "name": "Brown Derby",
+    "instructions": "1. Add the ingredients into a shaker with ice and shake until well-chilled.\n\n2. Fine-strain into a cocktail glass.\n\n3. Express the oil from a grapefruit twist over the drink and drop the twist into the drink to garnish.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The Brown Derby cocktail, a classic bourbon drink, was named for the famous Los Angeles diner and is both sweet and sour.",
+    "source": null,
+    "garnish": "Grapefruit twist",
+    "abv": 14.77,
+    "tags": [],
+    "glass": "Coupe",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///brown-derby.webp",
+            "sort": 1,
+            "placeholder_hash": "b1oGFwL2WIdyiYh4iMhHyFiGqeBpCZ4E",
+            "copyright": "Liquor.com"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "bourbon-whiskey",
+            "name": "Bourbon Whiskey",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "grapefruit-juice",
+            "name": "Grapefruit juice",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "honey-syrup",
+            "name": "Honey Syrup",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 4,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "_id": "comte-de-sureau",
+    "name": "Comte de Sureau",
+    "instructions": "Stir with ice and strain into a chilled rocks glass over ice.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The name translates to count of elderflower, which is a nod to the St-Germain that acts as the floral sweetener here.",
+    "source": "https://www.diffordsguide.com/cocktails/recipe/7257/comte-de-sureau",
+    "garnish": "Garnish with orange and lemon twists.",
+    "abv": 26.75,
+    "tags": [
+        "Negroni",
+        "Bitter"
+    ],
+    "glass": "Lowball",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": 2007,
+    "author": "Gonçalo de Sousa",
+    "images": [
+        {
+            "uri": "file:///comte-de-sureau.webp",
+            "sort": 1,
+            "placeholder_hash": "I0kKJwirmGePd4eJd5ZoiGiHSGBmBXUF",
+            "copyright": "Eric's Cocktail Guide"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "st-germain",
+            "name": "St-Germain",
+            "sort": 2,
+            "amount": 25,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "campari",
+            "name": "Campari",
+            "sort": 3,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

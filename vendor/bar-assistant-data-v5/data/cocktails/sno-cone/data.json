@@ -1,0 +1,100 @@
+{
+    "_id": "sno-cone",
+    "name": "Sno-Cone",
+    "instructions": "1. Whip shake with crushed ice and dump into the glass.\n2. Top with crushed ice and garnish with a few generous dashes of Peychaud's bitters.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The drink is a visual reference to the vibrant, fruity shaved ice and syrup Sno-Cones served on street corners in the summer. As this was for a winter menu, it has a rich and warming flavor profile. The idea was to create a deceptively seasonal drink, one that looked like summer but drank like winter.",
+    "source": "https://www.corpserevived.com/post/sno-cone",
+    "garnish": "Peychaud’s bitters",
+    "abv": 18.26,
+    "tags": [],
+    "glass": "Absinthe",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///sno-cone.webp",
+            "sort": 1,
+            "placeholder_hash": "i9cJFwZgLZmIiJZoeHiHiHh4tor2rT0P",
+            "copyright": "Brian Tasch"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "creme-de-cacao-white",
+            "name": "Crème de Cacao (White)",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cocchi-aperitivo-americano",
+            "name": "Cocchi Aperitivo Americano",
+            "sort": 4,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "blue-curacao",
+            "name": "Blue Curaçao",
+            "sort": 5,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "Pouring Ribbons uses Giffard",
+            "substitutes": []
+        },
+        {
+            "_id": "cinnamon-syrup",
+            "name": "Cinnamon syrup",
+            "sort": 6,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

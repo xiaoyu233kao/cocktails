@@ -1,0 +1,99 @@
+{
+    "_id": "picante-de-la-casa",
+    "name": "Picante de la Casa",
+    "instructions": "1. Cut a small piece of chili (about ¼ inch wide) and press with muddler in the shaker tin.\n2. Hand clap the cilantro (to release the aroma, place the leaves or sprig in one hand and gently smack it with the other – this warms up the garnish slightly and starts to extract the oils before you use it), and drop in.\n3. Add the rest of the ingredients, shake and fine strain into an ice-filled rocks glass (a short tumbler used for serving spirits).\n4. Cut off the top end  the chili pepper and place – stem upwards – on top.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Lovers of the margarita, we have a treat for you here! The Picante de la Casa Cocktail, also called the Soho House Picante or Soho House Tonic, is a creation of the Soho House Club. That is a group of private members' clubs with its origin in Soho in the Londoner West End. The cocktail, however, does not have its roots in England but in West Hollywood, USA. -Although, actually, it looks like it could be straight out of Mexico.",
+    "source": "https://www.sohohouse.com/en-us/house-notes/issue-4/house-favourites-how-to-make-a-picante",
+    "garnish": "Top end (stem) of the chilli pepper",
+    "abv": 17.07,
+    "tags": [
+        "Spicy",
+        "Margarita"
+    ],
+    "glass": "Lowball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///picante-de-la-casa.webp",
+            "sort": 1,
+            "placeholder_hash": "1/cJDwJOpoqdiHaKivdot4h5BJS3QGYO",
+            "copyright": "SohoHouse"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "tequila-reposado",
+            "name": "Tequila Reposado",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "agave-syrup",
+            "name": "Agave Syrup",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": [
+                {
+                    "_id": "honey-syrup",
+                    "name": "Honey Syrup",
+                    "amount": null,
+                    "units": null,
+                    "amount_max": null
+                }
+            ]
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 3,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "chilli-pepper",
+            "name": "Chilli Pepper",
+            "sort": 4,
+            "amount": 0.25,
+            "units": "inch",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cilantro",
+            "name": "Cilantro",
+            "sort": 5,
+            "amount": 10,
+            "units": "leaves",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

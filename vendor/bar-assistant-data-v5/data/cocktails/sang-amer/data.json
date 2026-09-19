@@ -1,0 +1,84 @@
+{
+    "_id": "sang-amer",
+    "name": "Sang Amer",
+    "instructions": "1. Reverse dry shake (shake hard with ice first and then remove the ice and shake hard again) to achieve a frothy layer. Pour into an ice-filled glass. Garnish.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "For something light to whet the appetite, mix together this tequila aperitif cocktail from Chemin &#224; la Mer in New Orleans.",
+    "source": "https://imbibemagazine.com/recipe/sang-amer-tequila-aperitif-cocktail/",
+    "garnish": "Blood orange wedge",
+    "abv": 13.81,
+    "tags": [],
+    "glass": "Highball",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///sang-amer.webp",
+            "sort": 1,
+            "placeholder_hash": "ZSgODwS+iGbxZnmJhGemV7h0h5AVCVcC",
+            "copyright": "Sang Amer tequila aperitif cocktail"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "tequila-blanco",
+            "name": "Tequila Blanco",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "campari",
+            "name": "Campari",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "aperol",
+            "name": "Aperol",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "blood-orange-juice",
+            "name": "Blood Orange Juice",
+            "sort": 4,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": [
+                {
+                    "_id": "orange-juice",
+                    "name": "Orange juice",
+                    "amount": null,
+                    "units": null,
+                    "amount_max": null
+                }
+            ]
+        }
+    ]
+}

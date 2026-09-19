@@ -1,0 +1,93 @@
+{
+    "_id": "john-collins",
+    "name": "John Collins",
+    "instructions": "Pour all ingredients directly into a highball filled with ice. Stir gently.\n\nNOTE:\n\nUse ‘Old Tom’ Gin for Tom Collins.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A John Collins is a cocktail which was attested in 1869, but may be older. It is believed to have originated with a headwaiter of that name who worked at Limmer's Old House in Conduit Street in Mayfair, which was a popular London hotel and coffee house around 1790–1817.",
+    "source": "https://iba-world.com/john-collins/",
+    "garnish": "Garnish with a lemon slice and maraschino cherry.",
+    "abv": 11.64,
+    "tags": [
+        "IBA Cocktail",
+        "The Unforgettables"
+    ],
+    "glass": "Highball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///john-collins-1.webp",
+            "sort": 1,
+            "placeholder_hash": "bOgFLwiKd5dgd4iLeKeGaFh5eWBYCHIH",
+            "copyright": "The Spruce Eats"
+        },
+        {
+            "uri": "file:///john-collins-2.webp",
+            "sort": 2,
+            "placeholder_hash": "0fcNJwQMyHhSeIiXilWHeHeYVzCXBHMJ",
+            "copyright": "A Couple Cooks"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": [
+                {
+                    "_id": "old-tom-gin",
+                    "name": "Old Tom Gin",
+                    "amount": null,
+                    "units": null,
+                    "amount_max": null
+                }
+            ]
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "club-soda",
+            "name": "Club soda",
+            "sort": 4,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

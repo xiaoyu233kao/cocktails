@@ -1,0 +1,112 @@
+{
+    "_id": "spaceface-from-young-american",
+    "name": "Spaceface from Young American",
+    "instructions": "1. Muddle 1 lime wedge with 6 mint leaves. Add the remaining ingredients, plus ice, and shake until cold. Strain into the glass over fresh ice and garnish.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A touch of crème de menthe and large bouquet of mint make this tequila cocktail from Chicago's Young American extra-refreshing.",
+    "source": "https://imbibemagazine.com/recipe/spaceface-from-young-american/",
+    "garnish": "Mint",
+    "abv": 17.37,
+    "tags": [],
+    "glass": "Lowball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///spaceface-from-young-american.webp",
+            "sort": 0,
+            "placeholder_hash": "HjgOJwhfa4ead4hmeahneYd4No9n/lMN",
+            "copyright": "Imbibe Magazine | Young American"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "tequila-blanco",
+            "name": "Tequila Blanco",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "pineapple-syrup",
+            "name": "Pineapple Syrup",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "McKinley uses Small Hand Foods",
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "honey",
+            "name": "Honey",
+            "sort": 4,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "creme-de-menthe",
+            "name": "Crème de menthe",
+            "sort": 5,
+            "amount": 1,
+            "units": "barspoon",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime",
+            "name": "Lime",
+            "sort": 6,
+            "amount": 1,
+            "units": "wedge",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "mint",
+            "name": "Mint",
+            "sort": 7,
+            "amount": 6,
+            "units": "leaves",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

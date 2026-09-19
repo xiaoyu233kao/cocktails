@@ -1,0 +1,79 @@
+{
+    "_id": "port-light",
+    "name": "Port Light",
+    "instructions": "Shake with ice, Dump",
+    "created_at": null,
+    "updated_at": null,
+    "description": "In the Trader Vic’s tradition, this drink is served in a Port Light glass, which resembles a rounded lantern with red glass and gold trim; the same glass in green is called a Starboard Light glass. A Port Light Highball appears in Trader Vic’s Bartender’s Guide (1947), but it’s very different from this drink, which Jeff “Beachbum” Berry discovered at the Kahiki Restaurant in Columbus, Ohio, in 1996.\n\nUnusual Tiki cocktail. Buffalo Trace works well here. Rye is not recommended for this one.",
+    "source": "Beachbum Berry's Grog Log by Jeff Berry & Annene Kaye, p. 66.",
+    "garnish": "Mint",
+    "abv": 17.07,
+    "tags": [
+        "Tropical",
+        "Tiki"
+    ],
+    "glass": "Lowball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///port-light.webp",
+            "sort": 1,
+            "placeholder_hash": "kIkKJwZumJq/eHeIiHeGWYaGmPSoCm4G",
+            "copyright": "Punch | Lizzie Munro"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "bourbon-whiskey",
+            "name": "Bourbon Whiskey",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "passionfruit-syrup",
+            "name": "Passionfruit syrup",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "grenadine-syrup",
+            "name": "Grenadine Syrup",
+            "sort": 4,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

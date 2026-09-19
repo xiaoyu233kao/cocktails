@@ -1,0 +1,112 @@
+{
+    "_id": "caribbean-ember",
+    "name": "Caribbean Ember",
+    "instructions": "1. Add the ingredients, except the ginger beer, with ice in a shaker. Shake and strain over fresh ice in a glass. Top with ginger beer. Garnish.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Tyler Malone of Zasu New Orleans wanted to create a rum cocktail with depth and warmth, one that bridges the gap between Old Fashioned-style cocktails and tropical drinks—\"two worlds that don't often meet,\" he says. He succeeded by matching rum with the spice of rye whiskey and the richness of dark maple syrup. \"It’s a cocktail that feels both familiar and unexpected. Bold, layered, and easy to drink,” he says.",
+    "source": "https://imbibemagazine.com/recipe/caribbean-ember-from-zasu-new-orleans/",
+    "garnish": "Mint bouquet",
+    "abv": 21.58,
+    "tags": [],
+    "glass": "Highball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///caribbean-ember.webp",
+            "sort": 1,
+            "placeholder_hash": "oEkSJwZWd4hgh4iGh4iGmHl4eaAFSIYA",
+            "copyright": "Imbibe Magazine | Kat Kimball"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "dark-rum",
+            "name": "Dark Rum",
+            "sort": 1,
+            "amount": 1.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "rye-whiskey",
+            "name": "Rye whiskey",
+            "sort": 2,
+            "amount": 0.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "pineapple-juice",
+            "name": "Pineapple juice",
+            "sort": 3,
+            "amount": 0.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "maple-syrup",
+            "name": "Maple syrup",
+            "sort": 4,
+            "amount": 0.25,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 5,
+            "amount": 0.25,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "angostura-aromatic-bitters",
+            "name": "Angostura aromatic bitters",
+            "sort": 6,
+            "amount": 5,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "ginger-beer",
+            "name": "Ginger beer",
+            "sort": 7,
+            "amount": 1,
+            "units": "topup",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

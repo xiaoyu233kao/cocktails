@@ -1,0 +1,78 @@
+{
+    "_id": "algonquin",
+    "name": "Algonquin",
+    "instructions": "1. Shake all ingredients with ice and fine strain into chilled glass.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Named for a historic hotel in midtown Manhattan, the classic Algonquin cocktail combines rye whiskey, vermouth and pineapple. At Clyde Common in Portland, Oregon, bartender Banjo Amberg uses Bianco vermouth instead of dry and pineapple gomme syrup instead of fresh juice for a more elegant version of the original. “Nobody likes the Algonquin. It was one of those drinks that was so unpopular that nobody that I know even tried to make it work, like you can do with so many of those forgotten ‘classics,’ ” says Amberg. “With a few adjustments we stumbled upon something truly delicious.”",
+    "source": "https://imbibemagazine.com/recipe/algonquin-cocktail-recipe/",
+    "garnish": "Lemon twist",
+    "abv": 19,
+    "tags": [
+        "Savory"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///algonquin.webp",
+            "sort": 1,
+            "placeholder_hash": "DzkOLwhAinexeIeFeHeIV5eJByZaYLAG",
+            "copyright": "Imbibe"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "rye-whiskey",
+            "name": "Rye whiskey",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "vermouth-bianco",
+            "name": "Vermouth Bianco",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "pineapple-syrup",
+            "name": "Pineapple Syrup",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "peychauds-bitters",
+            "name": "Peychauds Bitters",
+            "sort": 4,
+            "amount": 1,
+            "units": "dashes",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

@@ -1,0 +1,91 @@
+{
+    "_id": "saturn",
+    "name": "Saturn",
+    "instructions": "1. Add all ingredients to a cocktail shaker\n2. Add ice and shake hard for 10 seconds\n3. Strain into a rocks glass filled with crushed ice",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Winner of 1967's International Bartender's Association World Cocktail Championship - The Saturn is ready for its comeback!",
+    "source": "https://www.liberandcompany.com/collections/recipes/products/saturn",
+    "garnish": "Saturn + rings!",
+    "abv": 17.85,
+    "tags": [
+        "Summer",
+        "Tropical"
+    ],
+    "glass": "Lowball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///saturn.webp",
+            "sort": 1,
+            "placeholder_hash": "2ggKLwQdc6ePqXaCmZhot4d6hjB2B2AK",
+            "copyright": "LiberAndCo | Subtle Tiki"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "passionfruit-syrup",
+            "name": "Passionfruit syrup",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orgeat-syrup",
+            "name": "Orgeat Syrup",
+            "sort": 4,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "falernum",
+            "name": "Falernum",
+            "sort": 5,
+            "amount": 1,
+            "units": "barspoon",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

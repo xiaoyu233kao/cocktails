@@ -1,0 +1,91 @@
+{
+    "_id": "ce-soir",
+    "name": "Ce Soir",
+    "instructions": "1. Combine all ingredients in a mixing glass over ice and stir until chilled.\n2. Strain into a chilled coupe or cocktail glass.\n3. Express the lemon peel and discard.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A mix of Cognac, with touches of yellow Chartreuse and Cynar, and two types of bitters, this cocktail recipe is potent and elegant.",
+    "source": "https://punchdrink.com/recipes/ce-soir/",
+    "garnish": "expressed lemon peel",
+    "abv": 28.82,
+    "tags": [
+        "Bitter",
+        "Aperitivo"
+    ],
+    "glass": "Nick and Nora",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///ce-soir.webp",
+            "sort": 1,
+            "placeholder_hash": "0QcODwRpiHhQiXiOmHeGp3inxkEKHZMA",
+            "copyright": "Punch Staff | Lizzie Munro"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "cognac",
+            "name": "Cognac",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "preferably Pierre Ferrand 1840",
+            "substitutes": []
+        },
+        {
+            "_id": "cynar",
+            "name": "Cynar",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "yellow-chartreuse",
+            "name": "Yellow Chartreuse",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "angostura-aromatic-bitters",
+            "name": "Angostura aromatic bitters",
+            "sort": 4,
+            "amount": 1,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orange-bitters",
+            "name": "Orange bitters",
+            "sort": 5,
+            "amount": 1,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

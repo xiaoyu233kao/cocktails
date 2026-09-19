@@ -1,0 +1,93 @@
+{
+    "_id": "paper-plane",
+    "name": "Paper Plane",
+    "instructions": "Pour all ingredients into cocktail shaker, shake well with ice, strain into chilled cocktail glass.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Developed around 2007 by Sasha Petraske and Sam Ross of Milk &amp; Honey for their former colleague Toby Maloney&#039;s Chicago bar The Violet Hour. The recipe is a riff on a Last Word, which is a riff on the classic Corpse Reviver #2.",
+    "source": "https://iba-world.com/paper-plane/",
+    "garnish": null,
+    "abv": 17.2,
+    "tags": [
+        "IBA Cocktail",
+        "New Era Drinks"
+    ],
+    "glass": "Coupe",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///paper-plane-1.webp",
+            "sort": 1,
+            "placeholder_hash": "ImkKHwpCi6l5Z4aPWGhoeWd4tVBYXJAJ",
+            "copyright": "Bon Apetite"
+        },
+        {
+            "uri": "file:///paper-plane-2.webp",
+            "sort": 2,
+            "placeholder_hash": "5cYRPwxpeIdwd3eIeZiHV3d4agNHNnAE",
+            "copyright": "Reddit"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "bourbon-whiskey",
+            "name": "Bourbon Whiskey",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "amaro-nonino",
+            "name": "Amaro Nonino",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": [
+                {
+                    "_id": "pelinkovac",
+                    "name": "Pelinkovac",
+                    "amount": null,
+                    "units": null,
+                    "amount_max": null
+                }
+            ]
+        },
+        {
+            "_id": "aperol",
+            "name": "Aperol",
+            "sort": 3,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 4,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

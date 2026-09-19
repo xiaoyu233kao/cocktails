@@ -1,0 +1,76 @@
+{
+    "_id": "telekinesis",
+    "name": "Telekinesis",
+    "instructions": "1. Combine all ingredients with ice and stir\n2. Strain into a cocktail glass, serve up\n3. Garnish with one big basil leaf",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Our in-house version of a tequila Negroni",
+    "source": "https://tuxedono2.com/telekinesis-cocktail-recipe",
+    "garnish": "basil leaf or orange peel for garnish",
+    "abv": 28.19,
+    "tags": [],
+    "glass": "Nick and Nora",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///telekinesis.webp",
+            "sort": 1,
+            "placeholder_hash": "BAgGDwIIuHd2h3eHeFeoOKeJhXBHCHkF",
+            "copyright": "TuxedoNo2"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "tequila-blanco",
+            "name": "Tequila Blanco",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "campari",
+            "name": "Campari",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "sweet-vermouth",
+            "name": "Sweet Vermouth",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "yellow-chartreuse",
+            "name": "Yellow Chartreuse",
+            "sort": 4,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

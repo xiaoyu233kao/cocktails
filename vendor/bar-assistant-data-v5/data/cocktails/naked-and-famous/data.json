@@ -1,0 +1,87 @@
+{
+    "_id": "naked-and-famous",
+    "name": "Naked and Famous",
+    "instructions": "Pour all ingredients into cocktail shaker, shake well with ice, strain into chilled cocktail glass.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The Naked and Famous cocktail is \"the bastard love child of a classic Last Word and a Paper Plane, conceived in the mountains of Oaxaca.\". First created at the well renowned New York City bar, Death & Co. (also featured in the cocktail book of the same name).",
+    "source": "https://iba-world.com/naked-and-famous/",
+    "garnish": null,
+    "abv": 18.2,
+    "tags": [
+        "IBA Cocktail",
+        "New Era Drinks"
+    ],
+    "glass": "Nick and Nora",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///naked-and-famous.webp",
+            "sort": 1,
+            "placeholder_hash": "SwgKHwQHtnmIhXiIdoinSJeVh9BoCH4G",
+            "copyright": "Epicurious"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "mezcal",
+            "name": "Mezcal",
+            "sort": 1,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "yellow-chartreuse",
+            "name": "Yellow Chartreuse",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": [
+                {
+                    "_id": "drambuie",
+                    "name": "Drambuie",
+                    "amount": null,
+                    "units": null,
+                    "amount_max": null
+                }
+            ]
+        },
+        {
+            "_id": "aperol",
+            "name": "Aperol",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 4,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

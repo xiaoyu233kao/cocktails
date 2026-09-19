@@ -1,0 +1,126 @@
+{
+    "_id": "navy-grog",
+    "name": "Navy Grog",
+    "instructions": "1. Put all the ingredients in a blender. Flash-blend for 3 to 5 seconds. Pour into a glass. Serve with an ice cone around straw.\n2. Ice Cone&#8220;This was the signature Navy Grog garnish throughout Tiki’s midcentury golden age. Prep the cone in advance with a Beachbum Berry Navy Grog Ice Cone Kit. (Or you can just pack a pilsner glass with finely shaved ice, run a chopstick through the middle to make a hole for the straw, then remove the cone from the glass and freeze the cone overnight. I won’t take it personally. Well, maybe just a little bit.)&#8221;—Jeff &#8220;Beachbum&#8221; Berry",
+    "created_at": null,
+    "updated_at": null,
+    "description": "In the March/April 2024 issue, Jeff \"Beachbum\" Berry shares the cocktail that \"upended and uprooted [his life], giving it an unexpected—but entirely welcome—second act\": the Navy Grog. While his recipe for his New Orleans bar Latitude 29 is top secret, he shared a \"general public\" version for home bartenders to shake up.",
+    "source": "https://imbibemagazine.com/recipe/navy-grog/",
+    "garnish": "Ice cone around straw",
+    "abv": 11.32,
+    "tags": [
+        "Dessert"
+    ],
+    "glass": "Lowball",
+    "method": "Blend",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///navy-grog.webp",
+            "sort": 1,
+            "placeholder_hash": "VEkGFwICrXSNapZziEeohmiBemQHxXUA",
+            "copyright": "Imbibe Magazine"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "brown-rum",
+            "name": "Brown Rum",
+            "sort": 1,
+            "amount": 1,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "jamaican-rum",
+            "name": "Jamaican Rum",
+            "sort": 2,
+            "amount": 1,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "demerara-rum",
+            "name": "Demerara Rum",
+            "sort": 3,
+            "amount": 1,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "honey-syrup",
+            "name": "Honey Syrup",
+            "sort": 4,
+            "amount": 1,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 5,
+            "amount": 0.75,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "grapefruit-juice",
+            "name": "Grapefruit juice",
+            "sort": 6,
+            "amount": 0.75,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "allspice-dram",
+            "name": "Allspice dram",
+            "sort": 7,
+            "amount": 3,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "crushed-ice",
+            "name": "Crushed ice",
+            "sort": 8,
+            "amount": 3,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "one small handful",
+            "substitutes": []
+        }
+    ]
+}

@@ -1,0 +1,88 @@
+{
+    "_id": "south-slope",
+    "name": "South Slope",
+    "instructions": "1. Combine all the ingredients into your cocktail shaker\n2. Shake with ice\n3. Strain into a chilled coupe",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The South Slope was created by Michael Madrusan whilst living in the Brooklyn South Slopes area. Michael is a well known bartender, owner of The Everleigh (Melbourne, AU), author of A Spot at the Bar and was also named one of the most influential by Australian Bartender magazine.The cocktail is reminiscent to the Unusual Negroni - with the addition of an orange liqueur and a touch of lemon juice, turning it into a Unusual Negroni Sour, of sorts.",
+    "source": "https://stevethebartender.com.au/south-slope-unusual-negroni-sour/",
+    "garnish": "Garnish with a twist of lemon",
+    "abv": 17.48,
+    "tags": [],
+    "glass": "Coupe",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///south-slope.webp",
+            "sort": 1,
+            "placeholder_hash": "3SgGFwJ2ZpivWHhmeJeIJ3d0K/clcE4A",
+            "copyright": "Steve the Bartender"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "aperol",
+            "name": "Aperol",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lillet-blanc",
+            "name": "Lillet Blanc",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cointreau",
+            "name": "Cointreau",
+            "sort": 4,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 5,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

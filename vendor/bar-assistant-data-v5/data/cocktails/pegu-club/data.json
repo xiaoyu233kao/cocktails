@@ -1,0 +1,90 @@
+{
+    "_id": "pegu-club",
+    "name": "Pegu Club",
+    "instructions": "1. Gather the ingredients.\n2. Pour the ingredients into a cocktail shaker filled with ice.\n3. Shake well.\n4. Strain into a chilled cocktail glass.\n5. Garnish with a lime wedge or twist. Serve and enjoy.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A classic sour, the Pegu Club Cocktail is a fantastic gin drink with orange and lime accents. Get the recipe and mix up this old-school favorite.",
+    "source": "https://www.thespruceeats.com/pegu-club-cocktail-760109",
+    "garnish": null,
+    "abv": 27.09,
+    "tags": [
+        "Dry"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///pegu-club.webp",
+            "sort": 1,
+            "placeholder_hash": "8wcGDwJjhnhwd4iJiLeISIZ1aTB3GZgA",
+            "copyright": "The Spruce Eats"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cointreau",
+            "name": "Cointreau",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "angostura-aromatic-bitters",
+            "name": "Angostura aromatic bitters",
+            "sort": 4,
+            "amount": 1,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orange-bitters",
+            "name": "Orange bitters",
+            "sort": 5,
+            "amount": 1,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

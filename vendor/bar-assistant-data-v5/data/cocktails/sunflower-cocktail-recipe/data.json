@@ -1,0 +1,91 @@
+{
+    "_id": "sunflower-cocktail-recipe",
+    "name": "Sunflower Cocktail Recipe",
+    "instructions": "1. In a cocktail shaker, combine all the ingredients\n2. Shake with ice for 10-12 seconds\n3. Double strain into an absinthe-rinsed, chilled coupe",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The Sunflower is a creation of well known bartender Sam Ross. A simple variation on the classic Corpse Reviver #2 - substituting Elderflower liqueur in place of the original Lillet or Cocchi Americano.Sam Ross is known for creating numerous modern classic cocktails such as the Penicillin, Paper Plane and the Too Soon?",
+    "source": "https://stevethebartender.com.au/sunflower-gin-elderflower-cocktail-recipe/",
+    "garnish": "Garnish with a lemon twist",
+    "abv": 20,
+    "tags": [
+        "Floral",
+        "Sour"
+    ],
+    "glass": "Nick and Nora",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///sunflower-cocktail-recipe.webp",
+            "sort": 1,
+            "placeholder_hash": "7RgOHwIHOJhodXdYard4eJd4V29okFEI",
+            "copyright": "Steve the Bartender"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "st-germain",
+            "name": "St-Germain",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cointreau",
+            "name": "Cointreau",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 4,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "absinthe",
+            "name": "Absinthe",
+            "sort": 5,
+            "amount": 1,
+            "units": "rinse",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

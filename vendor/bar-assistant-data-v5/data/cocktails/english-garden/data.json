@@ -1,0 +1,79 @@
+{
+    "_id": "english-garden",
+    "name": "English Garden",
+    "instructions": "1. Combine all the ingredients into your cocktail shaker\n2. Shake with ice for 12-15 seconds\n3. Strain over fresh ice into a high ball",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The English Garden brings together some classic pairings for St-Germain Elderflower liqueur - gin, apple, lime &amp; cucumber. Served long, this one is filled with quintessential English flavours.",
+    "source": "https://stevethebartender.com.au/english-garden-cocktail-recipe/",
+    "garnish": "Garnish with cucumber",
+    "abv": 14.22,
+    "tags": [
+        "Herbacious",
+        "Fruity"
+    ],
+    "glass": "Highball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///english-garden.webp",
+            "sort": 1,
+            "placeholder_hash": "ligKHwRbp1iQd2ZYiEV0d4mKlwaJmKAI",
+            "copyright": "Steve the Bartender"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "st-germain",
+            "name": "St-Germain",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "apple-juice",
+            "name": "Apple Juice",
+            "sort": 3,
+            "amount": 50,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 4,
+            "amount": 10,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "_id": "nice-by-way-of-antibes",
+    "name": "Nice (by Way of Antibes)",
+    "instructions": "1. Fill a cocktail shaker halfway with ice. Add the gin, Benedictine and grapefruit juice. Shake well, then double-strain into a highball glass filled with ice cubes.\n2. Top with sparkling water and stir gently. Garnish with the twist of lime peel.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The Antibes cocktail was one of the first of Jason Wilson's favorites, published in this column six years ago.",
+    "source": "https://www.washingtonpost.com/recipes/nice-by-way-of-antibes/",
+    "garnish": null,
+    "abv": 13.71,
+    "tags": [],
+    "glass": "Highball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///nice-by-way-of-antibes.webp",
+            "sort": 0,
+            "placeholder_hash": "1SgOFwgJlpeId4d0imeHaId3hwqopXAH",
+            "copyright": ""
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "benedictine",
+            "name": "Bénédictine",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "grapefruit-juice",
+            "name": "Grapefruit juice",
+            "sort": 3,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "club-soda",
+            "name": "Club soda",
+            "sort": 4,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "preferably Apollonaris brand",
+            "substitutes": []
+        }
+    ]
+}

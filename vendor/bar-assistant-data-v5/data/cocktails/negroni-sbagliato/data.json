@@ -1,0 +1,66 @@
+{
+    "_id": "negroni-sbagliato",
+    "name": "Negroni Sbagliato",
+    "instructions": "1. Combine vermouth and Campari in an ice-filled glass. Top with sparkling wine, stir to combine and garnish.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The Negroni Sbagliato is said to be the result of a busy bartender mistakenly using sparkling wine instead of gin in a Negroni. Sbagliato means \"messed up\" or \"mistaken\" in Italian.",
+    "source": "https://imbibemagazine.com/recipe/negroni-sbagliato/",
+    "garnish": "Orange wheel",
+    "abv": 16.36,
+    "tags": [
+        "Negroni"
+    ],
+    "glass": "Lowball",
+    "method": "Build",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///negroni-sbagliato.webp",
+            "sort": 1,
+            "placeholder_hash": "TBgKFwQKh4Zhi5hkiuZZV4aFuQGWGmAK",
+            "copyright": "John Valls"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "sweet-vermouth",
+            "name": "Sweet Vermouth",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "campari",
+            "name": "Campari",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "prosecco",
+            "name": "Prosecco",
+            "sort": 3,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

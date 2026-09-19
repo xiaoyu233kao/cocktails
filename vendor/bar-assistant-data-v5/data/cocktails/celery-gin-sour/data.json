@@ -1,0 +1,79 @@
+{
+    "_id": "celery-gin-sour",
+    "name": "Celery Gin Sour",
+    "instructions": "Muddle the celery with the lemon juice and simple, then shake with the gin and ice.",
+    "created_at": null,
+    "updated_at": null,
+    "description": null,
+    "source": "https://www.reddit.com/r/cocktails/comments/1cw3xue/for_all_you_savory_heads_who_loved_my_arugula/",
+    "garnish": "Celery ends",
+    "abv": 18.29,
+    "tags": [
+        "Herbacious",
+        "Sour"
+    ],
+    "glass": "Lowball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///celery-gin-sour.webp",
+            "sort": 1,
+            "placeholder_hash": "GhkKJw6CW4h/SoiZaKhmS5mGlwdoeXAI",
+            "copyright": "Reddit"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "celery",
+            "name": "Celery",
+            "sort": 4,
+            "amount": 1,
+            "units": "stalk",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

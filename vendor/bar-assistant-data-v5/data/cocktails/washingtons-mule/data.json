@@ -1,0 +1,90 @@
+{
+    "_id": "washingtons-mule",
+    "name": "Washington's Mule",
+    "instructions": "1. Combine syrup, brandy, lime juice, and bitters with ice in a cocktail shaker for a short shake. \n2. Strain over ice into a highball glass.\n3. Top with soda water and stir.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "An autumnal and all-American version of the Moscow Mule.",
+    "source": "https://www.liberandcompany.com/collections/recipes/products/washingtons-mule",
+    "garnish": "Lime wedge",
+    "abv": 19.85,
+    "tags": [
+        "Mule"
+    ],
+    "glass": "Highball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///washingtons-mule.webp",
+            "sort": 1,
+            "placeholder_hash": "GRgOHwJHyHmylYhwaWmlZ3iISGB2MpAG",
+            "copyright": "LiberAndCo | Juliet Beletic"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "apple-brandy",
+            "name": "Apple Brandy",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "ginger-syrup",
+            "name": "Ginger syrup",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "angostura-aromatic-bitters",
+            "name": "Angostura aromatic bitters",
+            "sort": 4,
+            "amount": 3,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "club-soda",
+            "name": "Club soda",
+            "sort": 5,
+            "amount": 1,
+            "units": "topup",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "_id": "horses-neck",
+    "name": "Horse’s Neck",
+    "instructions": "1. Pour Cognac and ginger ale directly into a highball glass with ice cubes.\n2. Stir gently.\n3. If preferred, add dashes of Angostura Bitter.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Dating back to the 1890s, it was a non-alcoholic mixture of ginger ale, ice and lemon peel. By the 1910s, brandy, or bourbon would be added for a \"Horse's Neck with a Kick\" or a \"Stiff Horse's Neck\". The non-alcoholic version was still served in upstate New York in the late 1950s and early 60s, but eventually it was phased out.",
+    "source": "https://iba-world.com/horses-neck/",
+    "garnish": "Garnish with a rind of one lemon spiral.",
+    "abv": 9.15,
+    "tags": [
+        "Contemporary Classics",
+        "IBA Cocktail",
+        "Brandy"
+    ],
+    "glass": "Highball",
+    "method": "Build",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///horses-neck.webp",
+            "sort": 1,
+            "placeholder_hash": "uQgKLwL4OJZ5h4eIdnh4t2aHiJBXCXkF",
+            "copyright": "Liquor.com / Tim Nusog"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "cognac",
+            "name": "Cognac",
+            "sort": 1,
+            "amount": 40,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "ginger-beer",
+            "name": "Ginger beer",
+            "sort": 2,
+            "amount": 120,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "angostura-aromatic-bitters",
+            "name": "Angostura aromatic bitters",
+            "sort": 3,
+            "amount": 1,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

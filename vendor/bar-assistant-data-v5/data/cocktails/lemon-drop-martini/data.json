@@ -1,0 +1,75 @@
+{
+    "_id": "lemon-drop-martini",
+    "name": "Lemon drop Martini",
+    "instructions": "Pour all ingredients into cocktail shaker, shake well with ice, strain into chilled cocktail glass.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The drink was invented sometime in the 1970s by Norman Jay Hobday, the founder and proprietor of Henry Africa's bar in San Francisco, California. Some variations of the drink exist, such as blueberry and raspberry lemon drops. It is served at some bars and restaurants in the United States, and in such establishments in other areas of the world.",
+    "source": "https://iba-world.com/lemon-drop-martini/",
+    "garnish": "Garnish with sugar rim around the glass.",
+    "abv": 24.62,
+    "tags": [
+        "IBA Cocktail",
+        "New Era Drinks"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///lemon-drop-martini.webp",
+            "sort": 1,
+            "placeholder_hash": "mxgKDwI5iHhhmIeaiHamB5mZCQC1hXAJ",
+            "copyright": "Basil & Bubbly"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "vodka",
+            "name": "Vodka",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": [
+                {
+                    "_id": "vodka-citron",
+                    "name": "Vodka Citron",
+                    "amount": null,
+                    "units": null,
+                    "amount_max": null
+                }
+            ]
+        },
+        {
+            "_id": "triple-sec",
+            "name": "Triple Sec",
+            "sort": 2,
+            "amount": 20,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

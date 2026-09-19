@@ -1,0 +1,79 @@
+{
+    "_id": "salmoncito",
+    "name": "Salmoncito",
+    "instructions": "1. Combine the first three ingredients in a highball glass filled with ice.\n2. Top with tonic water.\n3. Garnish with a supremed grapefruit wedge and a grapefruit twist; express oil from the grapefruit peel and then discard it.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "This bittersweet, citrusy highball made with gin, Campari, grapefruit and tonic is a Mexico City-born modern classic.",
+    "source": "https://punchdrink.com/recipes/salmoncito/",
+    "garnish": "A supremed grapefruit wedge and a discarded grapefruit twist",
+    "abv": 10.07,
+    "tags": [
+        "Summer",
+        "Light"
+    ],
+    "glass": "Highball",
+    "method": "Build",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///salmoncito.webp",
+            "sort": 1,
+            "placeholder_hash": "03kKJwYllJpgeoaMfpZnZ0aHcKX1GXYP",
+            "copyright": "Punch Staff | Alan Carranza"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "campari",
+            "name": "Campari",
+            "sort": 2,
+            "amount": 10,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "grapefruit-juice",
+            "name": "Grapefruit juice",
+            "sort": 3,
+            "amount": 10,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "tonic",
+            "name": "Tonic",
+            "sort": 4,
+            "amount": 120,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": 150,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

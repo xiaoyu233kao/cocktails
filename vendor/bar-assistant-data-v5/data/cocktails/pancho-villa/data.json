@@ -1,0 +1,114 @@
+{
+    "_id": "pancho-villa",
+    "name": "Pancho Villa",
+    "instructions": "1. Combine all ingredients in a mixing tin and shake with ice.\n2. Strain into a chilled highball glass over ice.\n3. Top with soda water.\n4. Garnish with pineapple leaf, lime zest and lime wheels.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "This easy-drinking, semi-tropical cocktail recipe by Charles H. Baker is the Philippines’ answer to a Singapore Sling",
+    "source": "https://punchdrink.com/recipes/pancho-villa/",
+    "garnish": "pineapple leaf, lime zest, lime wheels",
+    "abv": 22.1,
+    "tags": [
+        "Fruity"
+    ],
+    "glass": "Highball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///pancho-villa.webp",
+            "sort": 1,
+            "placeholder_hash": "nSkOLwY0hZezh4p/eaaIaIl5eJA1C4YF",
+            "copyright": "Punch Staff | Lizzie Munro"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "dark-rum",
+            "name": "Dark Rum",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "apricot-brandy",
+            "name": "Apricot Brandy",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cherry-heering",
+            "name": "Cherry heering",
+            "sort": 4,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 5,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "club-soda",
+            "name": "Club soda",
+            "sort": 6,
+            "amount": 1,
+            "units": "topup",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "pineapple-juice",
+            "name": "Pineapple juice",
+            "sort": 7,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

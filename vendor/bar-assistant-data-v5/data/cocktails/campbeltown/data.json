@@ -1,0 +1,64 @@
+{
+    "_id": "campbeltown",
+    "name": "Campbeltown",
+    "instructions": "1. Add the Springbank 10-year-old scotch, Cherry Heering liqueur, and green Chartreuse into a mixing glass with ice and stir until well-chilled.\n2. Strain into a chilled Nick &amp; Nora glass.\n3. Express the oil of a lemon peel over the drink and discard.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Three ingredients add up to one perfect sip in this expensive and utterly delicious Scottish cocktail",
+    "source": "https://www.liquor.com/recipes/campbeltown/",
+    "garnish": null,
+    "abv": 30.6,
+    "tags": [],
+    "glass": "Coupe",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///campbeltown.webp",
+            "sort": 1,
+            "placeholder_hash": "IzkOFwRraIdQeIdlpWhXWHeFRioHYoAC",
+            "copyright": "Liquor.com"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "scotch-whiskey",
+            "name": "Scotch whiskey",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cherry-heering",
+            "name": "Cherry heering",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "green-chartreuse",
+            "name": "Green Chartreuse",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "_id": "parisian-dispatch",
+    "name": "Parisian Dispatch",
+    "instructions": "1. Add the first 3 ingredients to a chilled glass with ice. Stir to combine. Add more ice to fill, and top with chilled soda water. Garnish.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Blanc vermouth lends an herbaceous base to this elegant mix from Sother Teague. “Make it a Royale by substituting Champagne” for the soda water, Teague suggests.",
+    "source": "https://imbibemagazine.com/recipe/parisian-dispatch-a-blanc-vermouth-cocktail/",
+    "garnish": "Fresh mint",
+    "abv": 8.44,
+    "tags": [],
+    "glass": "Highball",
+    "method": "Build",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///parisian-dispatch.webp",
+            "sort": 1,
+            "placeholder_hash": "8RgKHwKVbWZLd4qQlsZ3ZmqLtlB4OkAH",
+            "copyright": "Imbibe Magazine | Kelly Puleio"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "vermouth-bianco",
+            "name": "Vermouth Bianco",
+            "sort": 1,
+            "amount": 90,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "absinthe",
+            "name": "Absinthe",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orgeat-syrup",
+            "name": "Orgeat Syrup",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "club-soda",
+            "name": "Club soda",
+            "sort": 4,
+            "amount": 90,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": 120,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

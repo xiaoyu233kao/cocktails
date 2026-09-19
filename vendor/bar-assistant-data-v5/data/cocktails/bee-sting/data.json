@@ -1,0 +1,88 @@
+{
+    "_id": "bee-sting",
+    "name": "Bee Sting",
+    "instructions": "1. Add the Bärenjäger, Laphroaig, Fernet-Branca, egg white and tangerine juice into a shaker and vigorously dry-shake (without ice).\n2. Fill with ice and shake again until well-chilled.\n3. Double-strain into an Old Fashioned glass filled with fresh ice.\n4. Top with the bitters.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Scotch, honey and herbal liqueurs come together in this unconventional drink from bartender Jonathan Pogash.",
+    "source": "https://www.liquor.com/recipes/the-bee-sting/",
+    "garnish": null,
+    "abv": 31.4,
+    "tags": [],
+    "glass": "Lowball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///bee-sting.webp",
+            "sort": 1,
+            "placeholder_hash": "phgOJwRzd4ivhoeHiDeGh4h3iDA3CHID",
+            "copyright": "Liquor.com"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "honey-liqueur",
+            "name": "Honey liqueur",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "islay-scotch-whiskey",
+            "name": "Islay Scotch Whiskey",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "fernet-branca",
+            "name": "Fernet Branca",
+            "sort": 3,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "egg-white",
+            "name": "Egg White",
+            "sort": 5,
+            "amount": 1,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "peychauds-bitters",
+            "name": "Peychauds Bitters",
+            "sort": 6,
+            "amount": 3,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

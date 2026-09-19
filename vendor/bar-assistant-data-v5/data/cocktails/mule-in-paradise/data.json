@@ -1,0 +1,91 @@
+{
+    "_id": "mule-in-paradise",
+    "name": "Mule in Paradise",
+    "instructions": "1. Add all ingredients except club soda to a cocktail shaker\n2. Short shake for 5 seconds and strain into a rocks glass filled with ice\n3. Top with club soda and stir",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The tart tang of passionfruit helps transports a classic Kentucky Mule build to the tropics.",
+    "source": "https://www.liberandcompany.com/collections/recipes/products/mule-in-paradise",
+    "garnish": "lime wedge",
+    "abv": 9.48,
+    "tags": [
+        "Mule",
+        "Fruity"
+    ],
+    "glass": "Lowball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///mule-in-paradise.webp",
+            "sort": 1,
+            "placeholder_hash": "ZTkKDwJ+p5helJmAWHi5hmh2CBAYoJMK",
+            "copyright": "LiberAndCo |  Scott Kallstrand"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "bourbon-whiskey",
+            "name": "Bourbon Whiskey",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "ginger-syrup",
+            "name": "Ginger syrup",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "passionfruit-syrup",
+            "name": "Passionfruit syrup",
+            "sort": 4,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "club-soda",
+            "name": "Club soda",
+            "sort": 5,
+            "amount": 90,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

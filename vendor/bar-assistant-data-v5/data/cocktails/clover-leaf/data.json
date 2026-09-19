@@ -1,0 +1,84 @@
+{
+    "_id": "clover-leaf",
+    "name": "Clover Leaf",
+    "instructions": "1. Combine the Chambord or grenadine, lemon juice, egg white or half-and-half, and gin in a cocktail shaker with ice cubes.\n2. Shake vigorously for 10 seconds, until the ingredients are cold and the mix is frothy with a pink blush.\n3. Strain into a Martini or coupe cocktail glass, making sure there is a thin layer of foam and a few small ice chips floating on top.\n4. Garnish with the mint leaf.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "This recipe from James Beard Award-winning culinary historian and journalist Toni Tipton-Martin is a modern take on a century-old relative of the Clover Club cocktail, utilizing a base of gin and Chambord to create a berry-forward delight.",
+    "source": "https://www.liquor.com/clover-leaf-cocktail-recipe-8576334",
+    "garnish": null,
+    "abv": null,
+    "tags": [],
+    "glass": "Coupe",
+    "method": null,
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///clover-leaf.webp",
+            "sort": 0,
+            "placeholder_hash": "z2gODwYpiJePdniciGe5SMmGWAXVZ3AI",
+            "copyright": "Liquor.com"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "chambord",
+            "name": "Chambord",
+            "sort": 1,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": [
+                {
+                    "_id": "grenadine-syrup",
+                    "name": "Grenadine Syrup",
+                    "amount": null,
+                    "units": null,
+                    "amount_max": null
+                }
+            ]
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "egg-white",
+            "name": "Egg White",
+            "sort": 3,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "old-tom-gin",
+            "name": "Old Tom Gin",
+            "sort": 4,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": 45,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

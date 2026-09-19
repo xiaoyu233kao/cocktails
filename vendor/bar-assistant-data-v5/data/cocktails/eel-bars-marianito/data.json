@@ -1,0 +1,78 @@
+{
+    "_id": "eel-bars-marianito",
+    "name": "Eel Bar’s Marianito",
+    "instructions": "1. Combine all the ingredients in a mixing glass with ice and stir until chilled.\n2. Strain into a rocks glass over fresh ice, then garnish with an olive on a pick and an orange twist.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "This Marianito cocktail recipe swaps the typical gin for rum, specifically an agricole rhum. It's a low-proof, Negroni-like drink.",
+    "source": "https://punchdrink.com/recipes/eel-bars-marianito/",
+    "garnish": "green olive, orange twist",
+    "abv": 22.65,
+    "tags": [
+        "Negroni"
+    ],
+    "glass": "Lowball",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///eel-bars-marianito.webp",
+            "sort": 1,
+            "placeholder_hash": "ahgOHwifXcSfdHl5d0iIp4h3p0BXCmMF",
+            "copyright": "Punch Staff | Lizzie Munro"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "sweet-vermouth",
+            "name": "Sweet Vermouth",
+            "sort": 1,
+            "amount": 2,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "preferably Atxa Rojo",
+            "substitutes": []
+        },
+        {
+            "_id": "rhum-agricole",
+            "name": "Rhum agricole",
+            "sort": 2,
+            "amount": 0.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "preferably Holmes Cay Reunion Island",
+            "substitutes": []
+        },
+        {
+            "_id": "cointreau",
+            "name": "Cointreau",
+            "sort": 3,
+            "amount": 0.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "preferably Pierre Ferrand",
+            "substitutes": []
+        },
+        {
+            "_id": "angostura-aromatic-bitters",
+            "name": "Angostura aromatic bitters",
+            "sort": 4,
+            "amount": 3,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "_id": "tequila-old-fashioned",
+    "name": "Tequila Old Fashioned",
+    "instructions": "Stir with ice and strain into ice-filled rocks glass.",
+    "created_at": null,
+    "updated_at": null,
+    "description": null,
+    "source": "https://www.ericscocktailguide.com/recipes/tequila-old-fashioned",
+    "garnish": "Garnish with orange peel squeezed over drink.",
+    "abv": 26.67,
+    "tags": [
+        "Old Fashioned",
+        "Sweet"
+    ],
+    "glass": "Lowball",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///tequila-old-fashioned.webp",
+            "sort": 1,
+            "placeholder_hash": "JSkKHwQ5iHifhIeIlWd5aXiJRwA3BXEC",
+            "copyright": "Eric's Cocktail Guide"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "tequila-reposado",
+            "name": "Tequila Reposado",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "agave-syrup",
+            "name": "Agave Syrup",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "angostura-aromatic-bitters",
+            "name": "Angostura aromatic bitters",
+            "sort": 3,
+            "amount": 2,
+            "units": "dashes",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

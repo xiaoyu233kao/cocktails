@@ -1,0 +1,68 @@
+{
+    "_id": "tommys-margarita",
+    "name": "Tommy’s Margarita",
+    "instructions": "Pour all ingredients into a cocktail shaker, shake well with ice, strain into a chilled rocks glass filled with ice.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Tommy's margarita was conceived in San Francisco in 1990 by Julio Bermejo at his parents' restaurant called Tommy's (not to be confused with Tommy's Place in Juárez, Mexico. See Margarita Origin). Bermejo had been recently introduced to agave nectar as an ingredient, and, although it was still expensive at the time, he preferred to use it to enhance the agave flavor of the cocktail instead of using triple sec to highlight the citrus flavor in the original Margarita recipe. In 2008, it became the first venue specific cocktail to be added to the IBA manual.",
+    "source": "https://iba-world.com/tommys-margarita/",
+    "garnish": "Garnish with a lime slice.",
+    "abv": 18.29,
+    "tags": [
+        "IBA Cocktail",
+        "New Era Drinks",
+        "Margarita"
+    ],
+    "glass": "Lowball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": "margarita",
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///tommys-margarita.webp",
+            "sort": 1,
+            "placeholder_hash": "VAgODwIWhqiEh3eQe2eHd4eJmS+ph4AP",
+            "copyright": "Moody Mixologist"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "tequila-blanco",
+            "name": "Tequila Blanco",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "agave-syrup",
+            "name": "Agave Syrup",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

@@ -1,0 +1,97 @@
+---
+slug: tiger-s-claw
+nameZh: 虎爪
+nameEn: Tiger’s Claw
+category: Bar Assistant Community
+baseSpirit: multi
+flavors:
+  - fresh
+  - fruity
+  - tropical
+  - bitter
+  - sweet
+  - spiced
+  - coffee
+styles:
+  - short
+  - tropical
+ingredients:
+  - nameZh: 陈年龙舌兰
+    nameEn: Tequila Reposado
+    amount: 2 oz（such as Astral）
+    aliases:
+      - Tequila Reposado
+      - 陈年龙舌兰
+  - nameZh: 菠萝汁
+    nameEn: Pineapple juice
+    amount: 1 oz
+    aliases:
+      - Pineapple juice
+      - 菠萝汁
+  - nameZh: 青柠汁
+    nameEn: Lime juice
+    amount: 0.75 oz
+    aliases:
+      - Lime juice
+      - 青柠汁
+  - nameZh: 肉桂糖浆
+    nameEn: Cinnamon syrup
+    amount: 0.75 oz
+    aliases:
+      - Cinnamon syrup
+      - 肉桂糖浆
+  - nameZh: 咖啡利口酒
+    nameEn: Coffee liqueur
+    amount: 0.5 oz（such as Kahlua）
+    aliases:
+      - Coffee liqueur
+      - 咖啡利口酒
+  - nameZh: 橙味苦精
+    nameEn: Orange bitters
+    amount: 2 dash
+    aliases:
+      - Orange bitters
+      - 橙味苦精
+tags:
+  - community
+  - bar-assistant
+  - multi
+  - tropical
+  - sweet
+  - citrus
+  - fruity
+  - complex
+  - bitter
+  - fresh
+  - spiced
+  - coffee
+  - short
+summary: 虎爪以陈年龙舌兰、菠萝汁、青柠汁为核心，采用摇和调制，呈现清新、果香、热带的风味结构。
+background: 虎爪以陈年龙舌兰、菠萝汁、青柠汁为核心，资料记录的基酒结构归入复合基酒，并采用摇和完成混合。成酒建议装入资料未指定，以橙薄片、薄荷枝收尾；清新、果香、热带共同构成它的主要风味，甜酸、酒体和稀释度会随原料与冰量变化。建议先充分冷却，再在合适的冰量下尽快饮用，以保持香气、口感和温度的平衡。当前快照未提供可核验的创制年份或作者，因此不对年代、地点和人物作历史推断；原始来源与快照地址见来源字段。
+historySources:
+  - label: 原始来源 · Tiger’s Claw
+    url: https://punchdrink.com/recipes/tigers-claw/
+    checkedAt: 2026-09-20
+  - label: Bar Assistant v5 snapshot · Tiger’s Claw
+    url: https://github.com/bar-assistant/data/blob/5a504d474614494119882eb91a8ffdc5491a483f/data/cocktails/tigers-claw/data.json
+    checkedAt: 2026-09-20
+steps:
+  - 将陈年龙舌兰、菠萝汁、青柠汁、肉桂糖浆、咖啡利口酒加入摇酒器，加入冰块后充分摇和至冰镇；滤入合适的酒杯。
+  - 以橙薄片、薄荷枝装饰后尽快饮用。
+glass: 资料未指定
+garnish: 橙薄片、薄荷枝
+image: /images/cocktails/tiger-s-claw.svg
+imageAlt: 虎爪的程序化酒杯示意图
+imageCredit:
+  kind: generated
+  creator: Cocktail Atlas procedural illustration
+  source: local generator
+  license: Project generated asset
+  modified: true
+  checkedAt: 2026-09-20
+source:
+  label: Bar Assistant v5 snapshot · Tiger’s Claw
+  url: https://github.com/bar-assistant/data/blob/5a504d474614494119882eb91a8ffdc5491a483f/data/cocktails/tigers-claw/data.json
+  checkedAt: 2026-09-20
+variants: []
+---

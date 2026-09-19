@@ -1,0 +1,78 @@
+{
+    "_id": "marigold-mule",
+    "name": "Marigold Mule",
+    "instructions": "Fill a highball glass with ice,then add first three ingredients before topping the drink with ginger beer.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The Mexican marigold flower, known as cempasuchil, is traditionally used to decorate Día de Muertos altars, and, in the case of the Marigold Mule, it makes its appearance in the form of a garnish alongside, Patrón Silver, St. Germain, fresh lime juice, and ginger beer.",
+    "source": "https://www.patrontequila.com/global-en/cocktails/patron-silver/marigold-mule.html",
+    "garnish": "Lime zest & Marigold flower",
+    "abv": 11.57,
+    "tags": [
+        "Mule"
+    ],
+    "glass": "Lowball",
+    "method": "Build",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///marigold-mule.webp",
+            "sort": 1,
+            "placeholder_hash": "6TgGFwSPPGdsiIfCclV3uUe2CDO2gHUM",
+            "copyright": ""
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "tequila-blanco",
+            "name": "Tequila Blanco",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "st-germain",
+            "name": "St-Germain",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "ginger-beer",
+            "name": "Ginger beer",
+            "sort": 4,
+            "amount": 90,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

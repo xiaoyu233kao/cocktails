@@ -1,0 +1,92 @@
+{
+    "_id": "airmail",
+    "name": "Airmail",
+    "instructions": "1. Combine all ingredients except for the champagne in a mixer and shake for ten seconds\n2. Strain into a flute and top with champagne",
+    "created_at": null,
+    "updated_at": null,
+    "description": "An endlessly drinkable sparkler of debated origin",
+    "source": "https://en.wikipedia.org/wiki/Airmail_(cocktail)",
+    "garnish": "Orange or lime peel",
+    "abv": 16.46,
+    "tags": [
+        "Citrusy"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///airmail-1.webp",
+            "sort": 1,
+            "placeholder_hash": "5ggSJwJwhod4qnmFiId3Vnd3ZkCaNYAH",
+            "copyright": "Punch |  Daniel Krieger"
+        },
+        {
+            "uri": "file:///airmail-2.webp",
+            "sort": 2,
+            "placeholder_hash": "ixgKFwAImIeLdnh3iRfHaIh5isB4DbMK",
+            "copyright": "Imbibe Magazine"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "light-rum",
+            "name": "Light Rum",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "champagne",
+            "name": "Champagne",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "honey-syrup",
+            "name": "Honey Syrup",
+            "sort": 4,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": [
+                {
+                    "_id": "simple-syrup",
+                    "name": "Simple Syrup",
+                    "amount": null,
+                    "units": null,
+                    "amount_max": null
+                }
+            ]
+        }
+    ]
+}

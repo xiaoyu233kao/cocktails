@@ -1,0 +1,90 @@
+{
+    "_id": "cosa-nostra-2",
+    "name": "Cosa Nostra №2",
+    "instructions": "Shake everything except the ginger ale with ice and strain into a pilsner glass over crushed ice.\nTop with the ginger ale",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A delicious and simple Highball created by Dane Barca at Smuggler's Cove",
+    "source": "https://www.reddit.com/r/cocktails/comments/17p3tyu/cosa_nostra_2/",
+    "garnish": null,
+    "abv": 20.6,
+    "tags": [
+        "Tiki"
+    ],
+    "glass": "Hurricane",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///cosa-nostra-2.webp",
+            "sort": 1,
+            "placeholder_hash": "UBgSFwRXhndwl3maeGeHiJameYBXB3gE",
+            "copyright": "Reddit"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "amaro-averna",
+            "name": "Amaro Averna",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "light-rum",
+            "name": "Light Rum",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "angostura-aromatic-bitters",
+            "name": "Angostura aromatic bitters",
+            "sort": 4,
+            "amount": 1,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "ginger-beer",
+            "name": "Ginger beer",
+            "sort": 5,
+            "amount": 1,
+            "units": "topup",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

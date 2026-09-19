@@ -1,0 +1,100 @@
+{
+    "_id": "eponine-collins",
+    "name": "Eponine Collins",
+    "instructions": "1. Combine all ingredients in a mixing tin and shake with ice.\n2. Strain into a collins glass over ice and top with soda.\n3. Garnish with two cucumber slices and two basil leaves.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A French-inflected Collins cocktail recipe from Sarah Morrissey builds on a base of gin, complemented by Suze and Amaro Montenegro.",
+    "source": "https://punchdrink.com/recipes/eponine-collins/",
+    "garnish": "cucumber slices, basil leaves",
+    "abv": 13.31,
+    "tags": [],
+    "glass": "Highball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///eponine-collins.webp",
+            "sort": 0,
+            "placeholder_hash": "lxgOFwKHdXiAl3dwiKeHh3iHR5MIr5gL",
+            "copyright": "Punch Staff | Lizzie Munro"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 1,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "grapefruit-juice",
+            "name": "Grapefruit juice",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "amaro-montenegro",
+            "name": "Amaro Montenegro",
+            "sort": 4,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "suze",
+            "name": "Suze",
+            "sort": 5,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 6,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

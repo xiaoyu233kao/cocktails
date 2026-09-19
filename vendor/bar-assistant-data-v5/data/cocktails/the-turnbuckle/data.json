@@ -1,0 +1,98 @@
+{
+    "_id": "the-turnbuckle",
+    "name": "The Turnbuckle",
+    "instructions": "1. Combine all the ingredients in a mixing tin filled with crushed ice and shake until chilled.\n2. Pour contents of shaker into a double Old-Fashioned glass or tropical tiki glass.\n3. Garnish with an orchid and a mint bouquet.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Bartender Jen Akin adds bitter Cynar amaro to her tiki-style cocktail, built on Jamaican rum, for added depth.",
+    "source": "https://punchdrink.com/recipes/the-turnbuckle/",
+    "garnish": "Orchid and a mint bouquet",
+    "abv": 11.45,
+    "tags": [
+        "Tiki"
+    ],
+    "glass": "Lowball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///the-turnbuckle.webp",
+            "sort": 1,
+            "placeholder_hash": "qBgOHwamb3jDdIWWd7doiGd49yEkTnMA",
+            "copyright": "Punch |  Lizzie Munro"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "cynar",
+            "name": "Cynar",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "jamaican-rum",
+            "name": "Jamaican Rum",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": [
+                {
+                    "_id": "dark-rum",
+                    "name": "Dark Rum",
+                    "amount": null,
+                    "units": null,
+                    "amount_max": null
+                }
+            ]
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "passionfruit-syrup",
+            "name": "Passionfruit syrup",
+            "sort": 4,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orgeat-syrup",
+            "name": "Orgeat Syrup",
+            "sort": 5,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

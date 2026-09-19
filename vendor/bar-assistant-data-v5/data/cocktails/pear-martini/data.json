@@ -1,0 +1,66 @@
+{
+    "_id": "pear-martini",
+    "name": "Pear Martini",
+    "instructions": "1. Strain into a coupe.",
+    "created_at": null,
+    "updated_at": null,
+    "description": null,
+    "source": "https://alpenz.com/recipe-xIXbVwK4kA.html",
+    "garnish": "Garnish with a lemon peel.",
+    "abv": 24.16,
+    "tags": [
+        "Fruity"
+    ],
+    "glass": "Cocktail",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///pear-martini.webp",
+            "sort": 0,
+            "placeholder_hash": "2vcFDwKVSYhgmXV0hkh4V4dp2gVrX6EN",
+            "copyright": "Haus Alpenz | Lauren Clark"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "pear-brandy-williams",
+            "name": "Pear Brandy (Williams)",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "dry-vermouth",
+            "name": "Dry Vermouth",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orange-bitters",
+            "name": "Orange bitters",
+            "sort": 3,
+            "amount": 2,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

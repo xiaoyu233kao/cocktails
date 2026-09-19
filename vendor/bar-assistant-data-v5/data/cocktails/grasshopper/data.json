@@ -1,0 +1,67 @@
+{
+    "_id": "grasshopper",
+    "name": "Grasshopper",
+    "instructions": "1. Pour all ingredients into shaker filled with ice.\n2. Shake briskly for few seconds.\n3. Strain into chilled cocktail glass.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A Grasshopper is a sweet, mint-flavored, after-dinner drink. The name of the drink derives from its green color, which comes from crème de menthe. A bar in the French Quarter of New Orleans, Louisiana, Tujague's, claims the drink was invented in 1918 by its owner, Philip Guichet. The drink gained popularity during the 1950s and 1960s throughout the American South.",
+    "source": "https://iba-world.com/grasshopper/",
+    "garnish": "Optional mint leaf",
+    "abv": 12,
+    "tags": [
+        "Contemporary Classics",
+        "IBA Cocktail"
+    ],
+    "glass": "Fizzio",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///grasshopper.webp",
+            "sort": 1,
+            "placeholder_hash": "0SgKDwIIqIiPhnaZdyeYOJd2tvWa+70N",
+            "copyright": "Liquor.com / Tim Nusog"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "creme-de-cacao-white",
+            "name": "Crème de Cacao (White)",
+            "sort": 1,
+            "amount": 20,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "creme-de-menthe",
+            "name": "Crème de menthe",
+            "sort": 2,
+            "amount": 20,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cream",
+            "name": "Cream",
+            "sort": 3,
+            "amount": 20,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

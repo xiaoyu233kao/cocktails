@@ -1,0 +1,126 @@
+{
+    "_id": "john-debarys-singapore-sling",
+    "name": "John deBary’s Singapore Sling",
+    "instructions": "1. In a shaker, combine the drink ingredients. Add ice and shake for 15 seconds.\n2. Strain into an ice-filled Collins or water glass. Garnish with the pineapple wedge and a cherry speared on a pick. Serve with a straw.\n\n\n ## Editors note:\n\n### Grenadine:\n\nCombine equal parts pomegranate juice with granulated sugar in a saucepan, over low heat. Whisk until dissolved. Place in airtight container and keep in refrigerator for up to one week.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Made properly, says deBary, the Singapore Sling cocktail recipe should make a drink that's “juicy, fruity and refreshing.”",
+    "source": "https://punchdrink.com/recipes/john-debarys-singapore-sling/",
+    "garnish": "pineapple wedge, Luxardo cherry",
+    "abv": 19.61,
+    "tags": [
+        "Fruity"
+    ],
+    "glass": "Highball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///john-debarys-singapore-sling.webp",
+            "sort": 0,
+            "placeholder_hash": "8SgKLwbxSpetd4lYY7mad2aZmGBICXUE",
+            "copyright": "Punch Staff | Lizzie Munro"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "navy-strength-gin",
+            "name": "Navy Strength Gin",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "preferably Plymouth",
+            "substitutes": []
+        },
+        {
+            "_id": "pineapple-juice",
+            "name": "Pineapple juice",
+            "sort": 2,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "preferably fresh",
+            "substitutes": []
+        },
+        {
+            "_id": "cherry-heering",
+            "name": "Cherry heering",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "grenadine-syrup",
+            "name": "Grenadine Syrup",
+            "sort": 4,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "see Editor's Note",
+            "substitutes": []
+        },
+        {
+            "_id": "cointreau",
+            "name": "Cointreau",
+            "sort": 5,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "benedictine",
+            "name": "Bénédictine",
+            "sort": 6,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 7,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "angostura-aromatic-bitters",
+            "name": "Angostura aromatic bitters",
+            "sort": 8,
+            "amount": 2,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

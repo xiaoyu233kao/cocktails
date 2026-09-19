@@ -1,0 +1,104 @@
+{
+    "_id": "porn-star-martini",
+    "name": "Porn Star Martini",
+    "instructions": "1. Scoop the seeds from one of the passion fruits into the glass of a cocktail shaker\n2. Add the vodka, passoa, lime juice and sugar syrup.\n3. Add a handful of ice and shake well\n4. Strain into a martini glass\n5. Serve with shot of chilled Champagne on the side",
+    "created_at": null,
+    "updated_at": null,
+    "description": "This easy passion fruit cocktail is bursting with zingy flavours and is perfect for celebrating with friends.",
+    "source": "Douglas Ankrah, The Townhouse | London",
+    "garnish": "Half a passion fruit on top",
+    "abv": 16.36,
+    "tags": [],
+    "glass": "Coupe",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///porn-star-martini.webp",
+            "sort": 1,
+            "placeholder_hash": "2vcNFwJqWHiCeHd7iAmGmIaXyJQIXZoA",
+            "copyright": "Punch / Jamie Lau"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "vanilla-vodka",
+            "name": "Vanilla Vodka",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": [
+                {
+                    "_id": "vodka",
+                    "name": "Vodka",
+                    "amount": null,
+                    "units": null,
+                    "amount_max": null
+                }
+            ]
+        },
+        {
+            "_id": "passoa",
+            "name": "Passoã",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 4,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "champagne",
+            "name": "Champagne",
+            "sort": 5,
+            "amount": 60,
+            "units": "ml",
+            "optional": true,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": [
+                {
+                    "_id": "prosecco",
+                    "name": "Prosecco",
+                    "amount": null,
+                    "units": null,
+                    "amount_max": null
+                }
+            ]
+        }
+    ]
+}

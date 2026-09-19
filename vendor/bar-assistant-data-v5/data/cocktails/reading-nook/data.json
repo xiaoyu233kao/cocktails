@@ -1,0 +1,93 @@
+{
+    "_id": "reading-nook",
+    "name": "Reading Nook",
+    "instructions": "1. Add all of the ingredients to a shaker and dry shake vigorously for 45 seconds.\n2. Add ice and shake again for 15 to 30 seconds to fully chill.\n3. Strain into the glass.\n4. Express orange oil atop the drink before serving.\n5. Garnish.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The type of coffee used greatly impacts the flavor of this spirit-free coffee drink from 2025 Imbibe 75er Morgan Eckroth. \"I would suggest a fruit-forward coffee, roasted light-medium,\" Eckroth says. \"Something like a natural Ethiopian or Colombian coffee would work well.\"",
+    "source": "https://imbibemagazine.com/recipe/reading-nook-a-coffee-drink/",
+    "garnish": "Speared cherries, orange peel",
+    "abv": 0,
+    "tags": [
+        "Dessert",
+        "Virgin",
+        "Fruity",
+        "Coffee"
+    ],
+    "glass": "Coupe",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///reading-nook.webp",
+            "sort": 1,
+            "placeholder_hash": "DAgKHwYbdYiYeXVgm1mXqGh6mHIIJ3YA",
+            "copyright": "Imbibe Magazine | Morgan Eckroth"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "cherry-juice",
+            "name": "Cherry juice",
+            "sort": 1,
+            "amount": 1.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "tart",
+            "substitutes": []
+        },
+        {
+            "_id": "espresso",
+            "name": "Espresso",
+            "sort": 2,
+            "amount": 1,
+            "units": "shot",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "double espresso",
+            "substitutes": []
+        },
+        {
+            "_id": "orgeat-syrup",
+            "name": "Orgeat Syrup",
+            "sort": 3,
+            "amount": 0.75,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "saline-solution",
+            "name": "Saline solution",
+            "sort": 4,
+            "amount": 5,
+            "units": "drops",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "egg-white",
+            "name": "Egg White",
+            "sort": 5,
+            "amount": 1,
+            "units": "whole",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

@@ -1,0 +1,91 @@
+{
+    "_id": "rocket-power",
+    "name": "Rocket Power",
+    "instructions": "Add arugula into your shaking tin, add ice, and shake for 10 seconds. Add remaining ingredients, shake until chilled. Double strain into chilled glass over fresh ice.",
+    "created_at": null,
+    "updated_at": null,
+    "description": null,
+    "source": "https://www.statelinedistillery.com/recipes/2024/3/18/rocket-power",
+    "garnish": "Garnish with fresh arugula.",
+    "abv": 18.29,
+    "tags": [
+        "Herbacious",
+        "Sour"
+    ],
+    "glass": "Lowball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///rocket-power.webp",
+            "sort": 1,
+            "placeholder_hash": "GzoKLwR/iHfad3eXd3d3l4d5iFAo9ZIK",
+            "copyright": "State Line Distillery"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "balsamic-vinegar",
+            "name": "Balsamic vinegar",
+            "sort": 4,
+            "amount": 3,
+            "units": "drops",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "arugula",
+            "name": "Arugula",
+            "sort": 5,
+            "amount": 8,
+            "units": "leaves",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

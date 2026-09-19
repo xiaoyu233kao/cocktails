@@ -1,0 +1,76 @@
+{
+    "_id": "shoot-the-moon",
+    "name": "Shoot the Moon",
+    "instructions": "1. In a double Old-Fashioned glass, combine all ingredients with ice.\n2. Stir until chilled and diluted.\n3. Garnish with dehydrated pear and dust with cinnamon.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A cocktail recipe for a riff on the Gin Old-Fashioned made with Fords Gin and pear brandy and designed to minimize water waste.",
+    "source": "https://punchdrink.com/recipes/shoot-the-moon/",
+    "garnish": "Dehydrated pear, cinnamon powder",
+    "abv": 29.69,
+    "tags": [],
+    "glass": "Lowball",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///shoot-the-moon.webp",
+            "sort": 0,
+            "placeholder_hash": "NfgFBwIHh4YqWYdbrTcsCXgu1AIKeZAF",
+            "copyright": "Punch Staff | Lizzie Munro"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "pear-brandy-williams",
+            "name": "Pear Brandy (Williams)",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cinnamon-syrup",
+            "name": "Cinnamon syrup",
+            "sort": 3,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "grapefruit-bitters",
+            "name": "Grapefruit bitters",
+            "sort": 4,
+            "amount": 2,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

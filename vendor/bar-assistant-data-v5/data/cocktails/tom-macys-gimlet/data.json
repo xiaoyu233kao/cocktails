@@ -1,0 +1,66 @@
+{
+    "_id": "tom-macys-gimlet",
+    "name": "Tom Macy’s Gimlet",
+    "instructions": "1. Cut a lime in half, then cut one half into quarters.\n2. Muddle the limes in simple syrup.\n3. Add lime juice and gin.\n4. Shake and fine strain into a coupe.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Tom Macy's Gimlet cocktail recipe is simple: two ounces of gin, three-quarters of an ounce of simple syrup and half an ounce of lime juice.",
+    "source": "https://punchdrink.com/recipes/tom-macys-gimlet/",
+    "garnish": null,
+    "abv": 19.69,
+    "tags": [
+        "Citrusy"
+    ],
+    "glass": "Nick and Nora",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///tom-macys-gimlet.webp",
+            "sort": 0,
+            "placeholder_hash": "KvgRDwKPSXqUiIZ3eGiIV4h4CWdF9UUG",
+            "copyright": "Punch Staff"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "preferably Tanqueray",
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

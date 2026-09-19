@@ -1,0 +1,108 @@
+{
+    "_id": "bay-ridge",
+    "name": "Bay Ridge",
+    "instructions": "1. Combine all ingredients except garnish in a mixing glass filled with ice.\n2. Stir for 15–20 seconds until well chilled.\n3. Strain into chilled coupe or Nick &amp; Nora glass, and garnish with an orange twist.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The Bay Ridge, which originated at Brooklyn cocktail lounge Clover Club around 2014, represents a long line of New York-themed cocktails based on the Manhattan. Here's how it differs, and why it matters.",
+    "source": "https://www.liquor.com/bay-ridge-cocktail-recipe-8399143",
+    "garnish": null,
+    "abv": 30.51,
+    "tags": [],
+    "glass": "Nick and Nora",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///bay-ridge.webp",
+            "sort": 1,
+            "placeholder_hash": "UfcFHwYDloqMi4WKhVh5h5Zo1bBZCosE",
+            "copyright": "Liquor.com"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "rye-whiskey",
+            "name": "Rye whiskey",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "dry-vermouth",
+            "name": "Dry Vermouth",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "benedictine",
+            "name": "Bénédictine",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "brandy",
+            "name": "Brandy",
+            "sort": 4,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "Prune brandy",
+            "substitutes": [
+                {
+                    "_id": "plum-brandy",
+                    "name": "Plum Brandy",
+                    "amount": null,
+                    "units": null,
+                    "amount_max": null
+                }
+            ]
+        },
+        {
+            "_id": "angostura-aromatic-bitters",
+            "name": "Angostura aromatic bitters",
+            "sort": 5,
+            "amount": 2,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orange-bitters",
+            "name": "Orange bitters",
+            "sort": 6,
+            "amount": 2,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

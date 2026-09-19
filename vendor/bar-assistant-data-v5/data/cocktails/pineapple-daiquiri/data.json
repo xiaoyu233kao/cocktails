@@ -1,0 +1,78 @@
+{
+    "_id": "pineapple-daiquiri",
+    "name": "Pineapple Daiquiri",
+    "instructions": "1. Combine all ingredients in a mixing tin and shake with ice.\n2. Strain into a chilled coupe or cocktail glass.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "This simple and slightly fruity Daiquiri variation incorporates fresh pineapple juice alongside white rum, lime juice and simple syrup.",
+    "source": "https://punchdrink.com/recipes/pineapple-daiquiri/",
+    "garnish": null,
+    "abv": 16,
+    "tags": [
+        "Fruity"
+    ],
+    "glass": "Coupe",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": "daiquiri",
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///pineapple-daiquiri.webp",
+            "sort": 1,
+            "placeholder_hash": "KegJHwIve4h8lYiKhnd4R5iGZ9AXB30E",
+            "copyright": "Punch Staff"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "light-rum",
+            "name": "Light Rum",
+            "sort": 1,
+            "amount": 2,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "preferably Barbancourt",
+            "substitutes": []
+        },
+        {
+            "_id": "pineapple-juice",
+            "name": "Pineapple juice",
+            "sort": 2,
+            "amount": 1,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 3,
+            "amount": 0.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 4,
+            "amount": 0.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "_id": "absinthe-old-fashioned",
+    "name": "Absinthe Old Fashioned",
+    "instructions": "1. Add all ingredients except bitters to a mixing glass with ice\n2. Stir 20 seconds and strain into a rocks glass filled with ice\n3. Dash bitters on top to layer",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Doug Petry of Louisville’s Rye restaurant devised this absinthe-based old fashioned. It reads quite sweet but it rounds out nicely into a surprisingly delicious cocktail.",
+    "source": "https://www.liberandcompany.com/collections/recipes/products/absinthe-old-fashioned",
+    "garnish": null,
+    "abv": 19.58,
+    "tags": [
+        "Autumn",
+        "Old Fashioned",
+        "Herbacious"
+    ],
+    "glass": "Lowball",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///absinthe-old-fashioned.webp",
+            "sort": 1,
+            "placeholder_hash": "WhgKFwQAnoXkk6g5eZZ3hlmGd5UGJ3kA",
+            "copyright": "LiberAndCo |  Scott Kallstrand"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "absinthe",
+            "name": "Absinthe",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "st-germain",
+            "name": "St-Germain",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "peychauds-bitters",
+            "name": "Peychauds Bitters",
+            "sort": 3,
+            "amount": 4,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 4,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

@@ -1,0 +1,90 @@
+{
+    "_id": "bourbon-renewal",
+    "name": "Bourbon Renewal",
+    "instructions": "1. Shake ingredients with ice until cold.\n2. Strain over fresh ice into an old-fashioned glass.\n3. Garnish with a lemon wedge, or if in season, fresh currants.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "This one was named after a band that my business partner, Tony Figoli was in a long time ago. I thought the name was absolutely brilliant, so I decided to do up a drink to commemorate the band – and my favorite spirit at the time.\n\nI think the creme de cassis really works well with the sour component of this drink, and who can beat American whiskey on a warm spring evening?",
+    "source": "https://jeffreymorgenthaler.com/bourbon-renewal/",
+    "garnish": "Garnish with a lemon wedge, or if in season, fresh currants",
+    "abv": 18.64,
+    "tags": [
+        "Sour"
+    ],
+    "glass": "Lowball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": 2001,
+    "author": "Jeffrey Morgenthaler",
+    "images": [
+        {
+            "uri": "file:///bourbon-renewal.webp",
+            "sort": 1,
+            "placeholder_hash": "qVgOFwaaWWifdoiKhmiHaIeIeGA2V2AD",
+            "copyright": "i0.wp.com"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "bourbon-whiskey",
+            "name": "Bourbon Whiskey",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "creme-de-cassis",
+            "name": "Crème de cassis",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 4,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "angostura-aromatic-bitters",
+            "name": "Angostura aromatic bitters",
+            "sort": 5,
+            "amount": 1,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

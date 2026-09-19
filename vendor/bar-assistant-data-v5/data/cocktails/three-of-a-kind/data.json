@@ -1,0 +1,79 @@
+{
+    "_id": "three-of-a-kind",
+    "name": "Three of a Kind",
+    "instructions": "1. Stir all of the ingredients with ice\n2. Strain into a glass filled with fresh ice",
+    "created_at": null,
+    "updated_at": null,
+    "description": "At Bar Cleeta in Bentonville, Arkansas, the appeal of Italian flavors led to the creation of this simple combo. “Though assertively spirit-forward, the maraschino and Cocchi Americano provide a smooth, lush base for the London dry gin,” says partner and beverage director Weisi Basore. “It’s quickly become a guest and staff favorite, for its complexity and aperitivo vibes.\"",
+    "source": "https://imbibemagazine.com/recipe/three-of-a-kind-from-bar-cleeta/",
+    "garnish": "Lemon twist",
+    "abv": 26.91,
+    "tags": [
+        "Aperitivo",
+        "Bitter"
+    ],
+    "glass": "Lowball",
+    "method": "Build",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///three-of-a-kind.webp",
+            "sort": 1,
+            "placeholder_hash": "swgGFwBblHiPe4VmiHdomGd5CEaJoHEJ",
+            "copyright": "Imbibe Magazine | John Valls"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cocchi-aperitivo-americano",
+            "name": "Cocchi Aperitivo Americano",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "Bianco",
+            "substitutes": []
+        },
+        {
+            "_id": "maraschino",
+            "name": "Maraschino",
+            "sort": 3,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "grapefruit-bitters",
+            "name": "Grapefruit bitters",
+            "sort": 4,
+            "amount": 2,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

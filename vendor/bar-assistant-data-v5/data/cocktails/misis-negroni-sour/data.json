@@ -1,0 +1,103 @@
+{
+    "_id": "misis-negroni-sour",
+    "name": "Misi’s Negroni Sour",
+    "instructions": "1. Combine all ingredients in a cocktail shaker then dry shake without ice to combine.\n2. Add ice, and shake vigorously.\n3. Strain into a coupe glass.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "This Negroni cocktail recipe turns the classic combination of Campari, gin and vermouth into a frothy sour.",
+    "source": "https://punchdrink.com/recipes/misi-negroni-sour/",
+    "garnish": null,
+    "abv": 11.29,
+    "tags": [
+        "Sour",
+        "Citrusy"
+    ],
+    "glass": "Lowball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///misis-negroni-sour.webp",
+            "sort": 0,
+            "placeholder_hash": "KTkSFwSoZ3iQh3iWh2iYp3d4tvGIB3sG",
+            "copyright": "Punch Staff | Lizzie Munro"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "campari",
+            "name": "Campari",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "vermouth-bianco",
+            "name": "Vermouth Bianco",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orange-juice",
+            "name": "Orange juice",
+            "sort": 4,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 5,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "egg-white",
+            "name": "Egg White",
+            "sort": 6,
+            "amount": 1,
+            "units": "part",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

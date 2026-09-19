@@ -1,0 +1,67 @@
+{
+    "_id": "white-negroni-corpse-revived",
+    "name": "White Negroni (Corpse revived)",
+    "instructions": "Build in glass over ice",
+    "created_at": null,
+    "updated_at": null,
+    "description": "We went nearly a century before a handful of rowdy boozehounds in NYC decided the Negroni needed more gin and less of everything else, but it took less than a decade for those same bartenders to tinker with Collins' White Negroni. I think that was a mistake. \n\nWhile a classic Negroni can very easily handle an increase in gin to punch through the Campari and sweet red vermouth, there is far less sugar for the gin to fight in a White Negroni, rendering an increase of gin unnecessary and oftentimes detrimental. \n\nThe best version of this cocktail then, in my opinion, adheres to the original Negroni format, stays true to the original White Negroni flavor profile, and improves upon the original.",
+    "source": "https://www.corpserevived.com/post/the-ultimate-guide-to-the-white-negroni",
+    "garnish": "Orange twist",
+    "abv": 22.12,
+    "tags": [
+        "Negroni",
+        "Bitter"
+    ],
+    "glass": "Lowball",
+    "method": "Build",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///white-negroni-corpse-revived.webp",
+            "sort": 1,
+            "placeholder_hash": "mKcFNwgNuXeceZaQfLdoiId6h1AYCZcB",
+            "copyright": "Brian Tasch"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "preferably Plymouth",
+            "substitutes": []
+        },
+        {
+            "_id": "aveze",
+            "name": "Avéze",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "vermouth-bianco",
+            "name": "Vermouth Bianco",
+            "sort": 3,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "preferably Contratto",
+            "substitutes": []
+        }
+    ]
+}

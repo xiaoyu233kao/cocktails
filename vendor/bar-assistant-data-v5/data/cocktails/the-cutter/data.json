@@ -1,0 +1,103 @@
+{
+    "_id": "the-cutter",
+    "name": "The Cutter",
+    "instructions": "1. Combine all ingredients in a mixing tin and shake with ice.\n2. Strain into a chilled coupe.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "This cocktail recipe is a riff on The Paper Airplane that swaps house-made Campari for Aperol and house Amer Picon for Nonino.",
+    "source": "https://punchdrink.com/recipes/the-cutter/",
+    "garnish": null,
+    "abv": 18.39,
+    "tags": [
+        "Citrusy",
+        "Fruity"
+    ],
+    "glass": "Coupe",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///the-cutter.webp",
+            "sort": 0,
+            "placeholder_hash": "skgGDwT4iGd4eoiKduhYZ5iFirB4B4gG",
+            "copyright": "Punch Staff | Lizzie Munro"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "whiskey",
+            "name": "Whiskey",
+            "sort": 1,
+            "amount": 37.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "preferably St. George B&E American",
+            "substitutes": []
+        },
+        {
+            "_id": "campari",
+            "name": "Campari",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "amaro-montenegro",
+            "name": "Amaro Montenegro",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "preferably CioCiaro",
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 4,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 5,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "2:1",
+            "substitutes": []
+        },
+        {
+            "_id": "angostura-aromatic-bitters",
+            "name": "Angostura aromatic bitters",
+            "sort": 6,
+            "amount": 1,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

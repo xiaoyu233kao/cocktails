@@ -1,0 +1,66 @@
+{
+    "_id": "cafe-martini",
+    "name": "Cafe Martini",
+    "instructions": "1. Add all the ingredients to a shaker with ice\n2. Shake and strain into the glass",
+    "created_at": null,
+    "updated_at": null,
+    "description": "At Saint Theo's in New York, beverage director Simon Sebbah elevates the Espresso Martini by trading out vodka for reposado tequila, giving it \"a little extra kick and dimension.\"",
+    "source": "https://imbibemagazine.com/recipe/cafe-martini-a-tequila-espresso-martini/",
+    "garnish": "3 coffee beans",
+    "abv": 20,
+    "tags": [
+        "Coffee"
+    ],
+    "glass": "Nick and Nora",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///cafe-martini.webp",
+            "sort": 1,
+            "placeholder_hash": "okgaFwZ3h4dwh4iXiJd4h4Z2l/aoiY8K",
+            "copyright": "Imbibe Magazine | Kathryn Sheldon"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "tequila-reposado",
+            "name": "Tequila Reposado",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "coffee-liqueur",
+            "name": "Coffee liqueur",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "espresso",
+            "name": "Espresso",
+            "sort": 3,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

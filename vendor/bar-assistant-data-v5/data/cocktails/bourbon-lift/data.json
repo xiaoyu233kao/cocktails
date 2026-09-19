@@ -1,0 +1,91 @@
+{
+    "_id": "bourbon-lift",
+    "name": "Bourbon Lift",
+    "instructions": "1. Add the bourbon, coffee liqueur, heavy cream and orgeat into a shaker and vigorously dry-shake (without ice) for 10 seconds. Add ice and shake again until well-chilled.\n2. Strain into a Collins glass.\n3. Fill with the club soda, pouring from about 6 inches above the glass.\n4. Wait a few seconds and then add another splash of soda. This will lift the foam above the top of the glass.\n5. Serve with a straw.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The cocktail equivalent of a New York egg cream, this rich and fizzy bourbon drink is absolutely delicious.",
+    "source": "https://www.liquor.com/recipes/bourbon-lift/",
+    "garnish": null,
+    "abv": 18.67,
+    "tags": [
+        "Sweet",
+        "Coffee"
+    ],
+    "glass": "Highball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///bourbon-lift.webp",
+            "sort": 1,
+            "placeholder_hash": "UAgKHwQIx3d7dol2eHeXWJh3ZlBYBoUF",
+            "copyright": "Liquor.com"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "bourbon-whiskey",
+            "name": "Bourbon Whiskey",
+            "sort": 1,
+            "amount": 1.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "coffee-liqueur",
+            "name": "Coffee liqueur",
+            "sort": 2,
+            "amount": 0.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cream",
+            "name": "Cream",
+            "sort": 3,
+            "amount": 0.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orgeat-syrup",
+            "name": "Orgeat Syrup",
+            "sort": 4,
+            "amount": 0.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "club-soda",
+            "name": "Club soda",
+            "sort": 5,
+            "amount": 0,
+            "units": "topup",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "chilled, to top",
+            "substitutes": []
+        }
+    ]
+}

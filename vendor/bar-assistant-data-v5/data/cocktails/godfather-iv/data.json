@@ -1,0 +1,76 @@
+{
+    "_id": "godfather-iv",
+    "name": "Godfather IV",
+    "instructions": "1. Combine all ingredients in a mixing glass over ice and stir until chilled.\n2. Strain into a rocks glass over a large ice cube.\n3. Garnish with a lemon twist.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A riff on the amaretto-sweetened Godfather cocktail recipe, this drink adds on walnut liqueur for extra depth and nutty richness.",
+    "source": "https://punchdrink.com/recipes/godfather-iv/",
+    "garnish": "lemon twist",
+    "abv": 31.38,
+    "tags": [],
+    "glass": "Lowball",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///godfather-iv.webp",
+            "sort": 0,
+            "placeholder_hash": "pBgKJwbzlUVjgpiYiIWZh3Z4imApCJMC",
+            "copyright": "Punch Staff | Lizzie Munro"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "scotch-whiskey",
+            "name": "Scotch whiskey",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "preferably Compass Box Glasgow Blend",
+            "substitutes": []
+        },
+        {
+            "_id": "amaretto",
+            "name": "Amaretto",
+            "sort": 2,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "walnut-liqueur",
+            "name": "Walnut Liqueur",
+            "sort": 3,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "angostura-aromatic-bitters",
+            "name": "Angostura aromatic bitters",
+            "sort": 4,
+            "amount": 2,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

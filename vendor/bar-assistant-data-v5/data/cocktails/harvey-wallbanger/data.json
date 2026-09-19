@@ -1,0 +1,68 @@
+{
+    "_id": "harvey-wallbanger",
+    "name": "Harvey Wallbanger",
+    "instructions": "1. Stir the vodka and orange juice with ice in the glass\n2. Float the Galliano on top\n3. Garnish and serve",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The Harvey Wallbanger was created in 1969 as a marketing campaign by McKesson Imports Company, importer of Galliano, as a means of driving sales of Galliano. The campaign was headed by George Bednar, marketing director of McKesson, and a cartoon character was commissioned from graphic artist William J. \"Bill\" Young in Lima, New York, with the tagline that Bednar claimed to have penned: \"Harvey Wallbanger is the name. And I can be made!\". The Harvey Wallbanger character was a surfer, appearing in various ads during the campaign, and was mentioned in print as early as 1969, continuing into the 1970s.",
+    "source": "https://en.wikipedia.org/wiki/Harvey_Wallbanger",
+    "garnish": "long curl of orange peel",
+    "abv": 14.75,
+    "tags": [
+        "Classics",
+        "Sweet",
+        "Citrusy"
+    ],
+    "glass": "Highball",
+    "method": "Build",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///harvey-wallbanger.webp",
+            "sort": 1,
+            "placeholder_hash": "0DkKRwYMl4iBendiiXeGd4iJmSBHCIAD",
+            "copyright": "Punch Staff | Lizzie Munro"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "vodka",
+            "name": "Vodka",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orange-juice",
+            "name": "Orange juice",
+            "sort": 2,
+            "amount": 90,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "galliano",
+            "name": "Galliano",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

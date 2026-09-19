@@ -1,0 +1,79 @@
+{
+    "_id": "parisien-mojito",
+    "name": "Parisien Mojito",
+    "instructions": "1. Muddle mint in glass\n2. Add other ingredients\n3. Half fill glass with crushed ice and stir with bar spoon\n4. Fill glass to brim with more crushed ice\n5. Serve with straws",
+    "created_at": null,
+    "updated_at": null,
+    "description": null,
+    "source": "https://www.diffordsguide.com/cocktails/recipe/2712/parisien-mojito",
+    "garnish": null,
+    "abv": 20.41,
+    "tags": [
+        "Summer",
+        "Mojito"
+    ],
+    "glass": "Highball",
+    "method": "Muddle",
+    "utensils": [],
+    "parent_cocktail_id": "mojito",
+    "year": 2006,
+    "author": "Simon Difford",
+    "images": [
+        {
+            "uri": "file:///parisien-mojito.webp",
+            "sort": 1,
+            "placeholder_hash": "3xgKDwKc3XlwuIqWfETJV2d8V1QK9okH",
+            "copyright": "AI (Gemini)"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "light-rum",
+            "name": "Light Rum",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "mint",
+            "name": "Mint",
+            "sort": 2,
+            "amount": 12,
+            "units": "leaves",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "st-germain",
+            "name": "St-Germain",
+            "sort": 3,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 4,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

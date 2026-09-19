@@ -1,0 +1,79 @@
+{
+    "_id": "margarita-soda",
+    "name": "Margarita Soda",
+    "instructions": "1. Rim a Collins glass with sea salt.\n2. Add the first three ingredients to a shaker with ice and shake until chilled.\n3. Pour into the prepared Collins glass, top with club soda and stir.\n4. Garnish with a lime wedge.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The Margarita Soda from Hellbender Nighttime Café combines tequila, agave syrup, lime juice and club soda for a refreshing drink.",
+    "source": "https://punchdrink.com/recipes/margarita-soda/",
+    "garnish": "sea salt, lime wedge",
+    "abv": 16,
+    "tags": [
+        "Citrusy",
+        "Light"
+    ],
+    "glass": "Highball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///margarita-soda.webp",
+            "sort": 0,
+            "placeholder_hash": "EzkKFwRDjpWGeIdwSWeXZqeWSQdIpYAF",
+            "copyright": "Punch Staff | Nico Schinco"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "tequila-blanco",
+            "name": "Tequila Blanco",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "preferably Pueblo Viejo Blanco",
+            "substitutes": []
+        },
+        {
+            "_id": "agave-syrup",
+            "name": "Agave Syrup",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "club-soda",
+            "name": "Club soda",
+            "sort": 4,
+            "amount": 1,
+            "units": "topup",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

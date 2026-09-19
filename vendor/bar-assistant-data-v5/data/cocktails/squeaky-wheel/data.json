@@ -1,0 +1,98 @@
+{
+    "_id": "squeaky-wheel",
+    "name": "Squeaky Wheel",
+    "instructions": "1. Stir all the ingredients together in a mixing tin with ice, then strain into a rocks glass over fresh ice.\n2. Express the oils of the orange peel over the top of the drink and use as a garnish.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "\"The squeaky wheel gets the oil\", my father always used to tell me. This cocktail demands that level of attention, says Nicholas Bennett of Cedric’s at the Shed of this Mezcal Negroni. \"I enjoy the combination of coffee and bitters, and I will occasionally add a touch of Angostura to my coffee in the morning, so the blend of St. George NOLA Coffee Liqueur and Campari was almost a no-brainer when I was developing this Negroni variation. The splash of amaretto really rounds out the cocktail.\"",
+    "source": "https://imbibemagazine.com/recipe/squeaky-wheel-mezcal-negroni/",
+    "garnish": "Orange twist",
+    "abv": 23.98,
+    "tags": [
+        "Negroni",
+        "Coffee",
+        "Smokey",
+        "Bitter"
+    ],
+    "glass": "Lowball",
+    "method": "Stir",
+    "utensils": [
+        "Bar spoon",
+        "Jigger",
+        "Julep Strainer",
+        "Mixing glass"
+    ],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///squeaky-wheel.webp",
+            "sort": 1,
+            "placeholder_hash": "pSgKHwZwXXa+h4m3dmaHaGmJ9INXT2UE",
+            "copyright": "Imbibe Magazine | Eric Medsker"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "mezcal",
+            "name": "Mezcal",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "campari",
+            "name": "Campari",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "coffee-liqueur",
+            "name": "Coffee liqueur",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "amaretto",
+            "name": "Amaretto",
+            "sort": 4,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "angostura-aromatic-bitters",
+            "name": "Angostura aromatic bitters",
+            "sort": 5,
+            "amount": 2,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

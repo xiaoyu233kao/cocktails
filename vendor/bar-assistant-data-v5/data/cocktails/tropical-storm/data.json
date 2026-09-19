@@ -1,0 +1,67 @@
+{
+    "_id": "tropical-storm",
+    "name": "Tropical Storm",
+    "instructions": "1. Add all ingredients to a cocktail shaker \n2. Add ice and shake for 10 seconds\n3. Strain into a chilled glass",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Passionfruit Syrup and dark rum shine in this daiquiri-hurricane hybrid.",
+    "source": "https://www.liberandcompany.com/collections/recipes/products/tropical-storm",
+    "garnish": "Edible flower or lime wheel",
+    "abv": 21.33,
+    "tags": [
+        "Summer",
+        "Tropical"
+    ],
+    "glass": "Coupe",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///tropical-storm.webp",
+            "sort": 1,
+            "placeholder_hash": "LUkGHwKYWmZ/iHd4cmmoN5eLeAo3SIIA",
+            "copyright": "LiberAndCo | Juliet Beletic"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "dark-rum",
+            "name": "Dark Rum",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "passionfruit-syrup",
+            "name": "Passionfruit syrup",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

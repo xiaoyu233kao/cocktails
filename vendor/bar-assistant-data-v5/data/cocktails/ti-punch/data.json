@@ -1,0 +1,67 @@
+{
+    "_id": "ti-punch",
+    "name": "Ti’ Punch",
+    "instructions": "1. Slice half a lime into wedges\n2. Muddle limes and syrup in a rocks glass\n3. Add 2-3 pieces of ice and stir until melted",
+    "created_at": null,
+    "updated_at": null,
+    "description": "This Caribbean favorite is the laid back cousin to the daiquiri. Kick your feet up with the 'Ti Punch.",
+    "source": "https://www.liberandcompany.com/collections/recipes/products/ti-punch",
+    "garnish": null,
+    "abv": 38.96,
+    "tags": [
+        "Citrusy",
+        "Summer"
+    ],
+    "glass": "Lowball",
+    "method": "Muddle",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///ti-punch.webp",
+            "sort": 1,
+            "placeholder_hash": "HDkOLwqzl2hgiYiph1h5Z4aJmgjIqIAN",
+            "copyright": "LiberAndCo | Juliet Beletic"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "rhum-agricole",
+            "name": "Rhum agricole",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 2,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime",
+            "name": "Lime",
+            "sort": 3,
+            "amount": 1,
+            "units": "whole",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

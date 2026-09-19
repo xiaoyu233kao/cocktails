@@ -1,0 +1,1710 @@
+{
+  "mamie-taylor": {
+    "nameZh": "玛米·泰勒",
+    "aliases": [
+      "Mamie Taylor"
+    ]
+  },
+  "managers-meeting": {
+    "nameZh": "经理会议",
+    "aliases": [
+      "Manager's Meeting"
+    ]
+  },
+  "mango-mule": {
+    "nameZh": "芒果骡子",
+    "aliases": [
+      "Mango Mule"
+    ]
+  },
+  "maracuya-mojito": {
+    "nameZh": "百香果莫吉托",
+    "aliases": [
+      "Maracuyá Mojito",
+      "百香果莫吉托",
+      "百香果莫希托"
+    ]
+  },
+  "margarita-soda": {
+    "nameZh": "玛格丽塔苏打",
+    "aliases": [
+      "Margarita Soda"
+    ]
+  },
+  "maria-mole": {
+    "nameZh": "玛丽亚·莫莱",
+    "aliases": [
+      "Maria Mole"
+    ]
+  },
+  "marigold-mule": {
+    "nameZh": "金盏花骡子",
+    "aliases": [
+      "Marigold Mule"
+    ]
+  },
+  "marseilles-rhum": {
+    "nameZh": "马赛朗姆",
+    "aliases": [
+      "Marseilles Rhum"
+    ]
+  },
+  "mary-celeste": {
+    "nameZh": "玛丽·塞莱斯特",
+    "aliases": [
+      "Mary Celeste"
+    ]
+  },
+  "matador": {
+    "nameZh": "斗牛士",
+    "aliases": [
+      "Matador"
+    ]
+  },
+  "medicina-latina": {
+    "nameZh": "拉丁药方",
+    "aliases": [
+      "Medicina Latina"
+    ]
+  },
+  "merry-spritzmas": {
+    "nameZh": "圣诞施普利兹",
+    "aliases": [
+      "Merry Spritzmas",
+      "圣诞斯普里茨"
+    ]
+  },
+  "metexa": {
+    "nameZh": "梅泰萨",
+    "aliases": [
+      "Metexa"
+    ]
+  },
+  "mexican-firing-squad": {
+    "nameZh": "墨西哥行刑队",
+    "aliases": [
+      "Mexican Firing Squad"
+    ]
+  },
+  "mexican-razor-blade": {
+    "nameZh": "墨西哥剃刀",
+    "aliases": [
+      "Mexican Razor Blade"
+    ]
+  },
+  "mezcal-margarita": {
+    "nameZh": "梅斯卡尔玛格丽塔",
+    "aliases": [
+      "Mezcal Margarita"
+    ]
+  },
+  "mezcal-mule": {
+    "nameZh": "梅斯卡尔骡子",
+    "aliases": [
+      "Mezcal Mule"
+    ]
+  },
+  "mezcal-sour": {
+    "nameZh": "梅斯卡尔酸酒",
+    "aliases": [
+      "Mezcal Sour"
+    ]
+  },
+  "mezchine-head": {
+    "nameZh": "梅斯卡尔机器头",
+    "aliases": [
+      "Mezchine Head"
+    ]
+  },
+  "michelada": {
+    "nameZh": "米切拉达",
+    "aliases": [
+      "Michelada",
+      "墨西哥啤酒鸡尾酒"
+    ]
+  },
+  "mickey-finn": {
+    "nameZh": "米奇·芬",
+    "aliases": [
+      "Mickey Finn"
+    ]
+  },
+  "midnight-marauder-no-2": {
+    "nameZh": "午夜掠夺者2号",
+    "aliases": [
+      "Midnight Marauder No. 2"
+    ]
+  },
+  "mis-mas": {
+    "nameZh": "米什·马什",
+    "aliases": [
+      "Miš Maš"
+    ]
+  },
+  "misis-negroni-sour": {
+    "nameZh": "米西的内格罗尼酸酒",
+    "aliases": [
+      "Misi’s Negroni Sour"
+    ]
+  },
+  "mm-mezcal-montenegro": {
+    "nameZh": "M&M梅斯卡尔蒙特内格罗",
+    "aliases": [
+      "M&M Mezcal Montenegro"
+    ]
+  },
+  "modern-medicine": {
+    "nameZh": "现代药方",
+    "aliases": [
+      "Modern Medicine"
+    ]
+  },
+  "molasses-energy-balances": {
+    "nameZh": "糖蜜能量平衡",
+    "aliases": [
+      "Molasses Energy Balances"
+    ]
+  },
+  "monks-respite": {
+    "nameZh": "修士喘息",
+    "aliases": [
+      "Monk’s Respite"
+    ]
+  },
+  "monte-cassino": {
+    "nameZh": "蒙特卡西诺",
+    "aliases": [
+      "Monte Cassino"
+    ]
+  },
+  "monte-mule-recipe": {
+    "nameZh": "蒙特骡子",
+    "aliases": [
+      "Monte Mule Recipe"
+    ]
+  },
+  "montenegro-spritz": {
+    "nameZh": "蒙特内格罗施普利兹",
+    "aliases": [
+      "Montenegro Spritz",
+      "蒙特内格罗斯普里茨"
+    ]
+  },
+  "more-supreme": {
+    "nameZh": "更胜一筹",
+    "aliases": [
+      "More Supreme"
+    ]
+  },
+  "morning-glory-fizz": {
+    "nameZh": "晨光菲士",
+    "aliases": [
+      "Morning Glory Fizz"
+    ]
+  },
+  "mosquito": {
+    "nameZh": "蚊子",
+    "aliases": [
+      "Mosquito"
+    ]
+  },
+  "mr-brown": {
+    "nameZh": "布朗先生",
+    "aliases": [
+      "Mr. Brown"
+    ]
+  },
+  "mule-in-paradise": {
+    "nameZh": "天堂骡子",
+    "aliases": [
+      "Mule in Paradise"
+    ]
+  },
+  "mulled-wine": {
+    "nameZh": "热红酒",
+    "aliases": [
+      "Mulled Wine",
+      "香料热红酒"
+    ]
+  },
+  "navel-duties": {
+    "nameZh": "脐橙差事",
+    "aliases": [
+      "Navel Duties"
+    ]
+  },
+  "navy-grog": {
+    "nameZh": "海军格罗格",
+    "aliases": [
+      "Navy Grog"
+    ]
+  },
+  "needle-in-the-hay": {
+    "nameZh": "干草里的针",
+    "aliases": [
+      "Needle in the Hay"
+    ]
+  },
+  "negroni-sbagliato": {
+    "nameZh": "斯巴利亚托内格罗尼",
+    "aliases": [
+      "Negroni Sbagliato",
+      "斯巴利亚托内格罗尼",
+      "错误内格罗尼"
+    ]
+  },
+  "negroni-tredici": {
+    "nameZh": "十三号内格罗尼",
+    "aliases": [
+      "Negroni Tredici"
+    ]
+  },
+  "negroski": {
+    "nameZh": "内格罗斯基",
+    "aliases": [
+      "Negroski"
+    ]
+  },
+  "neruda": {
+    "nameZh": "聂鲁达",
+    "aliases": [
+      "Neruda"
+    ]
+  },
+  "new-fashioned": {
+    "nameZh": "新式古典",
+    "aliases": [
+      "New Fashioned"
+    ]
+  },
+  "nice-by-way-of-antibes": {
+    "nameZh": "尼斯（途经昂蒂布）",
+    "aliases": [
+      "Nice (by Way of Antibes)"
+    ]
+  },
+  "night-nurse": {
+    "nameZh": "夜班护士",
+    "aliases": [
+      "Night Nurse"
+    ]
+  },
+  "non-alc-hurricane": {
+    "nameZh": "无酒精飓风",
+    "aliases": [
+      "Non-Alc Hurricane"
+    ]
+  },
+  "norwegian-paralysis": {
+    "nameZh": "挪威麻痹",
+    "aliases": [
+      "Norwegian Paralysis"
+    ]
+  },
+  "not-far-from-a-tree": {
+    "nameZh": "离树不远",
+    "aliases": [
+      "Not Far From A Tree"
+    ]
+  },
+  "nuclear-daiquiri": {
+    "nameZh": "核能代基里",
+    "aliases": [
+      "Nuclear Daiquiri"
+    ]
+  },
+  "oak-kin": {
+    "nameZh": "橡木至亲",
+    "aliases": [
+      "OAK->KIN",
+      "橡木归亲"
+    ]
+  },
+  "oaxaca-old-fashioned": {
+    "nameZh": "瓦哈卡古典",
+    "aliases": [
+      "Oaxaca Old Fashioned"
+    ]
+  },
+  "oaxacanite": {
+    "nameZh": "瓦哈卡石",
+    "aliases": [
+      "Oaxacanite"
+    ]
+  },
+  "obituary": {
+    "nameZh": "讣告",
+    "aliases": [
+      "Obituary"
+    ]
+  },
+  "ol-poets-smoke": {
+    "nameZh": "老诗人的烟",
+    "aliases": [
+      "Ol’ Poet’s Smoke"
+    ]
+  },
+  "old-fashioned-romance": {
+    "nameZh": "古典浪漫",
+    "aliases": [
+      "Old Fashioned Romance"
+    ]
+  },
+  "old-friend": {
+    "nameZh": "老朋友",
+    "aliases": [
+      "Old Friend"
+    ]
+  },
+  "old-haitian": {
+    "nameZh": "老海地人",
+    "aliases": [
+      "Old Haitian",
+      "老海地"
+    ]
+  },
+  "old-pal": {
+    "nameZh": "老友",
+    "aliases": [
+      "Old Pal"
+    ]
+  },
+  "old-salt": {
+    "nameZh": "老水手",
+    "aliases": [
+      "Old Salt"
+    ]
+  },
+  "padua-paloma": {
+    "nameZh": "帕多瓦帕洛玛",
+    "aliases": [
+      "Padua Paloma"
+    ]
+  },
+  "painkiller": {
+    "nameZh": "止痛药",
+    "aliases": [
+      "Painkiller",
+      "止痛药鸡尾酒"
+    ]
+  },
+  "painkiller-the-mothership": {
+    "nameZh": "止痛药（母舰版）",
+    "aliases": [
+      "Painkiller (The Mothership)"
+    ]
+  },
+  "palmetto-no-1": {
+    "nameZh": "帕尔梅托1号",
+    "aliases": [
+      "Palmetto No. 1"
+    ]
+  },
+  "palmetto-no-2": {
+    "nameZh": "帕尔梅托2号",
+    "aliases": [
+      "Palmetto No. 2"
+    ]
+  },
+  "pancho-villa": {
+    "nameZh": "潘乔·比利亚",
+    "aliases": [
+      "Pancho Villa"
+    ]
+  },
+  "paper-airplane": {
+    "nameZh": "纸飞机",
+    "aliases": [
+      "Paper Airplane"
+    ]
+  },
+  "paris-is-burning": {
+    "nameZh": "巴黎在燃烧",
+    "aliases": [
+      "Paris is Burning"
+    ]
+  },
+  "parisian-dispatch": {
+    "nameZh": "巴黎快讯",
+    "aliases": [
+      "Parisian Dispatch"
+    ]
+  },
+  "parisien-mojito": {
+    "nameZh": "巴黎莫吉托",
+    "aliases": [
+      "Parisien Mojito",
+      "巴黎莫希托"
+    ]
+  },
+  "pasion": {
+    "nameZh": "激情",
+    "aliases": [
+      "Pasión"
+    ]
+  },
+  "pear-martini": {
+    "nameZh": "梨味马提尼",
+    "aliases": [
+      "Pear Martini"
+    ]
+  },
+  "pearl-diver": {
+    "nameZh": "珍珠潜水员",
+    "aliases": [
+      "Pearl Diver"
+    ]
+  },
+  "pegu-club": {
+    "nameZh": "佩古俱乐部",
+    "aliases": [
+      "Pegu Club"
+    ]
+  },
+  "petes-word": {
+    "nameZh": "皮特之言",
+    "aliases": [
+      "Pete’s Word"
+    ]
+  },
+  "picante-de-la-casa": {
+    "nameZh": "本店辣味",
+    "aliases": [
+      "Picante de la Casa",
+      "本屋辣椒"
+    ]
+  },
+  "pimms-cup": {
+    "nameZh": "潘姆杯",
+    "aliases": [
+      "Pimm’s Cup",
+      "潘姆酒杯"
+    ]
+  },
+  "pina-verde": {
+    "nameZh": "绿色菠萝",
+    "aliases": [
+      "Piña Verde",
+      "绿色菠萝",
+      "绿色凤梨"
+    ]
+  },
+  "pinch-hitter": {
+    "nameZh": "替补击球手",
+    "aliases": [
+      "Pinch Hitter"
+    ]
+  },
+  "pineapple-daiquiri": {
+    "nameZh": "菠萝代基里",
+    "aliases": [
+      "Pineapple Daiquiri"
+    ]
+  },
+  "pink-lady": {
+    "nameZh": "粉红佳人",
+    "aliases": [
+      "Pink Lady",
+      "粉红淑女"
+    ]
+  },
+  "poached-pear": {
+    "nameZh": "煮梨",
+    "aliases": [
+      "Poached Pear"
+    ]
+  },
+  "poets-dream": {
+    "nameZh": "诗人之梦",
+    "aliases": [
+      "Poet’s Dream"
+    ]
+  },
+  "poolside-gossip": {
+    "nameZh": "泳池边闲谈",
+    "aliases": [
+      "Poolside Gossip"
+    ]
+  },
+  "poppas-pride": {
+    "nameZh": "老爸的骄傲",
+    "aliases": [
+      "Poppa’s Pride"
+    ]
+  },
+  "port-light": {
+    "nameZh": "港口之光",
+    "aliases": [
+      "Port Light",
+      "港口灯"
+    ]
+  },
+  "poseidon": {
+    "nameZh": "波塞冬",
+    "aliases": [
+      "Poseidon"
+    ]
+  },
+  "pousse-cafe": {
+    "nameZh": "普斯咖啡",
+    "aliases": [
+      "Pousse Café",
+      "彩虹分层鸡尾酒"
+    ]
+  },
+  "prado": {
+    "nameZh": "普拉多",
+    "aliases": [
+      "Prado"
+    ]
+  },
+  "prime-inspector": {
+    "nameZh": "首席督察",
+    "aliases": [
+      "Prime Inspector"
+    ]
+  },
+  "prince-charles-dont-surf": {
+    "nameZh": "查尔斯王子不冲浪",
+    "aliases": [
+      "Prince Charles Don’t Surf"
+    ]
+  },
+  "puebla-york": {
+    "nameZh": "普埃布拉约克",
+    "aliases": [
+      "Puebla York"
+    ]
+  },
+  "puritan": {
+    "nameZh": "清教徒",
+    "aliases": [
+      "Puritan"
+    ]
+  },
+  "queen-of-the-rodeo": {
+    "nameZh": "牛仔竞技女王",
+    "aliases": [
+      "Queen of the Rodeo"
+    ]
+  },
+  "queens-park-hotel-super-cocktail": {
+    "nameZh": "皇后公园酒店超级鸡尾酒",
+    "aliases": [
+      "Queen's Park Hotel Super Cocktail"
+    ]
+  },
+  "queens-park-swizzle": {
+    "nameZh": "皇后公园斯威兹",
+    "aliases": [
+      "Queens Park Swizzle"
+    ]
+  },
+  "quilty": {
+    "nameZh": "奎尔蒂",
+    "aliases": [
+      "Quilty"
+    ]
+  },
+  "rabbit-szn": {
+    "nameZh": "兔子季",
+    "aliases": [
+      "Rabbit Szn"
+    ]
+  },
+  "rainy-day-fund": {
+    "nameZh": "雨天基金",
+    "aliases": [
+      "Rainy Day Fund"
+    ]
+  },
+  "ranglum": {
+    "nameZh": "朗格伦",
+    "aliases": [
+      "Ranglum"
+    ]
+  },
+  "rattlesnake": {
+    "nameZh": "响尾蛇",
+    "aliases": [
+      "Rattlesnake"
+    ]
+  },
+  "reading-nook": {
+    "nameZh": "阅读角",
+    "aliases": [
+      "Reading Nook"
+    ]
+  },
+  "real-charmers-daiquiri": {
+    "nameZh": "魅力代基里",
+    "aliases": [
+      "Real Charmer’s Daiquiri",
+      "迷人者代基里"
+    ]
+  },
+  "red-hook": {
+    "nameZh": "红钩",
+    "aliases": [
+      "Red Hook"
+    ]
+  },
+  "red-morning-light": {
+    "nameZh": "红色晨光",
+    "aliases": [
+      "Red Morning Light"
+    ]
+  },
+  "remember-the-alimony": {
+    "nameZh": "记住赡养费",
+    "aliases": [
+      "Remember the Alimony"
+    ]
+  },
+  "reno": {
+    "nameZh": "里诺",
+    "aliases": [
+      "Reno"
+    ]
+  },
+  "revolver": {
+    "nameZh": "左轮",
+    "aliases": [
+      "Revolver"
+    ]
+  },
+  "rib-tickler": {
+    "nameZh": "肋骨挠痒",
+    "aliases": [
+      "Rib Tickler",
+      "挠肋"
+    ]
+  },
+  "ric-pear-blanc": {
+    "nameZh": "里克梨白",
+    "aliases": [
+      "Ric Pear Blanc"
+    ]
+  },
+  "risorgimento-ditalia": {
+    "nameZh": "意大利复兴",
+    "aliases": [
+      "Risorgimento d’Italia"
+    ]
+  },
+  "ritz-cocktail": {
+    "nameZh": "丽兹鸡尾酒",
+    "aliases": [
+      "Ritz Cocktail"
+    ]
+  },
+  "rob-roy-no-3": {
+    "nameZh": "罗布·罗伊3号",
+    "aliases": [
+      "Rob Roy No. 3"
+    ]
+  },
+  "rocinante": {
+    "nameZh": "罗西南多",
+    "aliases": [
+      "Rocinante"
+    ]
+  },
+  "rocket-power": {
+    "nameZh": "火箭动力",
+    "aliases": [
+      "Rocket Power"
+    ]
+  },
+  "roman-holiday": {
+    "nameZh": "罗马假日",
+    "aliases": [
+      "Roman Holiday"
+    ]
+  },
+  "rome-with-a-view": {
+    "nameZh": "罗马窗景",
+    "aliases": [
+      "Rome With a View",
+      "窗景罗马"
+    ]
+  },
+  "room-key": {
+    "nameZh": "房间钥匙",
+    "aliases": [
+      "Room Key"
+    ]
+  },
+  "rubino-tequila-spritz": {
+    "nameZh": "鲁比诺龙舌兰施普利兹",
+    "aliases": [
+      "Rubino Tequila Spritz",
+      "鲁比诺龙舌兰斯普里茨"
+    ]
+  },
+  "rum-and-ramazzotti": {
+    "nameZh": "朗姆与拉马佐蒂",
+    "aliases": [
+      "Rum and Ramazzotti"
+    ]
+  },
+  "rum-old-fashioned": {
+    "nameZh": "朗姆古典",
+    "aliases": [
+      "Rum Old Fashioned"
+    ]
+  },
+  "rusty-ringo": {
+    "nameZh": "生锈林戈",
+    "aliases": [
+      "Rusty Ringo"
+    ]
+  },
+  "sage-gibson": {
+    "nameZh": "鼠尾草吉布森",
+    "aliases": [
+      "Sage Gibson"
+    ]
+  },
+  "saisonniere": {
+    "nameZh": "季节风",
+    "aliases": [
+      "Saisonnière"
+    ]
+  },
+  "sakura-martini": {
+    "nameZh": "樱花马提尼",
+    "aliases": [
+      "Sakura Martini"
+    ]
+  },
+  "salmoncito": {
+    "nameZh": "小鲑鱼",
+    "aliases": [
+      "Salmoncito"
+    ]
+  },
+  "sang-amer": {
+    "nameZh": "苦味桑格",
+    "aliases": [
+      "Sang Amer"
+    ]
+  },
+  "sangria": {
+    "nameZh": "桑格利亚",
+    "aliases": [
+      "Sangria",
+      "桑格利亚酒"
+    ]
+  },
+  "saturn": {
+    "nameZh": "土星",
+    "aliases": [
+      "Saturn"
+    ]
+  },
+  "sauvignon-blanc-punch": {
+    "nameZh": "长相思潘趣",
+    "aliases": [
+      "Sauvignon Blanc Punch"
+    ]
+  },
+  "savoy-special-1": {
+    "nameZh": "萨伏伊特调1号",
+    "aliases": [
+      "Savoy Special #1"
+    ]
+  },
+  "sawyer": {
+    "nameZh": "索耶",
+    "aliases": [
+      "Sawyer"
+    ]
+  },
+  "scofflaw": {
+    "nameZh": "藐视禁酒令者",
+    "aliases": [
+      "Scofflaw"
+    ]
+  },
+  "scorched-earth": {
+    "nameZh": "焦土",
+    "aliases": [
+      "Scorched Earth"
+    ]
+  },
+  "scorpion-bowl": {
+    "nameZh": "蝎子碗",
+    "aliases": [
+      "Scorpion Bowl"
+    ]
+  },
+  "scorpion-reef": {
+    "nameZh": "蝎礁",
+    "aliases": [
+      "Scorpion Reef"
+    ]
+  },
+  "scotch-and-coconut": {
+    "nameZh": "苏格兰威士忌椰子",
+    "aliases": [
+      "Scotch and Coconut"
+    ]
+  },
+  "scotch-sling": {
+    "nameZh": "苏格兰斯林",
+    "aliases": [
+      "Scotch Sling"
+    ]
+  },
+  "screwdriver": {
+    "nameZh": "螺丝刀",
+    "aliases": [
+      "Screwdriver",
+      "螺丝刀鸡尾酒"
+    ]
+  },
+  "sea-legs": {
+    "nameZh": "海腿",
+    "aliases": [
+      "Sea Legs"
+    ]
+  },
+  "second-serve": {
+    "nameZh": "二次发球",
+    "aliases": [
+      "Second Serve"
+    ]
+  },
+  "see-you-on-wednesday": {
+    "nameZh": "周三见",
+    "aliases": [
+      "See You on Wednesday"
+    ]
+  },
+  "seelbach": {
+    "nameZh": "西尔巴赫",
+    "aliases": [
+      "Seelbach"
+    ]
+  },
+  "sentimental-gentleman": {
+    "nameZh": "感伤绅士",
+    "aliases": [
+      "Sentimental Gentleman"
+    ]
+  },
+  "seven-seas-swizzle": {
+    "nameZh": "七海斯威兹",
+    "aliases": [
+      "Seven Seas Swizzle"
+    ]
+  },
+  "sex-work-is-real-work": {
+    "nameZh": "性工作是真工作",
+    "aliases": [
+      "Sex Work Is Real Work"
+    ]
+  },
+  "shade-thrower": {
+    "nameZh": "冷嘲者",
+    "aliases": [
+      "Shade Thrower",
+      "投影人"
+    ]
+  },
+  "shannon-tebays-paloma": {
+    "nameZh": "香农·特拜帕洛玛",
+    "aliases": [
+      "Shannon Tebay’s Paloma"
+    ]
+  },
+  "shirley-temple": {
+    "nameZh": "雪莉·坦普尔",
+    "aliases": [
+      "Shirley Temple",
+      "雪莉坦普尔无酒精鸡尾酒"
+    ]
+  },
+  "shliva-sour": {
+    "nameZh": "什利瓦酸酒",
+    "aliases": [
+      "Shliva Sour"
+    ]
+  },
+  "shoot-the-moon": {
+    "nameZh": "射月",
+    "aliases": [
+      "Shoot the Moon"
+    ]
+  },
+  "siesta": {
+    "nameZh": "午睡",
+    "aliases": [
+      "Siesta"
+    ]
+  },
+  "sin-cyn": {
+    "nameZh": "罪与西纳尔",
+    "aliases": [
+      "Sin Cyn",
+      "辛·辛"
+    ]
+  },
+  "single-village-fix": {
+    "nameZh": "单村修复",
+    "aliases": [
+      "Single Village Fix",
+      "单一村庄修正"
+    ]
+  },
+  "skeleton-key": {
+    "nameZh": "万能钥匙",
+    "aliases": [
+      "Skeleton Key"
+    ]
+  },
+  "smoke-follows-beauty": {
+    "nameZh": "烟随美人",
+    "aliases": [
+      "Smoke Follows Beauty"
+    ]
+  },
+  "smokeroni": {
+    "nameZh": "烟熏罗尼",
+    "aliases": [
+      "SmokeRoni"
+    ]
+  },
+  "smooth-kiss": {
+    "nameZh": "顺滑之吻",
+    "aliases": [
+      "Smooth Kiss"
+    ]
+  },
+  "snake-bit-sprout": {
+    "nameZh": "蛇咬嫩芽",
+    "aliases": [
+      "Snake Bit Sprout"
+    ]
+  },
+  "snake-eyes": {
+    "nameZh": "蛇眼",
+    "aliases": [
+      "Snake Eyes"
+    ]
+  },
+  "sno-cone": {
+    "nameZh": "刨冰",
+    "aliases": [
+      "Sno-Cone"
+    ]
+  },
+  "society-street": {
+    "nameZh": "社交街",
+    "aliases": [
+      "Society Street"
+    ]
+  },
+  "sour-strawberry-highball": {
+    "nameZh": "酸草莓高球",
+    "aliases": [
+      "Sour Strawberry Highball",
+      "酸草莓嗨棒"
+    ]
+  },
+  "south-slope": {
+    "nameZh": "南坡",
+    "aliases": [
+      "South Slope"
+    ]
+  },
+  "spaceface-from-young-american": {
+    "nameZh": "Young American 太空脸",
+    "aliases": [
+      "Spaceface from Young American",
+      "青年美国太空脸"
+    ]
+  },
+  "spaghetti-western": {
+    "nameZh": "意大利西部片",
+    "aliases": [
+      "Spaghetti Western",
+      "意式西部"
+    ]
+  },
+  "spanish-monk": {
+    "nameZh": "西班牙修士",
+    "aliases": [
+      "Spanish Monk"
+    ]
+  },
+  "spiced-cranberry-orange-punch": {
+    "nameZh": "香料蔓越莓橙味潘趣",
+    "aliases": [
+      "Spiced Cranberry-Orange Punch"
+    ]
+  },
+  "spindrift": {
+    "nameZh": "海上漂流",
+    "aliases": [
+      "Spindrift"
+    ]
+  },
+  "split-decision": {
+    "nameZh": "分裂决定",
+    "aliases": [
+      "Split Decision"
+    ]
+  },
+  "squeaky-wheel": {
+    "nameZh": "吱吱作响的车轮",
+    "aliases": [
+      "Squeaky Wheel"
+    ]
+  },
+  "st-john-frizells-irish-coffee": {
+    "nameZh": "圣约翰·弗里泽尔爱尔兰咖啡",
+    "aliases": [
+      "St. John Frizell’s Irish Coffee"
+    ]
+  },
+  "st-regis-julep": {
+    "nameZh": "圣瑞吉斯朱利普",
+    "aliases": [
+      "St. Regis Julep"
+    ]
+  },
+  "star": {
+    "nameZh": "星辰",
+    "aliases": [
+      "Star"
+    ]
+  },
+  "step-into-liquid": {
+    "nameZh": "步入液体",
+    "aliases": [
+      "Step Into Liquid"
+    ]
+  },
+  "stones-throw": {
+    "nameZh": "一石之遥",
+    "aliases": [
+      "Stone’s Throw",
+      "石头投掷"
+    ]
+  },
+  "stork-club": {
+    "nameZh": "鹳俱乐部",
+    "aliases": [
+      "Stork Club"
+    ]
+  },
+  "strawberry-daiquiri": {
+    "nameZh": "草莓代基里",
+    "aliases": [
+      "Strawberry Daiquiri",
+      "草莓黛克瑞"
+    ]
+  },
+  "strawberry-roan": {
+    "nameZh": "草莓骏马",
+    "aliases": [
+      "Strawberry Roan"
+    ]
+  },
+  "strictly-business": {
+    "nameZh": "纯属公事",
+    "aliases": [
+      "Strictly Business"
+    ]
+  },
+  "strukani-pelin": {
+    "nameZh": "斯特鲁卡尼·佩林",
+    "aliases": [
+      "Štrukani Pelin"
+    ]
+  },
+  "sunflower-cocktail-recipe": {
+    "nameZh": "向日葵鸡尾酒",
+    "aliases": [
+      "Sunflower Cocktail Recipe"
+    ]
+  },
+  "surfer-on-acid": {
+    "nameZh": "迷幻冲浪者",
+    "aliases": [
+      "Surfer on Acid",
+      "酸头冲浪者"
+    ]
+  },
+  "t-summer-night": {
+    "nameZh": "T.仲夏夜",
+    "aliases": [
+      "T. Summer Night"
+    ]
+  },
+  "tango-nuevo": {
+    "nameZh": "新探戈",
+    "aliases": [
+      "Tango Nuevo"
+    ]
+  },
+  "tea-time": {
+    "nameZh": "茶时光",
+    "aliases": [
+      "Tea Time"
+    ]
+  },
+  "telekinesis": {
+    "nameZh": "隔空移物",
+    "aliases": [
+      "Telekinesis"
+    ]
+  },
+  "temperance-grapefruit-collins": {
+    "nameZh": "节制西柚柯林斯",
+    "aliases": [
+      "Temperance Grapefruit Collins"
+    ]
+  },
+  "tequila-daisy": {
+    "nameZh": "龙舌兰黛西",
+    "aliases": [
+      "Tequila Daisy",
+      "龙舌兰黛西",
+      "龙舌兰雏菊"
+    ]
+  },
+  "tequila-matador": {
+    "nameZh": "龙舌兰斗牛士",
+    "aliases": [
+      "Tequila Matador"
+    ]
+  },
+  "tequila-old-fashioned": {
+    "nameZh": "龙舌兰古典",
+    "aliases": [
+      "Tequila Old Fashioned"
+    ]
+  },
+  "tequila-spritz": {
+    "nameZh": "龙舌兰施普利兹",
+    "aliases": [
+      "Tequila Spritz",
+      "龙舌兰斯普里茨"
+    ]
+  },
+  "teton-tanya": {
+    "nameZh": "蒂顿·坦娅",
+    "aliases": [
+      "Teton Tanya"
+    ]
+  },
+  "thad-voglers-el-presidente": {
+    "nameZh": "萨德·沃格勒总统",
+    "aliases": [
+      "Thad Vogler’s El Presidente"
+    ]
+  },
+  "the-brave": {
+    "nameZh": "勇者",
+    "aliases": [
+      "The Brave"
+    ]
+  },
+  "the-coffee-house": {
+    "nameZh": "咖啡馆",
+    "aliases": [
+      "The Coffee House"
+    ]
+  },
+  "the-cutter": {
+    "nameZh": "切割者",
+    "aliases": [
+      "The Cutter"
+    ]
+  },
+  "the-dead-rabbit": {
+    "nameZh": "死兔子",
+    "aliases": [
+      "The Dead Rabbit"
+    ]
+  },
+  "the-doctors-orders": {
+    "nameZh": "医生的处方",
+    "aliases": [
+      "The Doctor’s Orders"
+    ]
+  },
+  "the-end-of-the-road": {
+    "nameZh": "路的尽头",
+    "aliases": [
+      "The End of the Road"
+    ]
+  },
+  "the-flatliner": {
+    "nameZh": "心电平线",
+    "aliases": [
+      "The Flatliner",
+      "平线者"
+    ]
+  },
+  "the-greenpoint": {
+    "nameZh": "格林波因特",
+    "aliases": [
+      "The Greenpoint"
+    ]
+  },
+  "the-infante": {
+    "nameZh": "王子",
+    "aliases": [
+      "The Infante"
+    ]
+  },
+  "the-last-chateau": {
+    "nameZh": "最后的城堡",
+    "aliases": [
+      "The Last Chateau"
+    ]
+  },
+  "the-last-rainstorm": {
+    "nameZh": "最后的暴雨",
+    "aliases": [
+      "The Last Rainstorm"
+    ]
+  },
+  "the-last-spritz": {
+    "nameZh": "最后的施普利兹",
+    "aliases": [
+      "The Last Spritz",
+      "最后的斯普里茨"
+    ]
+  },
+  "the-mahatma": {
+    "nameZh": "圣雄",
+    "aliases": [
+      "The Mahatma"
+    ]
+  },
+  "the-mean-fiddler": {
+    "nameZh": "刻薄提琴手",
+    "aliases": [
+      "The Mean Fiddler"
+    ]
+  },
+  "the-mystical-one": {
+    "nameZh": "神秘之人",
+    "aliases": [
+      "The Mystical One"
+    ]
+  },
+  "the-old-man-and-the-sea": {
+    "nameZh": "老人与海",
+    "aliases": [
+      "The Old Man and the Sea"
+    ]
+  },
+  "the-ole-bull": {
+    "nameZh": "欧勒·布尔",
+    "aliases": [
+      "The Ole Bull",
+      "老公牛"
+    ]
+  },
+  "the-perfect-bqe": {
+    "nameZh": "完美BQE",
+    "aliases": [
+      "The Perfect BQE"
+    ]
+  },
+  "the-second-marriage": {
+    "nameZh": "第二次婚姻",
+    "aliases": [
+      "The Second Marriage"
+    ]
+  },
+  "the-st-germain-spritz": {
+    "nameZh": "圣日耳曼施普利兹",
+    "aliases": [
+      "The St-Germain Spritz",
+      "圣日耳曼斯普里茨"
+    ]
+  },
+  "the-tartan-cocktail": {
+    "nameZh": "苏格兰格纹鸡尾酒",
+    "aliases": [
+      "The Tartan Cocktail"
+    ]
+  },
+  "the-turnbuckle": {
+    "nameZh": "转扣",
+    "aliases": [
+      "The Turnbuckle"
+    ]
+  },
+  "the-wardays": {
+    "nameZh": "沃达伊家族",
+    "aliases": [
+      "The Warday’s"
+    ]
+  },
+  "the-west-8th": {
+    "nameZh": "西八街",
+    "aliases": [
+      "The West 8th"
+    ]
+  },
+  "thief-of-hearts": {
+    "nameZh": "偷心者",
+    "aliases": [
+      "Thief of Hearts"
+    ]
+  },
+  "three-of-a-kind": {
+    "nameZh": "三条",
+    "aliases": [
+      "Three of a Kind"
+    ]
+  },
+  "thunderbird": {
+    "nameZh": "雷鸟",
+    "aliases": [
+      "Thunderbird"
+    ]
+  },
+  "thyme-after-thyme": {
+    "nameZh": "百里香再三",
+    "aliases": [
+      "Thyme After Thyme",
+      "百里香之后"
+    ]
+  },
+  "ti-punch": {
+    "nameZh": "提潘趣",
+    "aliases": [
+      "Ti’ Punch",
+      "蒂潘趣酒"
+    ]
+  },
+  "ti-punch-highball": {
+    "nameZh": "提潘趣高球",
+    "aliases": [
+      "Ti’ Punch Highball",
+      "提潘趣嗨棒"
+    ]
+  },
+  "tia-mia": {
+    "nameZh": "蒂娅·米娅",
+    "aliases": [
+      "Tia Mia"
+    ]
+  },
+  "tigers-claw": {
+    "nameZh": "虎爪",
+    "aliases": [
+      "Tiger’s Claw"
+    ]
+  },
+  "toby-cecchinis-gin-tonic": {
+    "nameZh": "托比·切奇尼金汤力",
+    "aliases": [
+      "Toby Cecchini’s Gin & Tonic"
+    ]
+  },
+  "tom-macys-gimlet": {
+    "nameZh": "汤姆·梅西吉姆雷特",
+    "aliases": [
+      "Tom Macy’s Gimlet"
+    ]
+  },
+  "tonic-rickey": {
+    "nameZh": "汤力瑞奇",
+    "aliases": [
+      "Tonic Rickey"
+    ]
+  },
+  "tonico-di-corte": {
+    "nameZh": "宫廷汤力",
+    "aliases": [
+      "Tonico di Corte"
+    ]
+  },
+  "toronto": {
+    "nameZh": "多伦多",
+    "aliases": [
+      "Toronto",
+      "多伦多鸡尾酒"
+    ]
+  },
+  "trader-vics-sour": {
+    "nameZh": "维克商人酸酒",
+    "aliases": [
+      "Trader Vic's Sour"
+    ]
+  },
+  "tradewinds-negroni": {
+    "nameZh": "信风内格罗尼",
+    "aliases": [
+      "Tradewinds Negroni"
+    ]
+  },
+  "trasatlantico-fizz": {
+    "nameZh": "跨大西洋菲士",
+    "aliases": [
+      "Trasatlántico Fizz"
+    ]
+  },
+  "treacle": {
+    "nameZh": "糖蜜",
+    "aliases": [
+      "Treacle"
+    ]
+  },
+  "tropical-popsicle": {
+    "nameZh": "热带冰棒",
+    "aliases": [
+      "Tropical Popsicle"
+    ]
+  },
+  "tropical-storm": {
+    "nameZh": "热带风暴",
+    "aliases": [
+      "Tropical Storm"
+    ]
+  },
+  "truly-scrumptious": {
+    "nameZh": "真正美味",
+    "aliases": [
+      "Truly Scrumptious"
+    ]
+  },
+  "tunnel": {
+    "nameZh": "隧道",
+    "aliases": [
+      "Tunnel"
+    ]
+  },
+  "turf-club": {
+    "nameZh": "草坪俱乐部",
+    "aliases": [
+      "Turf Club"
+    ]
+  },
+  "twelve-mile-limit": {
+    "nameZh": "十二海里线",
+    "aliases": [
+      "Twelve Mile Limit"
+    ]
+  },
+  "ultima-palabra": {
+    "nameZh": "终极箴言",
+    "aliases": [
+      "Ultima Palabra"
+    ]
+  },
+  "ume-paloma": {
+    "nameZh": "梅子帕洛玛",
+    "aliases": [
+      "Ume Paloma"
+    ]
+  },
+  "valkyrie": {
+    "nameZh": "女武神",
+    "aliases": [
+      "Valkyrie"
+    ]
+  },
+  "verte-chaud": {
+    "nameZh": "热绿酒",
+    "aliases": [
+      "Verte Chaud"
+    ]
+  },
+  "vieille-place": {
+    "nameZh": "旧广场",
+    "aliases": [
+      "Vieille Place"
+    ]
+  },
+  "vitamin-parade": {
+    "nameZh": "维生素巡游",
+    "aliases": [
+      "Vitamin Parade"
+    ]
+  },
+  "ward-eight": {
+    "nameZh": "第八选区",
+    "aliases": [
+      "Ward Eight"
+    ]
+  },
+  "wardman-park": {
+    "nameZh": "沃德曼公园",
+    "aliases": [
+      "Wardman Park"
+    ]
+  },
+  "washingtons-mule": {
+    "nameZh": "华盛顿骡子",
+    "aliases": [
+      "Washington's Mule"
+    ]
+  },
+  "whiskey-apple-highball": {
+    "nameZh": "威士忌苹果高球",
+    "aliases": [
+      "Whiskey Apple Highball",
+      "威士忌苹果嗨棒"
+    ]
+  },
+  "whiskey-business": {
+    "nameZh": "威士忌生意",
+    "aliases": [
+      "Whiskey Business"
+    ]
+  },
+  "whiskey-peach-smash": {
+    "nameZh": "威士忌蜜桃碎饮",
+    "aliases": [
+      "Whiskey Peach Smash",
+      "威士忌桃子碎饮"
+    ]
+  },
+  "whiskey-smash": {
+    "nameZh": "威士忌碎饮",
+    "aliases": [
+      "Whiskey Smash",
+      "威士忌碎饮鸡尾酒"
+    ]
+  },
+  "whisky-highball": {
+    "nameZh": "威士忌高球",
+    "aliases": [
+      "Whisky Highball",
+      "威士忌嗨棒"
+    ]
+  },
+  "white-mezcal-negroni": {
+    "nameZh": "白色梅斯卡尔内格罗尼",
+    "aliases": [
+      "White Mezcal Negroni"
+    ]
+  },
+  "white-negroni": {
+    "nameZh": "白内格罗尼",
+    "aliases": [
+      "White Negroni",
+      "白色内格罗尼"
+    ]
+  },
+  "white-negroni-corpse-revived": {
+    "nameZh": "白内格罗尼（尸体复苏版）",
+    "aliases": [
+      "White Negroni (Corpse revived)"
+    ]
+  },
+  "white-negroni-sbagliato": {
+    "nameZh": "白斯巴利亚托内格罗尼",
+    "aliases": [
+      "White Negroni Sbagliato",
+      "白色错误内格罗尼"
+    ]
+  },
+  "white-russian": {
+    "nameZh": "白俄罗斯",
+    "aliases": [
+      "White Russian",
+      "白色俄罗斯"
+    ]
+  },
+  "white-russian-gus-sip-and-dip": {
+    "nameZh": "白俄罗斯（Gus“啜饮与蘸饮”版）",
+    "aliases": [
+      "White Russian (Gus’ Sip and Dip)",
+      "白俄罗斯（Gus的Sip and Dip版）"
+    ]
+  },
+  "whitechapel-gt": {
+    "nameZh": "白教堂金汤力",
+    "aliases": [
+      "Whitechapel G&T"
+    ]
+  },
+  "wildest-redhead": {
+    "nameZh": "最狂野的红发女郎",
+    "aliases": [
+      "Wildest Redhead"
+    ]
+  },
+  "willsour": {
+    "nameZh": "威尔酸",
+    "aliases": [
+      "Willsour"
+    ]
+  },
+  "winterized-negroni": {
+    "nameZh": "冬日内格罗尼",
+    "aliases": [
+      "Winterized Negroni"
+    ]
+  },
+  "wisconsin-old-fashioned": {
+    "nameZh": "威斯康星古典",
+    "aliases": [
+      "Wisconsin Old Fashioned"
+    ]
+  },
+  "wiz-fizz": {
+    "nameZh": "巫师菲士",
+    "aliases": [
+      "Wiz Fizz"
+    ]
+  },
+  "wray-and-ting": {
+    "nameZh": "Wray 与 Ting",
+    "aliases": [
+      "Wray and Ting",
+      "雷与婷"
+    ]
+  },
+  "yellow": {
+    "nameZh": "黄色",
+    "aliases": [
+      "Yellow"
+    ]
+  },
+  "yellow-bird": {
+    "nameZh": "黄鸟",
+    "aliases": [
+      "Yellow Bird"
+    ]
+  },
+  "your-mothers-spritz": {
+    "nameZh": "你母亲的施普利兹",
+    "aliases": [
+      "Your Mother’s Spritz",
+      "你母亲的斯普里茨"
+    ]
+  },
+  "yuzu-negroni": {
+    "nameZh": "柚子内格罗尼",
+    "aliases": [
+      "Yuzu Negroni"
+    ]
+  },
+  "zombie-apocalypse": {
+    "nameZh": "僵尸末日",
+    "aliases": [
+      "Zombie Apocalypse"
+    ]
+  },
+  "zombie-spritz": {
+    "nameZh": "僵尸施普利兹",
+    "aliases": [
+      "Zombie Spritz",
+      "僵尸斯普里茨酒",
+      "僵尸斯普里茨"
+    ]
+  }
+}

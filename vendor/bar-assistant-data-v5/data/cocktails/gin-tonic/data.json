@@ -1,0 +1,54 @@
+{
+    "_id": "gin-tonic",
+    "name": "Gin & Tonic",
+    "instructions": "1. Add lots of ice to a large cocktail or wine glass and stir to chill the glass. Drain any melted water.\n2. Pour in the gin. Add the garnishes. Pour the tonic water onto a bar spoon into the glass (to increase the bubbles). Stir once and serve.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Called a “G and T” or gin tonic in some countries, this refreshing drink is made in countries all around the world. The Gin and Tonic was invented in the 1850’s by British soldiers, who mixed gin with their tonic water as a way to drink quinine (which was thought to cure malaria). Tonic water of today no longer has quinine, but the drink stuck around!",
+    "source": "https://www.acouplecooks.com/best-gin-and-tonic/",
+    "garnish": "Any of the following to spice your cocktail: Lime, lemon, cucumber, mint, orange peel, juniper berries, blood orange slice, rosemary",
+    "abv": 12.12,
+    "tags": [
+        "Summer"
+    ],
+    "glass": "Wine",
+    "method": "Build",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///gin-tonic.webp",
+            "sort": 1,
+            "placeholder_hash": "mAgOFwRTWmmgeHdmaVdouHiFmACCOUQP",
+            "copyright": "A Couple Cooks"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "tonic",
+            "name": "Tonic",
+            "sort": 2,
+            "amount": 120,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

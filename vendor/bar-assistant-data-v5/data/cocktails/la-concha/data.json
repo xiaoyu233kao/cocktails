@@ -1,0 +1,100 @@
+{
+    "_id": "la-concha",
+    "name": "La Concha",
+    "instructions": "1. Combine all of the ingredients in shaker with ice, then shake to chill.\n2. Strain over crushed ice in a Collins glass.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "What we wanted most [from this cocktail] was a classic Piña Colada flavor profile, but modeled after the fino sherries we couldn’t stop drinking,\" says Kalimotxo lead bartender Kate Houser. \"Swapping in coconut water for coconut cream and adding in Lustau fino sherry made it light, dry, and completely crushable on a patio. The added perk is that you can have more than one in this Texas heat!",
+    "source": "https://imbibemagazine.com/recipe/la-concha-tropical-cocktail/",
+    "garnish": "2 pineapple leaves",
+    "abv": 11.42,
+    "tags": [],
+    "glass": "Lowball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///la-concha.webp",
+            "sort": 0,
+            "placeholder_hash": "pOgNHwSfeHd5eYmKmIhXl4iJdwK4d5AM",
+            "copyright": "Imbibe Magazine | Courtesy of Kalimoxto Austin"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "light-rum",
+            "name": "Light Rum",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "pineapple-juice",
+            "name": "Pineapple juice",
+            "sort": 2,
+            "amount": 37.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "coconut-water",
+            "name": "Coconut water",
+            "sort": 3,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "sherry",
+            "name": "Sherry",
+            "sort": 4,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "Fino",
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 5,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 6,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

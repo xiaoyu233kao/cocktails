@@ -1,0 +1,79 @@
+{
+    "_id": "jasmine",
+    "name": "Jasmine",
+    "instructions": "1. Combine all the ingredients except the lemon twist in a cocktail shaker three-quarters filled with ice.\n2. Shake until chilled.\n3. Strain into a chilled cocktail glass.\n4. Garnish with the lemon twist.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "This cocktail recipe by Paul Harrington, was named after his best friend Matt Jasmin. It features gin, Campari, Cointreau and lemon juice.",
+    "source": "https://punchdrink.com/recipes/jasmine/",
+    "garnish": "lemon twist",
+    "abv": 22.18,
+    "tags": [
+        "Dry",
+        "Citrusy"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///jasmine.webp",
+            "sort": 1,
+            "placeholder_hash": "XigODwIwyHc7dYh+eSeZ6nWExgmInYAG",
+            "copyright": "Punch Staff | Kelly Puleio"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cointreau",
+            "name": "Cointreau",
+            "sort": 3,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "campari",
+            "name": "Campari",
+            "sort": 4,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

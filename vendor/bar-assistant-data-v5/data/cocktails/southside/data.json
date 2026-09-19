@@ -1,0 +1,79 @@
+{
+    "_id": "southside",
+    "name": "Southside",
+    "instructions": "Pour all ingredients into a cocktail shaker, shake well with ice, double-strain into chilled cocktail glass.\nNote:\nIf egg white is used shake vigorously.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Its origins are subject to speculation. It has been proposed that it gets its name from either the South Side district of the city of Chicago, Illinois, or from the Southside Sportsmen's Club on Long Island.",
+    "source": "https://iba-world.com/southside/",
+    "garnish": "Garnish with mint springs.",
+    "abv": 19.69,
+    "tags": [
+        "IBA Cocktail",
+        "New Era Drinks"
+    ],
+    "glass": "Nick and Nora",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///southside.webp",
+            "sort": 1,
+            "placeholder_hash": "cwgKDwJldmdgZ3iHeYeIiIiKi/lpUmAC",
+            "copyright": "Limoncello Kitchen"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "mint",
+            "name": "Mint",
+            "sort": 4,
+            "amount": 5,
+            "units": "leaves",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": 6,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

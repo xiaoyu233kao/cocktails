@@ -1,0 +1,66 @@
+{
+    "_id": "sour-strawberry-highball",
+    "name": "Sour Strawberry Highball",
+    "instructions": "1. Add the tequila and strawberry shrub to a chilled highball glass. Briefly stir to mix. Nearly fill with ice. Pour seltzer down the neck of a barspoon to top. Garnish with a lime wedge.\nStrawberry Shrub SyrupWash, trim, and quarter 1 lb. of ripe strawberries. Add to a mixing bowl with 2 cups of granulated sugar and toss to coat. Gently mash the fruit with a fork. Cover and let stand at room temperature for 1 hour, then refrigerate for at least 1 day (but 2 is ideal), periodically shaking the container to redistribute the contents. Mix in 1 1/2 cups of apple cider vinegar, then strain and transfer the mixture into a resealable bottle, squeezing out as much liquid as you can. Refrigerate and use within 2 weeks.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Can a compelling cocktail be made with just two ingredients? That's the basis for Roger Kamholz's book Pour Together, which features classic two-ingredient drinks like the Dark & Stormy and the Gibson. But he also includes a few recipes that, although still simple, do require some assembly, such as this Sour Strawberry Highball. A homemade strawberry shrub brings a punch of tart sweetness but, Kamholz says, don't stop there. \"You’re welcome to mingle with other spirits and other fruits\" in this highly modifiable highball recipe.",
+    "source": "https://imbibemagazine.com/recipe/sour-strawberry-highball/",
+    "garnish": "Lime wedge",
+    "abv": 22.22,
+    "tags": [
+        "Dessert"
+    ],
+    "glass": "Highball",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///sour-strawberry-highball.webp",
+            "sort": 1,
+            "placeholder_hash": "6UoKHwQNPIeKiIiHmIl4dneJ94ZnP4QI",
+            "copyright": "Imbibe Magazine"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "tequila",
+            "name": "Tequila",
+            "sort": 1,
+            "amount": 2,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "strawberry-shrub-syrup",
+            "name": "Strawberry shrub syrup",
+            "sort": 2,
+            "amount": 1,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "club-soda",
+            "name": "Club soda",
+            "sort": 3,
+            "amount": 1,
+            "units": "topup",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

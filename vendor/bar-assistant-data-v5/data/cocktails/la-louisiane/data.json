@@ -1,0 +1,88 @@
+{
+    "_id": "la-louisiane",
+    "name": "La Louisiane",
+    "instructions": "Add all ingredients to a cocktail mixing glass (or any other type of glass). Fill the mixing glass with 1 handful ice and stir continuously for 30 seconds until very cold.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The La Louisiane cocktail is an improvement on the Sazerac! Absinthe, rye whiskey and vermouth make this spirit-forward cocktail a stunner.",
+    "source": "https://www.acouplecooks.com/la-louisiane-cocktail/",
+    "garnish": "Garnish with a Luxardo cherry.",
+    "abv": 28.93,
+    "tags": [],
+    "glass": "Cocktail",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///la-louisiane.webp",
+            "sort": 1,
+            "placeholder_hash": "mhgWHwSXeIiAdnd0h5iYh3d3dgHICIQL",
+            "copyright": "A couple cooks"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "rye-whiskey",
+            "name": "Rye whiskey",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "sweet-vermouth",
+            "name": "Sweet Vermouth",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "benedictine",
+            "name": "Bénédictine",
+            "sort": 3,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "absinthe",
+            "name": "Absinthe",
+            "sort": 4,
+            "amount": 5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "peychauds-bitters",
+            "name": "Peychauds Bitters",
+            "sort": 5,
+            "amount": 3,
+            "units": "dashes",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "_id": "negroski",
+    "name": "Negroski",
+    "instructions": "1. Stir all ingredients with ice and strain into ice-filled glass",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A vodka-based Negroni.",
+    "source": "https://www.diffordsguide.com/cocktails/recipe/1325/milano",
+    "garnish": "Orange slice",
+    "abv": 23.06,
+    "tags": [
+        "Negroni",
+        "Bitter"
+    ],
+    "glass": "Lowball",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": "negroni",
+    "year": null,
+    "author": "",
+    "images": [
+        {
+            "uri": "file:///negroski.webp",
+            "sort": 1,
+            "placeholder_hash": "JpoKNwq6qJkMuIpEh3iJl2p1dwV3Q/AK",
+            "copyright": "agratefulmeal"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "vodka",
+            "name": "Vodka",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "campari",
+            "name": "Campari",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "sweet-vermouth",
+            "name": "Sweet Vermouth",
+            "sort": 3,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

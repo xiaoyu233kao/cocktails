@@ -1,0 +1,67 @@
+{
+    "_id": "white-russian",
+    "name": "White Russian",
+    "instructions": "1. Combine the vodka, coffee liqueur and ice cubes in a cocktail shaker\n2. Shake well and strain into an ice-filled short tumbler\n3. Lightly beat the single cream until just frothy and pour onto the drink over the back of a spoon, to help make it float",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Misleadingly, this sophisticated cocktail is not in fact Russian in origin, but gets its name from vodka being the base spirit. Traditionally a Black Russian, it becomes a White Russian with the addition of cream.",
+    "source": "https://www.sainsburysmagazine.co.uk/recipes/drinks/white-russian",
+    "garnish": "Freshly grated nutmeg",
+    "abv": 20,
+    "tags": [
+        "Coffee",
+        "Savory"
+    ],
+    "glass": "Lowball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///white-russian.webp",
+            "sort": 1,
+            "placeholder_hash": "VQgGDwK7ybl3qzZgfWZSoyFWpQEYBpEE",
+            "copyright": "Brent Hofackereber"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "vodka",
+            "name": "Vodka",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "coffee-liqueur",
+            "name": "Coffee liqueur",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cream",
+            "name": "Cream",
+            "sort": 3,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

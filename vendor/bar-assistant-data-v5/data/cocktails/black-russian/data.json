@@ -1,0 +1,57 @@
+{
+    "_id": "black-russian",
+    "name": "Black Russian",
+    "instructions": "Pour the ingredients into the old fashioned glass filled with ice cubes. Stir gently.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Variations:\n\n**WHITE RUSSIAN** – Float fresh cream on the top and stir in slowly.",
+    "source": "https://iba-world.com/black-russian/",
+    "garnish": null,
+    "abv": 27.78,
+    "tags": [
+        "Contemporary Classics",
+        "IBA Cocktail",
+        "Coffee",
+        "Sweet"
+    ],
+    "glass": "Lowball",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///black-russian.webp",
+            "sort": 1,
+            "placeholder_hash": "SxgKDwIHXMZydoeSSyiol2d4tiYHi4AB",
+            "copyright": "Liquor.com / Tim Nusog"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "vodka",
+            "name": "Vodka",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "coffee-liqueur",
+            "name": "Coffee liqueur",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

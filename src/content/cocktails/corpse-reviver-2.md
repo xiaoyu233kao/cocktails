@@ -27,7 +27,7 @@ ingredients:
     nameEn: "Absinthe"
     amount: "1 dash"
     aliases: ["absinthe", "green fairy", "苦艾"]
-tags: ["gin", "citrus", "herbal", "dry", "shaken", "short", "sour", "复苏者", "尸体复苏者二号"]
+tags: ["gin","citrus","herbal","dry","shaken","short","sour","复苏者","尸体复苏者二号","Corpse Reviver No. 2","Corpse Reviver №2"]
 summary: "金酒、君度、莉莱白和柠檬等量摇和，苦艾酒一滴强化草本香气。"
 background: >-
   尸体复苏者二号属于 20 世纪初的 Corpse Reviver 系列，名称原本指被认为能“唤醒”宿醉者的早晨鸡尾酒。Harry Craddock 在 1930 年《Savoy Cocktail Book》中记录了这一版本，使其成为系列中最广为流传的一款；但更早的酒吧配方与比例并不完全一致。IBA 采用等量金酒、君度、莉莱白和柠檬汁，再以一滴苦艾酒提香，强调明亮酸度、干爽酒体和草本尾韵。所有原料加冰摇匀后滤入冰镇鸡尾酒杯，并以橙皮收香。 关于Corpse Reviver #2的起源、传播与具体比例，现存记录可能因地区、时代和酒吧传统而有差异；本条以 IBA 页面及所列历史来源的可核对信息为准，并把后来的改写与当前标准配方分开说明。

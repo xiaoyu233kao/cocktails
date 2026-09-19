@@ -1,0 +1,90 @@
+{
+    "_id": "im-on-fire",
+    "name": "I’m on Fire",
+    "instructions": "1. Combine all ingredients in a mixing tin and shake with ice.\n2. Strain into a chilled rocks glass over a large ice cube.\n3. Garnish with ancho chili powder and a pineapple leaf.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "This take on the spicy Margarita cocktail recipe calls on mezcal in place of tequila and Cholula to up the heat.",
+    "source": "https://punchdrink.com/recipes/im-on-fire/",
+    "garnish": "ancho chili powder, pineapple leaf",
+    "abv": 14.99,
+    "tags": [
+        "Smokey"
+    ],
+    "glass": "Highball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///im-on-fire.webp",
+            "sort": 1,
+            "placeholder_hash": "b/gJLwb3bENOuWiEh5lnd2iJh1BoB3YF",
+            "copyright": "Punch Staff | Lizzie Munro"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "tabasco",
+            "name": "Tabasco",
+            "sort": 1,
+            "amount": 2,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "Cholula hot sauce",
+            "substitutes": []
+        },
+        {
+            "_id": "pineapple-juice",
+            "name": "Pineapple juice",
+            "sort": 2,
+            "amount": 1,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 3,
+            "amount": 0.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "honey-syrup",
+            "name": "Honey Syrup",
+            "sort": 4,
+            "amount": 0.75,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "mezcal",
+            "name": "Mezcal",
+            "sort": 5,
+            "amount": 2,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "_id": "black-walnut-old-fashioned",
+    "name": "Black Walnut Old Fashioned",
+    "instructions": "Combine ingredients in a mixing glass with ice. Stir until chilled. Strain into an Old Fashioned glass with fresh ice.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "If you are after an Old Fashioned riff with a warming complexity then a Walnut Old Fashioned should hit the spot. So further spike your Bourbon & Orange Bitters with a little Walnut Liqueur for a drink that glides effortlessly down your throat.",
+    "source": "https://cocktailsdistilled.com/recipe/walnut-old-fashioned/",
+    "garnish": "Orange twist",
+    "abv": 31.39,
+    "tags": [
+        "Old Fashioned"
+    ],
+    "glass": "Lowball",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///black-walnut-old-fashioned.webp",
+            "sort": 1,
+            "placeholder_hash": "JykKJwSgqIVneamcd3lnmmaFWQRaVpAF",
+            "copyright": "cookinginmygenes"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "bourbon-whiskey",
+            "name": "Bourbon Whiskey",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "walnut-liqueur",
+            "name": "Walnut Liqueur",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orange-bitters",
+            "name": "Orange bitters",
+            "sort": 3,
+            "amount": 4,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

@@ -1,0 +1,90 @@
+{
+    "_id": "backsliding-presbyterian",
+    "name": "Backsliding Presbyterian",
+    "instructions": "Shake all ingredients (except club soda) with ice and strain into an ice-filled glass. Top with club soda and garnish.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Tall and bursting with bittersweet orange and ginger flavors, this whiskey highball proves that aged spirits aren’t just for winter sipping.",
+    "source": "https://imbibemagazine.com/recipe/backsliding-presbyterian/",
+    "garnish": "Orange Wedge",
+    "abv": 17.41,
+    "tags": [
+        "Fruity"
+    ],
+    "glass": "Highball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///backsliding-presbyterian.webp",
+            "sort": 1,
+            "placeholder_hash": "KykKHwbaWYhvdnl5dyh46YeFhwC3B4AK",
+            "copyright": "LiberAndCo | Juliet Beletic"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "bourbon-whiskey",
+            "name": "Bourbon Whiskey",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "campari",
+            "name": "Campari",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "ginger-syrup",
+            "name": "Ginger syrup",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 4,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "club-soda",
+            "name": "Club soda",
+            "sort": 5,
+            "amount": 1,
+            "units": "top",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

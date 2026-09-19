@@ -1,0 +1,79 @@
+{
+    "_id": "breakfast-martini",
+    "name": "Breakfast Martini",
+    "instructions": "1. Stir the marmalade with the lemon juice at the bottom of a cocktail shaker until it dissolves.\n2. Add the gin and Curaçao. Shake with ice. Fine strain into a chilled cocktail coupe.\n3. Shred some orange peel on the top of the drink as a garnish.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "This cocktail recipe is one of the earliest—and still the most famous—examples of jam as an ingredient in a cocktail revival era.",
+    "source": "https://punchdrink.com/recipes/breakfast-martini/",
+    "garnish": "orange peel",
+    "abv": 24.47,
+    "tags": [
+        "Citrusy",
+        "Light"
+    ],
+    "glass": "Coupe",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///breakfast-martini.webp",
+            "sort": 0,
+            "placeholder_hash": "VwgSDwKFh4h/h4d3eIeId3d3mDgKfIMA",
+            "copyright": "Punch Staff | Lizzie Munro"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 50,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "marmalade",
+            "name": "Marmalade",
+            "sort": 2,
+            "amount": 1,
+            "units": "barspoon",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cointreau",
+            "name": "Cointreau",
+            "sort": 4,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

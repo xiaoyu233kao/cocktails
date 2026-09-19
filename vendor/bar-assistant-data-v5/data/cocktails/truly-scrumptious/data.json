@@ -1,0 +1,76 @@
+{
+    "_id": "truly-scrumptious",
+    "name": "Truly Scrumptious",
+    "instructions": "Shake all of the ingredients with ice, then strain into a glass holding a single large ice cube. Garnish.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Pear eau de vie and unaged South American grape brandy combine their fragrant forces in this luscious cocktail.",
+    "source": "https://imbibemagazine.com/recipe/truly-scrumptious-pear-eau-de-vie/",
+    "garnish": "Freshly grated cinnamon",
+    "abv": 16,
+    "tags": [],
+    "glass": "Lowball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///truly-scrumptious.webp",
+            "sort": 1,
+            "placeholder_hash": "6BgOFwLOiHefdXh3dpeX6GZnSaIFNFsA",
+            "copyright": "Imbibe Magazine | Anna Wick"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "pisco",
+            "name": "Pisco",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "pineapple-syrup",
+            "name": "Pineapple Syrup",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "pear-brandy-williams",
+            "name": "Pear Brandy (Williams)",
+            "sort": 4,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

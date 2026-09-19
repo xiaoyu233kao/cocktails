@@ -1,0 +1,102 @@
+{
+    "_id": "apple-amaretto-sour",
+    "name": "Apple Amaretto Sour",
+    "instructions": "Shake",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Autumn variation of Amaretto Sour by Anders",
+    "source": "https://www.youtube.com/watch?v=_nIr7E-cMOs",
+    "garnish": "Express lemon oils, add cocktail cherry",
+    "abv": 15.09,
+    "tags": [
+        "Sour",
+        "Sweet",
+        "Fruity"
+    ],
+    "glass": "Lowball",
+    "method": "Shake",
+    "utensils": [
+        "Shaker"
+    ],
+    "parent_cocktail_id": "amaretto-sour",
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///apple-amaretto-sour.webp",
+            "sort": 1,
+            "placeholder_hash": "0xgOHwQIhWWEh3hxiXimWIaHuVA3C3UD",
+            "copyright": "Epicurious | Lizzie Munro"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "amaretto",
+            "name": "Amaretto",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "apple-brandy",
+            "name": "Apple Brandy",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 3,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 4,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": [
+                {
+                    "_id": "cinnamon-syrup",
+                    "name": "Cinnamon syrup",
+                    "amount": null,
+                    "units": null,
+                    "amount_max": null
+                }
+            ]
+        },
+        {
+            "_id": "egg-white",
+            "name": "Egg White",
+            "sort": 5,
+            "amount": 1,
+            "units": "whole",
+            "optional": true,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

@@ -1,0 +1,113 @@
+{
+    "_id": "mai-tai",
+    "name": "Mai-Tai",
+    "instructions": "1. Add all ingredients into a shaker with ice.\n2. Shake and pour into a double rocks glass or a highball glass.\n\n*The Martinique molasses rum used by Trader Vic was not an Agricole rum but a type of “rummy” from molasses.*",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The Mai Tai has a mixed up history. Reaching its height of popularity in the 50s and 60s, it is the quintessential tiki drink. Tiki trendsetters Don the Beachcomber and Trader Vic both claim to have invented the cocktail, though their versions are distinctly different. Over time all kinds of fruity concoctions have been whipped up under the name of Mai Tai, no doubt, in all the colors of the rainbow. Although itself slightly modified, due to availability of ingredients, Trader Vic’s ‘Original” Mai Tai reigns supreme.",
+    "source": "https://iba-world.com/mai-tai/",
+    "garnish": "Garnish with pineapple spear, mint leaves, and lime peel.",
+    "abv": 18.82,
+    "tags": [
+        "Contemporary Classics",
+        "IBA Cocktail",
+        "Tiki",
+        "Sweet"
+    ],
+    "glass": "Lowball",
+    "method": "Shake",
+    "utensils": [
+        "Shaker"
+    ],
+    "parent_cocktail_id": null,
+    "year": 1944,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///mai-tai-1.webp",
+            "sort": 1,
+            "placeholder_hash": "kDkOLwZHmHeQeHh2eqZ4h3eIiARniHAI",
+            "copyright": "Reddit"
+        },
+        {
+            "uri": "file:///mai-tai-2.webp",
+            "sort": 2,
+            "placeholder_hash": "SQgKJwIHqJeHd4eBfHaHmHeJh3AoZ3AG",
+            "copyright": "TuxedoNo2"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "dark-rum",
+            "name": "Dark Rum",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "rhum-agricole",
+            "name": "Rhum agricole",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orange-curacao",
+            "name": "Orange Curaçao",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orgeat-syrup",
+            "name": "Orgeat Syrup",
+            "sort": 4,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 5,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 6,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

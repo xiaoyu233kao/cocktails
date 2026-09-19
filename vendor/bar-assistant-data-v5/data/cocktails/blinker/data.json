@@ -1,0 +1,67 @@
+{
+    "_id": "blinker",
+    "name": "Blinker",
+    "instructions": "1. Combine all the ingredients except the grapefruit twist in a cocktail shaker filled with ice and shake until chilled, about 15 seconds.\n2. Strain into a chilled coupe.\n3. Twist a piece of grapefruit zest over the drink and drop into the glass.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Calling on a full ounce of grenadine to complement the grapefruit juice and rye base, this cocktail recipe is potent but refreshing.",
+    "source": "https://punchdrink.com/recipes/blinker/",
+    "garnish": "grapefruit twist",
+    "abv": 10.67,
+    "tags": [
+        "Sour",
+        "Classics"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///blinker.webp",
+            "sort": 1,
+            "placeholder_hash": "GugJDwJDeHefeIdWh7dpWJaHR4B1BkYJ",
+            "copyright": "Punch Staff | Lizzie Munro"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "rye-whiskey",
+            "name": "Rye whiskey",
+            "sort": 1,
+            "amount": 2,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "grapefruit-juice",
+            "name": "Grapefruit juice",
+            "sort": 2,
+            "amount": 3,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "grenadine-syrup",
+            "name": "Grenadine Syrup",
+            "sort": 3,
+            "amount": 1,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

@@ -1,0 +1,102 @@
+{
+    "_id": "e-tonico",
+    "name": "E Tonico",
+    "instructions": "1. Combine the first five ingredients in a Collins glass and fill with ice.\n2. Top with tonic water.\n3. Garnish with a bay leaf.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "E Tonico is a Gin & Tonic with an Italian twist courtesy of an aperitivo liqueur, vermouth and saline solution.",
+    "source": "https://punchdrink.com/recipes/e-tonico/",
+    "garnish": "bay leaf",
+    "abv": 33.52,
+    "tags": [
+        "Bitter"
+    ],
+    "glass": "Highball",
+    "method": "Build",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///e-tonico.webp",
+            "sort": 0,
+            "placeholder_hash": "3DgKFwY99bWEako6XjaZdnmIlRDECGII",
+            "copyright": "Punch Staff | Shannon Sturgis"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "New York Distilling Co.’ Dorothy Parker",
+            "substitutes": []
+        },
+        {
+            "_id": "navy-strength-gin",
+            "name": "Navy Strength Gin",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "New York Distilling Co. Perry’s Tot",
+            "substitutes": []
+        },
+        {
+            "_id": "dry-vermouth",
+            "name": "Dry Vermouth",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "Cocchi di Torino Extra Dry",
+            "substitutes": []
+        },
+        {
+            "_id": "campari",
+            "name": "Campari",
+            "sort": 4,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "Mulassano Bitter",
+            "substitutes": []
+        },
+        {
+            "_id": "tonic",
+            "name": "Tonic",
+            "sort": 5,
+            "amount": 1,
+            "units": "topup",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "Fever-Tree Mediterranean Tonic",
+            "substitutes": []
+        },
+        {
+            "_id": "saline-solution",
+            "name": "Saline solution",
+            "sort": 6,
+            "amount": 1,
+            "units": "drop",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

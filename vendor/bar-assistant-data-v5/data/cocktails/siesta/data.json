@@ -1,0 +1,88 @@
+{
+    "_id": "siesta",
+    "name": "Siesta",
+    "instructions": "Shake with ice and strain into a chilled coupe",
+    "created_at": null,
+    "updated_at": null,
+    "description": "This spin on the Hemingway Daiquiri was created in 2006 by Katie Stipe (who&#039;s at New York&#039;s Vandaag now.) Tequila adds warmth to bitter Campari; it&#039;s a luxurious cocktail that&#039;s a bit like sipping candied grapefruit peel.\n\n&quot;Katie describes this drink as her first &quot;Aha!&quot; moment when she took a favorite classic cocktail, the Hemingway Daiquiri, and used it as a template to create something new.&quot; (Source: Jim Meehan&#039;s PDT Cocktail Book.)\n\nFor those that might need two cocktails today, you can check out the Hemingway Daiquiri mentioned above, in last year&#039;s Advent of Cocktails, here: AoC 2021, Dec 12: Hemingway Daiquiri",
+    "source": "https://www.amazon.com/PDT-Cocktail-Book-Bartenders-Celebrated/dp/1402779232/",
+    "garnish": "Lime wheel",
+    "abv": 14.13,
+    "tags": [],
+    "glass": "Coupe",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///siesta.webp",
+            "sort": 1,
+            "placeholder_hash": "lxgOHwZrh3ZxeGhaigeIiIipl7QICocB",
+            "copyright": "Punch"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "tequila-blanco",
+            "name": "Tequila Blanco",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "grapefruit-juice",
+            "name": "Grapefruit juice",
+            "sort": 4,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "campari",
+            "name": "Campari",
+            "sort": 5,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

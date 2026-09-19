@@ -1,0 +1,96 @@
+{
+    "_id": "scofflaw",
+    "name": "Scofflaw",
+    "instructions": "1. Add the whiskey, dry vermouth, lemon juice, grenadine and orange bitters into a shaker with ice and shake until well-chilled.\n2. Strain into a chilled cocktail glass.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The creatively named Scofflaw combines whiskey, dry vermouth, lemon juice and grenadine. It was invented in Paris during U.S. Prohibition.",
+    "source": "https://www.liquor.com/recipes/scofflaw",
+    "garnish": null,
+    "abv": 24.04,
+    "tags": [],
+    "glass": "Coupe",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///scofflaw.webp",
+            "sort": 0,
+            "placeholder_hash": "rBgCFwTfWFVjuVioVslKl3iVh9BHCI0F",
+            "copyright": "Liquor.com"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "bourbon-whiskey",
+            "name": "Bourbon Whiskey",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": [
+                {
+                    "_id": "rye-whiskey",
+                    "name": "Rye whiskey",
+                    "amount": null,
+                    "units": null,
+                    "amount_max": null
+                }
+            ]
+        },
+        {
+            "_id": "dry-vermouth",
+            "name": "Dry Vermouth",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 3,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "grenadine-syrup",
+            "name": "Grenadine Syrup",
+            "sort": 4,
+            "amount": 1,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": 2,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orange-bitters",
+            "name": "Orange bitters",
+            "sort": 5,
+            "amount": 1,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

@@ -1,0 +1,90 @@
+{
+    "_id": "gin-daisy-new-school",
+    "name": "Gin Daisy (New School)",
+    "instructions": "1. Add gin, lemon juice, grenadine and simple syrup to a cocktail shaker.\n2. Add ice and shake until chilled.\n3. Strain over ice into a Collins glass.\n4. Garnish with a slice of orange.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "This cocktail recipe is a variation on the basic Daisy formula: a sour kicked up with the addition of seltzer or soda water.",
+    "source": "https://punchdrink.com/recipes/gin-daisy-new-school/",
+    "garnish": "orange slice",
+    "abv": 13.71,
+    "tags": [
+        "Light"
+    ],
+    "glass": "Highball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///gin-daisy-new-school.webp",
+            "sort": 1,
+            "placeholder_hash": "oigOJwakaHaPd4h4d1d4l4iGmZBICXQE",
+            "copyright": "Punch Staff | Daniel Krieger"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 0,
+            "amount": 1.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 0,
+            "amount": 0.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "grenadine-syrup",
+            "name": "Grenadine Syrup",
+            "sort": 0,
+            "amount": 0.25,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 0,
+            "amount": 0.25,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "club-soda",
+            "name": "Club soda",
+            "sort": 0,
+            "amount": 1,
+            "units": "topup",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

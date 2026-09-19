@@ -1,0 +1,76 @@
+{
+    "_id": "left-hand",
+    "name": "Left Hand",
+    "instructions": "1. In a mixing glass, combine the ingredients\n2. Stir with ice for 15-30 seconds\n3. Strain into a chilled stemmed cocktail glass",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Sam Ross created a Manhattan/Negroni mash up known as the Left Hand (bourbon whiskey, Campari, sweet vermouth & chocolate bitters) in the early 2000s. Ross wasn't familiar with the Boulevardier (bourbon whiskey, Campari & sweet vermouth) at the time he created it - almost identical ingredients list but the ratios slightly skewed. Sam favoured the 2:1 Manhattan specs in relation to the whiskey and vermouth. It went on to become a modern classic and was part of a series of \"hand\" cocktails that the Milk & Honey team created - The Right Hand featured an aged rum, Tres Hand was made with mezcal and tequila, and the Smoking Hand contained an Islay and Highland whisky.",
+    "source": "https://stevethebartender.com.au/left-hand/",
+    "garnish": "Garnish with a maraschino cherry",
+    "abv": 25.67,
+    "tags": [],
+    "glass": "Cocktail",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///left-hand.webp",
+            "sort": 1,
+            "placeholder_hash": "10gGFwRqjNaoTGbgDEZyOpNLfgYGjmAC",
+            "copyright": "Steve the Bartender"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "bourbon-whiskey",
+            "name": "Bourbon Whiskey",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "campari",
+            "name": "Campari",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "sweet-vermouth",
+            "name": "Sweet Vermouth",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "angostura-cocoa-bitters",
+            "name": "Angostura cocoa bitters",
+            "sort": 4,
+            "amount": 2,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

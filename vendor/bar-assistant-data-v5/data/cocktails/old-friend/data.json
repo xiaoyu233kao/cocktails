@@ -1,0 +1,76 @@
+{
+    "_id": "old-friend",
+    "name": "Old Friend",
+    "instructions": "1. In a cocktail shaker, combine all the ingredients\n2. Shake with ice for 10-12 seconds\n3. Double strain into a chilled coupe glass",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Created by Jim Meehan for the fall menu at Chef’s Club in Aspen, Colorado.The Old Friend is a distant cousin of the whiskey-based Old Pal classic cocktail. Meehan states that Beefeater works perfectly but most London dry gins will work too. Likewise, white, yellow or ruby red grapefruit will all work too but you may need to adjust the balance based on the acidity/sweetness of your grapefruit.",
+    "source": "https://stevethebartender.com.au/old-friend/",
+    "garnish": "Garnish with a lemon twist",
+    "abv": 20.67,
+    "tags": [],
+    "glass": "Coupe",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///old-friend.webp",
+            "sort": 1,
+            "placeholder_hash": "7igKDwJYCzmZhod1eck4h5iIBtmoBXoG",
+            "copyright": "Steve the Bartender"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "such as Beefeater",
+            "substitutes": []
+        },
+        {
+            "_id": "campari",
+            "name": "Campari",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "st-germain",
+            "name": "St-Germain",
+            "sort": 3,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "grapefruit-juice",
+            "name": "Grapefruit juice",
+            "sort": 4,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

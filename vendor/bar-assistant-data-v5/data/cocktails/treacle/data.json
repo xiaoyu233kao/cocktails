@@ -1,0 +1,80 @@
+{
+    "_id": "treacle",
+    "name": "Treacle",
+    "instructions": "1. Build in a double rocks glass filled with ice.\n2. Float cloudy apple juice on top.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "One of the simplest of Bradsell’s inventions to have found lasting popularity, this is an Old-Fashioned variation. An inventive use of rum for the time. Bradsell preferred rum in this drink is Myers, and he advocated for cheap, store brand apple juice, such at Mott’s, not the fresh-pressed apple juice young mixologists sometimes opted for, thinking they were improving the drink. More popular in the UK than in the U.S., where it is rarely seen. The drink’s exact place and year of birth are unknown.",
+    "source": "Dick Bradsell, 1990s",
+    "garnish": null,
+    "abv": 26.55,
+    "tags": [
+        "Fruity",
+        "Sweet",
+        "Bitter"
+    ],
+    "glass": "Lowball",
+    "method": "Build",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///treacle.webp",
+            "sort": 1,
+            "placeholder_hash": "HfgJHwaleIePdYh4aEaXaHd1ZQF5F5AI",
+            "copyright": "Grok"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "jamaican-rum",
+            "name": "Jamaican Rum",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 2,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "angostura-aromatic-bitters",
+            "name": "Angostura aromatic bitters",
+            "sort": 3,
+            "amount": 2,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "apple-juice",
+            "name": "Apple Juice",
+            "sort": 4,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

@@ -1,0 +1,88 @@
+{
+    "_id": "heart-of-stone",
+    "name": "Heart of Stone",
+    "instructions": "1. Add all of the ingredients to mixing glass with ice and stir.\n2. Strain over a large ice cube in a glass.\n3. Garnish.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Stuart Weaver, general manager and partner of Denver's Lady Jane, says this Boulevardier variation was the result of a last-minute menu change at the bar, quickly coming together 30 minutes before service began. \"I find it so funny that a cocktail I put five minutes of work into turns out to be one of my favorites and a staple here at Lady Jane,\" he says.",
+    "source": "https://imbibemagazine.com/recipe/heart-of-stone-boulevardier-variation/",
+    "garnish": "Flamed orange peel",
+    "abv": 23.85,
+    "tags": [],
+    "glass": "Lowball",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///heart-of-stone.webp",
+            "sort": 0,
+            "placeholder_hash": "zygKJwgMdoZ6aIlxeheYh4d3V2A1EDIE",
+            "copyright": "Imbibe Magazine | Connor Stehr"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "bourbon-whiskey",
+            "name": "Bourbon Whiskey",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "mezcal",
+            "name": "Mezcal",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "sweet-vermouth",
+            "name": "Sweet Vermouth",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cynar",
+            "name": "Cynar",
+            "sort": 4,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "saline-solution",
+            "name": "Saline solution",
+            "sort": 5,
+            "amount": 3,
+            "units": "drops",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

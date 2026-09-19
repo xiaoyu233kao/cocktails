@@ -1,0 +1,92 @@
+{
+    "_id": "spanish-monk",
+    "name": "Spanish Monk",
+    "instructions": "1. Add all ingredients to a shaker and dry-shake.\n2. Add ice, then shake again.\n3. Strain into a coupe.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "First published in 1951 in Charles H. Baker Jr.’s The South American Gentleman’s Companion, the Spanish Monk combines gin, lemon, green Chartreuse, simple syrup and an egg white. Nick Flower learned the recipe at New York’s Little Branch, and he now serves the classic at his bar Too Soon in Portland, Oregon.",
+    "source": "https://punchdrink.com/recipes/spanish-monk/",
+    "garnish": null,
+    "abv": 16.47,
+    "tags": [
+        "Citrusy",
+        "Classic",
+        "Sour"
+    ],
+    "glass": "Coupe",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": 1951,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///spanish-monk.webp",
+            "sort": 1,
+            "placeholder_hash": "zygSFwQIuHh3dnd0eVeoiJh2VgRIhIAH",
+            "copyright": "Punch Staff | Seth Marquez"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 0,
+            "amount": 1.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 0,
+            "amount": 0.75,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "green-chartreuse",
+            "name": "Green Chartreuse",
+            "sort": 0,
+            "amount": 0.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 0,
+            "amount": 0.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "egg-white",
+            "name": "Egg White",
+            "sort": 0,
+            "amount": 1,
+            "units": "whole",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

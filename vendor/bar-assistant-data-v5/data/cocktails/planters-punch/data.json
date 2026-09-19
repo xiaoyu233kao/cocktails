@@ -1,0 +1,80 @@
+{
+    "_id": "planters-punch",
+    "name": "Planter’s Punch",
+    "instructions": "Pour all ingredients directly in a small tumbler or a typical terracotta glass.\nNOTE:\nAdd dilution up to taste, it can be given by water, ice or juices.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The cocktail has been said to have originated at the Planters Hotel in Charleston, South Carolina, but actually originated in Jamaica.",
+    "source": "https://iba-world.com/planters-punch/",
+    "garnish": "Garnish with orange zest.",
+    "abv": 18.41,
+    "tags": [
+        "IBA Cocktail",
+        "The Unforgettables",
+        "Tiki"
+    ],
+    "glass": "Hurricane",
+    "method": "Build",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///planters-punch.webp",
+            "sort": 1,
+            "placeholder_hash": "DjkKJwaQtEeFeGlXelaXiHloBzZ5FJAH",
+            "copyright": "Wikipedia"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "jamaican-rum",
+            "name": "Jamaican Rum",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 3,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "angostura-aromatic-bitters",
+            "name": "Angostura aromatic bitters",
+            "sort": 4,
+            "amount": 3,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

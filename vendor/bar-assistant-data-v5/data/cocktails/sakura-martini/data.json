@@ -1,0 +1,64 @@
+{
+    "_id": "sakura-martini",
+    "name": "Sakura Martini",
+    "instructions": "1. Combine all ingredients in a mixing glass.\n2. Add ice and stir until chilled.\n3. Strain into a glass and garnish with a salted cherry blossom.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Bar Goto's Martini cocktail recipe combines salted cherry blossom with maraschino and the dry, vinous quality of sake.",
+    "source": "https://punchdrink.com/recipes/sakura-martini/",
+    "garnish": "salted cherry blossom",
+    "abv": 21.49,
+    "tags": [],
+    "glass": "Coupe",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///sakura-martini.webp",
+            "sort": 1,
+            "placeholder_hash": "WBgODwIFhYmzh3aEeVi2WYeI9suIr5kH",
+            "copyright": "Punch Staff | Lizzie Munro"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "sake",
+            "name": "Sake",
+            "sort": 1,
+            "amount": 2.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "Ginjo",
+            "substitutes": []
+        },
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 2,
+            "amount": 1,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "maraschino",
+            "name": "Maraschino",
+            "sort": 3,
+            "amount": 0.25,
+            "units": "barspoon",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "such as Luxardo",
+            "substitutes": []
+        }
+    ]
+}

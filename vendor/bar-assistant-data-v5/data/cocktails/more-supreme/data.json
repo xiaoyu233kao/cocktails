@@ -1,0 +1,76 @@
+{
+    "_id": "more-supreme",
+    "name": "More Supreme",
+    "instructions": "1. Combine all ingredients, except Campari, in a mixing tin and shake with ice.\n2. Strain into a chilled cocktail glass.\n3. Slowly pour Campari against the inside edge of the glass.\n4. Garnish with freshly cracked black pepper.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The first cocktail recipe Alec Bales landed on the Ticonderoga Club menu, the More Supreme hews closely to the Daiquiri blueprint.",
+    "source": "https://punchdrink.com/recipes/more-supreme/",
+    "garnish": "freshly cracked black pepper",
+    "abv": 21.67,
+    "tags": [],
+    "glass": "Coupe",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///more-supreme.webp",
+            "sort": 0,
+            "placeholder_hash": "zCgKFwIEt5dsdniHeia4J7d5Z2BHBoAE",
+            "copyright": "Punch Staff | Angie Webb"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "rhum-agricole",
+            "name": "Rhum agricole",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "preferably Rhum Clement Select Barrel",
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "demerara-syrup",
+            "name": "Demerara Syrup",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "campari",
+            "name": "Campari",
+            "sort": 4,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

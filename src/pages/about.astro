@@ -4,13 +4,15 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
 const entries = await getCollection('cocktails');
 const entryCount = entries.length;
+const ibaCount = entries.filter((entry) => entry.data.category !== 'Bar Assistant Community').length;
+const communityCount = entries.filter((entry) => entry.data.category === 'Bar Assistant Community').length;
 ---
-<BaseLayout title="关于这个图鉴｜Cocktail Atlas" description={`Cocktail Atlas 收录 ${entryCount} 款 IBA 鸡尾酒，记录内容来源、图片记录与维护方法。`}>
+<BaseLayout title="关于这个图鉴｜Cocktail Atlas" description={`Cocktail Atlas 收录 ${entryCount} 款鸡尾酒，其中 ${ibaCount} 款来自 IBA，另有 ${communityCount} 款社区快照配方。`}>
   <section class="catalog-hero">
     <div class="shell">
       <span class="eyebrow">ABOUT THE ATLAS</span>
       <h1>关于这个图鉴</h1>
-      <p>这里收录 IBA 当前目录的 {entryCount} 款经典鸡尾酒，中文为主，保留中英文名称和标准配方出处。</p>
+      <p>这里收录 {entryCount} 款鸡尾酒，其中 IBA 当前目录 {ibaCount} 款，并补充 {communityCount} 款 Bar Assistant 社区快照配方；中文为主，保留中英文名称和来源。</p>
     </div>
   </section>
   <section class="section section--tight">
@@ -18,17 +20,17 @@ const entryCount = entries.length;
       <div class="detail-main">
         <section>
           <h2>内容原则</h2>
-          <p class="story">主配方优先参考 International Bartenders Association（IBA）当前目录。步骤用原创中文描述，原料用量保留来源中的单位与文字。故事和变体只有在能逐条附来源时才会出现。</p>
+          <p class="story">主配方优先参考 International Bartenders Association（IBA）当前目录；社区条目来自固定版本的 Bar Assistant public data 快照。步骤用原创中文描述，原料用量保留来源中的单位与文字。故事和变体只有在能逐条附来源时才会出现。</p>
         </section>
         <section>
           <h2>图片记录</h2>
-          <p class="story">当前目录的 {entryCount} 张图片全部采用统一风格的 AI 生成示意图，由 OpenAI image generation 的 built-in source 生成并本地化保存为 WebP；页面不会将其描述为真实成品。若未来采用授权照片，仍需记录作者、来源、许可和必要署名。</p>
+          <p class="story">当前目录的 {entryCount} 张图片均为生成式示意图：IBA 条目使用本地 WebP，社区条目使用由 Cocktail Atlas procedural illustration 生成器绘制的本地 SVG。页面不会将其描述为真实成品；若未来采用授权照片，仍需记录作者、来源、许可和必要署名。</p>
         </section>
       </div>
       <aside class="detail-aside">
         <section>
           <h2>维护入口</h2>
-          <p class="story">新增一杯酒时，按仓库里的 CONTENT-SCHEMA.md 创建同名 Markdown 文件与同系列 AI 生成示意图，并在提交前运行内容校验和生产构建。</p>
+          <p class="story">新增一杯酒时，按仓库里的 CONTENT-SCHEMA.md 创建同名 Markdown 文件与同系列示意图，并在提交前运行内容校验和生产构建。Bar Assistant 数据快照按 MIT 许可随仓库保存，源图片不复制；导入清单记录提交、校验和与原始来源。</p>
         </section>
       </aside>
     </div>

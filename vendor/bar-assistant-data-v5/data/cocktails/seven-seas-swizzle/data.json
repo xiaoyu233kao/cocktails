@@ -1,0 +1,81 @@
+{
+    "_id": "seven-seas-swizzle",
+    "name": "Seven Seas Swizzle",
+    "instructions": "1. Build all the ingredients in the appropriate glass and add half the amount of necessary ice. \n2. Swizzle until the glass is cool.\n3. Top with ice and garnish.\n",
+    "created_at": null,
+    "updated_at": null,
+    "description": "In his recipe, Nick Batavia plays with green tea syrup and lime, for a riff on the Queen Park Swizzle with traditional punch ingredients.",
+    "source": "https://punchdrink.com/recipes/seven-seas-swizzle/",
+    "garnish": "Mint bouquet and dusting of nutmeg",
+    "abv": 24.25,
+    "tags": [
+        "Sour",
+        "Swizzle",
+        "Citrusy",
+        "Savory"
+    ],
+    "glass": "Highball",
+    "method": "Build",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///seven-seas-swizzle.webp",
+            "sort": 1,
+            "placeholder_hash": "m9cJHwIHdXjEhnV0iVd4h4aXeJCHB0YF",
+            "copyright": "Punch Staff"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "arrack",
+            "name": "Arrack",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orange-bitters",
+            "name": "Orange bitters",
+            "sort": 4,
+            "amount": 1,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

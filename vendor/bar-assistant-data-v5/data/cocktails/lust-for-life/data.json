@@ -1,0 +1,90 @@
+{
+    "_id": "lust-for-life",
+    "name": "Lust for Life",
+    "instructions": "1. Add all ingredients to a shaker with ice and shake until chilled.\n2. Strain into a rocks glass over ice.\n3. Garnish with cocoa powder.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "This easy mezcal cocktail recipe combines the agave spirit with palo cortado sherry, orgeat, pineapple and lemon juice.",
+    "source": "https://punchdrink.com/recipes/lust-for-life/",
+    "garnish": "cocoa powder",
+    "abv": 14.55,
+    "tags": [
+        "Citrusy"
+    ],
+    "glass": "Lowball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///lust-for-life.webp",
+            "sort": 1,
+            "placeholder_hash": "HDkSDwInipqfh5eTiohoeHiGOHQHgncA",
+            "copyright": "Punch Staff | Lizzie Munro"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "mezcal",
+            "name": "Mezcal",
+            "sort": 1,
+            "amount": 1.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "sherry",
+            "name": "Sherry",
+            "sort": 2,
+            "amount": 0.75,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "Palo cortado",
+            "substitutes": []
+        },
+        {
+            "_id": "orgeat-syrup",
+            "name": "Orgeat Syrup",
+            "sort": 3,
+            "amount": 0.75,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 4,
+            "amount": 0.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "pineapple-juice",
+            "name": "Pineapple juice",
+            "sort": 5,
+            "amount": 0.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

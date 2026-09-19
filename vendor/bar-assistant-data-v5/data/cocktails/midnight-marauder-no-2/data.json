@@ -1,0 +1,88 @@
+{
+    "_id": "midnight-marauder-no-2",
+    "name": "Midnight Marauder No. 2",
+    "instructions": "1. Stir all of the ingredients with ice, strain into a chilled glass, then garnish.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "This rich cocktail combines rye whiskey, coffee liqueur, curaçao, and a touch of mezcal, making for a perfect nightcap. “It’s amazing to end your night with something that has a lot of depth of flavor to it,” says The Starling bar manager Kaley Brodeur.",
+    "source": "https://imbibemagazine.com/recipe/midnight-marauder-no-2-whiskey-cocktail/",
+    "garnish": "Lemon peel",
+    "abv": 24.94,
+    "tags": [],
+    "glass": "Coupe",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///midnight-marauder-no-2.webp",
+            "sort": 1,
+            "placeholder_hash": "GfgFFwZPTWdbhKhWx0eJp2lpB8llcFwH",
+            "copyright": "Imbibe Magazine | John Valls"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "rye-whiskey",
+            "name": "Rye whiskey",
+            "sort": 1,
+            "amount": 1,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "sweet-vermouth",
+            "name": "Sweet Vermouth",
+            "sort": 2,
+            "amount": 0.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "coffee-liqueur",
+            "name": "Coffee liqueur",
+            "sort": 3,
+            "amount": 0.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "mezcal",
+            "name": "Mezcal",
+            "sort": 4,
+            "amount": 0.25,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orange-curacao",
+            "name": "Orange Curaçao",
+            "sort": 5,
+            "amount": 1,
+            "units": "barspoon",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

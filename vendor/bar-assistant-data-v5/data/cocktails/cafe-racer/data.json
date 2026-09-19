@@ -1,0 +1,79 @@
+{
+    "_id": "cafe-racer",
+    "name": "Cafe Racer",
+    "instructions": "1. Add ingredients to a mixing glass with ice\n2. Stir 20 seconds and strain into a chilled glass\n3. Express an orange peel and garnish",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A cold weather appropriate digestif, inspired by the delicious pairing of cacao, coffee, and raw cane sugar.",
+    "source": "https://www.liberandcompany.com/collections/recipes/products/cafe-racer",
+    "garnish": "orange peel",
+    "abv": 19.17,
+    "tags": [
+        "Winter",
+        "Coffee"
+    ],
+    "glass": "Lowball",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///cafe-racer.webp",
+            "sort": 1,
+            "placeholder_hash": "aAgGFwSjdWaYjla+eXiYB5Z2mvVobagA",
+            "copyright": "LiberAndCo | Juliet Beletic"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "bourbon-whiskey",
+            "name": "Bourbon Whiskey",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "coffee",
+            "name": "Coffee",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "demerara-syrup",
+            "name": "Demerara Syrup",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "creme-de-cacao-dark",
+            "name": "Crème de Cacao (Dark)",
+            "sort": 4,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

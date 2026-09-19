@@ -1,0 +1,67 @@
+{
+    "_id": "gimlet",
+    "name": "Gimlet",
+    "instructions": "1. Add gin, lime juice, and syrup to a cocktail shaker. Fill with ice and shake until cold.\n2. Strain into glass and top with a splash of soda water, if desired.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The word \"gimlet\" used in this sense is first attested in 1928. The most obvious derivation is from the tool for drilling small holes, a word also used figuratively to describe something as sharp or piercing. Thus, the cocktail may have been named for its \"penetrating\" effects on the drinker.",
+    "source": "https://www.acouplecooks.com/gin-gimlet-cocktail/",
+    "garnish": "Garnish with a lime wheel",
+    "abv": 21.33,
+    "tags": [
+        "Sour",
+        "Classics"
+    ],
+    "glass": "Coupe",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///gimlet.webp",
+            "sort": 1,
+            "placeholder_hash": "C/gJDwI0l4jChndYbgaa6FaKVQBEVUAI",
+            "copyright": "A Couple Cooks"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

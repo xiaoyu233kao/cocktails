@@ -1,0 +1,79 @@
+{
+    "_id": "martinez",
+    "name": "Martinez",
+    "instructions": "Pour all ingredients into mixing glass with ice cubes. Stir well. Strain into a chilled cocktail glass.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The Martinez is a classic cocktail that is widely regarded as the direct precursor to the Martini.\nIt serves as the basis for many modern cocktails, and several different versions of the original exist.\nThese are generally distinguished by the accompaniment of either Maraschino or Curacao, as well as differences in gin or bitters. ",
+    "source": "https://iba-world.com/martinez/",
+    "garnish": "Lemon zest.",
+    "abv": 24.17,
+    "tags": [
+        "IBA Cocktail",
+        "The Unforgettables"
+    ],
+    "glass": "Cocktail",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///martinez.webp",
+            "sort": 1,
+            "placeholder_hash": "n1kWFwZ4eIeAd3d4iId4aIh2qMgJip8B",
+            "copyright": "Wikipedia"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "sweet-vermouth",
+            "name": "Sweet Vermouth",
+            "sort": 2,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "maraschino",
+            "name": "Maraschino",
+            "sort": 3,
+            "amount": 1,
+            "units": "teaspoon",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orange-bitters",
+            "name": "Orange bitters",
+            "sort": 4,
+            "amount": 2,
+            "units": "dashes",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

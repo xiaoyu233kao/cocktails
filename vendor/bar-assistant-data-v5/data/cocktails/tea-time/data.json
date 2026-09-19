@@ -1,0 +1,90 @@
+{
+    "_id": "tea-time",
+    "name": "Tea Time",
+    "instructions": "1. Add all ingredients, except ginger beer, to a shaker tin\n2. Add ice and shake for 10-15 seconds\n3. Strain over ice and top with ginger beer",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Fruity, spicy, and tea-infused elements converge to create a truly unique and delicious non-alcoholic cocktail!",
+    "source": "https://www.liberandcompany.com/products/tea-time",
+    "garnish": "mint",
+    "abv": 0.25,
+    "tags": [
+        "Virgin"
+    ],
+    "glass": "Highball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///tea-time.webp",
+            "sort": 1,
+            "placeholder_hash": "1igGDwKVmQdwaXdVV7ZzVnyytVQG3yEI",
+            "copyright": "LiberAndCo"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "tea",
+            "name": "Tea",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "Earl grey",
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "peach-syrup",
+            "name": "Peach syrup",
+            "sort": 3,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "ginger-beer",
+            "name": "Ginger beer",
+            "sort": 4,
+            "amount": 1,
+            "units": "topup",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "angostura-aromatic-bitters",
+            "name": "Angostura aromatic bitters",
+            "sort": 5,
+            "amount": 2,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

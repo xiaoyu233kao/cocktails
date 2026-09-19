@@ -1,0 +1,91 @@
+{
+    "_id": "mango-mule",
+    "name": "Mango Mule",
+    "instructions": "Muddle cucumber and honey syrup in the bottom of a cocktail shaker. Add the mango puree and lime juice and shake with ice vigorously. Strain into a copper mug. Top with ginger beer and stir.",
+    "created_at": null,
+    "updated_at": null,
+    "description": null,
+    "source": "http://againstallgrain.com/",
+    "garnish": "Lime slices",
+    "abv": 0,
+    "tags": [
+        "Virgin",
+        "Mule"
+    ],
+    "glass": "Julep",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///mango-mule.webp",
+            "sort": 1,
+            "placeholder_hash": "2hgKHwBwlnV+WHeGeoanGZiKDdqVJgwF",
+            "copyright": ""
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "ginger-beer",
+            "name": "Ginger beer",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cucumber",
+            "name": "Cucumber",
+            "sort": 2,
+            "amount": 5,
+            "units": "slices",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "honey-syrup",
+            "name": "Honey Syrup",
+            "sort": 3,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "mango-puree",
+            "name": "Mango puree",
+            "sort": 4,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 5,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

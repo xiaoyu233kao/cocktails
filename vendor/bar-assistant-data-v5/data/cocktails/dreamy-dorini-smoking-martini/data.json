@@ -1,0 +1,64 @@
+{
+    "_id": "dreamy-dorini-smoking-martini",
+    "name": "Dreamy Dorini Smoking Martini",
+    "instructions": "1. Add all ingredients into a mixing glass with ice and stir until well-chilled.\n2. Strain into a cocktail glass.\n3. Express the oils from the lemon twist over the drink, then garnish with the twist.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "This Vodka Martini riff from Audrey Saunders is anything but ordinary, with peaty single malt scotch and Pernod taking the place of dry vermouth and orange bitters.",
+    "source": "https://www.liquor.com/dreamy-dorini-smoking-martini-cocktail-recipe-5203959",
+    "garnish": null,
+    "abv": 33.33,
+    "tags": [],
+    "glass": "Cocktail",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///dreamy-dorini-smoking-martini.webp",
+            "sort": 0,
+            "placeholder_hash": "3PcVFwBZh4hwhoiHeKeHWJl1d/R2Rm8I",
+            "copyright": "Liquor.com"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "vodka",
+            "name": "Vodka",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "islay-scotch-whiskey",
+            "name": "Islay Scotch Whiskey",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "pernod",
+            "name": "Pernod",
+            "sort": 3,
+            "amount": 1,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

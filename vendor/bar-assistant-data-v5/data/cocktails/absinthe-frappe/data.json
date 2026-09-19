@@ -1,0 +1,66 @@
+{
+    "_id": "absinthe-frappe",
+    "name": "Absinthe Frappé",
+    "instructions": "1. Combine syrup and absinthe in a shaker filled with ice\n2. Shake for 10 seconds\n3. Strain into a chilled glass filled with crushed ice",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A dreamy classic that makes absinthe approachable and surprisingly refreshing.",
+    "source": "https://www.liberandcompany.com/collections/recipes/products/absinthe-frappe",
+    "garnish": "Fresh mint",
+    "abv": 12,
+    "tags": [
+        "Herbacious"
+    ],
+    "glass": "Highball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///absinthe-frappe.webp",
+            "sort": 1,
+            "placeholder_hash": "NQgGDwBwJIVgZmV5dIpneJiFdqAYCZoA",
+            "copyright": "LiberAndCo | ﻿Juliet ﻿﻿Beletic"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "absinthe",
+            "name": "Absinthe",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "club-soda",
+            "name": "Club soda",
+            "sort": 3,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

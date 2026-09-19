@@ -1,0 +1,92 @@
+{
+    "_id": "breakfast-margarita",
+    "name": "Breakfast Margarita",
+    "instructions": "1. Add all of the ingredients to a shaker with ice and shake to chill.\n2. Fine strain into a glass over fresh ice.\n3. Garnish.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "There are several takes on the Breakfast Margarita, a Marg inspired by Salvatore Calabrese's Breakfast Martini. But at Superbueno, Nacho Jimenez mixes the modern classic with the Cadillac Margarita, using Grand Marnier instead of Cointreau. The bar makes its own mole orange marmalade, but Jimenez says a \"good orange marmalade like Bonne Maman\" seasoned with mole spices can be swapped in its place. \"The Grand Marnier adds some complexity to this drink, and the mole orange marmalade adds more depth and flavor from the spices and chiles,\" he says.",
+    "source": "https://imbibemagazine.com/recipe/breakfast-margarita/",
+    "garnish": "Ancho salt rim, orange zest",
+    "abv": 18,
+    "tags": [
+        "Spicy",
+        "Citrusy",
+        "Sour"
+    ],
+    "glass": "Lowball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///breakfast-margarita.webp",
+            "sort": 1,
+            "placeholder_hash": "1HkOLwhXZ4lgiXd2eGh3yHhnhzMINoIA",
+            "copyright": "Imbibe Magazine | Gonzalo Loayza"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "tequila-blanco",
+            "name": "Tequila Blanco",
+            "sort": 1,
+            "amount": 1.75,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 2,
+            "amount": 1,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "grand-marnier",
+            "name": "Grand Marnier",
+            "sort": 3,
+            "amount": 0.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "agave-syrup",
+            "name": "Agave Syrup",
+            "sort": 4,
+            "amount": 0.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "marmalade",
+            "name": "Marmalade",
+            "sort": 5,
+            "amount": 0.25,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

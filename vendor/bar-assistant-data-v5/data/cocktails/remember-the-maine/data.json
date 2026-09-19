@@ -1,0 +1,76 @@
+{
+    "_id": "remember-the-maine",
+    "name": "Remember the Maine",
+    "instructions": "1. In a chilled coupe or cocktail glass, add a dash of absinthe. Roll around to coat and discard excess.\n2. Add all ingredients to a mixing glass.\n3. Add ice and stir well.\n4. Strain into prepared coupe or cocktail glass.\n5. Garnish with a brandied cherry.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "This rye-based cocktail recipe has an ingredient list that’s part Sazerac, part Manhattan and has a grandiose backstory to boot.",
+    "source": "https://punchdrink.com/recipes/remember-the-maine/",
+    "garnish": "brandied cherry (preferably Luxardo)",
+    "abv": 27.18,
+    "tags": [],
+    "glass": "Nick and Nora",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///remember-the-maine.webp",
+            "sort": 1,
+            "placeholder_hash": "6BgKHwSaZ3iPi3ZplLlmaYiJlJMHKXgA",
+            "copyright": "Punch Staff | Daniel Krieger"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "rye-whiskey",
+            "name": "Rye whiskey",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "sweet-vermouth",
+            "name": "Sweet Vermouth",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cherry-heering",
+            "name": "Cherry heering",
+            "sort": 3,
+            "amount": 2,
+            "units": "barspoon",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "absinthe",
+            "name": "Absinthe",
+            "sort": 4,
+            "amount": 1,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

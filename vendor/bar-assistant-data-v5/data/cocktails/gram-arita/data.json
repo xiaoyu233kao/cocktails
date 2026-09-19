@@ -1,0 +1,80 @@
+{
+    "_id": "gram-arita",
+    "name": "Gram-Arita",
+    "instructions": "1. Rim half of a glass with salt and set aside.\n2. Combine first three ingredients in a cocktail shaker with ice and shake until chilled.\n3. Strain into the prepared glass over ice.\n4. Float Grand Marnier on top.\n",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A Cadillac Margarita served at the Copper Room in Yucca Valley made with reposado tequila, Grand Marnier and lime juice.",
+    "source": "https://punchdrink.com/recipes/gram-arita/",
+    "garnish": "Garnish with a lime wheel",
+    "abv": 22.86,
+    "tags": [
+        "Sour",
+        "Citrusy",
+        "Margarita"
+    ],
+    "glass": "Lowball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///gram-arita.webp",
+            "sort": 0,
+            "placeholder_hash": "K1sGHwIIR3qLfGhyd3iYqXeJdvvH42wP",
+            "copyright": "Punch Staff"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "tequila-reposado",
+            "name": "Tequila Reposado",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "agave-syrup",
+            "name": "Agave Syrup",
+            "sort": 3,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "grand-marnier",
+            "name": "Grand Marnier",
+            "sort": 4,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

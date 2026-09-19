@@ -1,0 +1,103 @@
+{
+    "_id": "beuser-angus-special",
+    "name": "Beuser & Angus Special",
+    "instructions": "1. Combine the first five ingredients in a cocktail shaker and shake hard with ice.\n2. Strain into a rocks glass filled with ice.\n3. Top with orange flower water.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Chartreuse sour from Berlin, the Beuser & Angus Special takes inspiration from the Last Word and the Ramos Gin Fizz. Created in 2007 by Gonçalo de Sousa Monteiro for fellow bartenders Bastian Heuser and Angus Winchester, the drink has gone on to become a modern classic.",
+    "source": "https://punchdrink.com/recipes/beuser-angus-special/",
+    "garnish": "Garnish with a lime wedge.",
+    "abv": 29.84,
+    "tags": [
+        "Sour",
+        "Citrusy"
+    ],
+    "glass": "Lowball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": 2007,
+    "author": "Gonçalo de Sousa",
+    "images": [
+        {
+            "uri": "file:///beuser-angus-special.webp",
+            "sort": 1,
+            "placeholder_hash": "oAgSJwKYinikdIiAZ2eWV5Z4poAodpAG",
+            "copyright": "Punch Staff"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "green-chartreuse",
+            "name": "Green Chartreuse",
+            "sort": 1,
+            "amount": 52.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "maraschino",
+            "name": "Maraschino",
+            "sort": 3,
+            "amount": 10,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "egg-white",
+            "name": "Egg White",
+            "sort": 4,
+            "amount": 1,
+            "units": "part",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 5,
+            "amount": 2.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orange-flower-water",
+            "name": "Orange Flower Water",
+            "sort": 6,
+            "amount": 5,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

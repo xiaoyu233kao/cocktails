@@ -1,0 +1,100 @@
+{
+    "_id": "the-west-8th",
+    "name": "The West 8th",
+    "instructions": "Muddle the mint and cucumber in a mixing tin. Add ice, vodka, lemon juice and simple syrup and shake to chill. Strain into a chilled coupe and top with the soda.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "One of the bestsellers at Analogue in New York City, the West 8th is a Southside cocktail riff with cucumber and vodka.",
+    "source": "https://imbibemagazine.com/recipe/southside-cocktail-riff-the-west-8th/",
+    "garnish": null,
+    "abv": 12.8,
+    "tags": [],
+    "glass": "Coupe",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///the-west-8th.webp",
+            "sort": 1,
+            "placeholder_hash": "4CgKFwYgh3hphIh2hmd5d5h41gYZjZAG",
+            "copyright": "Imbibe Magazine | Asia Coladner"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "vodka",
+            "name": "Vodka",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "club-soda",
+            "name": "Club soda",
+            "sort": 4,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cucumber",
+            "name": "Cucumber",
+            "sort": 5,
+            "amount": 3,
+            "units": "slice",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "mint",
+            "name": "Mint",
+            "sort": 6,
+            "amount": 2,
+            "units": "sprigs",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

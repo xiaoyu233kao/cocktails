@@ -1,0 +1,44 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import CocktailGrid from './CocktailGrid.astro';
+import FilterControls from './FilterControls.astro';
+import { withBase } from '../lib/paths';
+
+interface Props {
+  entries: any[];
+  pageEntries: any[];
+  pageNumber: number;
+  totalPages: number;
+}
+
+const { entries, pageEntries, pageNumber, totalPages } = Astro.props;
+const count = entries.length;
+const pagePath = (page: number) => page === 1 ? withBase('recipes/') : withBase(`recipes/page/${page}/`);
+const pageStart = pageEntries.length ? (pageNumber - 1) * 60 + 1 : 0;
+const pageEnd = pageEntries.length ? pageStart + pageEntries.length - 1 : 0;
+---
+<BaseLayout title="配方目录｜Cocktail Atlas" description={`按基酒、口味、风格和原料筛选 ${count} 款鸡尾酒配方。`}>
+  <section class="catalog-hero">
+    <div class="shell">
+      <span class="eyebrow">THE INDEX</span>
+      <h1>配方目录</h1>
+      <p>从一杯清爽的 Highball，到需要慢慢搅拌的经典短饮。搜索、组合筛选，找到适合你今晚酒柜的配方。</p>
+    </div>
+  </section>
+  <section class="section section--tight" aria-labelledby="catalog-heading">
+    <div class="shell">
+      <h2 id="catalog-heading" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);">全部鸡尾酒</h2>
+      <FilterControls entries={entries} indexUrl={withBase('data/recipes-index.json')} />
+      <div style="height: 2.5rem;"></div>
+      {pageEntries.length ? <CocktailGrid entries={pageEntries} indexUrl={withBase('data/recipes-index.json')} /> : (
+        <div class="no-results is-visible" data-no-results>配方正在整理中，很快会在这里见面。</div>
+      )}
+      <div class="no-results" data-no-results>没有找到匹配的配方。试试清除一个筛选条件，或换个原料关键词。</div>
+      {totalPages > 1 && <nav class="catalog-pagination" aria-label="配方分页" data-pagination>
+        {pageNumber > 1 && <a class="pagination-link" href={pagePath(pageNumber - 1)} rel="prev">上一页</a>}
+        <span class="pagination-status">第 {pageNumber} / {totalPages} 页 · {pageStart}–{pageEnd} / {count}</span>
+        {pageNumber < totalPages && <a class="pagination-link" href={pagePath(pageNumber + 1)} rel="next">下一页</a>}
+      </nav>}
+    </div>
+  </section>
+</BaseLayout>

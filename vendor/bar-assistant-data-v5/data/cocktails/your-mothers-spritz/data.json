@@ -1,0 +1,78 @@
+{
+    "_id": "your-mothers-spritz",
+    "name": "Your Mother’s Spritz",
+    "instructions": "1. Add the ingredients, except the grapefruit soda, to a wine glass over ice. Top with the soda. Garnish.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The white wine spritzer, popularized by \"ladies who lunch\" during the '50s, gets reimagined through a modern lens. While the original simply called for chilled white wine and club soda, this version is \"punchier, brighter, and far from basic, thanks to citrus-forward Italicus, with notes of bergamot and grapefruit that round it out beautifully,\" says Mary Jones, the director of entertainment and nightlife for Virgin Hotels.",
+    "source": "https://imbibemagazine.com/recipe/your-mothers-spritz-white-wine-spritzer/",
+    "garnish": "Dehydrated grapefruit wheel",
+    "abv": 10.91,
+    "tags": [
+        "Dessert"
+    ],
+    "glass": "Wine",
+    "method": "Build",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///your-mothers-spritz.webp",
+            "sort": 1,
+            "placeholder_hash": "4WkGFwQIRrqTh4araihnZWhaBHKmMFgI",
+            "copyright": "Imbibe Magazine"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "white-wine",
+            "name": "White wine",
+            "sort": 1,
+            "amount": 2,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "Pinot Grigio",
+            "substitutes": []
+        },
+        {
+            "_id": "italicus-rosolio-di-bergamotto",
+            "name": "Italicus Rosolio di Bergamotto",
+            "sort": 2,
+            "amount": 1,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "grapefruit-juice",
+            "name": "Grapefruit juice",
+            "sort": 3,
+            "amount": 0.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "grapefruit-soda",
+            "name": "Grapefruit soda",
+            "sort": 4,
+            "amount": 1,
+            "units": "topup",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

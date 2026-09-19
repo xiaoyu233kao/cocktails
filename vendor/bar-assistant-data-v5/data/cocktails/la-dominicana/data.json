@@ -1,0 +1,67 @@
+{
+    "_id": "la-dominicana",
+    "name": "La Dominicana",
+    "instructions": "1. Whip together a wet cream using a whisk or stand mixer\n2. Add rum and coffee liqueur to a mixing glass and stir over ice\n3. Strain into a cocktail glass and float whipped cream on top",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A rich, complex, rum soaked upgrade on the White Russian",
+    "source": "https://tuxedono2.com/la-dominicana-cocktail-recipe",
+    "garnish": "hand-whipped cream",
+    "abv": 25,
+    "tags": [
+        "Coffee",
+        "Sweet"
+    ],
+    "glass": "Cocktail",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///la-dominicana.webp",
+            "sort": 1,
+            "placeholder_hash": "BQgGBwAHtWmVdIqYZ1jIR7h3mrBoGHYA",
+            "copyright": "TuxedoNo2"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "dark-rum",
+            "name": "Dark Rum",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "coffee-liqueur",
+            "name": "Coffee liqueur",
+            "sort": 2,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cream",
+            "name": "Cream",
+            "sort": 3,
+            "amount": 1,
+            "units": "hand-whipped",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

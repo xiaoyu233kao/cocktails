@@ -1,0 +1,56 @@
+{
+    "_id": "french-connection",
+    "name": "French Connection",
+    "instructions": "Pour all ingredients directly into an old fashioned glass filled with ice cubes. Stir gently.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The cocktail is named for the Gene Hackman film of the same name.",
+    "source": "https://iba-world.com/french-connection/",
+    "garnish": null,
+    "abv": 29.09,
+    "tags": [
+        "Contemporary Classics",
+        "IBA Cocktail",
+        "Brandy"
+    ],
+    "glass": "Lowball",
+    "method": "Build",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///french-connection.webp",
+            "sort": 1,
+            "placeholder_hash": "aUkKLwjY11l/hnWMhad3hoiKhjB5BpMF",
+            "copyright": "Punch Drink"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "cognac",
+            "name": "Cognac",
+            "sort": 1,
+            "amount": 35,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "amaretto",
+            "name": "Amaretto",
+            "sort": 2,
+            "amount": 35,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

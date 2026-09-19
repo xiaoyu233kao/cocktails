@@ -1,0 +1,92 @@
+{
+    "_id": "rabbit-szn",
+    "name": "Rabbit Szn",
+    "instructions": "1. Add the first three ingredients to a shaker and whip-shake with a few ice cubes.\n2. Strain into a Collins glass.\n3. Top with club soda, add ice, then float sweet vermouth on top.\n4. Garnish with a sprig of mint.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Blanco tequila, lime juice, ginger syrup and a float of sweet vermouth make up this bubbly, easy cocktail recipe.",
+    "source": "https://punchdrink.com/recipes/rabbit-szn/",
+    "garnish": "spring of mint",
+    "abv": 15.77,
+    "tags": [
+        "Herbacious",
+        "Sour",
+        "Sweet"
+    ],
+    "glass": "Highball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///rabbit-szn.webp",
+            "sort": 0,
+            "placeholder_hash": "yjgOFwQGuGd3iId2epZ3eIiGKGCmEHYJ",
+            "copyright": "Punch Staff | Stephen Recchia"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "tequila-blanco",
+            "name": "Tequila Blanco",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "preferably Teremana",
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "ginger-syrup",
+            "name": "Ginger syrup",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "sweet-vermouth",
+            "name": "Sweet Vermouth",
+            "sort": 4,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "preferably Fell to Earth",
+            "substitutes": []
+        },
+        {
+            "_id": "club-soda",
+            "name": "Club soda",
+            "sort": 5,
+            "amount": 1,
+            "units": "topup",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

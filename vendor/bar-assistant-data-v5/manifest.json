@@ -1,0 +1,3991 @@
+{
+  "format": 1,
+  "provider": "Bar Assistant public data",
+  "license": "MIT",
+  "sourceUrl": "https://github.com/bar-assistant/data",
+  "snapshotUrl": "https://github.com/bar-assistant/data/tree/5a504d474614494119882eb91a8ffdc5491a483f",
+  "commit": "5a504d474614494119882eb91a8ffdc5491a483f",
+  "importedAt": "2026-09-20",
+  "recipeCount": 663,
+  "imagePolicy": "Source images intentionally excluded; Cocktail Atlas generates local SVG illustrations.",
+  "files": [
+    {
+      "id": "1934-cosmo",
+      "path": "data/cocktails/1934-cosmo/data.json",
+      "sha256": "e2dba695f8b578b683b7df9a5d9aa1c7b16ae6578fefe60cf33d1e3a290241a0",
+      "bytes": 2047
+    },
+    {
+      "id": "2-to-2",
+      "path": "data/cocktails/2-to-2/data.json",
+      "sha256": "04423c176790b66cab568942a1a91eb4ab7c5ba80b4935369a4e25f018b0038a",
+      "bytes": 2555
+    },
+    {
+      "id": "20th-century",
+      "path": "data/cocktails/20th-century/data.json",
+      "sha256": "295b6b1584b72ae42ebe55b7fd3bb27f975803df64b39821170dd5aae88c65ec",
+      "bytes": 2306
+    },
+    {
+      "id": "212",
+      "path": "data/cocktails/212/data.json",
+      "sha256": "732c067a8e8facffe65ed3fa725fb78fe731d54dcb7d227ba1ece927e0064247",
+      "bytes": 2757
+    },
+    {
+      "id": "21st-and-14-century",
+      "path": "data/cocktails/21st-and-14-century/data.json",
+      "sha256": "9828a0ec78a15698cee8c8c648550d69e4bbffa6a2fdfcb95b467090d52fe351",
+      "bytes": 2906
+    },
+    {
+      "id": "8-amaro-sazerac",
+      "path": "data/cocktails/8-amaro-sazerac/data.json",
+      "sha256": "5f5a3aab2c7a908d94856adbdbc5e09820c6e4563a26dc5b131da00528416212",
+      "bytes": 5137
+    },
+    {
+      "id": "absent-stars",
+      "path": "data/cocktails/absent-stars/data.json",
+      "sha256": "5d597cb13d87138884dd1ad3fd7f916d5d2db7ca963ec43ea47136eeab89df87",
+      "bytes": 3276
+    },
+    {
+      "id": "absinthe-colada",
+      "path": "data/cocktails/absinthe-colada/data.json",
+      "sha256": "588ae8d2d498c0f43f994fcf7e5f910f7b3c36bd47b90e8293746007c689ec1b",
+      "bytes": 2723
+    },
+    {
+      "id": "absinthe-frappe",
+      "path": "data/cocktails/absinthe-frappe/data.json",
+      "sha256": "ef3436e34e6abab43b4f05b02ca0d6e7e3a84a58f00119df5142bcb80466dafc",
+      "bytes": 1923
+    },
+    {
+      "id": "absinthe-old-fashioned",
+      "path": "data/cocktails/absinthe-old-fashioned/data.json",
+      "sha256": "70aa6ba406209cb5ee5aa31059999b8e36d151ec9c2b6aa304037580e1c8b9ab",
+      "bytes": 2435
+    },
+    {
+      "id": "adonis",
+      "path": "data/cocktails/adonis/data.json",
+      "sha256": "df1d594d7ee1acde5f1e2499250f35bb4417dff3c14abc6f2d6ffed8b53c7c66",
+      "bytes": 1844
+    },
+    {
+      "id": "affinity",
+      "path": "data/cocktails/affinity/data.json",
+      "sha256": "1c2d1f116f1b042c39b726dda87bc63df8c5dd1a285bec60bed8d9b63c9ae8d6",
+      "bytes": 2971
+    },
+    {
+      "id": "after-all-imperial",
+      "path": "data/cocktails/after-all-imperial/data.json",
+      "sha256": "2e607b6a3b767ec2142fb7e2c5c862a6846ca1c92a27b05482a39906eed94644",
+      "bytes": 2625
+    },
+    {
+      "id": "airmail",
+      "path": "data/cocktails/airmail/data.json",
+      "sha256": "5bab3e2638e80a97c5bd62ce853b38628f0714272804aeb0cd5f5e6584837996",
+      "bytes": 2599
+    },
+    {
+      "id": "alabazam",
+      "path": "data/cocktails/alabazam/data.json",
+      "sha256": "639e2c518d85e956818f1f6eb0bd01b0c15ccece3b4715482db13e22296d5a89",
+      "bytes": 2490
+    },
+    {
+      "id": "alaska",
+      "path": "data/cocktails/alaska/data.json",
+      "sha256": "f9c9ee4f6f3708c5037d35aac4f0cdc076deb10c0f65b2f63e99f8f3f0003ced",
+      "bytes": 1861
+    },
+    {
+      "id": "alexander",
+      "path": "data/cocktails/alexander/data.json",
+      "sha256": "fb40d5993e04af4447dfbec135ccade739d5291b2f73d30c30979bee418e10f6",
+      "bytes": 2473
+    },
+    {
+      "id": "algonquin",
+      "path": "data/cocktails/algonquin/data.json",
+      "sha256": "3ac80b6b81290520a55a0bff0daa8f06cd28f13874ea282bedc80cb320393113",
+      "bytes": 2670
+    },
+    {
+      "id": "amalfi-frappe",
+      "path": "data/cocktails/amalfi-frappe/data.json",
+      "sha256": "cb1042bf8ead0a019cf3786a6078b627bdc96bf52d0d12bfc7357d7a9e68f485",
+      "bytes": 3191
+    },
+    {
+      "id": "amaretto-sour",
+      "path": "data/cocktails/amaretto-sour/data.json",
+      "sha256": "bc0ca6b788d29db8378c2c0dffe4e6f844455cd21c01c1337ce99759139baf94",
+      "bytes": 2557
+    },
+    {
+      "id": "amaretto-sour-jeffrey-morgenthaler",
+      "path": "data/cocktails/amaretto-sour-jeffrey-morgenthaler/data.json",
+      "sha256": "e84c36caa30ff5c394fdbff6a25e0fec976c5444e83b416c23456cc116919206",
+      "bytes": 3679
+    },
+    {
+      "id": "amaro-highball",
+      "path": "data/cocktails/amaro-highball/data.json",
+      "sha256": "ce1237e72863a5ff08bf82c8f0f8174007b8e81dd80c233fa9145553fffbc3ae",
+      "bytes": 2940
+    },
+    {
+      "id": "amen-corner",
+      "path": "data/cocktails/amen-corner/data.json",
+      "sha256": "01c816ece1d71e228897335d040659155bdb106fa48fd83d3ab99497063aa46f",
+      "bytes": 2298
+    },
+    {
+      "id": "americano",
+      "path": "data/cocktails/americano/data.json",
+      "sha256": "7fd41415bf7ae8ef00bb5771bb94b0f209753165412e46447fd9ee5753b375a8",
+      "bytes": 2595
+    },
+    {
+      "id": "amoxicillin",
+      "path": "data/cocktails/amoxicillin/data.json",
+      "sha256": "ee6543c127880d3ad96c177ecb35fc8b189de6f8677100da04db10164fb188eb",
+      "bytes": 2381
+    },
+    {
+      "id": "ancho-problem",
+      "path": "data/cocktails/ancho-problem/data.json",
+      "sha256": "dc3234f56a3d6bc686a6ac28c16a38c07a982dbc4e347010d7aaaffbd9cec0a4",
+      "bytes": 2215
+    },
+    {
+      "id": "andalusian-buck",
+      "path": "data/cocktails/andalusian-buck/data.json",
+      "sha256": "725ae44916f7437dbb2b23b9f65854271af6e1b33d28a08513b4b6044530157b",
+      "bytes": 3039
+    },
+    {
+      "id": "angel-face",
+      "path": "data/cocktails/angel-face/data.json",
+      "sha256": "a0557db31c6d0206d0cb02b2561b5475aa10676acd0775b7e27069542da04f50",
+      "bytes": 2816
+    },
+    {
+      "id": "angie",
+      "path": "data/cocktails/angie/data.json",
+      "sha256": "4ff2b3049fd5d160c4e51ba8cebd878958e147ab43965638c3fbebddc1afda6b",
+      "bytes": 2786
+    },
+    {
+      "id": "annas-revenge",
+      "path": "data/cocktails/annas-revenge/data.json",
+      "sha256": "f7437ff8280f1f5380e4f397fd40524387a3be2cfa8457d31382d1d4a76185f2",
+      "bytes": 2847
+    },
+    {
+      "id": "apapacho-cafe",
+      "path": "data/cocktails/apapacho-cafe/data.json",
+      "sha256": "dc751772dc7e528e9b00588117b96ff2ee4be17d05d948c6a33a82211e1175db",
+      "bytes": 2945
+    },
+    {
+      "id": "apb-melrose-gin-tonic",
+      "path": "data/cocktails/apb-melrose-gin-tonic/data.json",
+      "sha256": "99cb317a72bf6857425877844574a8cd6bf46c8c46e5770be4cea6ff8fe0cf6e",
+      "bytes": 3212
+    },
+    {
+      "id": "apero-spritz",
+      "path": "data/cocktails/apero-spritz/data.json",
+      "sha256": "9773da76e06f130b822ce5949a0d436f941ea32042dcd85bdcf5c0578f3ff17f",
+      "bytes": 2515
+    },
+    {
+      "id": "aperol-spritz",
+      "path": "data/cocktails/aperol-spritz/data.json",
+      "sha256": "38b3ede306040645e69861e036c327334031a0c73224134826cbdbcba4074d07",
+      "bytes": 2084
+    },
+    {
+      "id": "appetizer-a-litalienne",
+      "path": "data/cocktails/appetizer-a-litalienne/data.json",
+      "sha256": "6395f5eff9846c26074da33f0f5201a189d80e469b360f523803891f25782bda",
+      "bytes": 3988
+    },
+    {
+      "id": "apple-amaretto-sour",
+      "path": "data/cocktails/apple-amaretto-sour/data.json",
+      "sha256": "a81313b5e00d8d6f805778c7bba85d67e8db682225931dceed9280b10eaef0fc",
+      "bytes": 2710
+    },
+    {
+      "id": "apple-kickin",
+      "path": "data/cocktails/apple-kickin/data.json",
+      "sha256": "b8fc4ccafa16c8f5f3a631746148db45d003670339a540b0dd8420b9668648e1",
+      "bytes": 2643
+    },
+    {
+      "id": "apples-all-the-way-down",
+      "path": "data/cocktails/apples-all-the-way-down/data.json",
+      "sha256": "97d64925eebb3a2c354b1edd34f35da525d2e4e84c81478e3a06be13b3d5aa9a",
+      "bytes": 2689
+    },
+    {
+      "id": "apricot-and-coffee-highball",
+      "path": "data/cocktails/apricot-and-coffee-highball/data.json",
+      "sha256": "62e05bfa7e05d9573a195613e1df826ebea76c49e8c914b27969aa77384849ad",
+      "bytes": 3125
+    },
+    {
+      "id": "archangel",
+      "path": "data/cocktails/archangel/data.json",
+      "sha256": "dd5eb1cbf3181d6c572c17c40ebbcbf9cccd855302503cdbe3a7fd4719642570",
+      "bytes": 1953
+    },
+    {
+      "id": "army-navy",
+      "path": "data/cocktails/army-navy/data.json",
+      "sha256": "52421fec0dd2b0f7b71c96dfba58b52baf6055179cb68b80bb4b602e559f68e1",
+      "bytes": 2239
+    },
+    {
+      "id": "arrowhead-limited",
+      "path": "data/cocktails/arrowhead-limited/data.json",
+      "sha256": "32a307dd7e080c4ad3ee96e2de3efc4bc63e2fd7a1fd5268e15eaaab0fb93506",
+      "bytes": 2247
+    },
+    {
+      "id": "arsenic-and-old-lace",
+      "path": "data/cocktails/arsenic-and-old-lace/data.json",
+      "sha256": "7646c02eea58d13b2ac05e3f0f5672e6356f9faad6a86b9dd10d128f32bd8ea2",
+      "bytes": 2546
+    },
+    {
+      "id": "art-of-choke",
+      "path": "data/cocktails/art-of-choke/data.json",
+      "sha256": "6148dba09cb632c1af55ad79f24174cc115b56847f74e97a55f74b87d63f6f15",
+      "bytes": 3070
+    },
+    {
+      "id": "artichoke-hold",
+      "path": "data/cocktails/artichoke-hold/data.json",
+      "sha256": "6fef5549dcb2f9bfbd0dc76fa931ccee1300adeb85b61a2b98fcfeaa2635acf7",
+      "bytes": 2828
+    },
+    {
+      "id": "as-kingston-negroni",
+      "path": "data/cocktails/as-kingston-negroni/data.json",
+      "sha256": "8d0859d1858f84eddbbfd38d15433d4c4426c61556ffd43f1409f14e55d7cd72",
+      "bytes": 2843
+    },
+    {
+      "id": "aspen-crud",
+      "path": "data/cocktails/aspen-crud/data.json",
+      "sha256": "ca9cc56d39a96b7ce87f9eb7683da8774f1a0b45067fb1340d71527fe2ced260",
+      "bytes": 1684
+    },
+    {
+      "id": "assunta",
+      "path": "data/cocktails/assunta/data.json",
+      "sha256": "c9b92d37b6e826107d501837f27a099cc546e9eb895c3f59409695706342de68",
+      "bytes": 2347
+    },
+    {
+      "id": "autoretrato",
+      "path": "data/cocktails/autoretrato/data.json",
+      "sha256": "9f1c0354d0728273ae824dee9ca2e55f6bff9deeec3dfd240b0fb5963400e349",
+      "bytes": 3538
+    },
+    {
+      "id": "avenue-scotch",
+      "path": "data/cocktails/avenue-scotch/data.json",
+      "sha256": "2a4829c9c194d7103ea0c239f3d5e94c6af466b72a86ef9f14b6e45621631e8f",
+      "bytes": 2249
+    },
+    {
+      "id": "aviation",
+      "path": "data/cocktails/aviation/data.json",
+      "sha256": "25edaddb3abc3b1c95e315652f0707ee73215c57000491be3426a15b47f9cf91",
+      "bytes": 3533
+    },
+    {
+      "id": "b-52",
+      "path": "data/cocktails/b-52/data.json",
+      "sha256": "30be1045073ac1251909b9f25307149e9f422f756e967830fd77a1cb1417b1c4",
+      "bytes": 2128
+    },
+    {
+      "id": "baby-turtle",
+      "path": "data/cocktails/baby-turtle/data.json",
+      "sha256": "70b6f7ca4d18a7899c60f9c099c4031be3116f95b24611fdcaa27dcb830e608d",
+      "bytes": 3338
+    },
+    {
+      "id": "bacardi-cocktail",
+      "path": "data/cocktails/bacardi-cocktail/data.json",
+      "sha256": "7f0cd6b3e110718755a0786cfb7f6d1a0d681ab335a25a843a64400c359dd4f8",
+      "bytes": 2440
+    },
+    {
+      "id": "backlash-tonic",
+      "path": "data/cocktails/backlash-tonic/data.json",
+      "sha256": "c1b965c4e693a7e9f988f50eebacde02ee21b5203ff5088f2f8de45c445c504d",
+      "bytes": 2555
+    },
+    {
+      "id": "backsliding-presbyterian",
+      "path": "data/cocktails/backsliding-presbyterian/data.json",
+      "sha256": "b71ff2f42533ee9331abbd06679bbf59c21d9cf31dbbe8dc19f6dd3efc348d84",
+      "bytes": 2613
+    },
+    {
+      "id": "bahama-mama",
+      "path": "data/cocktails/bahama-mama/data.json",
+      "sha256": "2310eaea1c274436da86602c477cfcd3635add92d3ab8e516cb6ea2b7ac4b954",
+      "bytes": 3755
+    },
+    {
+      "id": "baltimore-southside",
+      "path": "data/cocktails/baltimore-southside/data.json",
+      "sha256": "99c600eade944c5a42182db9cb818b88042bcf26b80202d769c49acce8f2da60",
+      "bytes": 2709
+    },
+    {
+      "id": "banana-daiquiri",
+      "path": "data/cocktails/banana-daiquiri/data.json",
+      "sha256": "ef792b2ef8ba89051d514315e0f1a6506c78c5525564104b949d3c016a7dc5c7",
+      "bytes": 4089
+    },
+    {
+      "id": "barbacoa",
+      "path": "data/cocktails/barbacoa/data.json",
+      "sha256": "dbce832d3c64af954f07375799c654665a2deacc03c5c1c216ede60b98fcdcca",
+      "bytes": 2929
+    },
+    {
+      "id": "barmuda-triangle",
+      "path": "data/cocktails/barmuda-triangle/data.json",
+      "sha256": "0190300d8da7ff2399e698e276d408769e3bd941c69472a6a01ad8aff11b8d27",
+      "bytes": 2723
+    },
+    {
+      "id": "barracuda",
+      "path": "data/cocktails/barracuda/data.json",
+      "sha256": "cb0a1e259e01974d9963fd241218736dfc8ed6798fe5515433952b0835def3ed",
+      "bytes": 2694
+    },
+    {
+      "id": "basil-julep",
+      "path": "data/cocktails/basil-julep/data.json",
+      "sha256": "cc37be5ad9703f0d5f5e8c9deaaa19977174e8ce67569f877f48d078bb85c393",
+      "bytes": 1987
+    },
+    {
+      "id": "batanga",
+      "path": "data/cocktails/batanga/data.json",
+      "sha256": "c5f229ab846501c58fd2c1079843f39c0f6c2194b21138bacf9280d5576ede3d",
+      "bytes": 2216
+    },
+    {
+      "id": "bay-ridge",
+      "path": "data/cocktails/bay-ridge/data.json",
+      "sha256": "80c66cdd02bf4fd8975582ec7fcc381938667c8c6307d6935e54b7ec99a8afbb",
+      "bytes": 3287
+    },
+    {
+      "id": "bebbo",
+      "path": "data/cocktails/bebbo/data.json",
+      "sha256": "d7496912ba830884e2266438d109b2449403df04bc740f3a8ac33454dea71e15",
+      "bytes": 2286
+    },
+    {
+      "id": "bee-sting",
+      "path": "data/cocktails/bee-sting/data.json",
+      "sha256": "ac8c67559aff92dfabe844324071bd7f08950631607df34519e070fb05137e41",
+      "bytes": 2671
+    },
+    {
+      "id": "bees-knees",
+      "path": "data/cocktails/bees-knees/data.json",
+      "sha256": "02f81782391cd2375067a66058a2e5c00b661d4517992fcd433948d8f73b82ac",
+      "bytes": 2927
+    },
+    {
+      "id": "beet-it",
+      "path": "data/cocktails/beet-it/data.json",
+      "sha256": "5d4b95bb8fffca8baf5d9adcdbb1507a290885fd0c67832e95db0b41b83a1013",
+      "bytes": 2898
+    },
+    {
+      "id": "belleville",
+      "path": "data/cocktails/belleville/data.json",
+      "sha256": "653e1f4c912eafb59227ef48d63181dffabca831961a3bfc2bbff104adc2124f",
+      "bytes": 3355
+    },
+    {
+      "id": "bellini",
+      "path": "data/cocktails/bellini/data.json",
+      "sha256": "0dd4fcfed288098cc38758439be887a560b9aa8f699d512d7c8f603ccc7f3fbd",
+      "bytes": 2115
+    },
+    {
+      "id": "bentons-old-fashioned",
+      "path": "data/cocktails/bentons-old-fashioned/data.json",
+      "sha256": "40c1990a9487207564eea61131a0490c9b555a9c251ddb48983e9072637bb785",
+      "bytes": 2165
+    },
+    {
+      "id": "beton",
+      "path": "data/cocktails/beton/data.json",
+      "sha256": "324449453eafab4be097bf28530270f6dad7990a7f62cefe90c25708e6e76bda",
+      "bytes": 1512
+    },
+    {
+      "id": "betty-carter",
+      "path": "data/cocktails/betty-carter/data.json",
+      "sha256": "fd3aaf025992eb410c7ee0af05a227d115c85441c5935155a73508d4d4346309",
+      "bytes": 3475
+    },
+    {
+      "id": "betty-is-back",
+      "path": "data/cocktails/betty-is-back/data.json",
+      "sha256": "8bd6d8493b349c948642997228f74b0c62d20a3e0c25b4f4ec8b46842f1d5bac",
+      "bytes": 2703
+    },
+    {
+      "id": "between-the-sheets",
+      "path": "data/cocktails/between-the-sheets/data.json",
+      "sha256": "61d384dba2bde9a3f9906735a8c79171f685fee8cb06f1837738dac14556e1f1",
+      "bytes": 2425
+    },
+    {
+      "id": "beuser-angus-special",
+      "path": "data/cocktails/beuser-angus-special/data.json",
+      "sha256": "fd06e59440f3b1ac9f85ca041355d0b499a6993e486e413054171754f9feb0b2",
+      "bytes": 3147
+    },
+    {
+      "id": "bijou",
+      "path": "data/cocktails/bijou/data.json",
+      "sha256": "e1adb9163fa25a39b0b897642e93fd8af5832aa0c43f53869b47aad996cd7304",
+      "bytes": 2253
+    },
+    {
+      "id": "bijou-blanc",
+      "path": "data/cocktails/bijou-blanc/data.json",
+      "sha256": "89f6e54a045366f3c467f77970311b4dcc3798ccc9a515175a47e84bbe2434c1",
+      "bytes": 2692
+    },
+    {
+      "id": "bitter-giuseppe",
+      "path": "data/cocktails/bitter-giuseppe/data.json",
+      "sha256": "b51ef30937c3a274ed08d8f46be801701044eb8cf800b7e2668f3bfabbcfc3d8",
+      "bytes": 2406
+    },
+    {
+      "id": "bitter-mai-tai",
+      "path": "data/cocktails/bitter-mai-tai/data.json",
+      "sha256": "a85afdb497948762065229b860a4c509b76d427407b72a21ca6ad4abcb46984e",
+      "bytes": 3413
+    },
+    {
+      "id": "black-manhattan",
+      "path": "data/cocktails/black-manhattan/data.json",
+      "sha256": "16e7b2927bbb30340a9bf577921c242dd547904af3364562c3eecfc57e975c61",
+      "bytes": 2298
+    },
+    {
+      "id": "black-russian",
+      "path": "data/cocktails/black-russian/data.json",
+      "sha256": "a8bb0cffb86f1d4e8764e195151881acb5f64a8044b29c5ae91a64bfed160464",
+      "bytes": 1560
+    },
+    {
+      "id": "black-walnut-old-fashioned",
+      "path": "data/cocktails/black-walnut-old-fashioned/data.json",
+      "sha256": "3b49a694b99b7012a802e0b38b8f502c60a5d21b324a3128b82339c5a52d6618",
+      "bytes": 2100
+    },
+    {
+      "id": "blackberry-whiskey-smash",
+      "path": "data/cocktails/blackberry-whiskey-smash/data.json",
+      "sha256": "d185f4c1ef6556a6a10846c4605825aba3f6711b3b83ae60543a393e09e2fb2d",
+      "bytes": 2656
+    },
+    {
+      "id": "blackthorn",
+      "path": "data/cocktails/blackthorn/data.json",
+      "sha256": "0406f3b002565fe1551a077a2a572e47217e24d6af3fab6d41417634abb9fd41",
+      "bytes": 2603
+    },
+    {
+      "id": "blinker",
+      "path": "data/cocktails/blinker/data.json",
+      "sha256": "adffa83db9986d53a9d3967152cd4fa8b02a741114bb0ceb085b281b1f6938bb",
+      "bytes": 2060
+    },
+    {
+      "id": "blood-and-sand",
+      "path": "data/cocktails/blood-and-sand/data.json",
+      "sha256": "7cbfe1b8b2d46c62f61a0db8c1c70295d384cbbd5f37b4e026982fa8c2061afe",
+      "bytes": 2167
+    },
+    {
+      "id": "blood-moon",
+      "path": "data/cocktails/blood-moon/data.json",
+      "sha256": "b5a652c5e6fa12f0fdfdaabbcf2dd400916a0f0f619087ee3c11947ce23e0e3c",
+      "bytes": 2160
+    },
+    {
+      "id": "bloody-caesar",
+      "path": "data/cocktails/bloody-caesar/data.json",
+      "sha256": "3f43c95be44d7af6ff40806b6c410ae268c2741415787e28648ce91d85754521",
+      "bytes": 2766
+    },
+    {
+      "id": "bloody-mary",
+      "path": "data/cocktails/bloody-mary/data.json",
+      "sha256": "bc8a1071f0e68953756d42afef5c9325cc491b1036dae8e7ee2dbbdc7065af59",
+      "bytes": 3105
+    },
+    {
+      "id": "bloom-no-5",
+      "path": "data/cocktails/bloom-no-5/data.json",
+      "sha256": "881ec0e5ccca89630f8f606f36cd5874c083f3d1945eaf77c81c6de5cb8fadc9",
+      "bytes": 2957
+    },
+    {
+      "id": "blue-hawaii",
+      "path": "data/cocktails/blue-hawaii/data.json",
+      "sha256": "c8d1b663fbcbed901dd8a0e2b29021587a3b51287edf48be207b035fa947eb2f",
+      "bytes": 3901
+    },
+    {
+      "id": "bluebird-eggnog",
+      "path": "data/cocktails/bluebird-eggnog/data.json",
+      "sha256": "72d1fa14fe2fb5011b971a1c86fcdb6ac900c3242bc5e4f7151dd7d86e04585f",
+      "bytes": 3470
+    },
+    {
+      "id": "bon-soiree",
+      "path": "data/cocktails/bon-soiree/data.json",
+      "sha256": "264dffd4f7b876c1fff45e0cf7f124f3e78c2de69c09b646880ba11f819aebf5",
+      "bytes": 3028
+    },
+    {
+      "id": "boothby",
+      "path": "data/cocktails/boothby/data.json",
+      "sha256": "265ccffa3c8126e3c9903552aad18606ee2ad2956cad5f620a95e275b17aeaa2",
+      "bytes": 3851
+    },
+    {
+      "id": "boozy-shakerato",
+      "path": "data/cocktails/boozy-shakerato/data.json",
+      "sha256": "59dbc7316c3a0ad6415bbec9109100def78388e4bfe64b420779b095883ec635",
+      "bytes": 2123
+    },
+    {
+      "id": "boulevardier",
+      "path": "data/cocktails/boulevardier/data.json",
+      "sha256": "e7e87c34a94c4d2725023f2878c0cb825f4a823565101409bea23fafab46893d",
+      "bytes": 2430
+    },
+    {
+      "id": "bourbon-lift",
+      "path": "data/cocktails/bourbon-lift/data.json",
+      "sha256": "f5e1fc53493470a1562372a7d61e70df0bb196c7a57a5823626e9fb6bcacea64",
+      "bytes": 2834
+    },
+    {
+      "id": "bourbon-renewal",
+      "path": "data/cocktails/bourbon-renewal/data.json",
+      "sha256": "dcdaec665b31ba6314e28955871710afa252e89b3f63b3239cc3bdceb5a9773e",
+      "bytes": 2952
+    },
+    {
+      "id": "bourbon-stone-sour",
+      "path": "data/cocktails/bourbon-stone-sour/data.json",
+      "sha256": "f21fba8e65e2d88d20bb3084aa252dca393760d48701f6972c0bdbf35c1d7fbf",
+      "bytes": 2440
+    },
+    {
+      "id": "brainstorm",
+      "path": "data/cocktails/brainstorm/data.json",
+      "sha256": "89e434498d87b8da26440ef6df2bb234e21716f10b0b1f98755adde9face372f",
+      "bytes": 2345
+    },
+    {
+      "id": "bramble",
+      "path": "data/cocktails/bramble/data.json",
+      "sha256": "a77e636b98af5c339bf21acf3d4638d47c1c39bd76ff6605b08d7bfdf9637e2a",
+      "bytes": 2917
+    },
+    {
+      "id": "brandy-crusta",
+      "path": "data/cocktails/brandy-crusta/data.json",
+      "sha256": "d895b0e2af4ff454f94894f825b9dfb7bd1dbc164c0329d587aa7458825d0d1c",
+      "bytes": 3252
+    },
+    {
+      "id": "brasserie-special",
+      "path": "data/cocktails/brasserie-special/data.json",
+      "sha256": "1bbbb39aed2e160669f9bf5f21c32c8a44aa22320f58bdb32dac517f1361aaab",
+      "bytes": 2372
+    },
+    {
+      "id": "breakfast-margarita",
+      "path": "data/cocktails/breakfast-margarita/data.json",
+      "sha256": "dc7a0356eb365652815d4348b588ea5487bab35ef047377a32bbdf8260bdcc28",
+      "bytes": 3076
+    },
+    {
+      "id": "breakfast-martini",
+      "path": "data/cocktails/breakfast-martini/data.json",
+      "sha256": "3cdcdfb385b27c4520a5046eb2b136676e37c4f1bf14941f5ae4b5029ee1761b",
+      "bytes": 2382
+    },
+    {
+      "id": "bright-orchard-gin-and-tonic",
+      "path": "data/cocktails/bright-orchard-gin-and-tonic/data.json",
+      "sha256": "b9d133b117a9ef67a0b8d6203c9baa835dd4908e71bd78a330905a52358acff0",
+      "bytes": 2612
+    },
+    {
+      "id": "brown-bomber",
+      "path": "data/cocktails/brown-bomber/data.json",
+      "sha256": "2d027858a2e34fbf2dc4b5ea2d84052ee99df2df4c41a2cfcc014c861466deec",
+      "bytes": 1750
+    },
+    {
+      "id": "brown-derby",
+      "path": "data/cocktails/brown-derby/data.json",
+      "sha256": "c939b15173f4ebd05651b9a41c13e12f4a593a24f0663d794ab86d8b2f669a4d",
+      "bytes": 2264
+    },
+    {
+      "id": "bywater",
+      "path": "data/cocktails/bywater/data.json",
+      "sha256": "7e1908f91894b7e7f7e3ec1284992594a6fffd62debd625a700a8beacf9c5d9f",
+      "bytes": 2969
+    },
+    {
+      "id": "cable-car",
+      "path": "data/cocktails/cable-car/data.json",
+      "sha256": "dc737fe7459ea7a28027c7661870db2a8d37eeff45a39a34a2f9eecac5f40fd4",
+      "bytes": 3811
+    },
+    {
+      "id": "cafe-ireland",
+      "path": "data/cocktails/cafe-ireland/data.json",
+      "sha256": "5b99b8b45717e1946b92401ac8f91f970b7a2f3adf93247113f94caf37ded4f1",
+      "bytes": 2149
+    },
+    {
+      "id": "cafe-martini",
+      "path": "data/cocktails/cafe-martini/data.json",
+      "sha256": "e8ad813877c8e83548d9ca4c2967787762d015b9d4aedb310bf5618063f33013",
+      "bytes": 1978
+    },
+    {
+      "id": "cafe-racer",
+      "path": "data/cocktails/cafe-racer/data.json",
+      "sha256": "e2153ccf43cea09acf65f33687e8fef573b25fee72abcc1fbb8ae5b2ce9cfc20",
+      "bytes": 2289
+    },
+    {
+      "id": "caipirinha",
+      "path": "data/cocktails/caipirinha/data.json",
+      "sha256": "f2100ed42b1e21660417427ca183ebf15ede6e4c2e7dba3e9d6b50f5bbcc53e5",
+      "bytes": 2994
+    },
+    {
+      "id": "calvados-tonic",
+      "path": "data/cocktails/calvados-tonic/data.json",
+      "sha256": "eeade04ea80b37fb80b6957951bfc4234e2bcbf4d416b27efb54dc0922b82801",
+      "bytes": 1788
+    },
+    {
+      "id": "calypso",
+      "path": "data/cocktails/calypso/data.json",
+      "sha256": "31b2762f0594d6455c918d810d8b699188c6da974b6ed676a754a050ad97cba4",
+      "bytes": 3170
+    },
+    {
+      "id": "cameron-park-spritz",
+      "path": "data/cocktails/cameron-park-spritz/data.json",
+      "sha256": "c959e4b1a61cf2d836e591d40206026b32fa9cd2b51148ddf4ae0a57d365a198",
+      "bytes": 2904
+    },
+    {
+      "id": "campari-spritz",
+      "path": "data/cocktails/campari-spritz/data.json",
+      "sha256": "d9ad91bd9b0f0c56651047b5aebaf96e288b7f7c12bf8912fe2f6d98e217c196",
+      "bytes": 1636
+    },
+    {
+      "id": "campbeltown",
+      "path": "data/cocktails/campbeltown/data.json",
+      "sha256": "1c90d355df17ff4de551abff5c420be9ca69339ed2e6c6e9cc8bd5f5aa97780c",
+      "bytes": 1986
+    },
+    {
+      "id": "canchanchara",
+      "path": "data/cocktails/canchanchara/data.json",
+      "sha256": "a679ae6f5d7195c1d5eab359f1bc6e34a0ff9ffc30a740c712c695a43ec9bb45",
+      "bytes": 2411
+    },
+    {
+      "id": "cane-tables-royal-hawaiian",
+      "path": "data/cocktails/cane-tables-royal-hawaiian/data.json",
+      "sha256": "447fffbf2e0bfd05430a4d7f9a0fb29b9b7689bfeb2716bdb7e0657daf6a3175",
+      "bytes": 2425
+    },
+    {
+      "id": "cantaritos",
+      "path": "data/cocktails/cantaritos/data.json",
+      "sha256": "1ebc27e25546bdbf230bcc08e74670019186a1ae40498843fbf3df7b80d70093",
+      "bytes": 3013
+    },
+    {
+      "id": "carajillo",
+      "path": "data/cocktails/carajillo/data.json",
+      "sha256": "7391408ad0c4cfa5b21d1dfb7af79fa2abb3a8aa9d4d666e58910c2d1eda8c70",
+      "bytes": 3487
+    },
+    {
+      "id": "cardinale",
+      "path": "data/cocktails/cardinale/data.json",
+      "sha256": "18cf6ed6667fb89e83ceb689f082a29f611a637e7a5b65d13c89eeaf61c0dfc9",
+      "bytes": 2170
+    },
+    {
+      "id": "caribbean-ember",
+      "path": "data/cocktails/caribbean-ember/data.json",
+      "sha256": "3c544513f2368dfe3d6c86c707ca6aef8a768bcc12219179fd4741b51e7b0d5c",
+      "bytes": 3568
+    },
+    {
+      "id": "caribbean-ember-2",
+      "path": "data/cocktails/caribbean-ember-2/data.json",
+      "sha256": "6213ddc60c4bc9135a8ba33971709735ec4e4c23ed576880ea14ac2d9ed7342f",
+      "bytes": 4429
+    },
+    {
+      "id": "caribbean-parachute",
+      "path": "data/cocktails/caribbean-parachute/data.json",
+      "sha256": "2b7bab174b740d7902d1652d0b4178112f985a8c3d30f650d591e86a8c57e2f0",
+      "bytes": 2858
+    },
+    {
+      "id": "casino",
+      "path": "data/cocktails/casino/data.json",
+      "sha256": "4cf0b19bf6847f57ac7c566f15a53fc5ba77d1b6184251d51e3f290c07cc3e55",
+      "bytes": 2459
+    },
+    {
+      "id": "ce-soir",
+      "path": "data/cocktails/ce-soir/data.json",
+      "sha256": "cf4485ea75059e15275336c285535f3fd772d9db4f195ccd1231c307377a7993",
+      "bytes": 2673
+    },
+    {
+      "id": "celery-gin-sour",
+      "path": "data/cocktails/celery-gin-sour/data.json",
+      "sha256": "6f47f3f4b50576b23181954cf7530f301cc50c62c8532aa0091a3ab16630f435",
+      "bytes": 2111
+    },
+    {
+      "id": "central-park-to-lumphini",
+      "path": "data/cocktails/central-park-to-lumphini/data.json",
+      "sha256": "c084c1e8805f7b30c43d6d64f6836a949c078f9d0609cf41db85c9ae632e45e5",
+      "bytes": 2825
+    },
+    {
+      "id": "champagne-cocktail",
+      "path": "data/cocktails/champagne-cocktail/data.json",
+      "sha256": "9e820f4bda343c80a3b290c1c61c200dc3190ca0eb5346d56242a3cae87a6d41",
+      "bytes": 2725
+    },
+    {
+      "id": "charles-dickens-punch",
+      "path": "data/cocktails/charles-dickens-punch/data.json",
+      "sha256": "b6d0ec9819545353303b44fa3fa71959b1bc1ecbf4f8ab70a89b413b44814def",
+      "bytes": 4973
+    },
+    {
+      "id": "chauncey",
+      "path": "data/cocktails/chauncey/data.json",
+      "sha256": "88c9b7d1b889181f11c4ee909fbefa38a481ba5fef57743505e1c807cc17c0f6",
+      "bytes": 2547
+    },
+    {
+      "id": "chocolate-martica",
+      "path": "data/cocktails/chocolate-martica/data.json",
+      "sha256": "713412c6f76fb5f54d3d1f55858969038fa0cf5b3debabe202168738229b2344",
+      "bytes": 2524
+    },
+    {
+      "id": "chrysanthemum",
+      "path": "data/cocktails/chrysanthemum/data.json",
+      "sha256": "6c17c49ac7f5f853ec0abc6054136260013cd456374e23269690da28db2c4b21",
+      "bytes": 3621
+    },
+    {
+      "id": "ciderhouse-mule",
+      "path": "data/cocktails/ciderhouse-mule/data.json",
+      "sha256": "c09d105e1a805eb32f75c49f4eb6a1076f3580c6ea204a72e00459fe52ade008",
+      "bytes": 2743
+    },
+    {
+      "id": "cinder-bloom",
+      "path": "data/cocktails/cinder-bloom/data.json",
+      "sha256": "ab843c28797ea03f94018252f485cc9583db13efae46e93dda619012c3f04adc",
+      "bytes": 3741
+    },
+    {
+      "id": "clarified-new-york-sour",
+      "path": "data/cocktails/clarified-new-york-sour/data.json",
+      "sha256": "c676ef80c527b7bf7fbdc887368ce1a58f83e1719959fc3a16d8e024ca017826",
+      "bytes": 3021
+    },
+    {
+      "id": "clover-club",
+      "path": "data/cocktails/clover-club/data.json",
+      "sha256": "ecc8b423e4e5d3f7d7ac5da8097e26b3cd0800ceb7a72741f3edbb880d8fb2ec",
+      "bytes": 3024
+    },
+    {
+      "id": "clover-leaf",
+      "path": "data/cocktails/clover-leaf/data.json",
+      "sha256": "825bd1e44e31d31a144987a3a2029c363015c362a8b6e1fe72a9a4e1523c0c7a",
+      "bytes": 2818
+    },
+    {
+      "id": "coffee-cigarettes",
+      "path": "data/cocktails/coffee-cigarettes/data.json",
+      "sha256": "1d1d7df2438ee0e3cb0a59ecc6bab9f5ba8a97099a700752eee3c147d1f53859",
+      "bytes": 2469
+    },
+    {
+      "id": "coffee-cocktail",
+      "path": "data/cocktails/coffee-cocktail/data.json",
+      "sha256": "ed0bce2f49b82b9694f88ed1a2771e77522b923390a5be04a0b7de1d0bab98b0",
+      "bytes": 3343
+    },
+    {
+      "id": "coffee-enzoni",
+      "path": "data/cocktails/coffee-enzoni/data.json",
+      "sha256": "779940cd19c9be502371f2442e5694534fe662d1cc118d13fc5377ab1a55baf6",
+      "bytes": 3853
+    },
+    {
+      "id": "coffee-julep",
+      "path": "data/cocktails/coffee-julep/data.json",
+      "sha256": "b1f8cdbb25e5302651d67d20cf37726bf8c0a57f86e537d1d4d797267596c154",
+      "bytes": 2366
+    },
+    {
+      "id": "coffee-negroni",
+      "path": "data/cocktails/coffee-negroni/data.json",
+      "sha256": "23058c9596668bb59675c04a2013d618d3cd7c1b64aee7f08f65cc036698d31e",
+      "bytes": 1936
+    },
+    {
+      "id": "comte-de-sureau",
+      "path": "data/cocktails/comte-de-sureau/data.json",
+      "sha256": "ee40d2ccd1c75ef1ce1e4afff6a317dcf399f24eeb3e6a92061ae3b3727afdae",
+      "bytes": 1900
+    },
+    {
+      "id": "conference-cocktail",
+      "path": "data/cocktails/conference-cocktail/data.json",
+      "sha256": "a6a3d57657baf7d27cc4c0ff701dd2709e02324c6ce07748b5693063c60220a7",
+      "bytes": 3254
+    },
+    {
+      "id": "coronado-cocktail",
+      "path": "data/cocktails/coronado-cocktail/data.json",
+      "sha256": "2f01ebb2fcafa5b92ed11825aee2d5cd649c019a42e9c7dc3066f4886d7266e7",
+      "bytes": 2760
+    },
+    {
+      "id": "corpse-reviver-2",
+      "path": "data/cocktails/corpse-reviver-2/data.json",
+      "sha256": "0ab491896f0ae350dfef62e8d33c6d1400fdfb50c79ca64686b5ce27fb5635b0",
+      "bytes": 3267
+    },
+    {
+      "id": "cosa-nostra-2",
+      "path": "data/cocktails/cosa-nostra-2/data.json",
+      "sha256": "97bf8d9b0830614db73d7faee3954c280ac824bcd70c8b2d5b67d4fbfde2d8bb",
+      "bytes": 2526
+    },
+    {
+      "id": "cosmopolitan",
+      "path": "data/cocktails/cosmopolitan/data.json",
+      "sha256": "1cd5ee4f0679dba2aad1fea60780d8a94d6f1ff3b5d38e4e0926a07238350cad",
+      "bytes": 2872
+    },
+    {
+      "id": "countermand",
+      "path": "data/cocktails/countermand/data.json",
+      "sha256": "aa7583beb000e03f2e9059344462bf7be44b9a78240f560fb106c0e76dcd30dc",
+      "bytes": 2482
+    },
+    {
+      "id": "creole-gimlet",
+      "path": "data/cocktails/creole-gimlet/data.json",
+      "sha256": "fd691b3d5efa78ed8f75d350d5c4dac4742562066dd35c3dae7812f45856bb2e",
+      "bytes": 2341
+    },
+    {
+      "id": "cuba-libre",
+      "path": "data/cocktails/cuba-libre/data.json",
+      "sha256": "befae2c162cfce02883794bddf7bbcc68ffc3b21bc1f3c5053b93faaec0ae77e",
+      "bytes": 2400
+    },
+    {
+      "id": "cucumber-gimlet",
+      "path": "data/cocktails/cucumber-gimlet/data.json",
+      "sha256": "f2e2d2b776bca912ec1fa0ea29657ccb05a4761b1d1eef0165e77d988da28071",
+      "bytes": 2064
+    },
+    {
+      "id": "cynar-flip",
+      "path": "data/cocktails/cynar-flip/data.json",
+      "sha256": "808b73c49c16c1d72b9d66285ef54cbe03ea377e8041a2944003e2d7882f6c2c",
+      "bytes": 1918
+    },
+    {
+      "id": "daiquiri",
+      "path": "data/cocktails/daiquiri/data.json",
+      "sha256": "75519c575d8597e63e4b46d1a85d61582e796744f99b8b2364a31d9583b75570",
+      "bytes": 2524
+    },
+    {
+      "id": "daiquiri-4",
+      "path": "data/cocktails/daiquiri-4/data.json",
+      "sha256": "d280e10a4ddaeb95b550d34c03de9e6e434e5848fc2718bcbc5c518d9ce4b293",
+      "bytes": 2276
+    },
+    {
+      "id": "dantes-garibaldi",
+      "path": "data/cocktails/dantes-garibaldi/data.json",
+      "sha256": "38597068778049ee29e76c1d695b8a92062896f7fa6c20580c10e53631929e14",
+      "bytes": 1822
+    },
+    {
+      "id": "dark-n-stormy",
+      "path": "data/cocktails/dark-n-stormy/data.json",
+      "sha256": "ffb96ba285a9ca5396f1fe1840764799e1a17bce574cfaf9c9ead1e34605f4a7",
+      "bytes": 2224
+    },
+    {
+      "id": "day-o-fashioned",
+      "path": "data/cocktails/day-o-fashioned/data.json",
+      "sha256": "20ad2dce7cecb178b3007d3d299f9d7b005f3e58f0e9ff65eec9fc5255f9b2d4",
+      "bytes": 2803
+    },
+    {
+      "id": "dead-mans-handle",
+      "path": "data/cocktails/dead-mans-handle/data.json",
+      "sha256": "470ac8d148d747d86bb2be49e9741a84683f26bdd6ab83cacdd506617f3a16c9",
+      "bytes": 2111
+    },
+    {
+      "id": "dead-sea-mule",
+      "path": "data/cocktails/dead-sea-mule/data.json",
+      "sha256": "868737a33f278c198e26d187cb1aa6c7bb583320fedf1b239acfdbc2b7df7f9b",
+      "bytes": 2287
+    },
+    {
+      "id": "death-flip",
+      "path": "data/cocktails/death-flip/data.json",
+      "sha256": "9e3d1a64ecc163c7169bdc033e263248489a1d5afb883fe0d8900349179826c6",
+      "bytes": 3041
+    },
+    {
+      "id": "debbie-dont",
+      "path": "data/cocktails/debbie-dont/data.json",
+      "sha256": "d683ad406690d4e6348688f6f77257a71aed07c550c9ca89e385928da9632390",
+      "bytes": 2347
+    },
+    {
+      "id": "deep-south",
+      "path": "data/cocktails/deep-south/data.json",
+      "sha256": "5dfc931f363b329ced4588046808766e420c00a1e7e8f53a29b489c9bc96f91f",
+      "bytes": 2152
+    },
+    {
+      "id": "delta-t",
+      "path": "data/cocktails/delta-t/data.json",
+      "sha256": "89ff7b08a91a5b45fc19c49a51954ccef3e0816262ac5e79e5ad5650a5d9cae4",
+      "bytes": 3238
+    },
+    {
+      "id": "diki-diki",
+      "path": "data/cocktails/diki-diki/data.json",
+      "sha256": "4d1217341c18b66c6576eb6a3d4a189d79e416bce3ebbea86149b0cba7fff3aa",
+      "bytes": 1817
+    },
+    {
+      "id": "dirty-martini",
+      "path": "data/cocktails/dirty-martini/data.json",
+      "sha256": "3aa041be76e304c0e12708e7551958fcc2fa107090ef2bdbefe37a4550ed0898",
+      "bytes": 2075
+    },
+    {
+      "id": "disgruntled-mai-tai",
+      "path": "data/cocktails/disgruntled-mai-tai/data.json",
+      "sha256": "318d222d772910a4dccc818a58d017277ee1c76fba096e3f4b7ea148a1620b2c",
+      "bytes": 3308
+    },
+    {
+      "id": "division-bell",
+      "path": "data/cocktails/division-bell/data.json",
+      "sha256": "099bff0334faa2820027f4e5daef18b263bb97b48cb6980206372f1b2c9fee51",
+      "bytes": 2196
+    },
+    {
+      "id": "don-lockwood",
+      "path": "data/cocktails/don-lockwood/data.json",
+      "sha256": "42d10fbf1ccbc314eb0e048a24519651c01e600fcfe841d8b359d1cf5b30c0eb",
+      "bytes": 2851
+    },
+    {
+      "id": "dons-mai-tai",
+      "path": "data/cocktails/dons-mai-tai/data.json",
+      "sha256": "c258deb2aca3b15c2f2804a2abaf6f0bb440fc0b9c00d977ea3362294579b8cc",
+      "bytes": 3798
+    },
+    {
+      "id": "doubleplusgood",
+      "path": "data/cocktails/doubleplusgood/data.json",
+      "sha256": "9fcba2ab7489fa034d06cc86e4ec2236f43a517f52e965654dabfc5bbe1169ee",
+      "bytes": 3125
+    },
+    {
+      "id": "dreamy-dorini-smoking-martini",
+      "path": "data/cocktails/dreamy-dorini-smoking-martini/data.json",
+      "sha256": "fdf6c386dea85300ee9312e35b264bf18ec7fa53f0c99a7fdbaf4da36690e667",
+      "bytes": 2059
+    },
+    {
+      "id": "drifter",
+      "path": "data/cocktails/drifter/data.json",
+      "sha256": "36e7c45518477aaa5db435f3bffc12e879cab85210ce858a1f85daf0e22571e7",
+      "bytes": 2556
+    },
+    {
+      "id": "drunk-uncle",
+      "path": "data/cocktails/drunk-uncle/data.json",
+      "sha256": "4bf0a0aec55667f311aeabf3e9feb46b0b449eb5edab29f7cd791b93353accf6",
+      "bytes": 3067
+    },
+    {
+      "id": "e-tonico",
+      "path": "data/cocktails/e-tonico/data.json",
+      "sha256": "040801e8ba888bca8d6ce8c68c0c338a437f8bd51f2b93b7b5aeb074b1e57468",
+      "bytes": 2979
+    },
+    {
+      "id": "eastside",
+      "path": "data/cocktails/eastside/data.json",
+      "sha256": "abcb4a5d1ac9e81aaa7170d188b56617b5bbcdf3c02623cb1ffcb3b7d3582351",
+      "bytes": 2765
+    },
+    {
+      "id": "eel-bars-marianito",
+      "path": "data/cocktails/eel-bars-marianito/data.json",
+      "sha256": "484fc60ab858ef2f9a940d391a7c6948b111d0e52cd948d4e5252ed31c682353",
+      "bytes": 2450
+    },
+    {
+      "id": "eeyores-requiem",
+      "path": "data/cocktails/eeyores-requiem/data.json",
+      "sha256": "8af3b3a2a57a9153b753a3d60b2d09f8c6a476d641470e11bf4bc3dfed242dc3",
+      "bytes": 3037
+    },
+    {
+      "id": "eggnog",
+      "path": "data/cocktails/eggnog/data.json",
+      "sha256": "5f95e6074ef7e63e1f2463a28a1893f1c08a6f41b90114b1389376ce068248a8",
+      "bytes": 3897
+    },
+    {
+      "id": "el-abuelo",
+      "path": "data/cocktails/el-abuelo/data.json",
+      "sha256": "345fe91485848fed742dd1a44301f1a5a129d201369bd3ebb13248fdc2b8674a",
+      "bytes": 3234
+    },
+    {
+      "id": "el-gibson",
+      "path": "data/cocktails/el-gibson/data.json",
+      "sha256": "cd91b8e6785472e7d2b97885a08956a110b6c06bb0fb774c23ded28843e0d119",
+      "bytes": 3192
+    },
+    {
+      "id": "el-pepe",
+      "path": "data/cocktails/el-pepe/data.json",
+      "sha256": "278756d2f34e860045780c5d4b4266b974ed1c06647599d8439bd5a3e92e86fe",
+      "bytes": 3288
+    },
+    {
+      "id": "el-presidente",
+      "path": "data/cocktails/el-presidente/data.json",
+      "sha256": "f3d2115ca20c9dd0cd135374203d5456f583eb8d07f7c081de2676b86df3ba24",
+      "bytes": 2463
+    },
+    {
+      "id": "elder-fashion-gin",
+      "path": "data/cocktails/elder-fashion-gin/data.json",
+      "sha256": "2c356ec0f1b7f47615ca2101cf36d9c09ccae3a00f18d72be686e0e15302b91b",
+      "bytes": 1680
+    },
+    {
+      "id": "electric-current-fizz",
+      "path": "data/cocktails/electric-current-fizz/data.json",
+      "sha256": "62dd09bc2882ab3b86d2fe20474b5f33a89bb095f860b783e3ac3620ed82c0e7",
+      "bytes": 2878
+    },
+    {
+      "id": "employees-onlys-mezcal-margarita",
+      "path": "data/cocktails/employees-onlys-mezcal-margarita/data.json",
+      "sha256": "f2bd18eb49e3c5e64bcd4d675e22045ad25f41aa6d3eb7afafca9dcf43c8fbe8",
+      "bytes": 2679
+    },
+    {
+      "id": "endless-summer",
+      "path": "data/cocktails/endless-summer/data.json",
+      "sha256": "43726f4ccea6b96c260f9c1985e5178911bf7dafa66a837a214c860ad3541435",
+      "bytes": 2434
+    },
+    {
+      "id": "english-garden",
+      "path": "data/cocktails/english-garden/data.json",
+      "sha256": "e0e6d15217bad5ebb6c68ffee60fda8d4b3ebff2f5695cb8903df7a25ee278e1",
+      "bytes": 2345
+    },
+    {
+      "id": "enzo",
+      "path": "data/cocktails/enzo/data.json",
+      "sha256": "5064a9d3ae7f743359478c1fe32d34beb83fcfa7e5d85ddc3ff1c38bcfcf88ae",
+      "bytes": 1954
+    },
+    {
+      "id": "enzoni",
+      "path": "data/cocktails/enzoni/data.json",
+      "sha256": "6b708618e8dbac6b724446a0317902dc3d25dc26ecaf47e099470aee8bc10071",
+      "bytes": 2759
+    },
+    {
+      "id": "eponine-collins",
+      "path": "data/cocktails/eponine-collins/data.json",
+      "sha256": "ce933460708672d11ab73c337fedfdb0d6e5257e469fe559338a6eaddd9b6f44",
+      "bytes": 2936
+    },
+    {
+      "id": "eric-alperins-tuxedo-no-2",
+      "path": "data/cocktails/eric-alperins-tuxedo-no-2/data.json",
+      "sha256": "0f1c50150d534afb7ccf3227c5a13a9e821a3d3e92d452bc73ef14f5979bd510",
+      "bytes": 2421
+    },
+    {
+      "id": "espresso-martini",
+      "path": "data/cocktails/espresso-martini/data.json",
+      "sha256": "9a4533a372d39aa638629b4ff8da0eb34ffe65edf6ca9ba7e9fc805c58d8fd51",
+      "bytes": 2267
+    },
+    {
+      "id": "fairy-sugar-momma",
+      "path": "data/cocktails/fairy-sugar-momma/data.json",
+      "sha256": "c0b754ea1b23c0cef152f2694d835a32006e6e3d78b2b1667ae5c9d2d2301d89",
+      "bytes": 2675
+    },
+    {
+      "id": "fancy-free",
+      "path": "data/cocktails/fancy-free/data.json",
+      "sha256": "007bc6b9704917a0d069e974c540f69a1a3de13ded65951eb09d85baeca9156e",
+      "bytes": 2362
+    },
+    {
+      "id": "femme-fatale",
+      "path": "data/cocktails/femme-fatale/data.json",
+      "sha256": "9570092732809cf37a15609feb4eb6432648edfd5a12a8e216b92e8aecdbce6a",
+      "bytes": 3809
+    },
+    {
+      "id": "fernandito",
+      "path": "data/cocktails/fernandito/data.json",
+      "sha256": "84a67de2b2e79c4e11113bd160d17b9614b38775fb8c1af6ef72e1bdb5314afb",
+      "bytes": 2260
+    },
+    {
+      "id": "ferrari",
+      "path": "data/cocktails/ferrari/data.json",
+      "sha256": "ba9fb719bd48bd2d15ca1dbba2752db2acff47b94c87449268679647a033b3e7",
+      "bytes": 1454
+    },
+    {
+      "id": "final-ward",
+      "path": "data/cocktails/final-ward/data.json",
+      "sha256": "ac1b8732e1944e9837e6f9b2e4797d910970eb320bbc7e35650454d00490e38f",
+      "bytes": 2583
+    },
+    {
+      "id": "fiore-di-francia",
+      "path": "data/cocktails/fiore-di-francia/data.json",
+      "sha256": "524a0062d78f4ca8dede86cea7015a7198799b91aff3731b11003f1036204ad2",
+      "bytes": 2263
+    },
+    {
+      "id": "first-frost",
+      "path": "data/cocktails/first-frost/data.json",
+      "sha256": "b5ba2c1510e1d46b4a63c466a9725a7fa927e8cd7a4b895a2ad42edf254d60c9",
+      "bytes": 2152
+    },
+    {
+      "id": "five-point-palm-exploding-heart-technique",
+      "path": "data/cocktails/five-point-palm-exploding-heart-technique/data.json",
+      "sha256": "95a6f779410a494fa14daffd03fed1c4df8ccf4fcd8357ff947bae865597a645",
+      "bytes": 2591
+    },
+    {
+      "id": "flannel-shirt",
+      "path": "data/cocktails/flannel-shirt/data.json",
+      "sha256": "04a0c8b299d44b54c2429413189f204b83c3b6591ae83f25753b4e4b1376d0e0",
+      "bytes": 3664
+    },
+    {
+      "id": "floppydisk",
+      "path": "data/cocktails/floppydisk/data.json",
+      "sha256": "55657655fbb1697500bd89e48123d2509b1c11691af4d8b0dd000fd341d9539f",
+      "bytes": 2620
+    },
+    {
+      "id": "floradora",
+      "path": "data/cocktails/floradora/data.json",
+      "sha256": "971c865cdc2703633816e3d5673ea2e740133b60e86ea96a1a5b933a42020601",
+      "bytes": 2531
+    },
+    {
+      "id": "for-mezcalicus-sake",
+      "path": "data/cocktails/for-mezcalicus-sake/data.json",
+      "sha256": "8b8caf0d32bfadb0f73b40146f60410386554caf63e844a1d6ece79e5cde2239",
+      "bytes": 2530
+    },
+    {
+      "id": "four-points",
+      "path": "data/cocktails/four-points/data.json",
+      "sha256": "11fe01de5321ae5eeeb2fe58459f00cfc070840b2ae5d3d37c5316f3a3e9076a",
+      "bytes": 2240
+    },
+    {
+      "id": "french-75",
+      "path": "data/cocktails/french-75/data.json",
+      "sha256": "92caf2f06072584062bca511e39524abc89e479b7cc9b014e485e8b6be15de1b",
+      "bytes": 2389
+    },
+    {
+      "id": "french-connection",
+      "path": "data/cocktails/french-connection/data.json",
+      "sha256": "1ce305b01af0940858ab549d14cb549688aacadd42f8a597ec93173d49c5413b",
+      "bytes": 1527
+    },
+    {
+      "id": "french-gimlet",
+      "path": "data/cocktails/french-gimlet/data.json",
+      "sha256": "e59b773071c99885d84e7ccb89cb5c319bce594e35aa33762fdddba780851c30",
+      "bytes": 2037
+    },
+    {
+      "id": "french-martini",
+      "path": "data/cocktails/french-martini/data.json",
+      "sha256": "f21b8a6689c835918067c2436fbd2507cb89486d2bf6c8b0fdc7553c0301a3d9",
+      "bytes": 2268
+    },
+    {
+      "id": "french-pearl",
+      "path": "data/cocktails/french-pearl/data.json",
+      "sha256": "eacbcc4246e62645e98eb142feb9730bdec19ae110b4755ef31ea0a2cdb4703f",
+      "bytes": 2524
+    },
+    {
+      "id": "french-pearl-2",
+      "path": "data/cocktails/french-pearl-2/data.json",
+      "sha256": "bfde3bb3f1540320a8967fce55dcdba79d42a39566fb40b2ec2220aa1d3501dc",
+      "bytes": 2800
+    },
+    {
+      "id": "frozen-margarita",
+      "path": "data/cocktails/frozen-margarita/data.json",
+      "sha256": "aa634cbe93bd028e5f4335c7ab6a918c5e03a64102f3603495708013ec180d38",
+      "bytes": 2864
+    },
+    {
+      "id": "frozen-mudslide",
+      "path": "data/cocktails/frozen-mudslide/data.json",
+      "sha256": "36c10d0179378022d463628e85ab1c369eddaff2bdeb4c85763d103d28eac054",
+      "bytes": 2300
+    },
+    {
+      "id": "fumata-bianca",
+      "path": "data/cocktails/fumata-bianca/data.json",
+      "sha256": "450ef52eaa2a1b66960261b841353c2c6293f8894024bd9a473f9403feed6a95",
+      "bytes": 2324
+    },
+    {
+      "id": "garibaldi-spritz",
+      "path": "data/cocktails/garibaldi-spritz/data.json",
+      "sha256": "b6a64177a5b842903b061bffc5d3b302d10ee96f14f409b2fa5cd5f32b5f1161",
+      "bytes": 1931
+    },
+    {
+      "id": "gaz-regans-negroni",
+      "path": "data/cocktails/gaz-regans-negroni/data.json",
+      "sha256": "ece9658a2d424ac5221e3a1ca8ce914b61cf755a365d66743b760be755fb4972",
+      "bytes": 1969
+    },
+    {
+      "id": "gemist",
+      "path": "data/cocktails/gemist/data.json",
+      "sha256": "ce4e346009f8cb2f74730c99772a2bb5b66c989d84388e084165ee12055b8826",
+      "bytes": 1482
+    },
+    {
+      "id": "gentlemans-exchange",
+      "path": "data/cocktails/gentlemans-exchange/data.json",
+      "sha256": "d83c34df2eb2eca6a4692b8e55acbbcbb8c7593a423e4c6bcb16e7c6ec7978e8",
+      "bytes": 3273
+    },
+    {
+      "id": "getaway-car",
+      "path": "data/cocktails/getaway-car/data.json",
+      "sha256": "700b0c84df0a1e2811e807d1c7def30f3d8f56c6bbad4e3b8720ba57279d0d5c",
+      "bytes": 2704
+    },
+    {
+      "id": "ghost-coast",
+      "path": "data/cocktails/ghost-coast/data.json",
+      "sha256": "9d36e99d9fff20fdfe723bde384a060670d155c5216fa52009d7a59516a47f0a",
+      "bytes": 3197
+    },
+    {
+      "id": "gibson",
+      "path": "data/cocktails/gibson/data.json",
+      "sha256": "4e5ac63652aaae74406e5fdd3f59675fe543cfd45bb9316f13fb9374ad3c26c1",
+      "bytes": 3163
+    },
+    {
+      "id": "gimlet",
+      "path": "data/cocktails/gimlet/data.json",
+      "sha256": "aaad407a0710a26e38a47a33e377b5590ce267d4be12241a8fa0b3c53e73d5fe",
+      "bytes": 2109
+    },
+    {
+      "id": "gin-basil-smash",
+      "path": "data/cocktails/gin-basil-smash/data.json",
+      "sha256": "431b51d1caff670ad98fbd6626bbc782bc374a404c3a806fee254b0be5459689",
+      "bytes": 2754
+    },
+    {
+      "id": "gin-blossom",
+      "path": "data/cocktails/gin-blossom/data.json",
+      "sha256": "52c6ca94627c36e8807daf4c88086b84c9f3f36fd77828ea6807e7d04d8bd5b9",
+      "bytes": 2259
+    },
+    {
+      "id": "gin-daisy-new-school",
+      "path": "data/cocktails/gin-daisy-new-school/data.json",
+      "sha256": "4146725afbb257e4b72184f29936ec82aba316a2028e5d1e4d246aaf3f994cd5",
+      "bytes": 2648
+    },
+    {
+      "id": "gin-fizz",
+      "path": "data/cocktails/gin-fizz/data.json",
+      "sha256": "d3c8006123bdbdd49152147707a7b773f19cf87c1a50ad9bda2899d31235b656",
+      "bytes": 2850
+    },
+    {
+      "id": "gin-gin-mule",
+      "path": "data/cocktails/gin-gin-mule/data.json",
+      "sha256": "436909563de064c804cb9a720195917a6ba3b7f532af4cf449c7dd098ed6efdd",
+      "bytes": 2604
+    },
+    {
+      "id": "gin-it",
+      "path": "data/cocktails/gin-it/data.json",
+      "sha256": "bf8a1758cbbe1ecea7d983def8e65a1f269861b013f9c0881035c779464f5999",
+      "bytes": 1932
+    },
+    {
+      "id": "gin-pahit",
+      "path": "data/cocktails/gin-pahit/data.json",
+      "sha256": "dc5da433c39356c2dd53d8852a24eb7affdf5104b853fe6d7df453f08d40828d",
+      "bytes": 1989
+    },
+    {
+      "id": "gin-rickey",
+      "path": "data/cocktails/gin-rickey/data.json",
+      "sha256": "4455c2ce1cf68142b184d2d40406c99283427e3ea2b3ae10dfc9257c0cf8f4da",
+      "bytes": 2402
+    },
+    {
+      "id": "gin-tonic",
+      "path": "data/cocktails/gin-tonic/data.json",
+      "sha256": "67891c9c1527c596b22da155a2b675b36d2e40664504646ff3cdd16a14944319",
+      "bytes": 2022
+    },
+    {
+      "id": "giving-basil",
+      "path": "data/cocktails/giving-basil/data.json",
+      "sha256": "8f99e92b5724b34f8b898bfc8b210fa75990a649e7d0120512f9dfd6e22b0f48",
+      "bytes": 2806
+    },
+    {
+      "id": "go-to",
+      "path": "data/cocktails/go-to/data.json",
+      "sha256": "08e83c9b8109f1ee84bee532a8f957df44cd3aa072ed5aba048aee71017f30bb",
+      "bytes": 2961
+    },
+    {
+      "id": "godfather",
+      "path": "data/cocktails/godfather/data.json",
+      "sha256": "2c3cfc0e4983a262cb27f14c2d09d5472fd50be0c0fb2739921b0e9961ea6e55",
+      "bytes": 1661
+    },
+    {
+      "id": "godfather-iv",
+      "path": "data/cocktails/godfather-iv/data.json",
+      "sha256": "6e1478a959fd0d4e9db31efd200626f7bec59920802c1164ce18a3d279d4ae31",
+      "bytes": 2322
+    },
+    {
+      "id": "going-out-west",
+      "path": "data/cocktails/going-out-west/data.json",
+      "sha256": "4b036e78b0458000703334ba1021bea9b81537b8b2d8bf51bac94891c76af561",
+      "bytes": 2762
+    },
+    {
+      "id": "gold-rush",
+      "path": "data/cocktails/gold-rush/data.json",
+      "sha256": "987fec8c3d3d1e8aae086c626deb9af8be6618f57ddc1aabf90ed0b6796f4f67",
+      "bytes": 1979
+    },
+    {
+      "id": "golden-dream",
+      "path": "data/cocktails/golden-dream/data.json",
+      "sha256": "1c1a08c9ba07c82cc3fcdfcd357dc126bb5e2d304771d0d50358faa64108d063",
+      "bytes": 2361
+    },
+    {
+      "id": "good-christian-pear",
+      "path": "data/cocktails/good-christian-pear/data.json",
+      "sha256": "fe823118307a0a7d6c2c3023aa46a5045f43b574bfb9332057b9b1fdf62c36dd",
+      "bytes": 2161
+    },
+    {
+      "id": "gram-arita",
+      "path": "data/cocktails/gram-arita/data.json",
+      "sha256": "d0ed369e487001618d687ec9f3c7877c15ae99b3523ccc1e9888521ee025fb6a",
+      "bytes": 2362
+    },
+    {
+      "id": "grand-armys-amaretto-sour",
+      "path": "data/cocktails/grand-armys-amaretto-sour/data.json",
+      "sha256": "ebf26efb5da28b1f0a709377691209db5da69fc605eef23dc1da3c771fa9ffbe",
+      "bytes": 2416
+    },
+    {
+      "id": "grand-collins",
+      "path": "data/cocktails/grand-collins/data.json",
+      "sha256": "9b54e268e4fff2694fef89882d1016624473f29a265a9289a24b237c6ddefccb",
+      "bytes": 2309
+    },
+    {
+      "id": "grapefruit-reviver",
+      "path": "data/cocktails/grapefruit-reviver/data.json",
+      "sha256": "f689bc0e412ef48900a5e56811981f27d7562c46f922206dcc20ddd158de6972",
+      "bytes": 2482
+    },
+    {
+      "id": "grasshopper",
+      "path": "data/cocktails/grasshopper/data.json",
+      "sha256": "9fb30821f2d44de5d9ea2d5c164e6e341a6641dc0bb48c57ac0d83b638835ece",
+      "bytes": 2198
+    },
+    {
+      "id": "grasshopper-blanco",
+      "path": "data/cocktails/grasshopper-blanco/data.json",
+      "sha256": "d8d6e8d7afeeb879f39b7b7007e6f38bb6e97a18c4f7dd882b21c38256acb95a",
+      "bytes": 2885
+    },
+    {
+      "id": "green-eyes",
+      "path": "data/cocktails/green-eyes/data.json",
+      "sha256": "1dc216fdf7a4586156b0b23983b13c0f23cec0ae99c5e0f4685fbf4f56004152",
+      "bytes": 2650
+    },
+    {
+      "id": "greta-garbo",
+      "path": "data/cocktails/greta-garbo/data.json",
+      "sha256": "397b9a8bddd62e94bb5dd424a36a0604e14001bc9b54af4d1c3b1e97f47efdf7",
+      "bytes": 2438
+    },
+    {
+      "id": "grog",
+      "path": "data/cocktails/grog/data.json",
+      "sha256": "f7fced36532335f827b995eccfb1fbe0a371b8c185e51742d75c4cd258818f00",
+      "bytes": 3291
+    },
+    {
+      "id": "guillotine",
+      "path": "data/cocktails/guillotine/data.json",
+      "sha256": "25d9816604fe0d32422306c1e89b88d0f156d38c71261830f47b9e86a87732e9",
+      "bytes": 1894
+    },
+    {
+      "id": "gunshop-fizz",
+      "path": "data/cocktails/gunshop-fizz/data.json",
+      "sha256": "647c3dec6d15596755e5a1ad7d3bf1999ac9cdacf116239949bdcb0f484abc67",
+      "bytes": 4232
+    },
+    {
+      "id": "halekulani",
+      "path": "data/cocktails/halekulani/data.json",
+      "sha256": "005530fed396b314919459a95091a3da7736862454287b20c6b3d3febb2ab394",
+      "bytes": 3183
+    },
+    {
+      "id": "hanky-panky",
+      "path": "data/cocktails/hanky-panky/data.json",
+      "sha256": "55030eecc6f0728f491a38437decbb9798b93f5aba1e159ab3eb2f39a4413b3b",
+      "bytes": 2436
+    },
+    {
+      "id": "happy-bastard",
+      "path": "data/cocktails/happy-bastard/data.json",
+      "sha256": "f4dc36bbaf937bf2a6e2ab0b506207a8b58041fa95531f8f21f0474785e00e90",
+      "bytes": 2888
+    },
+    {
+      "id": "hard-sell",
+      "path": "data/cocktails/hard-sell/data.json",
+      "sha256": "b81d4ec6793b373728c345204feda6b005e74e526e5fa3ed44f47b806f21c0ff",
+      "bytes": 2362
+    },
+    {
+      "id": "harvard",
+      "path": "data/cocktails/harvard/data.json",
+      "sha256": "58f315bf9b151564c06c5b8a79dc8298a778efe0dadba0e50434fbe6a76abfda",
+      "bytes": 2191
+    },
+    {
+      "id": "harvey-wallbanger",
+      "path": "data/cocktails/harvey-wallbanger/data.json",
+      "sha256": "d5c08773b96f00e308ae5fdd39dec4d89aa9900a2370c324671afab9f1e22a03",
+      "bytes": 2432
+    },
+    {
+      "id": "haymaker",
+      "path": "data/cocktails/haymaker/data.json",
+      "sha256": "01f2916bd15416b6b8b13262478f2ff3411218cc074bd8524bdad66a73f6f5e3",
+      "bytes": 2403
+    },
+    {
+      "id": "heart-of-stone",
+      "path": "data/cocktails/heart-of-stone/data.json",
+      "sha256": "00dc15111bc26b5f970897101c51edc7f83595e69e3548aeb9750ff4592a00f8",
+      "bytes": 2812
+    },
+    {
+      "id": "hemingway-daiquiri",
+      "path": "data/cocktails/hemingway-daiquiri/data.json",
+      "sha256": "b665eacb5bade8a0e9a4d927adf8b1f4943f78f3c14b8096eff22b47c7cea1fc",
+      "bytes": 2236
+    },
+    {
+      "id": "hemingway-special",
+      "path": "data/cocktails/hemingway-special/data.json",
+      "sha256": "e26538daf26dfa957593c5705ecbca0cd8ffe4b597abeefcdcf802b6b56f95db",
+      "bytes": 2500
+    },
+    {
+      "id": "highland-diver",
+      "path": "data/cocktails/highland-diver/data.json",
+      "sha256": "fb80ee05d2b3f55b595630ae7e6e1213e3edf33f268ebc8f355f73d60146aa49",
+      "bytes": 3440
+    },
+    {
+      "id": "home-on-the-range",
+      "path": "data/cocktails/home-on-the-range/data.json",
+      "sha256": "622ece0b3f649bc9643e40dda49decf261b448d916e19b58321d3bf319d19292",
+      "bytes": 2975
+    },
+    {
+      "id": "honeyed-coffee-gin-tonic",
+      "path": "data/cocktails/honeyed-coffee-gin-tonic/data.json",
+      "sha256": "f2b15efa2ea8edb888efb30ec544acbaaf49aabf94de2b371b89f415ce83b633",
+      "bytes": 2432
+    },
+    {
+      "id": "honeymoon",
+      "path": "data/cocktails/honeymoon/data.json",
+      "sha256": "b12b65c0a22efb8713e8245c198b6db1ee092e85228f0c47361ec48b805dff66",
+      "bytes": 2337
+    },
+    {
+      "id": "hoodwinked",
+      "path": "data/cocktails/hoodwinked/data.json",
+      "sha256": "e3a45fa053e1692439398019afb6c0a2a0fa40df3ac112befd293621d11160b7",
+      "bytes": 2677
+    },
+    {
+      "id": "horses-neck",
+      "path": "data/cocktails/horses-neck/data.json",
+      "sha256": "cc312e5a648852d7c6945ef2760b8449b5391eb9810c7813f03d181efdc96c55",
+      "bytes": 2231
+    },
+    {
+      "id": "hot-buttered-rum",
+      "path": "data/cocktails/hot-buttered-rum/data.json",
+      "sha256": "499a9d5cb1c62e31d0bbf3040aad6ce4d4098663496044514d367ed5c9e8bb2c",
+      "bytes": 1955
+    },
+    {
+      "id": "hot-oaxacan-penicillin",
+      "path": "data/cocktails/hot-oaxacan-penicillin/data.json",
+      "sha256": "669242ca11bce31c73c0e755c2cd268b24b52e5b5d2c477385ad0b517cedbf5c",
+      "bytes": 2901
+    },
+    {
+      "id": "hot-toddy",
+      "path": "data/cocktails/hot-toddy/data.json",
+      "sha256": "47dd70867d19c6d7860f2712771dcb4a40ebd995f0bf860a31dd62cb80ca6fb3",
+      "bytes": 2198
+    },
+    {
+      "id": "house-of-gucci-mane",
+      "path": "data/cocktails/house-of-gucci-mane/data.json",
+      "sha256": "9a52e1d38d99a4e5cbc5bc54c5c4acc630ed94274084474a9498f93510d28b9e",
+      "bytes": 2816
+    },
+    {
+      "id": "how-bout-them-salty-apples",
+      "path": "data/cocktails/how-bout-them-salty-apples/data.json",
+      "sha256": "c8700d710b68db1d4f9369234aafdac98ad82e9048f3142bc9e860a88fe06b77",
+      "bytes": 2614
+    },
+    {
+      "id": "hugo-spritz",
+      "path": "data/cocktails/hugo-spritz/data.json",
+      "sha256": "edc57bc4482315df905ddb0853915c67ceb26ecb1d67001a13dc1f3ab394e5cd",
+      "bytes": 3196
+    },
+    {
+      "id": "humuhumunukunukuapuaa",
+      "path": "data/cocktails/humuhumunukunukuapuaa/data.json",
+      "sha256": "84aeff5dc29b3a53940a4ff2eae85dbcf7945a088c929cfb7a107597bffe94ae",
+      "bytes": 2640
+    },
+    {
+      "id": "hurricane",
+      "path": "data/cocktails/hurricane/data.json",
+      "sha256": "6f2ef109ef3db1d87d1f2fb82ab9d7950d85f0757d28f2754fe766b5b90f84ea",
+      "bytes": 1844
+    },
+    {
+      "id": "hurricane-2",
+      "path": "data/cocktails/hurricane-2/data.json",
+      "sha256": "bc70e8090a373f5ed41c13616a0997dc44c41904be836e780acb45c6b2d1ee2c",
+      "bytes": 2425
+    },
+    {
+      "id": "illegal",
+      "path": "data/cocktails/illegal/data.json",
+      "sha256": "b194691c5c63a16ef83633f7cb0786dd55891807b995a4aefe1c7669db8e336f",
+      "bytes": 3078
+    },
+    {
+      "id": "im-on-fire",
+      "path": "data/cocktails/im-on-fire/data.json",
+      "sha256": "397d88e8bbf86db96643659be57bdbaf045468026516131b0e70efadfd0b17f7",
+      "bytes": 2618
+    },
+    {
+      "id": "income-tax",
+      "path": "data/cocktails/income-tax/data.json",
+      "sha256": "704bb993594ca70753241208ddde4bce291bc0f64f4c75fb30239a5ee32dc3bd",
+      "bytes": 2487
+    },
+    {
+      "id": "industry-sour",
+      "path": "data/cocktails/industry-sour/data.json",
+      "sha256": "01c8e6c2ba7f7e2f6cf8b8d312730db75aeac80359eccaca54aea1b4d1e5f6d6",
+      "bytes": 2510
+    },
+    {
+      "id": "insanely-good-gin-tonic",
+      "path": "data/cocktails/insanely-good-gin-tonic/data.json",
+      "sha256": "e6dcc900a2480ba08fcffc81f0954fd87ac8ec336dde2098b0cfcfd71e3caa2a",
+      "bytes": 2593
+    },
+    {
+      "id": "irish-coffee",
+      "path": "data/cocktails/irish-coffee/data.json",
+      "sha256": "0111f795ff5b906f113d032d03c14c4eb77d0616e15df3242ca7528e6ae875b1",
+      "bytes": 2553
+    },
+    {
+      "id": "irish-coffee-2",
+      "path": "data/cocktails/irish-coffee-2/data.json",
+      "sha256": "6b4830062288ffdb72b5dce7bf46dfeb41b3605aa1034408ea9bd40e67a338af",
+      "bytes": 3481
+    },
+    {
+      "id": "irish-maid",
+      "path": "data/cocktails/irish-maid/data.json",
+      "sha256": "b5e1d35d52c3502d6b57ed06a0c512509bdbfee96d8c8408d7aedff87b8aa9d6",
+      "bytes": 2684
+    },
+    {
+      "id": "italicus-spritz",
+      "path": "data/cocktails/italicus-spritz/data.json",
+      "sha256": "2abeee14f0764669cc8d37104a6a540c0a0d3b6ee7cbea02188013e73f1ded47",
+      "bytes": 2224
+    },
+    {
+      "id": "j-tonys-kold-brew-americano",
+      "path": "data/cocktails/j-tonys-kold-brew-americano/data.json",
+      "sha256": "da127fa559334baf7dad44f4d5d3af575a1db1397e35709e3c2bcf7b725e7843",
+      "bytes": 2650
+    },
+    {
+      "id": "jack-rose",
+      "path": "data/cocktails/jack-rose/data.json",
+      "sha256": "4314a76adfb31e63e7c7c31150925cad7ecef1d27cead77f2e21ef0698bfd1d4",
+      "bytes": 1780
+    },
+    {
+      "id": "jagerita",
+      "path": "data/cocktails/jagerita/data.json",
+      "sha256": "3dc06a545f8507cee25066b81e6655148e91afdd312c50326d6dd9a5e16d109b",
+      "bytes": 2584
+    },
+    {
+      "id": "jamaican-milk-punch",
+      "path": "data/cocktails/jamaican-milk-punch/data.json",
+      "sha256": "8de6bfb17d0844c57c65dec069a68be7923ba494b5ebf3c1624c946a75afa9fd",
+      "bytes": 3190
+    },
+    {
+      "id": "japanese-cocktail",
+      "path": "data/cocktails/japanese-cocktail/data.json",
+      "sha256": "f99e7f85514e08bce65b9bb51c7e39d9c29db65b296a6317a98be2549fba5201",
+      "bytes": 2194
+    },
+    {
+      "id": "jasmine",
+      "path": "data/cocktails/jasmine/data.json",
+      "sha256": "988c36c8096edfbdce33e2b855d433ce6a00768d05b1e0e90dc017a5ef3e44b2",
+      "bytes": 2299
+    },
+    {
+      "id": "jimmy-dean",
+      "path": "data/cocktails/jimmy-dean/data.json",
+      "sha256": "62453a241b53c850c3a270dc8d1ddb092e79dd774ab4e9c868bffdd06fd67957",
+      "bytes": 2673
+    },
+    {
+      "id": "john-collins",
+      "path": "data/cocktails/john-collins/data.json",
+      "sha256": "32f97e1d37a9b74bfe953484ea5864253718a62e4544cb88fec9c82b001fdc3f",
+      "bytes": 2866
+    },
+    {
+      "id": "john-debarys-singapore-sling",
+      "path": "data/cocktails/john-debarys-singapore-sling/data.json",
+      "sha256": "0a7aa51330d10f3ffcede9ef7dec9a3e53ffa7753d3d8b04e4e6cc862bb1154c",
+      "bytes": 4034
+    },
+    {
+      "id": "juliet-romeo",
+      "path": "data/cocktails/juliet-romeo/data.json",
+      "sha256": "ada3825cd92c46bfff471474c38f918dc4c23956828518c9decadd64b288b092",
+      "bytes": 2714
+    },
+    {
+      "id": "jungle-bird",
+      "path": "data/cocktails/jungle-bird/data.json",
+      "sha256": "fe804fcad79e52e1b1a23fc088e63e840850cc97e0a57b5a2486d6ebb43cc680",
+      "bytes": 2810
+    },
+    {
+      "id": "jungle-cruise",
+      "path": "data/cocktails/jungle-cruise/data.json",
+      "sha256": "a3bfe7009a5218bde9006b6c9dcda581b3e61557c549ae3ed6740ff58dec94cb",
+      "bytes": 3504
+    },
+    {
+      "id": "jungle-spritz",
+      "path": "data/cocktails/jungle-spritz/data.json",
+      "sha256": "72d40ae066aa32971c786992f2c3832764f8245fb9f299a56ba4f144c094864a",
+      "bytes": 2199
+    },
+    {
+      "id": "ken-burns-effect",
+      "path": "data/cocktails/ken-burns-effect/data.json",
+      "sha256": "c2d4ed82a48d7d81780210bd0288ae68d4becd72884b9cbef21af1380e861239",
+      "bytes": 2260
+    },
+    {
+      "id": "kentucky-flyer",
+      "path": "data/cocktails/kentucky-flyer/data.json",
+      "sha256": "177e6c997822aae8e1123331bbd4a495f19b73b95ae8cec43669c63704cd0eb6",
+      "bytes": 2011
+    },
+    {
+      "id": "keoke-coffee",
+      "path": "data/cocktails/keoke-coffee/data.json",
+      "sha256": "7837c05cbfac40ebc5e16a6b3c0d20ab04e2603502b5033f37d63e1239249feb",
+      "bytes": 2635
+    },
+    {
+      "id": "keystone-highball",
+      "path": "data/cocktails/keystone-highball/data.json",
+      "sha256": "eee9584d28171bc74ee4cf574d90b38779b247f1df352223bd0602719968513b",
+      "bytes": 2685
+    },
+    {
+      "id": "kingston-club",
+      "path": "data/cocktails/kingston-club/data.json",
+      "sha256": "705f123af6e2fcd708c949af6e34d6f37ce642e83c59f0fd128284a7479bba36",
+      "bytes": 2971
+    },
+    {
+      "id": "kingstone-negroni",
+      "path": "data/cocktails/kingstone-negroni/data.json",
+      "sha256": "d9c8a1e6a1141004ec8cece0b24b6ad704a6b4f72e7ce28bfe3bb59ffcc0974c",
+      "bytes": 3155
+    },
+    {
+      "id": "kir",
+      "path": "data/cocktails/kir/data.json",
+      "sha256": "8cf1b16a20868fc4bb38e07c7d21d6d2fe1a59c3a6a23d8deb5bff5c18fde5a0",
+      "bytes": 1774
+    },
+    {
+      "id": "kiwi-swizzle",
+      "path": "data/cocktails/kiwi-swizzle/data.json",
+      "sha256": "2e94aef49f8fb443ed1bbf6d34e8fa558754df7d268d29ed9432db71e7e17cd7",
+      "bytes": 3187
+    },
+    {
+      "id": "kiwito",
+      "path": "data/cocktails/kiwito/data.json",
+      "sha256": "02427613cea5d5f414fa46959cd3b5db0489da105dba5cd5fe483a3433d14abc",
+      "bytes": 2928
+    },
+    {
+      "id": "koffie-van-brunt",
+      "path": "data/cocktails/koffie-van-brunt/data.json",
+      "sha256": "cff450cb70e44f35213180d64952a867221da8fdcc2121ac6b42624af3d39dc9",
+      "bytes": 3374
+    },
+    {
+      "id": "la-concha",
+      "path": "data/cocktails/la-concha/data.json",
+      "sha256": "28a4987ad64c5e434b6c66ea86c42db5f1e4422b3828ce60ce8e14f7855b93da",
+      "bytes": 3161
+    },
+    {
+      "id": "la-dominicana",
+      "path": "data/cocktails/la-dominicana/data.json",
+      "sha256": "bd8937122892538d5726199de4362f186bc8b81b8097dc18aa5c9109718908bd",
+      "bytes": 1916
+    },
+    {
+      "id": "la-louisiane",
+      "path": "data/cocktails/la-louisiane/data.json",
+      "sha256": "95855a983a34d5e0b51b5f7b7b48ac7291b86c2740c057fb0b1123a6fe6f948e",
+      "bytes": 2619
+    },
+    {
+      "id": "la-rosita",
+      "path": "data/cocktails/la-rosita/data.json",
+      "sha256": "dfb03bed97053b0fc8d28f14d9f2ac60a8cbed563bc0b8752f8f372bb2b88144",
+      "bytes": 2572
+    },
+    {
+      "id": "lantern-fly",
+      "path": "data/cocktails/lantern-fly/data.json",
+      "sha256": "0fb4926a57c32e669b9589ce8aaf0e6c8f5d7f9801137cddf50f3b578f690895",
+      "bytes": 2338
+    },
+    {
+      "id": "last-word",
+      "path": "data/cocktails/last-word/data.json",
+      "sha256": "4fbfb3a4db813ebf4f9c0f063784005ebe522e8b12366d67f53ed00f32172511",
+      "bytes": 2539
+    },
+    {
+      "id": "lavender-espresso",
+      "path": "data/cocktails/lavender-espresso/data.json",
+      "sha256": "dfe8b039ef0560422318a4998e7d9536b9d4095248c247a9ba0ec3f879f77df8",
+      "bytes": 2877
+    },
+    {
+      "id": "layover-in-paris",
+      "path": "data/cocktails/layover-in-paris/data.json",
+      "sha256": "448288d2f45f5803743be735f48a102cbeb2c19879b506128a425b9d8a3efbdb",
+      "bytes": 2697
+    },
+    {
+      "id": "left-hand",
+      "path": "data/cocktails/left-hand/data.json",
+      "sha256": "b9fd80afc28a905d89700f22e2a5799e1831bf1416b299f7287ba0856e2522f7",
+      "bytes": 2801
+    },
+    {
+      "id": "lemon-drop-martini",
+      "path": "data/cocktails/lemon-drop-martini/data.json",
+      "sha256": "8f3ae08a867fbb20c9debb1ccc68d0b4aa7378b1e3271a67f94d2366260180c8",
+      "bytes": 2403
+    },
+    {
+      "id": "lena",
+      "path": "data/cocktails/lena/data.json",
+      "sha256": "f01a1f1bb505e013283e99e4a5e44e7e80cab5ab5eb228249b7704d5235a2320",
+      "bytes": 3682
+    },
+    {
+      "id": "limoncello-spritz",
+      "path": "data/cocktails/limoncello-spritz/data.json",
+      "sha256": "5049893b08409c073fc234ba48a4765fd24f3644d7c7ee33590c0ed9d798d9d1",
+      "bytes": 1855
+    },
+    {
+      "id": "lite-treason",
+      "path": "data/cocktails/lite-treason/data.json",
+      "sha256": "d91dc9995d9233fadc5773bb3feb5132f9262893bd0e0ef160e282e0ec46a714",
+      "bytes": 2849
+    },
+    {
+      "id": "little-italy",
+      "path": "data/cocktails/little-italy/data.json",
+      "sha256": "ad630916b4d7ad146de181026e786aa1f1febf0685516a7877ec1be640ec5280",
+      "bytes": 2577
+    },
+    {
+      "id": "lone-ranger",
+      "path": "data/cocktails/lone-ranger/data.json",
+      "sha256": "bf22e4bcbe4f8da6db71aeb06aa763cbc80e1c67aaa08e89265601b873407ae0",
+      "bytes": 2298
+    },
+    {
+      "id": "long-island-ice-tea",
+      "path": "data/cocktails/long-island-ice-tea/data.json",
+      "sha256": "f2df825f9812543d4d14865b7923d40d4e5633e74153b11a041091548b5f0cc5",
+      "bytes": 3699
+    },
+    {
+      "id": "love-murder",
+      "path": "data/cocktails/love-murder/data.json",
+      "sha256": "ddb177b733ecb1773abb6b51a5ee691d56e47b01d0bcb31ffa27306535c26e11",
+      "bytes": 2664
+    },
+    {
+      "id": "lucien-gaudin",
+      "path": "data/cocktails/lucien-gaudin/data.json",
+      "sha256": "609a0eb723c409eb795472a602c17bdc3cab6a8dcc03470885d25143d6568100",
+      "bytes": 2501
+    },
+    {
+      "id": "lust-for-life",
+      "path": "data/cocktails/lust-for-life/data.json",
+      "sha256": "64b1aadd88f84e9776f8288b95b034e0d82c6bc74010a238567e74007955beab",
+      "bytes": 2572
+    },
+    {
+      "id": "mai-tai",
+      "path": "data/cocktails/mai-tai/data.json",
+      "sha256": "82ee1e6525d8e855e5be0e57abc8b8a10a5d068574cb41524df14bf31af138d4",
+      "bytes": 3673
+    },
+    {
+      "id": "mamie-taylor",
+      "path": "data/cocktails/mamie-taylor/data.json",
+      "sha256": "25fd13fa33b9cbe9a77f5e1037595d1cc6c278e3603c43a61b3e57eb312805b0",
+      "bytes": 1926
+    },
+    {
+      "id": "managers-meeting",
+      "path": "data/cocktails/managers-meeting/data.json",
+      "sha256": "5e9552fbb02b9b949bc5e168da0329c1763285909d68120832c110ef73607c31",
+      "bytes": 2502
+    },
+    {
+      "id": "mango-mule",
+      "path": "data/cocktails/mango-mule/data.json",
+      "sha256": "d06a12c9dbbc93fe2d51bd65166e565a6fc93915fa63b85ead51ac4c6262e876",
+      "bytes": 2449
+    },
+    {
+      "id": "manhattan",
+      "path": "data/cocktails/manhattan/data.json",
+      "sha256": "898d74a0d37c553d1efd282d5fa6bce7d0c51c6d5d511eb68115c0d4a0935524",
+      "bytes": 2624
+    },
+    {
+      "id": "maracuya-mojito",
+      "path": "data/cocktails/maracuya-mojito/data.json",
+      "sha256": "4ee66c2c26a88525c28593bd69f95600cf1cf444acc0cf0edef91e08f7e46cfb",
+      "bytes": 2932
+    },
+    {
+      "id": "margarita",
+      "path": "data/cocktails/margarita/data.json",
+      "sha256": "342e5aedb1922d5a3b008ae5bab11384e342c4c234ef3a8b042056067cb28d17",
+      "bytes": 2976
+    },
+    {
+      "id": "margarita-soda",
+      "path": "data/cocktails/margarita-soda/data.json",
+      "sha256": "b27eac202a40373c04d992e1bc44595f29fae65e9591a5e0b8aa49029d609ca9",
+      "bytes": 2399
+    },
+    {
+      "id": "maria-mole",
+      "path": "data/cocktails/maria-mole/data.json",
+      "sha256": "5728f68e10902beb0668589d6d016c7b257375dbb972963279370054c8604fa0",
+      "bytes": 1713
+    },
+    {
+      "id": "marigold-mule",
+      "path": "data/cocktails/marigold-mule/data.json",
+      "sha256": "59115faf9a97c14abf3dd3af4ab11ab97e94748f08b58428168ce87c81998849",
+      "bytes": 2389
+    },
+    {
+      "id": "marseilles-rhum",
+      "path": "data/cocktails/marseilles-rhum/data.json",
+      "sha256": "212e49740cc1e500a043e34b97473f64b689524aaf0e7d7fb0778f1260af2446",
+      "bytes": 2570
+    },
+    {
+      "id": "martinez",
+      "path": "data/cocktails/martinez/data.json",
+      "sha256": "15390bc1d954598aa1efc37f6f9780aa215ead24141fcd28da7158b34748d7db",
+      "bytes": 2415
+    },
+    {
+      "id": "martini",
+      "path": "data/cocktails/martini/data.json",
+      "sha256": "2b78a645bdb9751a7a887b52e9edc8bb746f92871ede55e9328d990502427ac5",
+      "bytes": 2234
+    },
+    {
+      "id": "mary-celeste",
+      "path": "data/cocktails/mary-celeste/data.json",
+      "sha256": "34dfbe0e7c0a33d1023deddb250b4567f89e75b091b6f02b166b3b18ceb47ffd",
+      "bytes": 2324
+    },
+    {
+      "id": "mary-pickford",
+      "path": "data/cocktails/mary-pickford/data.json",
+      "sha256": "f9d529eb6046d6c219836b010890b7ad5f2a774432dd3fa342581afc76b6b018",
+      "bytes": 2122
+    },
+    {
+      "id": "matador",
+      "path": "data/cocktails/matador/data.json",
+      "sha256": "e05bec6d010154c8bc39d51b89a49f2bbc7a84a22627740df7b657e251a0997f",
+      "bytes": 1889
+    },
+    {
+      "id": "medicina-latina",
+      "path": "data/cocktails/medicina-latina/data.json",
+      "sha256": "81b1e6fa5e1e9453f873ed2d986ec31d50cf145971c46c80f28ed3bb5933b350",
+      "bytes": 2921
+    },
+    {
+      "id": "merry-spritzmas",
+      "path": "data/cocktails/merry-spritzmas/data.json",
+      "sha256": "47257254903fae90958220b4b7528de76f87333b23e950e70eb589501cf59663",
+      "bytes": 4488
+    },
+    {
+      "id": "metexa",
+      "path": "data/cocktails/metexa/data.json",
+      "sha256": "e3aa8230de503f238483efe2b094bc6f9117f3d657cd64c7fc9a6970e47e58ab",
+      "bytes": 2232
+    },
+    {
+      "id": "mexican-firing-squad",
+      "path": "data/cocktails/mexican-firing-squad/data.json",
+      "sha256": "b3f065987f7933ee1e1043049fa2650ff5ff2e51aa01bb9f049f2ffa88a737db",
+      "bytes": 2580
+    },
+    {
+      "id": "mexican-razor-blade",
+      "path": "data/cocktails/mexican-razor-blade/data.json",
+      "sha256": "7481575b48f41feb7239a78ec747cf71728197bb826db1dba409176eabb9ada5",
+      "bytes": 2676
+    },
+    {
+      "id": "mezcal-margarita",
+      "path": "data/cocktails/mezcal-margarita/data.json",
+      "sha256": "821cc6216d25600157aa55979a270f0b6e1f3e771e8fbad54f0b5db47b057cbd",
+      "bytes": 1965
+    },
+    {
+      "id": "mezcal-mule",
+      "path": "data/cocktails/mezcal-mule/data.json",
+      "sha256": "a98a8c1c67a9068d02d8120ce2a2704558fdd1abded8d85c2e346325c05dfd64",
+      "bytes": 3085
+    },
+    {
+      "id": "mezcal-sour",
+      "path": "data/cocktails/mezcal-sour/data.json",
+      "sha256": "2a83c8e33ba82792fda7ab04ee6bfb962ff902cdba3a315c9d9d3aaa8e08982a",
+      "bytes": 2879
+    },
+    {
+      "id": "mezchine-head",
+      "path": "data/cocktails/mezchine-head/data.json",
+      "sha256": "cf9d692d9777f3f9c6869bbfefa30436fe799919fab6ca02552ac9748d678cc9",
+      "bytes": 2582
+    },
+    {
+      "id": "michelada",
+      "path": "data/cocktails/michelada/data.json",
+      "sha256": "000092af50b431880e14bccb93aa5fec4d8e902e96e3d5c1d60148aef63575d4",
+      "bytes": 4351
+    },
+    {
+      "id": "mickey-finn",
+      "path": "data/cocktails/mickey-finn/data.json",
+      "sha256": "b1e25756d7006aefc9a9453adbf4f1d5f381eba41c640229715644fcfc1d4c7c",
+      "bytes": 2338
+    },
+    {
+      "id": "midnight-marauder-no-2",
+      "path": "data/cocktails/midnight-marauder-no-2/data.json",
+      "sha256": "133bb7a388f64a00a5559769c2c4e1c39b8b4a410264766af65cc6b6c203176e",
+      "bytes": 2698
+    },
+    {
+      "id": "mimosa",
+      "path": "data/cocktails/mimosa/data.json",
+      "sha256": "f63f104d9b202b7d397def343ef1407bb302bd214a80fe703f9b06b42ccb9453",
+      "bytes": 1500
+    },
+    {
+      "id": "mint-julep",
+      "path": "data/cocktails/mint-julep/data.json",
+      "sha256": "2c8fdf7a99860a93e9e107f3ae8a2e8174a545e841b2ed1bb6b50676a9f75e0b",
+      "bytes": 1900
+    },
+    {
+      "id": "mis-mas",
+      "path": "data/cocktails/mis-mas/data.json",
+      "sha256": "4d39f2d804ca2247031a75bc6f476c4ae0cac80997d0516794800422bd3eade2",
+      "bytes": 1384
+    },
+    {
+      "id": "misis-negroni-sour",
+      "path": "data/cocktails/misis-negroni-sour/data.json",
+      "sha256": "d735b7b1295a887b79939b1e48ef52c66b2058af17042e93878349324d6a4dd8",
+      "bytes": 2903
+    },
+    {
+      "id": "missionarys-downfall",
+      "path": "data/cocktails/missionarys-downfall/data.json",
+      "sha256": "55f8fe5f78cb42e1c350f2d54f46a3b86c13b1ae239d3ab8673d88654b2cee1b",
+      "bytes": 3021
+    },
+    {
+      "id": "mm-mezcal-montenegro",
+      "path": "data/cocktails/mm-mezcal-montenegro/data.json",
+      "sha256": "63a37c1c3cdbaa5f46a82c20c191168be5181924040c826422690de4bad4a8d5",
+      "bytes": 2372
+    },
+    {
+      "id": "modern-medicine",
+      "path": "data/cocktails/modern-medicine/data.json",
+      "sha256": "247735d6e94c60b0a9c89cae71e5665dba5dc7f032666901f208e39f3b73d3a5",
+      "bytes": 2675
+    },
+    {
+      "id": "mojito",
+      "path": "data/cocktails/mojito/data.json",
+      "sha256": "ef2e1f5872fe78dc1cc998034078bf2f7598c27abe51d72b610749a3183be3cc",
+      "bytes": 3023
+    },
+    {
+      "id": "molasses-energy-balances",
+      "path": "data/cocktails/molasses-energy-balances/data.json",
+      "sha256": "cf9a20abd12f156e4619cdfaee69ec8d449da0390aa8385ed22b28a83bf555f5",
+      "bytes": 2951
+    },
+    {
+      "id": "monkey-gland",
+      "path": "data/cocktails/monkey-gland/data.json",
+      "sha256": "318a49f5386382f670837276a45fb9dad40950cd3fcd7d9cb282a228079b7020",
+      "bytes": 4900
+    },
+    {
+      "id": "monks-respite",
+      "path": "data/cocktails/monks-respite/data.json",
+      "sha256": "3dd7526026ef346df45620221e57b74fd783b9fb483bb924194bd4b03d5633ad",
+      "bytes": 3327
+    },
+    {
+      "id": "monte-cassino",
+      "path": "data/cocktails/monte-cassino/data.json",
+      "sha256": "8df74979856c2752758ba4ba6d6828b8b0d7061e8074a768b19e7340f63f3193",
+      "bytes": 2341
+    },
+    {
+      "id": "monte-mule-recipe",
+      "path": "data/cocktails/monte-mule-recipe/data.json",
+      "sha256": "03caadfe90732c1a99df42c88f098b6f2f434b0e8c0a2e8aa49bb1633ab3c9fa",
+      "bytes": 2180
+    },
+    {
+      "id": "montenegro-spritz",
+      "path": "data/cocktails/montenegro-spritz/data.json",
+      "sha256": "4035be31f84a3aedc2a08991600c2945235baf5585cd1a9ce05f64dc48399f17",
+      "bytes": 2584
+    },
+    {
+      "id": "more-supreme",
+      "path": "data/cocktails/more-supreme/data.json",
+      "sha256": "5a061aafdd43e5499eef452f978bc64a3a0044bc11cfba560966d5b99e5a87b2",
+      "bytes": 2370
+    },
+    {
+      "id": "morning-glory-fizz",
+      "path": "data/cocktails/morning-glory-fizz/data.json",
+      "sha256": "d1ebe8e8e6e09b3deee33ae7666fdcbf360f637ecbec3a1f2b25eb00306afde4",
+      "bytes": 3343
+    },
+    {
+      "id": "moscow-mule",
+      "path": "data/cocktails/moscow-mule/data.json",
+      "sha256": "2253cc79d3950fbb192a9924842c702b33a1a0b31d35d2b0166d9649215d407f",
+      "bytes": 2012
+    },
+    {
+      "id": "mosquito",
+      "path": "data/cocktails/mosquito/data.json",
+      "sha256": "dda50403b4ba0fb40bd9e106c369c157735a1bf3d9ad025804a9da85ade18d83",
+      "bytes": 2298
+    },
+    {
+      "id": "mr-brown",
+      "path": "data/cocktails/mr-brown/data.json",
+      "sha256": "f35f25c78bf27e1f9a976a86d289786148362ff56dd06e534b4b1cd37c71bb0e",
+      "bytes": 2684
+    },
+    {
+      "id": "mule-in-paradise",
+      "path": "data/cocktails/mule-in-paradise/data.json",
+      "sha256": "0478fe06b4de048e6106d27ddee03375788a39b525812041ea2c05045c3c7b75",
+      "bytes": 2645
+    },
+    {
+      "id": "mulled-wine",
+      "path": "data/cocktails/mulled-wine/data.json",
+      "sha256": "4ce81bf83142bcd3ff25f11c668b71b22628568956ee14528676258cb9f37523",
+      "bytes": 4384
+    },
+    {
+      "id": "naked-and-famous",
+      "path": "data/cocktails/naked-and-famous/data.json",
+      "sha256": "faca22bce31fd7c5d0b1cb85ac0a9557ed216201ef3571f054de9622939d64f9",
+      "bytes": 2596
+    },
+    {
+      "id": "navel-duties",
+      "path": "data/cocktails/navel-duties/data.json",
+      "sha256": "51a5d61b782d098b6d180d4d4bf6cd9276d9197efaf00baa51c5ee2a418e9a57",
+      "bytes": 2666
+    },
+    {
+      "id": "navy-grog",
+      "path": "data/cocktails/navy-grog/data.json",
+      "sha256": "d213873d6bf49090cfef1dfd92ef7a19d47fce1246ac84f3223ed26b741d851a",
+      "bytes": 4212
+    },
+    {
+      "id": "needle-in-the-hay",
+      "path": "data/cocktails/needle-in-the-hay/data.json",
+      "sha256": "c1c6809027029ad849edc42797d0a1ca46d3d51ec2449d926bb81701ec84604c",
+      "bytes": 2600
+    },
+    {
+      "id": "negroni",
+      "path": "data/cocktails/negroni/data.json",
+      "sha256": "c5d17b5987426d57a2ab44f112f2a81fe15bec91a1a763555d2947320f1f9567",
+      "bytes": 2207
+    },
+    {
+      "id": "negroni-sbagliato",
+      "path": "data/cocktails/negroni-sbagliato/data.json",
+      "sha256": "acd69ff608011189f230f866c92fd45b981c5954addbbb5c7da4a7f9ba88cea6",
+      "bytes": 1956
+    },
+    {
+      "id": "negroni-tredici",
+      "path": "data/cocktails/negroni-tredici/data.json",
+      "sha256": "4a489d3b3868aa2b5f6a36b2cb8392ec80366439cd3b925baa6530de3b867878",
+      "bytes": 2869
+    },
+    {
+      "id": "negroski",
+      "path": "data/cocktails/negroski/data.json",
+      "sha256": "dea7799ac7fa660571931d6e9f325c06e7c28f5d8785e757a168bfd3706506bd",
+      "bytes": 1745
+    },
+    {
+      "id": "neruda",
+      "path": "data/cocktails/neruda/data.json",
+      "sha256": "8a74921951eef6c8eec9c26701a510c65aa48e3c2aa686866af5b976d6d4f20e",
+      "bytes": 2301
+    },
+    {
+      "id": "new-fashioned",
+      "path": "data/cocktails/new-fashioned/data.json",
+      "sha256": "d96891e3484afe5e4c70bd7222bcc672ef8158192e0402c7a1874943463835ba",
+      "bytes": 2680
+    },
+    {
+      "id": "new-york-sour",
+      "path": "data/cocktails/new-york-sour/data.json",
+      "sha256": "48380da9195a7cdb93c5e6f03213410f36daaaf59d00069d2e1c98e9cbc240aa",
+      "bytes": 2592
+    },
+    {
+      "id": "nice-by-way-of-antibes",
+      "path": "data/cocktails/nice-by-way-of-antibes/data.json",
+      "sha256": "baeaefb9204d4b2348e98bc24716eef8fb6ba215ecb398411944ded7aadc35e7",
+      "bytes": 2352
+    },
+    {
+      "id": "night-nurse",
+      "path": "data/cocktails/night-nurse/data.json",
+      "sha256": "848b34e994814a31fc27215adc09c410830ac1ea954ae4f8e02985ac81973a20",
+      "bytes": 3387
+    },
+    {
+      "id": "non-alc-hurricane",
+      "path": "data/cocktails/non-alc-hurricane/data.json",
+      "sha256": "169532784679e8aceebcbed09f689deb02605f38b017286a40de77ca44684b91",
+      "bytes": 2952
+    },
+    {
+      "id": "norwegian-paralysis",
+      "path": "data/cocktails/norwegian-paralysis/data.json",
+      "sha256": "58590489bc442c4601cb035b6ceab7facffd6b7e6baab7048a1c4091bcc4d9c9",
+      "bytes": 3719
+    },
+    {
+      "id": "not-far-from-a-tree",
+      "path": "data/cocktails/not-far-from-a-tree/data.json",
+      "sha256": "e8be4345e8543523e5975733fe6ad12909f0e33bbffc1b87c34bdd3a50f7f9af",
+      "bytes": 3342
+    },
+    {
+      "id": "nuclear-daiquiri",
+      "path": "data/cocktails/nuclear-daiquiri/data.json",
+      "sha256": "9b282ce5dc7a379f69a0345362eca2f3ff3c069a37374d0e291764fd362c5e7f",
+      "bytes": 2279
+    },
+    {
+      "id": "oak-kin",
+      "path": "data/cocktails/oak-kin/data.json",
+      "sha256": "68533f66109e17bbd10b725a8599b680b05a510e21d15e3be457e7c41b4d3e00",
+      "bytes": 2896
+    },
+    {
+      "id": "oaxaca-old-fashioned",
+      "path": "data/cocktails/oaxaca-old-fashioned/data.json",
+      "sha256": "eba785e559aa71d2aff1fbb4ffee94a8572eaea96e89f55e3f0d28369822948b",
+      "bytes": 3155
+    },
+    {
+      "id": "oaxacanite",
+      "path": "data/cocktails/oaxacanite/data.json",
+      "sha256": "c291c0f81a8e7c46a90c28a2870b79a021418a631d0564f0a5809990a5c9b709",
+      "bytes": 2859
+    },
+    {
+      "id": "obituary",
+      "path": "data/cocktails/obituary/data.json",
+      "sha256": "7d89f4c92d91453661e1e65a3812a7797c83753b8c72a5ff20e687d0c20daa6a",
+      "bytes": 1987
+    },
+    {
+      "id": "ol-poets-smoke",
+      "path": "data/cocktails/ol-poets-smoke/data.json",
+      "sha256": "afa1c3f210491dbbd5fa3391a60c10f90ff1870d3a18f7e399b778710c5e38d7",
+      "bytes": 2625
+    },
+    {
+      "id": "old-cuban",
+      "path": "data/cocktails/old-cuban/data.json",
+      "sha256": "92de02a6be16a53d71d195465007c0c4da09b0feac758708255e731e8f651105",
+      "bytes": 2800
+    },
+    {
+      "id": "old-fashioned",
+      "path": "data/cocktails/old-fashioned/data.json",
+      "sha256": "7d153d58ad945ec01e42645955abee225831112ad5e1368b467b8d101f366cb5",
+      "bytes": 3376
+    },
+    {
+      "id": "old-fashioned-romance",
+      "path": "data/cocktails/old-fashioned-romance/data.json",
+      "sha256": "696a999ad681fc08d6404106de7f0da3154a08c307e84da7c24f2e24ef3071e7",
+      "bytes": 1975
+    },
+    {
+      "id": "old-friend",
+      "path": "data/cocktails/old-friend/data.json",
+      "sha256": "a2c0d50063effd1cf4992aad0392e5ee7d699dbd016ab113bf1a8f4de3dec5b1",
+      "bytes": 2492
+    },
+    {
+      "id": "old-haitian",
+      "path": "data/cocktails/old-haitian/data.json",
+      "sha256": "017fcf5e1ada5bc04575ff635c8e2f8892c51052c49507a56b1fda34c68f2836",
+      "bytes": 2914
+    },
+    {
+      "id": "old-pal",
+      "path": "data/cocktails/old-pal/data.json",
+      "sha256": "c8544c2843ed974ea6b278ab573a419300ef84e5da551f446e857bd1e9da8d88",
+      "bytes": 1934
+    },
+    {
+      "id": "old-salt",
+      "path": "data/cocktails/old-salt/data.json",
+      "sha256": "fd911221c27e5c17bbfcebbd30c205b78e4f875fb435a00ad38af9eee89705ee",
+      "bytes": 2854
+    },
+    {
+      "id": "padua-paloma",
+      "path": "data/cocktails/padua-paloma/data.json",
+      "sha256": "e55a7055fad8219c81aec142c8fa171b0164d34f4ae54dee646f32a6c04ddecd",
+      "bytes": 2709
+    },
+    {
+      "id": "painkiller",
+      "path": "data/cocktails/painkiller/data.json",
+      "sha256": "4b943a82c38f09276f705a8a2125640f162c698c3f9dd20762a6e4cdc91e7d28",
+      "bytes": 2712
+    },
+    {
+      "id": "painkiller-the-mothership",
+      "path": "data/cocktails/painkiller-the-mothership/data.json",
+      "sha256": "a07ad9c9b981a6075c3266edd2cc27541ccde2ebdea83ea54c03d4a883d87c35",
+      "bytes": 2643
+    },
+    {
+      "id": "palmetto-no-1",
+      "path": "data/cocktails/palmetto-no-1/data.json",
+      "sha256": "b6cd151af174681bed43ab228e4ffd71f8052cabebc0e7d0a92c9a0061824f41",
+      "bytes": 1715
+    },
+    {
+      "id": "palmetto-no-2",
+      "path": "data/cocktails/palmetto-no-2/data.json",
+      "sha256": "29a287b7d7f2168254bb96b6f0f08300e9a775835b3d5e7fa84df5d54c9b42aa",
+      "bytes": 2026
+    },
+    {
+      "id": "paloma",
+      "path": "data/cocktails/paloma/data.json",
+      "sha256": "5ec7effbd9f94732e48ee9009e597c54c1e5ad8eaf01d86e5152884cde2829e5",
+      "bytes": 2788
+    },
+    {
+      "id": "pancho-villa",
+      "path": "data/cocktails/pancho-villa/data.json",
+      "sha256": "3f87f53156d0d18ed52c5dfedfe1177bebc5a559454a25a8ecf4cea805e79520",
+      "bytes": 3282
+    },
+    {
+      "id": "paper-airplane",
+      "path": "data/cocktails/paper-airplane/data.json",
+      "sha256": "e3482df24d7d4b333eaa67ea472b9319cff5ab5c012d9c665443dedc0d02bc4a",
+      "bytes": 2115
+    },
+    {
+      "id": "paper-plane",
+      "path": "data/cocktails/paper-plane/data.json",
+      "sha256": "4f7bb5fb940302e4946c2bf6e7426285846f1323e3458844f2392075c2b5d992",
+      "bytes": 2746
+    },
+    {
+      "id": "paradise",
+      "path": "data/cocktails/paradise/data.json",
+      "sha256": "a81ccf3748e887c6e8e4ad11d561b5649dea56a684bc62baeea04926bb138927",
+      "bytes": 1973
+    },
+    {
+      "id": "paris-is-burning",
+      "path": "data/cocktails/paris-is-burning/data.json",
+      "sha256": "e78d2852c55585d1415555831a03ea9013f382b7ab27ee00b919398e72b46d35",
+      "bytes": 2774
+    },
+    {
+      "id": "parisian-dispatch",
+      "path": "data/cocktails/parisian-dispatch/data.json",
+      "sha256": "b3b61f8e09914403a232f50b23fa4c8bc979822451c7defe09ddbae973f0251a",
+      "bytes": 2315
+    },
+    {
+      "id": "parisien-mojito",
+      "path": "data/cocktails/parisien-mojito/data.json",
+      "sha256": "acc2aea6786ec470fd8e376968bb6515e2c92c01d5304193d500faed37e1dd04",
+      "bytes": 2185
+    },
+    {
+      "id": "pasion",
+      "path": "data/cocktails/pasion/data.json",
+      "sha256": "c1076fc415ca5b80480419e4adaff6dc2088f397820c7f758c74b252dc8ffa92",
+      "bytes": 2715
+    },
+    {
+      "id": "pear-martini",
+      "path": "data/cocktails/pear-martini/data.json",
+      "sha256": "071f32c7377c7f8485f0fce904b87edc49faa04bc18131dfeb2aba486eed0e52",
+      "bytes": 1727
+    },
+    {
+      "id": "pearl-diver",
+      "path": "data/cocktails/pearl-diver/data.json",
+      "sha256": "3f795f90582b66c6731e93ab48102bbbec8b96c8dcb6fdf46161793396f3374a",
+      "bytes": 3833
+    },
+    {
+      "id": "pegu-club",
+      "path": "data/cocktails/pegu-club/data.json",
+      "sha256": "dcb821b719bdf50436df6d1f11c69e4520da6f971af32347beb9da30e27901f7",
+      "bytes": 2650
+    },
+    {
+      "id": "penicillin",
+      "path": "data/cocktails/penicillin/data.json",
+      "sha256": "09615b9651a5d33fbbfa7ae297a1e5adf00413126b31494584aef4d5921c868b",
+      "bytes": 3212
+    },
+    {
+      "id": "petes-word",
+      "path": "data/cocktails/petes-word/data.json",
+      "sha256": "cc044fd8b1116a775135f0b04a78fcf98f0f6f2219d3766cc19a3840a4558f4e",
+      "bytes": 3154
+    },
+    {
+      "id": "picante-de-la-casa",
+      "path": "data/cocktails/picante-de-la-casa/data.json",
+      "sha256": "9d0e854c28803b215f38dcb496262f8508d2f1d9ac4072fc9a20bc36697423b7",
+      "bytes": 3615
+    },
+    {
+      "id": "pimms-cup",
+      "path": "data/cocktails/pimms-cup/data.json",
+      "sha256": "61f9501870738e41177135d3f025a33f5520f09f4c5b8b275b8f94e5f9ff4fb9",
+      "bytes": 2947
+    },
+    {
+      "id": "pina-colada",
+      "path": "data/cocktails/pina-colada/data.json",
+      "sha256": "63a8410f458a4ad91cf2ea7aaf555cab469ce814208f7961ced733bc9bd5c1a0",
+      "bytes": 2165
+    },
+    {
+      "id": "pina-verde",
+      "path": "data/cocktails/pina-verde/data.json",
+      "sha256": "990f1ce79d42cc5e4e045d5f71026890509a04a1ff8ac99c36145adc9cdd4930",
+      "bytes": 2319
+    },
+    {
+      "id": "pinch-hitter",
+      "path": "data/cocktails/pinch-hitter/data.json",
+      "sha256": "279da6cf291cedc1dac901749fc93e79add9550c0f2b9404885bf566e596cdda",
+      "bytes": 3760
+    },
+    {
+      "id": "pineapple-daiquiri",
+      "path": "data/cocktails/pineapple-daiquiri/data.json",
+      "sha256": "dfa50c4dcafb48b576fca1a587936fbb9d7c8e2e94332c6d3d365e7f80e6d996",
+      "bytes": 2254
+    },
+    {
+      "id": "pink-lady",
+      "path": "data/cocktails/pink-lady/data.json",
+      "sha256": "d6eb190d20c986d31515e72eaf9a653a49baf8e22cc68f7fa4360d96a0b5e64b",
+      "bytes": 2486
+    },
+    {
+      "id": "pisco-sour",
+      "path": "data/cocktails/pisco-sour/data.json",
+      "sha256": "bd73be00925c7a40346b28f037ab90b59f9b5079afc4753fa9ae92c9bdc44073",
+      "bytes": 2786
+    },
+    {
+      "id": "planters-punch",
+      "path": "data/cocktails/planters-punch/data.json",
+      "sha256": "d04777ac34832f4194f4c76b82c01100631ab73092013aa693ea09f622ad4bd8",
+      "bytes": 2355
+    },
+    {
+      "id": "poached-pear",
+      "path": "data/cocktails/poached-pear/data.json",
+      "sha256": "1117732c13c30b135153ab20206a3c25f65180a77213f5cff9dacbeb757ff658",
+      "bytes": 3202
+    },
+    {
+      "id": "poets-dream",
+      "path": "data/cocktails/poets-dream/data.json",
+      "sha256": "0550e8d6d4968cc77de46c0e6d9fcafe9376868a0fcaae4fd647ad13ffbafc61",
+      "bytes": 2433
+    },
+    {
+      "id": "poolside-gossip",
+      "path": "data/cocktails/poolside-gossip/data.json",
+      "sha256": "44187439ffb32598aa08b159f0aa60377d4c63ab206f245f2a25ba8edefa25a3",
+      "bytes": 3620
+    },
+    {
+      "id": "poppas-pride",
+      "path": "data/cocktails/poppas-pride/data.json",
+      "sha256": "6fb8ec36256cc957eb2ed0806ff8106bf3f0cfe8cfd493a48c159173010e7369",
+      "bytes": 2728
+    },
+    {
+      "id": "porn-star-martini",
+      "path": "data/cocktails/porn-star-martini/data.json",
+      "sha256": "1e288967648861c4d315a417107ff9e47ec0976222b8746508b5496c50e544df",
+      "bytes": 3127
+    },
+    {
+      "id": "port-light",
+      "path": "data/cocktails/port-light/data.json",
+      "sha256": "b47d37ec1c94ba87b2788b2ab91fd40378bbc1e66dafcf5fdb09f208476260bd",
+      "bytes": 2556
+    },
+    {
+      "id": "porto-flip",
+      "path": "data/cocktails/porto-flip/data.json",
+      "sha256": "9e7ed485e4db9b347e221d99648b231ad1a94d261d0ddcd3e76a7602e68e2ed5",
+      "bytes": 2037
+    },
+    {
+      "id": "poseidon",
+      "path": "data/cocktails/poseidon/data.json",
+      "sha256": "9445fd81cda9167ea2088dc5bf9b6a372f9f973f4d3d0c60fc1082231006a94a",
+      "bytes": 3420
+    },
+    {
+      "id": "pousse-cafe",
+      "path": "data/cocktails/pousse-cafe/data.json",
+      "sha256": "aaa1dcd2d970ea9081fa3622b4f4d557a478d2a2d177a54c083e73d35f0ac56f",
+      "bytes": 3484
+    },
+    {
+      "id": "prado",
+      "path": "data/cocktails/prado/data.json",
+      "sha256": "3ea814560cbc9221fc956fbb57cd904d1c89eac514a9ff5b94fde19d42245bd9",
+      "bytes": 2738
+    },
+    {
+      "id": "prime-inspector",
+      "path": "data/cocktails/prime-inspector/data.json",
+      "sha256": "4cfdab25500f07d41e346995fd30a387b1c0462f162e9a44e820c2c7ac9b25cb",
+      "bytes": 2438
+    },
+    {
+      "id": "prince-charles-dont-surf",
+      "path": "data/cocktails/prince-charles-dont-surf/data.json",
+      "sha256": "d1f0c0cf2618b6ff6207d201f5b7394bdf7cf58a069170e3242c43991b8747fd",
+      "bytes": 2767
+    },
+    {
+      "id": "puebla-york",
+      "path": "data/cocktails/puebla-york/data.json",
+      "sha256": "6888f737759c407ae835b1202d78455ca006be3712cccb16531e5b2e019d9252",
+      "bytes": 2888
+    },
+    {
+      "id": "puritan",
+      "path": "data/cocktails/puritan/data.json",
+      "sha256": "4d75b0557897855875f4fcd0ae50d9bff2a87fa99c664ab0962a8a57b1cfef89",
+      "bytes": 2262
+    },
+    {
+      "id": "queen-of-the-rodeo",
+      "path": "data/cocktails/queen-of-the-rodeo/data.json",
+      "sha256": "f9b9d53a416f96cd016f21fe03c2934ae014d51bc40ffa370cfbf92f8654bc2d",
+      "bytes": 2610
+    },
+    {
+      "id": "queens-park-hotel-super-cocktail",
+      "path": "data/cocktails/queens-park-hotel-super-cocktail/data.json",
+      "sha256": "7009b1c80fcb9619adec72c0d1203cd5dfe656cf945cac21f20aa7e5a2f99604",
+      "bytes": 2745
+    },
+    {
+      "id": "queens-park-swizzle",
+      "path": "data/cocktails/queens-park-swizzle/data.json",
+      "sha256": "2ae3a164a8fabdc569aef0c9bba53fe84bc750155c1cd2d5781a25546b76874d",
+      "bytes": 3217
+    },
+    {
+      "id": "quilty",
+      "path": "data/cocktails/quilty/data.json",
+      "sha256": "b5a507da177bb24036f4de11fc7204e033dba9abc978552df35e61d65d06c12c",
+      "bytes": 2789
+    },
+    {
+      "id": "rabbit-szn",
+      "path": "data/cocktails/rabbit-szn/data.json",
+      "sha256": "ad415c0eda809cafeeff8660c56f7213b03a69ba6d0b4f38fdc7530e184bd8cb",
+      "bytes": 2720
+    },
+    {
+      "id": "rabo-de-galo",
+      "path": "data/cocktails/rabo-de-galo/data.json",
+      "sha256": "95d42050dee7fa1ea08e2b4988220cbddbef4e9370e3b215dbff77c46a0a86ac",
+      "bytes": 1971
+    },
+    {
+      "id": "rainy-day-fund",
+      "path": "data/cocktails/rainy-day-fund/data.json",
+      "sha256": "f9ebea9580e05070c7b5b95f4c0ccb4b961a18ad2c92ef310f3e1fc9ed96ae24",
+      "bytes": 2586
+    },
+    {
+      "id": "rainy-day-fund-2",
+      "path": "data/cocktails/rainy-day-fund-2/data.json",
+      "sha256": "e9477ea5320f2b24a96f46891ba9611eab598286cbdec0f04e74b9f4015a704a",
+      "bytes": 2685
+    },
+    {
+      "id": "ramos-fizz",
+      "path": "data/cocktails/ramos-fizz/data.json",
+      "sha256": "3b2a96f69eb44c64d46f91fadb1003a24cee2ec3eceef22b594e62eb6081bfec",
+      "bytes": 4738
+    },
+    {
+      "id": "ranglum",
+      "path": "data/cocktails/ranglum/data.json",
+      "sha256": "47b668ed5020709ce41f75e287604ea2db26cb85778fb11ffc762bfc327aa392",
+      "bytes": 2746
+    },
+    {
+      "id": "rattlesnake",
+      "path": "data/cocktails/rattlesnake/data.json",
+      "sha256": "53c234490fcf5cd572574c184e7d8f26a35b5fa8dc5bc3cb9fbd5cdc777c5371",
+      "bytes": 2590
+    },
+    {
+      "id": "reading-nook",
+      "path": "data/cocktails/reading-nook/data.json",
+      "sha256": "0d9a53426f172a309339cd47f7e134c4f40417452906a5c9a96829cbd345999b",
+      "bytes": 2935
+    },
+    {
+      "id": "real-charmers-daiquiri",
+      "path": "data/cocktails/real-charmers-daiquiri/data.json",
+      "sha256": "5574daf83b168a0926f736c956c13f44496f340d6ef691dd7c60789d2e4e2b6d",
+      "bytes": 2267
+    },
+    {
+      "id": "red-hook",
+      "path": "data/cocktails/red-hook/data.json",
+      "sha256": "87209abcd3e3b3aa7cc9e8369c8b64985881c2c801afd692505f83104c3f57cf",
+      "bytes": 1782
+    },
+    {
+      "id": "red-morning-light",
+      "path": "data/cocktails/red-morning-light/data.json",
+      "sha256": "3d406d132a7b0892fdd59343996ba4e1e1f03f5435968cebdbc78e137e4c8063",
+      "bytes": 2700
+    },
+    {
+      "id": "remember-the-alimony",
+      "path": "data/cocktails/remember-the-alimony/data.json",
+      "sha256": "3312d191fc8af198178ff8ebd7433d0465a19ff0d995f823ab81b4bd242fd19e",
+      "bytes": 2001
+    },
+    {
+      "id": "remember-the-maine",
+      "path": "data/cocktails/remember-the-maine/data.json",
+      "sha256": "4307dbd3e4bcef377eb3494bf52281f2512d7a1ecc36ef08ff4b9229971911da",
+      "bytes": 2419
+    },
+    {
+      "id": "reno",
+      "path": "data/cocktails/reno/data.json",
+      "sha256": "8a6cf5267ff486339d7adf658f9a3b6add3832fd9ae100259b8c5e2c3235850d",
+      "bytes": 2874
+    },
+    {
+      "id": "revolver",
+      "path": "data/cocktails/revolver/data.json",
+      "sha256": "7bdb3f4a403f268cb44d686eeaafb2896b82f9a130d2df9c6d34041cfb02683f",
+      "bytes": 1830
+    },
+    {
+      "id": "rib-tickler",
+      "path": "data/cocktails/rib-tickler/data.json",
+      "sha256": "8bd63bcd97ed4c190334d28470594972e58f2afee9c6c38ac90af6e15d02b9c1",
+      "bytes": 2633
+    },
+    {
+      "id": "ric-pear-blanc",
+      "path": "data/cocktails/ric-pear-blanc/data.json",
+      "sha256": "35113f90da1aa71c9b865cf1e3e8bc9c3a8b418b50a4229175b992d16c363669",
+      "bytes": 2732
+    },
+    {
+      "id": "risorgimento-ditalia",
+      "path": "data/cocktails/risorgimento-ditalia/data.json",
+      "sha256": "d697dbae57771cbf91e994a15ceedf63c8547c78cf400f1317182421a0198799",
+      "bytes": 2717
+    },
+    {
+      "id": "ritz-cocktail",
+      "path": "data/cocktails/ritz-cocktail/data.json",
+      "sha256": "f9c596084c2e92c93eab31c43bf3e6b6b226c5f21b92c6b1fdf92093cd566ca7",
+      "bytes": 2882
+    },
+    {
+      "id": "rob-roy-no-3",
+      "path": "data/cocktails/rob-roy-no-3/data.json",
+      "sha256": "aabb4b0019b04e03fa998da91f68e52b51589d0755a73d9c4f36369aca4db7bb",
+      "bytes": 1950
+    },
+    {
+      "id": "rocinante",
+      "path": "data/cocktails/rocinante/data.json",
+      "sha256": "48f98f0f7cd6de2d5db6888c7ff82f1140547f5ef676297fe78b51d28cafef6a",
+      "bytes": 2390
+    },
+    {
+      "id": "rocket-power",
+      "path": "data/cocktails/rocket-power/data.json",
+      "sha256": "e9815323d525366fa66dfe619bebd32144f5e53d8541800d8b25b982edf8b981",
+      "bytes": 2519
+    },
+    {
+      "id": "roman-holiday",
+      "path": "data/cocktails/roman-holiday/data.json",
+      "sha256": "40b9b14f3df8357518f644c51795df8973e7d6aa1fedf7d37c55586d590c2d60",
+      "bytes": 4467
+    },
+    {
+      "id": "rome-with-a-view",
+      "path": "data/cocktails/rome-with-a-view/data.json",
+      "sha256": "0b1ae3d08d067cc23731de9454e10fe7998fa533884d59819f225615e3b7df51",
+      "bytes": 3094
+    },
+    {
+      "id": "room-key",
+      "path": "data/cocktails/room-key/data.json",
+      "sha256": "b1370d57974f08a8b23980dd1e6f335683fe75f25fc0cc6931142cd1f387b682",
+      "bytes": 2816
+    },
+    {
+      "id": "rubino-tequila-spritz",
+      "path": "data/cocktails/rubino-tequila-spritz/data.json",
+      "sha256": "fa0860893f94d25ff77842ca7ff99158c0725e7880f7595f51d468591e5521ec",
+      "bytes": 3016
+    },
+    {
+      "id": "rum-and-ramazzotti",
+      "path": "data/cocktails/rum-and-ramazzotti/data.json",
+      "sha256": "a8d85c8f28de4af01d3d2609957039187d4c51215d0fb47642d5408d3d2d8640",
+      "bytes": 3155
+    },
+    {
+      "id": "rum-old-fashioned",
+      "path": "data/cocktails/rum-old-fashioned/data.json",
+      "sha256": "557cda51d26c730bfb097194b90ccf80217460f074f7706e8a1d27419fcf608e",
+      "bytes": 2345
+    },
+    {
+      "id": "russian-spring-punch",
+      "path": "data/cocktails/russian-spring-punch/data.json",
+      "sha256": "bbadd12687ec6dd2fe9ca855476e4dd5da967b2015a6579a53830ee69ed66430",
+      "bytes": 3110
+    },
+    {
+      "id": "rusty-nail",
+      "path": "data/cocktails/rusty-nail/data.json",
+      "sha256": "1a6da75196b75b5d11ee69c9a30359b49aeb8024733c6dd08b087cce034dc831",
+      "bytes": 2296
+    },
+    {
+      "id": "rusty-ringo",
+      "path": "data/cocktails/rusty-ringo/data.json",
+      "sha256": "f89e096df59b8b91c0a7c3800b97127fe35aea527a25bfdbf27572d2002ae8f7",
+      "bytes": 1915
+    },
+    {
+      "id": "sage-gibson",
+      "path": "data/cocktails/sage-gibson/data.json",
+      "sha256": "c986846417c81d851853a7627a1c5ede28b403b7c1c064187f45cf708618c664",
+      "bytes": 2285
+    },
+    {
+      "id": "saisonniere",
+      "path": "data/cocktails/saisonniere/data.json",
+      "sha256": "8fac32e54bb8a5ba6cac793c39bab69a98b5d0f08d8b0a37afb73ccf217388e5",
+      "bytes": 2329
+    },
+    {
+      "id": "sakura-martini",
+      "path": "data/cocktails/sakura-martini/data.json",
+      "sha256": "8ecec8cd56c5025f17b9731255cb6f87879d65d2e779e341570086f2f0c95199",
+      "bytes": 1911
+    },
+    {
+      "id": "salmoncito",
+      "path": "data/cocktails/salmoncito/data.json",
+      "sha256": "14b99d3949c96822ecff240042d397313707334acaa5639d498fec0c3d0e9e14",
+      "bytes": 2360
+    },
+    {
+      "id": "sang-amer",
+      "path": "data/cocktails/sang-amer/data.json",
+      "sha256": "80f241d5b175cfc6387cf5118d972cccde33f712825979aa01a2593c7bcdfe77",
+      "bytes": 2527
+    },
+    {
+      "id": "sangria",
+      "path": "data/cocktails/sangria/data.json",
+      "sha256": "82264c8e852a1b30e37ae3f44813a73706d6c7426f595f8f3b374e8cf137853c",
+      "bytes": 3781
+    },
+    {
+      "id": "saturn",
+      "path": "data/cocktails/saturn/data.json",
+      "sha256": "d62abfe4d05cd73465b9fb618f0b4e90cae0db05d07ec6107117f82998e9053a",
+      "bytes": 2593
+    },
+    {
+      "id": "sauvignon-blanc-punch",
+      "path": "data/cocktails/sauvignon-blanc-punch/data.json",
+      "sha256": "c14c573feaff66f8db48bb7639f737a76e23760f2448a1c8424f0bb29dedcca9",
+      "bytes": 3084
+    },
+    {
+      "id": "savoy-special-1",
+      "path": "data/cocktails/savoy-special-1/data.json",
+      "sha256": "9ac6002ecd1e3babc9afc0965c81a1778cf3e25c9597f729cbc353de8384e624",
+      "bytes": 2264
+    },
+    {
+      "id": "sawyer",
+      "path": "data/cocktails/sawyer/data.json",
+      "sha256": "202baa05f97352574f165b7b29fa0f8750697257f5365b2a30d551cb6a9748bf",
+      "bytes": 3007
+    },
+    {
+      "id": "sazerac",
+      "path": "data/cocktails/sazerac/data.json",
+      "sha256": "506eef92bad933f50f346e1a8e927f3afa454ed02916014e79a96c3eb82d0acd",
+      "bytes": 3535
+    },
+    {
+      "id": "scofflaw",
+      "path": "data/cocktails/scofflaw/data.json",
+      "sha256": "85cd39669c168c3685614cc314cef6f01d65f08b66e44eb053cb6e23176862f0",
+      "bytes": 2811
+    },
+    {
+      "id": "scorched-earth",
+      "path": "data/cocktails/scorched-earth/data.json",
+      "sha256": "39559c13e48aecab9b2041bf90ed660d4d31db08d7d2606787b12f7cfcb7d2cf",
+      "bytes": 2165
+    },
+    {
+      "id": "scorpion-bowl",
+      "path": "data/cocktails/scorpion-bowl/data.json",
+      "sha256": "0df0382f1710dc0bb746e0e686dcf214d1536c976a1d792c293c2ad99065f7cd",
+      "bytes": 3353
+    },
+    {
+      "id": "scorpion-reef",
+      "path": "data/cocktails/scorpion-reef/data.json",
+      "sha256": "b28cf2a977b417dc7dc5231f38d82d70f8dffd0bc4887ae243ff23041dd629f2",
+      "bytes": 3696
+    },
+    {
+      "id": "scotch-and-coconut",
+      "path": "data/cocktails/scotch-and-coconut/data.json",
+      "sha256": "a7b71f89e05151a0367120c49c319c2054c1500d5d2d42ba634eef773c6bafd8",
+      "bytes": 3078
+    },
+    {
+      "id": "scotch-sling",
+      "path": "data/cocktails/scotch-sling/data.json",
+      "sha256": "1d3a3754cd8060276311347c4ab6c6bd882747148a0dffc3019700c06e9d19b9",
+      "bytes": 2991
+    },
+    {
+      "id": "screwdriver",
+      "path": "data/cocktails/screwdriver/data.json",
+      "sha256": "31790bb92cbe45f2cbfff6c3799e73cc5a3d5aa63451f46399982a3aecc4ca8b",
+      "bytes": 1789
+    },
+    {
+      "id": "sea-breeze",
+      "path": "data/cocktails/sea-breeze/data.json",
+      "sha256": "5944b58da62486440321aa229ade8659b26af5c7dda3f8f167266a27e6af974d",
+      "bytes": 1882
+    },
+    {
+      "id": "sea-legs",
+      "path": "data/cocktails/sea-legs/data.json",
+      "sha256": "c95201c5ed1472107d8eb2ed41aabdcd070940bb1260991578061396b9db9ef9",
+      "bytes": 2722
+    },
+    {
+      "id": "second-serve",
+      "path": "data/cocktails/second-serve/data.json",
+      "sha256": "b549bc0db9a0a112bc12184d13a851ca9161b2d5ee13f7d08c45bd3add6c29a8",
+      "bytes": 2635
+    },
+    {
+      "id": "second-serve-2",
+      "path": "data/cocktails/second-serve-2/data.json",
+      "sha256": "9b9f5e7f1ee151d8e9fdc96d27dd3debae803a5d253a62def12d28f3e7ce0932",
+      "bytes": 2332
+    },
+    {
+      "id": "see-you-on-wednesday",
+      "path": "data/cocktails/see-you-on-wednesday/data.json",
+      "sha256": "a4bd88415425252bbe28bf8cbea9d36c4d4c57a765679de214dae84c92e0969e",
+      "bytes": 2750
+    },
+    {
+      "id": "seelbach",
+      "path": "data/cocktails/seelbach/data.json",
+      "sha256": "855e6a8f78e286f9c5ff9316034eb9eb0907fdf9f41890ba1f56cdf849c32f2d",
+      "bytes": 2718
+    },
+    {
+      "id": "sentimental-gentleman",
+      "path": "data/cocktails/sentimental-gentleman/data.json",
+      "sha256": "e38cea9548b872e6d5ea0213c5331cf376eeb70a6feeedd02713a528c73d15e0",
+      "bytes": 2326
+    },
+    {
+      "id": "seven-seas-swizzle",
+      "path": "data/cocktails/seven-seas-swizzle/data.json",
+      "sha256": "fa9dd4645567b37a0ef67c6b6db5523b8a26562d64649666c7c76842ec1d6bf8",
+      "bytes": 2367
+    },
+    {
+      "id": "sex-on-the-beach",
+      "path": "data/cocktails/sex-on-the-beach/data.json",
+      "sha256": "b00ded28477cd2fdf28bb8ba2377db6324c40817319b9c3a75ade46a48d1b736",
+      "bytes": 2829
+    },
+    {
+      "id": "sex-work-is-real-work",
+      "path": "data/cocktails/sex-work-is-real-work/data.json",
+      "sha256": "3f0a84a2ebc97d7a9399c23f7eb6cde506210e23f82721a6f355bef7cc06d2cb",
+      "bytes": 3878
+    },
+    {
+      "id": "shade-thrower",
+      "path": "data/cocktails/shade-thrower/data.json",
+      "sha256": "ca1b98920f4742d19ae714d38fda394d354de19b8d80b6c97a5c1383d636132c",
+      "bytes": 2476
+    },
+    {
+      "id": "shannon-tebays-paloma",
+      "path": "data/cocktails/shannon-tebays-paloma/data.json",
+      "sha256": "d59ae73f2eb513dd8110f6f28ca3b61f129833fe0322e0197737185f5fa4fb8b",
+      "bytes": 2801
+    },
+    {
+      "id": "shirley-temple",
+      "path": "data/cocktails/shirley-temple/data.json",
+      "sha256": "f7b782966015606fdbea2410cb312df1ad90174e0736619eea3035d2823f6252",
+      "bytes": 1985
+    },
+    {
+      "id": "shliva-sour",
+      "path": "data/cocktails/shliva-sour/data.json",
+      "sha256": "a5b9182947705f7afa6d66c0dd6e8764dddbac98c92c5aec6d9845e85c6e57d8",
+      "bytes": 2350
+    },
+    {
+      "id": "shoot-the-moon",
+      "path": "data/cocktails/shoot-the-moon/data.json",
+      "sha256": "9bf8ae859d8f163c6e594829bdd644f9f4ecc19349a667431ad644226ea6a092",
+      "bytes": 2302
+    },
+    {
+      "id": "sidecar",
+      "path": "data/cocktails/sidecar/data.json",
+      "sha256": "ac4ac282aabf8a2851fda9cb117c30b6a2c64086353d55b1ab99dc3a8992008c",
+      "bytes": 2319
+    },
+    {
+      "id": "siesta",
+      "path": "data/cocktails/siesta/data.json",
+      "sha256": "ab974f516e5ff322cec07e5a0c5b25a0d8eee683211342ccbeda309950f15305",
+      "bytes": 3007
+    },
+    {
+      "id": "sin-cyn",
+      "path": "data/cocktails/sin-cyn/data.json",
+      "sha256": "c6f181ad1bba89b3194df142dcc49ee43487da1d5f53c1f9fac91a8381f3ead4",
+      "bytes": 1881
+    },
+    {
+      "id": "singapore-sling",
+      "path": "data/cocktails/singapore-sling/data.json",
+      "sha256": "1c58bf958150e50265e7f9616f4c2b7d933214034e09c53e38a2465290f6f7f7",
+      "bytes": 3767
+    },
+    {
+      "id": "single-village-fix",
+      "path": "data/cocktails/single-village-fix/data.json",
+      "sha256": "042e32fdcec0a559a0551af22447939ce995f37df4f0199ba1ba954cf19fe17b",
+      "bytes": 1875
+    },
+    {
+      "id": "skeleton-key",
+      "path": "data/cocktails/skeleton-key/data.json",
+      "sha256": "43f94ddb391e684b436da72fd6dc28b4cbff377f72a3acba6751562863097564",
+      "bytes": 2723
+    },
+    {
+      "id": "smoke-follows-beauty",
+      "path": "data/cocktails/smoke-follows-beauty/data.json",
+      "sha256": "de8ed036904e1d5505591658839ae0cb1e9a48ca8405ba0c1c280e8a04daa5d9",
+      "bytes": 3335
+    },
+    {
+      "id": "smokeroni",
+      "path": "data/cocktails/smokeroni/data.json",
+      "sha256": "97b6bcbc77c2f97cd52a9d17113d405e7f16f547c0bc822d5adc4237d3a3cd10",
+      "bytes": 2328
+    },
+    {
+      "id": "smooth-kiss",
+      "path": "data/cocktails/smooth-kiss/data.json",
+      "sha256": "fea3126546cb5d2977411e362f4d21743d7475547ce5ac779d404a5192b966ed",
+      "bytes": 2365
+    },
+    {
+      "id": "snake-bit-sprout",
+      "path": "data/cocktails/snake-bit-sprout/data.json",
+      "sha256": "1f7af8bc7fc83eb5703e565fdcce19bf7ba46533e0ef2f496e8c25ebfce6da8f",
+      "bytes": 2904
+    },
+    {
+      "id": "snake-eyes",
+      "path": "data/cocktails/snake-eyes/data.json",
+      "sha256": "fedbccf7ed505a9d8ac896020585ff903634f8b52959c8064e9bb44581df392a",
+      "bytes": 2645
+    },
+    {
+      "id": "sno-cone",
+      "path": "data/cocktails/sno-cone/data.json",
+      "sha256": "04b7eb157befae8443486c1241377cc04675c6c15219a58a5f6aeb10a9ad1b31",
+      "bytes": 3100
+    },
+    {
+      "id": "society-street",
+      "path": "data/cocktails/society-street/data.json",
+      "sha256": "bdba437de38e3be3156bf4b0be46355a2ef2efede5c681f673ccb7a9d76646f4",
+      "bytes": 2806
+    },
+    {
+      "id": "sour-strawberry-highball",
+      "path": "data/cocktails/sour-strawberry-highball/data.json",
+      "sha256": "c64841bd84bf2e21cefb1f15072e9b79b26d89c456806b5e36faa611106a7b2d",
+      "bytes": 2970
+    },
+    {
+      "id": "south-slope",
+      "path": "data/cocktails/south-slope/data.json",
+      "sha256": "d0c9f754ce7732c1c2e8d30a6540a9273b37f04e01d9090edf6e555a68a940db",
+      "bytes": 2841
+    },
+    {
+      "id": "southside",
+      "path": "data/cocktails/southside/data.json",
+      "sha256": "bf0babcdb7bb6676cfa46c5b066776607b9cf6232d402ca0f4235767ddc5d05d",
+      "bytes": 2341
+    },
+    {
+      "id": "spaceface-from-young-american",
+      "path": "data/cocktails/spaceface-from-young-american/data.json",
+      "sha256": "e32302f89cb7e6d748c925d7b01d4bff07d55b96a1e58fea71ddb1971d11d341",
+      "bytes": 3292
+    },
+    {
+      "id": "spaghetti-western",
+      "path": "data/cocktails/spaghetti-western/data.json",
+      "sha256": "f99096c3b96ed9e06e305c5c61ee85282d5c2c3ece8e8867dbdd7e65a42c060b",
+      "bytes": 2666
+    },
+    {
+      "id": "spanish-monk",
+      "path": "data/cocktails/spanish-monk/data.json",
+      "sha256": "fe076bcec3da1225994634db5faa6d42d12ba8f700453e5a01507c05789331cd",
+      "bytes": 2745
+    },
+    {
+      "id": "spiced-cranberry-orange-punch",
+      "path": "data/cocktails/spiced-cranberry-orange-punch/data.json",
+      "sha256": "34a4f5d3e5efd331323e33f4e1f5658a8aee2915a8f1b2a55fa9c79823e54d1d",
+      "bytes": 5150
+    },
+    {
+      "id": "spicy-fifty",
+      "path": "data/cocktails/spicy-fifty/data.json",
+      "sha256": "193ab04abfb6f0f1df5a4e34aee80a22d58c50c8641d623ad0493a74e70b2768",
+      "bytes": 2428
+    },
+    {
+      "id": "spindrift",
+      "path": "data/cocktails/spindrift/data.json",
+      "sha256": "f924ae8a7ce2894d2bd6fb05e01f572da922c5741b1f56e3039aadfe0c990cff",
+      "bytes": 4124
+    },
+    {
+      "id": "split-decision",
+      "path": "data/cocktails/split-decision/data.json",
+      "sha256": "a6aa5397cc9f19716d3a9709e156e1af46e9c4d3ab993f37c1f1089cc1b6832d",
+      "bytes": 2351
+    },
+    {
+      "id": "squeaky-wheel",
+      "path": "data/cocktails/squeaky-wheel/data.json",
+      "sha256": "82d5d615767ca245766f83579e4b776c64c4de73933a8712f6749c056d2bd9a0",
+      "bytes": 3190
+    },
+    {
+      "id": "st-john-frizells-irish-coffee",
+      "path": "data/cocktails/st-john-frizells-irish-coffee/data.json",
+      "sha256": "e49a631a087156c12813b73901911fa08a711489637b26e0bb89b1aa8b33fd8c",
+      "bytes": 2851
+    },
+    {
+      "id": "st-regis-julep",
+      "path": "data/cocktails/st-regis-julep/data.json",
+      "sha256": "0ed2e7bde2e4070eb5fbd311832aa93ee179fc4d7a894d8a6b03f71a0b0bbdeb",
+      "bytes": 2902
+    },
+    {
+      "id": "star",
+      "path": "data/cocktails/star/data.json",
+      "sha256": "68f211f8048e03717ecf822d11d3eafd27573ffb901c8fc290843a41340650bd",
+      "bytes": 2179
+    },
+    {
+      "id": "step-into-liquid",
+      "path": "data/cocktails/step-into-liquid/data.json",
+      "sha256": "1471a1275869e58337e89ce933ffb80732247387488fd38979b562f6bb163cd2",
+      "bytes": 2602
+    },
+    {
+      "id": "stinger",
+      "path": "data/cocktails/stinger/data.json",
+      "sha256": "363f07a77fe2e1fec50e0983b42ae641634ed3c4abc9a3cf42cb16d8918e5387",
+      "bytes": 1794
+    },
+    {
+      "id": "stones-throw",
+      "path": "data/cocktails/stones-throw/data.json",
+      "sha256": "ff4402768393f96ab4ce8e6ea9ce791f6aec69260a12c2666af1e8abd108fd3e",
+      "bytes": 2784
+    },
+    {
+      "id": "stork-club",
+      "path": "data/cocktails/stork-club/data.json",
+      "sha256": "4cd5d42c0078da68e7450f0b4a5834872c13d44743a15412d78bd3cff1a1766b",
+      "bytes": 3716
+    },
+    {
+      "id": "strawberry-daiquiri",
+      "path": "data/cocktails/strawberry-daiquiri/data.json",
+      "sha256": "4e88106cc833973738c81877f520196b3a64a0888f776c7d680195780c0bc9e8",
+      "bytes": 2675
+    },
+    {
+      "id": "strawberry-roan",
+      "path": "data/cocktails/strawberry-roan/data.json",
+      "sha256": "27f63b51ab20a1d60266ea39e62f3db4ea266e0b42f732bc09e2b8d1a06de231",
+      "bytes": 3089
+    },
+    {
+      "id": "strictly-business",
+      "path": "data/cocktails/strictly-business/data.json",
+      "sha256": "fd5b331c1adb7c93a9eaa9b4cb33c824f885e81f29b30ce400de4c277cbeb3fd",
+      "bytes": 3491
+    },
+    {
+      "id": "strukani-pelin",
+      "path": "data/cocktails/strukani-pelin/data.json",
+      "sha256": "77f3a33361a98fa2d05407bc2c2daa8f4d54e05228ee77b2b17155c8991ef4bd",
+      "bytes": 2162
+    },
+    {
+      "id": "suffering-bastard",
+      "path": "data/cocktails/suffering-bastard/data.json",
+      "sha256": "ca00579003cd3e21d7343bcf959c3c522e1d579f5fcd26af60ce4d73915976fd",
+      "bytes": 2847
+    },
+    {
+      "id": "sunflower-cocktail-recipe",
+      "path": "data/cocktails/sunflower-cocktail-recipe/data.json",
+      "sha256": "562c4da14f8c7799506bf1b0ba58eea8e53475ea02c2ed0dd1f9687b14feb9fe",
+      "bytes": 2845
+    },
+    {
+      "id": "surfer-on-acid",
+      "path": "data/cocktails/surfer-on-acid/data.json",
+      "sha256": "02b39e6f0f69e8b8aea4cd5e8aacbdfc450a9ec3c8bf3df5332465bddd99d27b",
+      "bytes": 3667
+    },
+    {
+      "id": "t-summer-night",
+      "path": "data/cocktails/t-summer-night/data.json",
+      "sha256": "cf40dd79d85036e49257477ecb6efcba3e3b75d0fcc17ec67cfb1e6f43576618",
+      "bytes": 3278
+    },
+    {
+      "id": "tango-nuevo",
+      "path": "data/cocktails/tango-nuevo/data.json",
+      "sha256": "3962fc6e11a03eb9de504b577f7dc8b9ce5fb0873b4481bb37bde46e8063fe1a",
+      "bytes": 1932
+    },
+    {
+      "id": "tea-time",
+      "path": "data/cocktails/tea-time/data.json",
+      "sha256": "0e97cc595cec8f6e358ced391bacb6260725c45f6b9ce385b49742796b402709",
+      "bytes": 2551
+    },
+    {
+      "id": "telekinesis",
+      "path": "data/cocktails/telekinesis/data.json",
+      "sha256": "e7ea1873f3839a46c318ff71bd28f56a40bfe448ea33086bc4fc502e8a935daf",
+      "bytes": 2155
+    },
+    {
+      "id": "temperance-grapefruit-collins",
+      "path": "data/cocktails/temperance-grapefruit-collins/data.json",
+      "sha256": "6f9e35ee23bcf425e20688d36531cf345349dba3a30b9b7f13d0c8fb3ee29ed9",
+      "bytes": 3339
+    },
+    {
+      "id": "tequila-daisy",
+      "path": "data/cocktails/tequila-daisy/data.json",
+      "sha256": "cb8bc15f200c575e1e351b1b244ff96987e872ce902a54f705ff36f76e10b001",
+      "bytes": 2462
+    },
+    {
+      "id": "tequila-matador",
+      "path": "data/cocktails/tequila-matador/data.json",
+      "sha256": "ca84524536f5f5c4f1d600a2297f826d931023945e425e4131383f872b7f6e49",
+      "bytes": 1949
+    },
+    {
+      "id": "tequila-old-fashioned",
+      "path": "data/cocktails/tequila-old-fashioned/data.json",
+      "sha256": "cfcf82c2aff8c4b11bd2f2dc4c52836019bb3b043cfbb6af6ea123193b0f2951",
+      "bytes": 1858
+    },
+    {
+      "id": "tequila-spritz",
+      "path": "data/cocktails/tequila-spritz/data.json",
+      "sha256": "2cea2314e299d869f99ebf0534a2f318fe9dc4aedc468d6e8a5bfae16d7bc173",
+      "bytes": 3216
+    },
+    {
+      "id": "tequila-sunrise",
+      "path": "data/cocktails/tequila-sunrise/data.json",
+      "sha256": "7a93ad02216df5215b30948562cd4f5537450e85f9e4bc954faad4cd179cd225",
+      "bytes": 2098
+    },
+    {
+      "id": "teton-tanya",
+      "path": "data/cocktails/teton-tanya/data.json",
+      "sha256": "e103a23b488594fb9f11469243824f42c8038391a6564e518bd4b0a973fd787c",
+      "bytes": 1927
+    },
+    {
+      "id": "thad-voglers-el-presidente",
+      "path": "data/cocktails/thad-voglers-el-presidente/data.json",
+      "sha256": "021a30891d6c45b35b8901c1d90a3d70cd4d9276bd5ff6f5e85d0e036581f9fc",
+      "bytes": 2576
+    },
+    {
+      "id": "the-brave",
+      "path": "data/cocktails/the-brave/data.json",
+      "sha256": "6673368268ddeb25495272acffbd7ade8d981c2818f847eb2619db21cf8d269e",
+      "bytes": 2910
+    },
+    {
+      "id": "the-coffee-house",
+      "path": "data/cocktails/the-coffee-house/data.json",
+      "sha256": "f51a9d48a24dc55d6efdf03a155823144cca655f3bc61cec71ab902b17ef90d7",
+      "bytes": 2064
+    },
+    {
+      "id": "the-cutter",
+      "path": "data/cocktails/the-cutter/data.json",
+      "sha256": "2a0d87d0695e3a258064ec15f9a9068f0831303b102cb6d9fcb9adab96450bc4",
+      "bytes": 2926
+    },
+    {
+      "id": "the-dead-rabbit",
+      "path": "data/cocktails/the-dead-rabbit/data.json",
+      "sha256": "4eee111cf176b72e13a7e37918844f415c844b8ba896f9082160fad23f3fdf1a",
+      "bytes": 3072
+    },
+    {
+      "id": "the-doctors-orders",
+      "path": "data/cocktails/the-doctors-orders/data.json",
+      "sha256": "c356e631329f7967466b96176a82da047210b5e8800c14331df4135e60d78376",
+      "bytes": 3356
+    },
+    {
+      "id": "the-end-of-the-road",
+      "path": "data/cocktails/the-end-of-the-road/data.json",
+      "sha256": "c0a63a774081a8e28aced07e9a279c945dc0e1e436ccec86910181a457b467fb",
+      "bytes": 2418
+    },
+    {
+      "id": "the-flatliner",
+      "path": "data/cocktails/the-flatliner/data.json",
+      "sha256": "488fadf07c912ec4d40200dd08853c29b137f8b6e0bf1a8a704df32d4bd378d7",
+      "bytes": 2459
+    },
+    {
+      "id": "the-greenpoint",
+      "path": "data/cocktails/the-greenpoint/data.json",
+      "sha256": "80652975c20cd3e7d650e6b90b75e44f00b9e0501c0d5a1923f3e1e62fca6cb1",
+      "bytes": 2511
+    },
+    {
+      "id": "the-infante",
+      "path": "data/cocktails/the-infante/data.json",
+      "sha256": "09d9909020d1b8a93cd5b47b76d03da9e01c402bf223051bd805cd09bf9e7f32",
+      "bytes": 2471
+    },
+    {
+      "id": "the-last-chateau",
+      "path": "data/cocktails/the-last-chateau/data.json",
+      "sha256": "dd9399528e3383b529fa1cf23f103a2b9ea740a0ea15e03195e1057c4e1d8209",
+      "bytes": 2979
+    },
+    {
+      "id": "the-last-rainstorm",
+      "path": "data/cocktails/the-last-rainstorm/data.json",
+      "sha256": "21c6afde95989f8f548943ced8ed5b31b7212c17eeb441e4a6f5f074a070a13b",
+      "bytes": 3334
+    },
+    {
+      "id": "the-last-spritz",
+      "path": "data/cocktails/the-last-spritz/data.json",
+      "sha256": "748b9b4f2da092cef285f9f694b0488d51a6f7033ff2d2ba4d976a53246dae42",
+      "bytes": 2536
+    },
+    {
+      "id": "the-mahatma",
+      "path": "data/cocktails/the-mahatma/data.json",
+      "sha256": "a7e43a349065edfa6e8520be3b15fce13eca11d4bc4ad2882fa2d0ade7f0cf93",
+      "bytes": 2448
+    },
+    {
+      "id": "the-mean-fiddler",
+      "path": "data/cocktails/the-mean-fiddler/data.json",
+      "sha256": "92cc7077f9bd7406bf431a3febef587f44a9dc30114db37fe80049e803f70d70",
+      "bytes": 3854
+    },
+    {
+      "id": "the-mystical-one",
+      "path": "data/cocktails/the-mystical-one/data.json",
+      "sha256": "d40714bad57c69f62ab4a5a041cafbeb2172444d0e98a745ff3b49929dbcf897",
+      "bytes": 2382
+    },
+    {
+      "id": "the-old-man-and-the-sea",
+      "path": "data/cocktails/the-old-man-and-the-sea/data.json",
+      "sha256": "d7e4564d37afe9a6d40cb038619b72c2b4f412e497b586e681945a40cf65dad4",
+      "bytes": 2633
+    },
+    {
+      "id": "the-ole-bull",
+      "path": "data/cocktails/the-ole-bull/data.json",
+      "sha256": "eb2738b887c6c09e3386c1875aa5fa67fc36c33d643d16f09ae8a722c19d8963",
+      "bytes": 3034
+    },
+    {
+      "id": "the-perfect-bqe",
+      "path": "data/cocktails/the-perfect-bqe/data.json",
+      "sha256": "f5a9b27674700a80a21978f5218fded22b7d26cf17e9a86ce03cdf89feb0d168",
+      "bytes": 2554
+    },
+    {
+      "id": "the-second-marriage",
+      "path": "data/cocktails/the-second-marriage/data.json",
+      "sha256": "fe37a19e5814fb4606346502bfd97cb4a6c271d0d674d3b90cf55dbf57e15bb7",
+      "bytes": 2240
+    },
+    {
+      "id": "the-st-germain-spritz",
+      "path": "data/cocktails/the-st-germain-spritz/data.json",
+      "sha256": "6909f09639010e9d74d39245cf36ebfc62c578bccf28504e08ebf56d46ad910b",
+      "bytes": 1898
+    },
+    {
+      "id": "the-tartan-cocktail",
+      "path": "data/cocktails/the-tartan-cocktail/data.json",
+      "sha256": "6aff0adb8fcf43431f65689646ce768ccdf0213bf44a5f0c6c47486e9dd0b4cb",
+      "bytes": 3072
+    },
+    {
+      "id": "the-turnbuckle",
+      "path": "data/cocktails/the-turnbuckle/data.json",
+      "sha256": "c01b67e1993d4fdae9814636c16048d6024f9dec3fc09bedc62604ed25f38101",
+      "bytes": 2903
+    },
+    {
+      "id": "the-wardays",
+      "path": "data/cocktails/the-wardays/data.json",
+      "sha256": "70c109d60b8d593d88222cb663b53f662c6c539acacc89b2340ab993d00c623a",
+      "bytes": 3122
+    },
+    {
+      "id": "the-west-8th",
+      "path": "data/cocktails/the-west-8th/data.json",
+      "sha256": "f18feddc2abff8f692a0ab51d836434213e00828f19f5fce19b4f8f1e130f450",
+      "bytes": 2870
+    },
+    {
+      "id": "thief-of-hearts",
+      "path": "data/cocktails/thief-of-hearts/data.json",
+      "sha256": "7e7ddac1ed3a115317a8689867f764ae2bb9969f1f728572d6c2c3a7f5a6d0c4",
+      "bytes": 3681
+    },
+    {
+      "id": "three-dots-and-a-dash",
+      "path": "data/cocktails/three-dots-and-a-dash/data.json",
+      "sha256": "e9a9ffe5250285239a3e1015eef8c9a522f8ba096ae4c9ca889a670c95fd5e6a",
+      "bytes": 3865
+    },
+    {
+      "id": "three-of-a-kind",
+      "path": "data/cocktails/three-of-a-kind/data.json",
+      "sha256": "83a4e172b5e2b199a0ca75920c89b3810e2b7cd737132bce5b3b90bf7ae37231",
+      "bytes": 2535
+    },
+    {
+      "id": "thunderbird",
+      "path": "data/cocktails/thunderbird/data.json",
+      "sha256": "d81a08ab3dadfd5f6244a4d7b25efec58e81dcdd6b6a7d9dd5888b26ba5df42f",
+      "bytes": 3264
+    },
+    {
+      "id": "thyme-after-thyme",
+      "path": "data/cocktails/thyme-after-thyme/data.json",
+      "sha256": "dcf18990ccc594d689f080d0978003d11bd5541233f207b068ac7729def86781",
+      "bytes": 2247
+    },
+    {
+      "id": "ti-punch",
+      "path": "data/cocktails/ti-punch/data.json",
+      "sha256": "4d9b86756051df6f8d932b4460c69c20029cc1ccc9e0306df3f99cff449956cf",
+      "bytes": 1911
+    },
+    {
+      "id": "ti-punch-highball",
+      "path": "data/cocktails/ti-punch-highball/data.json",
+      "sha256": "6d109a2be349ac4c5d872951eed4fede62d2ed057ca1ca7acf45f4c13fb7bcd3",
+      "bytes": 2773
+    },
+    {
+      "id": "tia-mia",
+      "path": "data/cocktails/tia-mia/data.json",
+      "sha256": "19de11f371568796f83503e0fcfebdf2395a3c39a5f1f7a6a1c0bacd5ea5d569",
+      "bytes": 2576
+    },
+    {
+      "id": "tigers-claw",
+      "path": "data/cocktails/tigers-claw/data.json",
+      "sha256": "bae8746b2c4922822d34fbb36631395a9067000d08d37a5f5e125bfec08e7bb4",
+      "bytes": 3075
+    },
+    {
+      "id": "tipperary",
+      "path": "data/cocktails/tipperary/data.json",
+      "sha256": "42a174404ecf1f8b0d8880d0cc6cb5cf0144a26687751a489dd7c17f92f84f7e",
+      "bytes": 2572
+    },
+    {
+      "id": "toby-cecchinis-gin-tonic",
+      "path": "data/cocktails/toby-cecchinis-gin-tonic/data.json",
+      "sha256": "2b739adb3e4b59894b0c27b13af0d79b980bf4ee89e5e75dbe0053f4eeaf4784",
+      "bytes": 2633
+    },
+    {
+      "id": "tom-macys-gimlet",
+      "path": "data/cocktails/tom-macys-gimlet/data.json",
+      "sha256": "0eaad20513a10cd1b38c4a2cda92f755dd7e8f31655adf5f43fd5f18ed0a3629",
+      "bytes": 1967
+    },
+    {
+      "id": "tommys-margarita",
+      "path": "data/cocktails/tommys-margarita/data.json",
+      "sha256": "a7ad99c918d58b6acdf048cd5a2b80ca23105f8729ad05f058e89918ebd5840f",
+      "bytes": 2418
+    },
+    {
+      "id": "tonic-rickey",
+      "path": "data/cocktails/tonic-rickey/data.json",
+      "sha256": "659e4484b38ef2709f4ef2c7b958c003f50d94a680440f1d452a123bdd494fbf",
+      "bytes": 2652
+    },
+    {
+      "id": "tonico-di-corte",
+      "path": "data/cocktails/tonico-di-corte/data.json",
+      "sha256": "be6b8a5c2752d125f34ef6363050ad98ee64014bd972fa69957bd76f6507f5fd",
+      "bytes": 2175
+    },
+    {
+      "id": "toronto",
+      "path": "data/cocktails/toronto/data.json",
+      "sha256": "be9a9b6a4aee349e27162fb719f9bb62a984d36c997b4a26c6e4d0efd5878a1a",
+      "bytes": 2669
+    },
+    {
+      "id": "trader-vics-sour",
+      "path": "data/cocktails/trader-vics-sour/data.json",
+      "sha256": "f956abbd9c3d2c8c7da066d7d032cf0fa2c077ef945a627f685d8af6604f8be9",
+      "bytes": 2328
+    },
+    {
+      "id": "tradewinds-negroni",
+      "path": "data/cocktails/tradewinds-negroni/data.json",
+      "sha256": "bc568a63025b26f183404634665a36fe6a1b5167ea8d0940924175f8a5d7ee01",
+      "bytes": 2186
+    },
+    {
+      "id": "trasatlantico-fizz",
+      "path": "data/cocktails/trasatlantico-fizz/data.json",
+      "sha256": "11cd34c9fb1a8ca283af777045aaf69ef3220d6bbfd5be3f0166e311a3245495",
+      "bytes": 4351
+    },
+    {
+      "id": "treacle",
+      "path": "data/cocktails/treacle/data.json",
+      "sha256": "1697143d06b412f571ed04fb74f92e765454be878528f8ed3faa592aeca544c8",
+      "bytes": 2576
+    },
+    {
+      "id": "trinidad-sour",
+      "path": "data/cocktails/trinidad-sour/data.json",
+      "sha256": "cb48b16bfea0b6de15efd3473337e172e04c93d878ae18a1a63eb641fdfb14e3",
+      "bytes": 2330
+    },
+    {
+      "id": "tropical-popsicle",
+      "path": "data/cocktails/tropical-popsicle/data.json",
+      "sha256": "5227259e15008a1d2210582dc921b52e09afe192376455709e2736da48ef30df",
+      "bytes": 2607
+    },
+    {
+      "id": "tropical-storm",
+      "path": "data/cocktails/tropical-storm/data.json",
+      "sha256": "38ea961cf021c560fc85ec596fc381d73ea060cedbba48b1a91fb3f87a967f0c",
+      "bytes": 1927
+    },
+    {
+      "id": "truly-scrumptious",
+      "path": "data/cocktails/truly-scrumptious/data.json",
+      "sha256": "60b0e48f8bdf94b44af73bc14643ae7ab3b1603911a6d69ab413337b6cdde33f",
+      "bytes": 2242
+    },
+    {
+      "id": "tunnel",
+      "path": "data/cocktails/tunnel/data.json",
+      "sha256": "d6df57ed92f3bf2e6670aa95af74f136ab803bf815d4515aa7c1873d5a84c51f",
+      "bytes": 2178
+    },
+    {
+      "id": "turf-club",
+      "path": "data/cocktails/turf-club/data.json",
+      "sha256": "f7a4b2c54a78a6f944207b9a72f0cc7ec67893978aade4bf7dfa5565153764e5",
+      "bytes": 2534
+    },
+    {
+      "id": "tuxedo",
+      "path": "data/cocktails/tuxedo/data.json",
+      "sha256": "fd6ce56ebaffebab76c09c71374c1fdf735718c34149d3afc3747499b295dd67",
+      "bytes": 2809
+    },
+    {
+      "id": "twelve-mile-limit",
+      "path": "data/cocktails/twelve-mile-limit/data.json",
+      "sha256": "751fe48ee88038b2b0e268b3d8f16a193d10d112d49fac694c4c621afbf2df43",
+      "bytes": 2794
+    },
+    {
+      "id": "ultima-palabra",
+      "path": "data/cocktails/ultima-palabra/data.json",
+      "sha256": "e997b5fb2929db6b1fb21f7e9c00bbc78e93725ca19eadb140a8427a3f2f6c33",
+      "bytes": 2724
+    },
+    {
+      "id": "ume-paloma",
+      "path": "data/cocktails/ume-paloma/data.json",
+      "sha256": "37e340c9a68277f6b9c2de38d93b9a531e3f5ca920105e51c170111f833515bb",
+      "bytes": 2741
+    },
+    {
+      "id": "valkyrie",
+      "path": "data/cocktails/valkyrie/data.json",
+      "sha256": "d04bff610c263a2c39659d4ba65bd9e07440ee2e407c8d929c9a377c7629f36e",
+      "bytes": 2522
+    },
+    {
+      "id": "vento",
+      "path": "data/cocktails/vento/data.json",
+      "sha256": "6d367a4c25ed647c07d49976146786f237b7cbd552a55796c703dc5d3c107070",
+      "bytes": 2437
+    },
+    {
+      "id": "verte-chaud",
+      "path": "data/cocktails/verte-chaud/data.json",
+      "sha256": "4f21d2436e573923f2d405e81116b3f587c9fffa97c7deffc5e0e8ddd711e169",
+      "bytes": 1837
+    },
+    {
+      "id": "vesper",
+      "path": "data/cocktails/vesper/data.json",
+      "sha256": "e58a468f42dadb3867077084c599a0e32f4edf09c62f419daf741f96ef374f06",
+      "bytes": 2137
+    },
+    {
+      "id": "vieille-place",
+      "path": "data/cocktails/vieille-place/data.json",
+      "sha256": "2dcd6026547c264fdeb3ed5ba628ca858980d96e8dd9e8cfe406effefb8d9851",
+      "bytes": 3678
+    },
+    {
+      "id": "vieux-carre",
+      "path": "data/cocktails/vieux-carre/data.json",
+      "sha256": "86296dbc004998d29a59ba053f9c5027b7ab8d0437fe102f669b32b691a6ad9f",
+      "bytes": 2695
+    },
+    {
+      "id": "vitamin-parade",
+      "path": "data/cocktails/vitamin-parade/data.json",
+      "sha256": "afdc1414db94b6921d31941a05af9935f68134fd3bf7f206c20618f04e700497",
+      "bytes": 2772
+    },
+    {
+      "id": "ward-eight",
+      "path": "data/cocktails/ward-eight/data.json",
+      "sha256": "cf7ab05f87446d7cc10d95eb14355356d0b10a5f6aa7428c28b9ea191b12c474",
+      "bytes": 2705
+    },
+    {
+      "id": "wardman-park",
+      "path": "data/cocktails/wardman-park/data.json",
+      "sha256": "a6d12e65cedb958177b81488822b9a740d8ced437373863eb2a2233f4d499c58",
+      "bytes": 1702
+    },
+    {
+      "id": "washingtons-mule",
+      "path": "data/cocktails/washingtons-mule/data.json",
+      "sha256": "ff5c81ec70478a15de91fbd32abe1dfaca583ff3d3656e8340c621a2f2452e71",
+      "bytes": 2613
+    },
+    {
+      "id": "whiskey-apple-highball",
+      "path": "data/cocktails/whiskey-apple-highball/data.json",
+      "sha256": "5c1f01a3b746efcfd4c25f0052adb660f38e7d9cbcc0aa67cc34cd9253d4190e",
+      "bytes": 2596
+    },
+    {
+      "id": "whiskey-business",
+      "path": "data/cocktails/whiskey-business/data.json",
+      "sha256": "342569599b349f592249d6ab18c860f0d0784e692c8ce8cc84e9dfa9a27a8ced",
+      "bytes": 2779
+    },
+    {
+      "id": "whiskey-peach-smash",
+      "path": "data/cocktails/whiskey-peach-smash/data.json",
+      "sha256": "e7910df9228c72db01dd9c554be8945cc4710d75cce9cfd0a640d530fb10bbf1",
+      "bytes": 2639
+    },
+    {
+      "id": "whiskey-smash",
+      "path": "data/cocktails/whiskey-smash/data.json",
+      "sha256": "39fe1053fb379fb978cf96c1e90a150a02f22ad0618542d9235c830552fdd347",
+      "bytes": 2448
+    },
+    {
+      "id": "whiskey-sour",
+      "path": "data/cocktails/whiskey-sour/data.json",
+      "sha256": "6b62b7e34fe1637eaba519a519ee8cdd7b97a8da58f6aff75fbaeba5deab1142",
+      "bytes": 2806
+    },
+    {
+      "id": "whisky-highball",
+      "path": "data/cocktails/whisky-highball/data.json",
+      "sha256": "cecd62a400087404ad9016b21b70b2b2fee25e46b93b762a67fa7eeafa77adbe",
+      "bytes": 2617
+    },
+    {
+      "id": "white-lady",
+      "path": "data/cocktails/white-lady/data.json",
+      "sha256": "8c4acbe474a8bd7a6bfc3b84c294e5da5942fe82fc06b966f03b6d2c4efe025a",
+      "bytes": 3510
+    },
+    {
+      "id": "white-mezcal-negroni",
+      "path": "data/cocktails/white-mezcal-negroni/data.json",
+      "sha256": "269cd8fabf6a8d925ed0737ca0ac029c7f0efaec6076e156139be2776ae79aa2",
+      "bytes": 2420
+    },
+    {
+      "id": "white-negroni",
+      "path": "data/cocktails/white-negroni/data.json",
+      "sha256": "ccd7f91b4b3bc6fd2527af63401cbd1ffc27ddec52e664a26864c1bb5fc23fed",
+      "bytes": 2440
+    },
+    {
+      "id": "white-negroni-corpse-revived",
+      "path": "data/cocktails/white-negroni-corpse-revived/data.json",
+      "sha256": "b2c2f8bacd7531d71dffed68deb579a5eb36e2392e1a2ffaf376e6f569b6ba2d",
+      "bytes": 2488
+    },
+    {
+      "id": "white-negroni-sbagliato",
+      "path": "data/cocktails/white-negroni-sbagliato/data.json",
+      "sha256": "ee23e5d4f3aa232575928f48b68c38d1d0341b50e144e5be9b0dc485bd81eee7",
+      "bytes": 1968
+    },
+    {
+      "id": "white-russian",
+      "path": "data/cocktails/white-russian/data.json",
+      "sha256": "1ec082c755be7dc2a223f36fc6fe9b27647c94bde1ec8749ce3ef8a6aae56662",
+      "bytes": 2151
+    },
+    {
+      "id": "white-russian-gus-sip-and-dip",
+      "path": "data/cocktails/white-russian-gus-sip-and-dip/data.json",
+      "sha256": "592441ee6c04fbf556bbdd0c47e29539383e2da255b77a0a5a4c25e4295fc887",
+      "bytes": 3373
+    },
+    {
+      "id": "whitechapel-gt",
+      "path": "data/cocktails/whitechapel-gt/data.json",
+      "sha256": "f0de510d75a5817a566e2dd7eef9ee693aeab7ab334568d1a4cdc64014c214ad",
+      "bytes": 2619
+    },
+    {
+      "id": "wildest-redhead",
+      "path": "data/cocktails/wildest-redhead/data.json",
+      "sha256": "38afffe848c89a5dd7cbea125d5e22548a16422fde845c268290dce80c45be1f",
+      "bytes": 2689
+    },
+    {
+      "id": "willsour",
+      "path": "data/cocktails/willsour/data.json",
+      "sha256": "518b5d170e75706460faaa1313bd6c73f36e5d55e7c844a4dd8a01a2d29532c4",
+      "bytes": 1899
+    },
+    {
+      "id": "winterized-negroni",
+      "path": "data/cocktails/winterized-negroni/data.json",
+      "sha256": "d0db40d2cdc01e04b9ee2b709494425be3a5ee077e491b4c37ade24c802bad15",
+      "bytes": 2262
+    },
+    {
+      "id": "wisconsin-old-fashioned",
+      "path": "data/cocktails/wisconsin-old-fashioned/data.json",
+      "sha256": "5a28879a5b740f47591bcf98c7a37717d8ae339834327f7ec526b545eec60bdf",
+      "bytes": 3171
+    },
+    {
+      "id": "wiz-fizz",
+      "path": "data/cocktails/wiz-fizz/data.json",
+      "sha256": "813dd91ebd4c366c5e8adad8c259b519a98055b1626cb786243ed5c5021f7f8f",
+      "bytes": 3468
+    },
+    {
+      "id": "wray-and-ting",
+      "path": "data/cocktails/wray-and-ting/data.json",
+      "sha256": "64244f14defc588e54fbfcf73a8f0e2fb0e940faac8da6344349167b8896c895",
+      "bytes": 1686
+    },
+    {
+      "id": "yellow",
+      "path": "data/cocktails/yellow/data.json",
+      "sha256": "f949996de89a3454c41343976dfa41f27c05180cfd32fbc7082bb4c314188df1",
+      "bytes": 2269
+    },
+    {
+      "id": "yellow-bird",
+      "path": "data/cocktails/yellow-bird/data.json",
+      "sha256": "c2ea36fad824dde77cef6b9c9aa0e158aab5c2b96b02a1defe61fbc688fa827b",
+      "bytes": 2310
+    },
+    {
+      "id": "your-mothers-spritz",
+      "path": "data/cocktails/your-mothers-spritz/data.json",
+      "sha256": "b63c92dbd22fe1cdf0894e9db148a88dacecbe8a26fe0dd084902fab2c1e9336",
+      "bytes": 2639
+    },
+    {
+      "id": "yuzu-negroni",
+      "path": "data/cocktails/yuzu-negroni/data.json",
+      "sha256": "9aaeb0b9e6f8e4d400eb82d0e4383ae2ac12eadbe907daf64ee6c10cb6d89ea7",
+      "bytes": 2486
+    },
+    {
+      "id": "zombie",
+      "path": "data/cocktails/zombie/data.json",
+      "sha256": "0ccfec316dbbf344962d3d1ef03d5bd4e8aa21bec18785b3387db076adcb9b94",
+      "bytes": 4055
+    },
+    {
+      "id": "zombie-apocalypse",
+      "path": "data/cocktails/zombie-apocalypse/data.json",
+      "sha256": "df3bfe0e19441efd7b919858e9bd193aee362c0e087ae7ec2688591b4ccd742d",
+      "bytes": 5296
+    },
+    {
+      "id": "zombie-spritz",
+      "path": "data/cocktails/zombie-spritz/data.json",
+      "sha256": "541cefdd1074f8dee991560bd93756434a685a10bad1dbb41ac1b46a88ef5649",
+      "bytes": 4989
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+    "_id": "the-dead-rabbit",
+    "name": "The Dead Rabbit",
+    "instructions": "1. In a shaker, add all the ingredients.\n2. Vigorously dry shake for 30 seconds (without ice).\n3. Add a scoop of ice to the shaker and shake for another 30 seconds.\n3. Double strain into a coupe.\n\nNote: For the Halloween edition, add 2 bags of Celestial Raspberry tea during the steep for that spooky black color.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Arbella in Chicago envisions a Halloween cocktail as a mezcal sour with the juicy sweetness of raspberry balanced by the bitterness of Cynar.",
+    "source": "https://imbibemagazine.com/recipe/the-dead-rabbit-mezcal-sour/",
+    "garnish": null,
+    "abv": 15.81,
+    "tags": [],
+    "glass": "Coupe",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///the-dead-rabbit.webp",
+            "sort": 1,
+            "placeholder_hash": "lBgKDwRyiXlwd3iVeFZ7Z4iHBggmcHkA",
+            "copyright": "Imbibe Magazine | Mistey Nguyen"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "mezcal",
+            "name": "Mezcal",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "tequila-blanco",
+            "name": "Tequila Blanco",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cynar",
+            "name": "Cynar",
+            "sort": 3,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "raspberry-syrup",
+            "name": "Raspberry Syrup",
+            "sort": 4,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 5,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "egg-white",
+            "name": "Egg White",
+            "sort": 6,
+            "amount": 1,
+            "units": "whole",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

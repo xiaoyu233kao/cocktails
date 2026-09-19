@@ -1,0 +1,114 @@
+{
+    "_id": "monks-respite",
+    "name": "Monk’s Respite",
+    "instructions": "1. Combine the ingredients in a blender and add 10 oz. of crushed ice\n2. Blend for 10 seconds, then pour into a coconut shell or double Old Fashioned glass",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Some drink coconut water to stay hydrated—others because it mixes great with booze. Our 2017 Bartender of the Year, Steven Liles from Smuggler's Cove, is among the latter with this original recipe.",
+    "source": "https://imbibemagazine.com/recipe/monks-respite-from-smugglers-cove/",
+    "garnish": "Orchid and mint sprig",
+    "abv": 8.64,
+    "tags": [
+        "Tiki"
+    ],
+    "glass": "Lowball",
+    "method": "Blend",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///monks-respite.webp",
+            "sort": 0,
+            "placeholder_hash": "1zgOJwZIm5iQindjabZod4iJVgm5pYAJ",
+            "copyright": "Imbibe Magazine"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "coconut-water",
+            "name": "Coconut water",
+            "sort": 1,
+            "amount": 90,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 2,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "honey-syrup",
+            "name": "Honey Syrup",
+            "sort": 4,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "yellow-chartreuse",
+            "name": "Yellow Chartreuse",
+            "sort": 5,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "club-soda",
+            "name": "Club soda",
+            "sort": 6,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orange-bitters",
+            "name": "Orange bitters",
+            "sort": 7,
+            "amount": 1,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

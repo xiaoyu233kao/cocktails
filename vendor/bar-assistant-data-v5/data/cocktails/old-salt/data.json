@@ -1,0 +1,99 @@
+{
+    "_id": "old-salt",
+    "name": "Old Salt",
+    "instructions": "1. Combine all ingredients in a cocktail shaker, but do not shake.\n2. Pour directly over ice into a 10-ounce Collins glass.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A cross between the Paloma and Salty Dog cocktails, this gin or tequila drink recipe calls for fluffy grapefruit juice and saline solution.",
+    "source": "https://punchdrink.com/recipes/old-salt/",
+    "garnish": "Garnish with an oversized salted grapefruit wedge on top.",
+    "abv": 8.36,
+    "tags": [
+        "Sour",
+        "Citrusy"
+    ],
+    "glass": "Highball",
+    "method": "Build",
+    "utensils": [],
+    "parent_cocktail_id": "paloma",
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///old-salt.webp",
+            "sort": 1,
+            "placeholder_hash": "5RgKDwR/tGiQdnl3qGWXZ4iGB/JmA2oG",
+            "copyright": "Punch Staff"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "tequila-blanco",
+            "name": "Tequila Blanco",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": [
+                {
+                    "_id": "gin",
+                    "name": "Gin",
+                    "amount": null,
+                    "units": null,
+                    "amount_max": null
+                }
+            ]
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "saline-solution",
+            "name": "Saline solution",
+            "sort": 4,
+            "amount": 2,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "grapefruit-juice",
+            "name": "Grapefruit juice",
+            "sort": 5,
+            "amount": 120,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

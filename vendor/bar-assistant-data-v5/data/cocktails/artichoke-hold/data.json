@@ -1,0 +1,98 @@
+{
+    "_id": "artichoke-hold",
+    "name": "Artichoke Hold",
+    "instructions": "1. Add all ingredients to a cocktail shaker.\n2. Add a small amount of ice and shake lightly.\n3. Strain over crushed ice into a rocks glass.\n4. Top with more crushed ice.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The warm funk of Smith & Cross rum creates a heavy base for the bittersweet co-mingling of amaro and elderflower in this cocktail recipe.",
+    "source": "https://punchdrink.com/recipes/artichoke-hold/",
+    "garnish": "Mint sprig",
+    "abv": 13.43,
+    "tags": [
+        "Tiki",
+        "Floral",
+        "Sweet"
+    ],
+    "glass": "Lowball",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///artichoke-hold-1.webp",
+            "sort": 1,
+            "placeholder_hash": "6BgSHwQxYIWIdHl2d4iHmHZ4ODB2FpAG",
+            "copyright": "Punch Staff"
+        },
+        {
+            "uri": "file:///artichoke-hold-2.webp",
+            "sort": 2,
+            "placeholder_hash": "lrkGFw4hi4Zrh3igS7eWhHWYZNYGrG8G",
+            "copyright": "Reddit"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "jamaican-rum",
+            "name": "Jamaican Rum",
+            "sort": 1,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cynar",
+            "name": "Cynar",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "st-germain",
+            "name": "St-Germain",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 4,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orgeat-syrup",
+            "name": "Orgeat Syrup",
+            "sort": 5,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

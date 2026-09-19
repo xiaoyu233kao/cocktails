@@ -1,0 +1,87 @@
+{
+    "_id": "sex-on-the-beach",
+    "name": "Sex on the Beach",
+    "instructions": "Build all ingredients in a highball glass filled with ice.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "There are two general types of the cocktail:\n\n- The IBA official cocktail is made from vodka, peach schnapps, orange juice, and cranberry juice.\n- The 2008 Mr. Boston Official Bartender's Guide (67th edition) provides an alternative recipe made from vodka, Chambord, Midori Melon Liqueur, pineapple juice, and cranberry juice.\n\nThe drink is built over ice in a highball glass and garnished with an orange slice. Sometimes they are mixed in smaller amounts and served as a shooter.",
+    "source": "https://iba-world.com/sex-on-the-beach/",
+    "garnish": "Garnish with a half orange slice.",
+    "abv": 12.99,
+    "tags": [
+        "Contemporary Classics",
+        "IBA Cocktail"
+    ],
+    "glass": "Highball",
+    "method": "Build",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///sex-on-the-beach.webp",
+            "sort": 1,
+            "placeholder_hash": "rYkSRxT2aHhplXl4h3h3h3iIl5B6CJYH",
+            "copyright": "Copy Kat Recipes"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "vodka",
+            "name": "Vodka",
+            "sort": 1,
+            "amount": 40,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "peach-liqueur",
+            "name": "Peach liqueur",
+            "sort": 2,
+            "amount": 20,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": [
+                {
+                    "_id": "peach-syrup",
+                    "name": "Peach syrup",
+                    "amount": null,
+                    "units": null,
+                    "amount_max": null
+                }
+            ]
+        },
+        {
+            "_id": "orange-juice",
+            "name": "Orange juice",
+            "sort": 3,
+            "amount": 40,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cranberry-juice",
+            "name": "Cranberry juice",
+            "sort": 4,
+            "amount": 40,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

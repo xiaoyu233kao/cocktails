@@ -1,0 +1,96 @@
+{
+    "_id": "doubleplusgood",
+    "name": "Doubleplusgood",
+    "instructions": "Dry-shake all ingredients (except the bitters) first without ice, then again with ice added. Double-strain through a fine mesh strainer into a chilled short glass, no ice. Drop the bitters atop the foam in the shape of two plus symbols.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Doubleplusgood is Boston barman John Gertsen’s take on a Mai Tai, crossed with a Pisco Sour. It’s mildly sweet, with the gentle almond flavor of orgeat laced through the delicate foam of egg white (or aquafaba, if you prefer).\n\nThe garnish is a signature of Gertsen’s recipe: two plus signs, drawn in the foam with aromatic bitters.",
+    "source": "https://cocktailvirgin.blogspot.com/2009/06/doubleplusgood.html",
+    "garnish": "two plus signs, drawn in the foam with aromatic bitters",
+    "abv": 17.78,
+    "tags": [
+        "Sour"
+    ],
+    "glass": "Lowball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///doubleplusgood-1.webp",
+            "sort": 1,
+            "placeholder_hash": "5SgGFwJvWpVamYlxu2jFOJh5mQk5h4AD",
+            "copyright": "AI (Gemini)"
+        },
+        {
+            "uri": "file:///doubleplusgood-2.webp",
+            "sort": 2,
+            "placeholder_hash": "KggWDwJGd3iAhoeDiWiIaIeFZ5BXWH8F",
+            "copyright": "cocktailvirgin"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "light-rum",
+            "name": "Light Rum",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orgeat-syrup",
+            "name": "Orgeat Syrup",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cointreau",
+            "name": "Cointreau",
+            "sort": 4,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "egg-white",
+            "name": "Egg White",
+            "sort": 5,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

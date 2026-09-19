@@ -1,0 +1,90 @@
+{
+    "_id": "oak-kin",
+    "name": "OAK->KIN",
+    "instructions": "1. Add all of the ingredients to a mixing glass with ice and stir.\n2. Strain into a chilled coupe.\n3. Express with orange and lime peels and use as a garnish.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Big Bar's Negroni Week special is a hybrid of three Negroni riffs in one excellent aperitivo. Bar manager Eugene Lee combines the staff's two favorite Negroni variations—the Kingston Negroni and the mezcal Negroni—with an additional nod to the Rosita. \"I fussed with splitting the base, and rather than go with a simple Negroni spec, I went for a La Rosita style with both sweet and dry vermouth,\" he says.",
+    "source": "https://imbibemagazine.com/recipe/oak-kin-mezcal-negroni/",
+    "garnish": "Orange and lime peels",
+    "abv": 25.14,
+    "tags": [
+        "Negroni"
+    ],
+    "glass": "Nick and Nora",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///oak-kin.webp",
+            "sort": 1,
+            "placeholder_hash": "2ggONwiKm3ekh3iPZkhop3l3hvaZwn8J",
+            "copyright": "Imbibe Magazine | Eugene Lee/@eugeneshoots"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "mezcal",
+            "name": "Mezcal",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "jamaican-rum",
+            "name": "Jamaican Rum",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "campari",
+            "name": "Campari",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "dry-vermouth",
+            "name": "Dry Vermouth",
+            "sort": 4,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "sweet-vermouth",
+            "name": "Sweet Vermouth",
+            "sort": 5,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

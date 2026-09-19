@@ -1,0 +1,66 @@
+{
+    "_id": "cafe-ireland",
+    "name": "Cafe Ireland",
+    "instructions": "1. Combine all of the ingredients with ice and stir very briefly, only for 5 seconds or so. Strain into the glass and serve.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Likening this cocktail to a dry Irish whiskey Manhattan, Yanni Kehagiaras notes that the drinkshould be stirred very briefly with ice. “It’s about retaining the texture and viscosity,” says Kehagiaras, co-owner of Stoa in San Francisco, one of this year’s Imbibe 75 Places to Watch. “Just a brief chill and it’s good.”",
+    "source": "https://imbibemagazine.com/recipe/cafe-ireland-irish-whiskey-cocktail/",
+    "garnish": null,
+    "abv": 26.33,
+    "tags": [
+        "Coffee"
+    ],
+    "glass": "Lowball",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///cafe-ireland.webp",
+            "sort": 0,
+            "placeholder_hash": "YkkKDwJqZ2pvmFpklVmYhodrtdsgehUA",
+            "copyright": "Imbibe Magazine | Kelly Puleio"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "irish-whiskey",
+            "name": "Irish whiskey",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "dry-vermouth",
+            "name": "Dry Vermouth",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "coffee-liqueur",
+            "name": "Coffee liqueur",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

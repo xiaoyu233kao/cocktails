@@ -1,0 +1,88 @@
+{
+    "_id": "don-lockwood",
+    "name": "Don Lockwood",
+    "instructions": "1. In a mixing glass combine all ingredients\n2. Stir with ice for 20-30 seconds\n3. Strain over ice into an old fashioned glass",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A chocolate, smoky riff on the old fashioned that proves simple variations on classic cocktails can have impressive results. This is one of my favourite modern classic cocktails featured in New York Cocktails published by Cider Mill Press.",
+    "source": "https://stevethebartender.com.au/don-lockwood-cocktail-recipe/?utm_source=convertkit&utm_medium=email&utm_campaign=%F0%9F%8D%AB%20Cocktails%20with%20Chocolate%20Bitters!%20-%2017325570",
+    "garnish": null,
+    "abv": 28.64,
+    "tags": [],
+    "glass": "Lowball",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///don-lockwood.webp",
+            "sort": 1,
+            "placeholder_hash": "2WkGJwiHlnjyx3mrOamJinh0CFNEYEkF",
+            "copyright": "Steve the Bartender"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "bourbon-whiskey",
+            "name": "Bourbon Whiskey",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "islay-scotch-whiskey",
+            "name": "Islay Scotch Whiskey",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "maple-syrup",
+            "name": "Maple syrup",
+            "sort": 3,
+            "amount": 10,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "angostura-cocoa-bitters",
+            "name": "Angostura cocoa bitters",
+            "sort": 4,
+            "amount": 2,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "angostura-aromatic-bitters",
+            "name": "Angostura aromatic bitters",
+            "sort": 5,
+            "amount": 1,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

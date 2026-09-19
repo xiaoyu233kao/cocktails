@@ -1,0 +1,79 @@
+{
+    "_id": "winterized-negroni",
+    "name": "Winterized Negroni",
+    "instructions": "1. Combine all ingredients in a mixing glass with ice.\n2. Stir until chilled.\n3. Strain into a coupe glass.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A half-teaspoon of Islay Scotch brings robust and malty flavors to the Negroni for a winterized take on the aperitivo classic.",
+    "source": "https://punchdrink.com/recipes/winterized-negroni/",
+    "garnish": null,
+    "abv": 24.38,
+    "tags": [
+        "Negroni",
+        "Bitter"
+    ],
+    "glass": "Lowball",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///winterized-negroni.webp",
+            "sort": 1,
+            "placeholder_hash": "RyiGDQQPTAeVeHOXJX+s8tY6h4ePh4D4CA",
+            "copyright": "Punch Staff | Lizzie Munro"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "campari",
+            "name": "Campari",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "sweet-vermouth",
+            "name": "Sweet Vermouth",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "islay-scotch-whiskey",
+            "name": "Islay Scotch Whiskey",
+            "sort": 4,
+            "amount": 0.5,
+            "units": "barspoon",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

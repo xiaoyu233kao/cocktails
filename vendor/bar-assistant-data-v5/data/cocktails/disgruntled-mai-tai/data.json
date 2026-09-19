@@ -1,0 +1,103 @@
+{
+    "_id": "disgruntled-mai-tai",
+    "name": "Disgruntled Mai Tai",
+    "instructions": "1. Combine all ingredients except for the Underberg in a cocktail shaker.\n2. Briefly dry shake without ice, then add a few small ice cubes and shake until the ice has melted.\n3. Pour into a chilled rocks glass and top with crushed ice.\n4. Remove the cap and the top of the paper wrapper on the Underberg bottle and insert it, upside-down, into the crushed ice.\n5. Garnish with a mint sprig, lime wedge, grated nutmeg and a cocktail umbrella.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The Disgruntled Mai Tai is a spin on the rum tiki drink that adds Aperol and a bottle of bitter Underberg to the cocktail.",
+    "source": "https://punchdrink.com/recipes/disgruntled-mai-tai/",
+    "garnish": "mint sprig, lime wedge, freshly grated nutmeg, cocktail umbrella",
+    "abv": 16.2,
+    "tags": [
+        "Tiki",
+        "Bitter"
+    ],
+    "glass": "Highball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": "mai-tai",
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///disgruntled-mai-tai.webp",
+            "sort": 1,
+            "placeholder_hash": "VUkKJwYFf4eQiIemXFhoh3eIdAKpSJAL",
+            "copyright": "Punch Staff | Shannon Sturgis"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "overproof-rum",
+            "name": "Overproof Rum",
+            "sort": 1,
+            "amount": 1,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "preferably Smith & Cross",
+            "substitutes": []
+        },
+        {
+            "_id": "aperol",
+            "name": "Aperol",
+            "sort": 2,
+            "amount": 1,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 3,
+            "amount": 1,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orgeat-syrup",
+            "name": "Orgeat Syrup",
+            "sort": 4,
+            "amount": 0.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "dry-curacao",
+            "name": "Dry Curaçao",
+            "sort": 5,
+            "amount": 0.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "underberg",
+            "name": "Underberg",
+            "sort": 6,
+            "amount": 1,
+            "units": "bottle",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

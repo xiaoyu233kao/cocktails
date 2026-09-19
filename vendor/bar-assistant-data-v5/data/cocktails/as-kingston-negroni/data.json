@@ -1,0 +1,92 @@
+{
+    "_id": "as-kingston-negroni",
+    "name": "A.S. Kingston Negroni",
+    "instructions": "1. Add all ingredients to a mixing glass with ice and stir until chilled.\n2. Taste occasionally to ensure the coffee bean flavor has infused the drink.\n3. Strain into a rocks glass over a large ice cube.\n4. Garnish with a half orange wheel and lime twist.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A Kingston Negroni cocktail recipe that stirs the classic mix of rum, Campari and sweet vermouth with oloroso sherry and coffee beans.",
+    "source": "https://punchdrink.com/recipes/anthony-schmidts-kingston-negroni/",
+    "garnish": "half orange wheel, lime twist",
+    "abv": 25.76,
+    "tags": [
+        "Bitter",
+        "Citrusy",
+        "Negroni"
+    ],
+    "glass": "Lowball",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": "kingstone-negroni",
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///as-kingston-negroni.webp",
+            "sort": 1,
+            "placeholder_hash": "pCgSDwKZdnePendxeJiHuHeGB9Q0AEsD",
+            "copyright": "Punch Staff | Shannon Sturgis"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "overproof-rum",
+            "name": "Overproof Rum",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": 0,
+            "note": "preferably Smith & Cross",
+            "substitutes": []
+        },
+        {
+            "_id": "campari",
+            "name": "Campari",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": 0,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "sweet-vermouth",
+            "name": "Sweet Vermouth",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": 0,
+            "note": "preferably Carpano Antica",
+            "substitutes": []
+        },
+        {
+            "_id": "sherry",
+            "name": "Sherry",
+            "sort": 4,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": 0,
+            "note": "preferably Lustau",
+            "substitutes": []
+        },
+        {
+            "_id": "coffee",
+            "name": "Coffee",
+            "sort": 5,
+            "amount": 5,
+            "units": "beans",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": 10,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

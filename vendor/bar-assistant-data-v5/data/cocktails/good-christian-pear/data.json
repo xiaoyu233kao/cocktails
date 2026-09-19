@@ -1,0 +1,79 @@
+{
+    "_id": "good-christian-pear",
+    "name": "Good Christian Pear",
+    "instructions": "1. Shake with ice\n2. Double-strain into a coupe.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "David Burnette, South on Main, Little Rock, Arkansas",
+    "source": "https://alpenz.com/recipe-RsPGn5chya.html",
+    "garnish": "Garnish with a pear slice or lemon wheel.",
+    "abv": 16.16,
+    "tags": [
+        "Fruity",
+        "Citrusy"
+    ],
+    "glass": "Coupe",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///good-christian-pear.webp",
+            "sort": 1,
+            "placeholder_hash": "ZikGDwIghIbMhXhTZ7epGHWM9cCYH4QK",
+            "copyright": "Haus Alpenz | Lee Edwards"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "pear-brandy-williams",
+            "name": "Pear Brandy (Williams)",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "honey-syrup",
+            "name": "Honey Syrup",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "absinthe",
+            "name": "Absinthe",
+            "sort": 4,
+            "amount": 3,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

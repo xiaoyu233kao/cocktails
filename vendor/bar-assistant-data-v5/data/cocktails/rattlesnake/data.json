@@ -1,0 +1,91 @@
+{
+    "_id": "rattlesnake",
+    "name": "Rattlesnake",
+    "instructions": "1. Add all ingredients to a shaker and dry shake, without ice.\n2. Add ice and shake again until chilled.\n3. Fine-strain into a coupe glass.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The Rattlesnake is a classic whiskey cocktail recipe combining rye, absinthe, lemon juice, simple syrup and an egg white.",
+    "source": "https://punchdrink.com/recipes/rattlesnake/",
+    "garnish": "Garnish with an Angostura bitters swirl.",
+    "abv": 18.37,
+    "tags": [
+        "Classics",
+        "Bitter"
+    ],
+    "glass": "Coupe",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///rattlesnake.webp",
+            "sort": 0,
+            "placeholder_hash": "2VcSNwhZmoiIlphqeAeniJh0F3B2/6sC",
+            "copyright": "Punch Staff"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "rye-whiskey",
+            "name": "Rye whiskey",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "absinthe",
+            "name": "Absinthe",
+            "sort": 4,
+            "amount": 2,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "egg-white",
+            "name": "Egg White",
+            "sort": 5,
+            "amount": 1,
+            "units": "whole",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

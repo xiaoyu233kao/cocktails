@@ -1,0 +1,74 @@
+{
+    "_id": "white-mezcal-negroni",
+    "name": "White Mezcal Negroni",
+    "instructions": "1. Combine in a mixing glass with ice and stir briefly for five seconds.\n2. Strain into a rocks glass over a large ice cube or whatever ice you have.\n3. Garnish with a lemon twist expressed over the drink, then discarded.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "This White Negroni cocktail recipe swaps gin for mezcal and the expected Suze for Domaine La Bohème Gentiane Extra Bitter Aperitif.",
+    "source": "https://punchdrink.com/recipes/white-mezcal-negroni-2/",
+    "garnish": "expressed lemon twist (discarded)",
+    "abv": 24.62,
+    "tags": [
+        "Citrusy"
+    ],
+    "glass": "Lowball",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": "white-negroni",
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///white-mezcal-negroni.webp",
+            "sort": 1,
+            "placeholder_hash": "FwgaBwBYd3iAh3iIend3iHiIaEBKHlgA",
+            "copyright": "Punch Staff | Lizzie Munro"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "mezcal",
+            "name": "Mezcal",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "vermouth-bianco",
+            "name": "Vermouth Bianco",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "preferably Alessio Vermouth Bianco",
+            "substitutes": []
+        },
+        {
+            "_id": "domaine-la-boheme-gentiane-extra-bitter-aperitif",
+            "name": "Domaine La Bohème Gentiane Extra Bitter Aperitif",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": [
+                {
+                    "_id": "suze",
+                    "name": "Suze",
+                    "amount": null,
+                    "units": null,
+                    "amount_max": null
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "_id": "cynar-flip",
+    "name": "Cynar Flip",
+    "instructions": "1. Dry shake the whole egg in a cocktail shaker\n2. Add Cynar, simple syrup, and ice before shaking again\n3. Strain into a cocktail glass and drop several dashes of the bitters into the foam",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A magnificent application of Cynar in the holiday canon",
+    "source": "https://tuxedono2.com/cynar-flip-cocktail-recipe",
+    "garnish": "Angostura bitters for garnish",
+    "abv": 11.31,
+    "tags": [
+        "Flip",
+        "Bitter",
+        "Winter"
+    ],
+    "glass": "Wine",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///cynar-flip.webp",
+            "sort": 1,
+            "placeholder_hash": "BwgGDwIIuIhzc4mEiFjIN9eCibBHB3gH",
+            "copyright": "TuxedoNo2"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "cynar",
+            "name": "Cynar",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "egg",
+            "name": "Egg",
+            "sort": 2,
+            "amount": 1,
+            "units": "whole",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 3,
+            "amount": 2,
+            "units": "barspoon",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

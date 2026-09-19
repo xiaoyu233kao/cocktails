@@ -1,0 +1,91 @@
+{
+    "_id": "poppas-pride",
+    "name": "Poppa’s Pride",
+    "instructions": "1. Add bourbon, ginger juice, lemon wedges and mint to cocktail shaker.\n2. Add ice and shake until chilled.\n3. Strain into a highball or Collins glass over fresh ice.\n4. Top with soda water and Angostura bitters (don't be shy about the bitters).\n5. Garnish with a mint sprig.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Made with Buck and a Whiskey Smash, this ginger-laced bourbon drink is one of Brooklyn bartender Jay Zimmerman's signature cocktail recipe.",
+    "source": "https://punchdrink.com/recipes/poppas-pride/",
+    "garnish": "mint sprig",
+    "abv": 12.8,
+    "tags": [
+        "Smash",
+        "Citrusy"
+    ],
+    "glass": "Highball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///poppas-pride.webp",
+            "sort": 1,
+            "placeholder_hash": "KikGFwj+oZaZTIp2dcg0imVnFhCHeIAG",
+            "copyright": "Punch Staff | Daniel Krieger"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "bourbon-whiskey",
+            "name": "Bourbon Whiskey",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "ginger-syrup",
+            "name": "Ginger syrup",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon",
+            "name": "Lemon",
+            "sort": 3,
+            "amount": 2,
+            "units": "wedges",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "mint",
+            "name": "Mint",
+            "sort": 4,
+            "amount": 5,
+            "units": "leaves",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "club-soda",
+            "name": "Club soda",
+            "sort": 5,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

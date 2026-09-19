@@ -1,0 +1,103 @@
+{
+    "_id": "cantaritos",
+    "name": "Cantaritos",
+    "instructions": "1. If using the traditional clay cup for serving, soak it in cold water for 10 minutes before using. Otherwise, use a highball glass.\n2. Combine the tequila, orange juice, lemon juice and lime juice in the glass with a pinch of salt.\n3. Fill the glass with ice and top with grapefruit soda.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Cantaritos are Mexican tequila cocktails served in clay cups! Similar to the Paloma, this drink stars grapefruit soda and citrus.",
+    "source": "Mexico",
+    "garnish": "Citrus wedges",
+    "abv": 9.7,
+    "tags": [
+        "Citrusy",
+        "Fruity"
+    ],
+    "glass": "Highball",
+    "method": "Build",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///cantaritos.webp",
+            "sort": 1,
+            "placeholder_hash": "ZwgKLwy3QmeKlnePp2p3t3l1xwFXHYAF",
+            "copyright": "A Couple Cooks"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "tequila-reposado",
+            "name": "Tequila Reposado",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orange-juice",
+            "name": "Orange juice",
+            "sort": 2,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 4,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "grapefruit-juice",
+            "name": "Grapefruit juice",
+            "sort": 5,
+            "amount": 90,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "salt",
+            "name": "Salt",
+            "sort": 6,
+            "amount": 2,
+            "units": "pinch",
+            "optional": true,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

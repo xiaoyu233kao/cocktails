@@ -1,0 +1,103 @@
+{
+    "_id": "t-summer-night",
+    "name": "T. Summer Night",
+    "instructions": "1. Cut your lime ready for squeeze and garnish and get your mint leaves and mint sprig\n2. Fill your wine glass with cubed ice\n3. Smash the mint in your hand and put it in the glass\n4. Pour your gin, elderflower liqueur, and lime juice over the ice\n5. Using your bar spoon, stir all the ingredients together well\n6. Add more ice if needed and fill up with prosecco\n7. Top up with soda\n8. Stir gently and garnish with lime and mint sprig",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A special twist on the Hugo cocktail by Tjuvholmen.&nbsp;This breezy sparkling elderflower cocktail will take you straight to Italy in the summertime. And it couldn&#8217;t be easier to make.&nbsp;Bartender Tip:Add gin and mint for this special twist",
+    "source": "https://cocktailclub.com/cocktails/hugo-summertime",
+    "garnish": null,
+    "abv": 11.71,
+    "tags": [
+        "Spritz",
+        "Summer"
+    ],
+    "glass": "Wine",
+    "method": "Build",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///t-summer-night.webp",
+            "sort": 1,
+            "placeholder_hash": "DwgKDwAK2ldphXiGeka4h4h3hrBY0rAJ",
+            "copyright": "Cocktail Club"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "prosecco",
+            "name": "Prosecco",
+            "sort": 1,
+            "amount": 90,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "st-germain",
+            "name": "St-Germain",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "mint",
+            "name": "Mint",
+            "sort": 4,
+            "amount": 6,
+            "units": "leaves",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 5,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "club-soda",
+            "name": "Club soda",
+            "sort": 6,
+            "amount": 20,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

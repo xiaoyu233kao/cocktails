@@ -1,0 +1,90 @@
+{
+    "_id": "modern-medicine",
+    "name": "Modern Medicine",
+    "instructions": "Shake everything except the scotch with ice and strain into a ice filled old fashioned glass, then add a float of Ardberg.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Modern Medicine, the drink, by Jordan Hughes, is just perfect. It’s as if scientists concocted a fusion of a Penicillin and a Paper Plane in a petri dish, to cure whatever is bothering you.",
+    "source": "https://www.reddit.com/r/cocktails/comments/1436jpq/what_if_scientists_created_a_fusion_of_a/",
+    "garnish": null,
+    "abv": 17.26,
+    "tags": [
+        "Smokey"
+    ],
+    "glass": "Lowball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": "Jordan Hughes",
+    "images": [
+        {
+            "uri": "file:///modern-medicine.webp",
+            "sort": 1,
+            "placeholder_hash": "kigWNwp4d3iAd4h5eXh3iIh4RwSpNpAL",
+            "copyright": "Reddit"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "bourbon-whiskey",
+            "name": "Bourbon Whiskey",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "aperol",
+            "name": "Aperol",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 4,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "islay-scotch-whiskey",
+            "name": "Islay Scotch Whiskey",
+            "sort": 5,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

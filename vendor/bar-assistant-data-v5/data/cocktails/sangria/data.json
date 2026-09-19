@@ -1,0 +1,114 @@
+{
+    "_id": "sangria",
+    "name": "Sangria",
+    "instructions": "1. Chop the orange (leaving the peel on) and apple into bite-sized chunks, then add them to the bottom of a pitcher. Sprinkle them with sugar and stir. Let them stand for 20 minutes at room temperature.\n2. After 20 minutes, pour in the red wine, brandy, orange liqueur, and lemon rounds. Stir and refrigerate 1 to 4 hours. (Don’t go beyond 4 hours or the fruit texture starts to degrade.)\n3. Pour the sangria into ice filled glasses and top with a splash of sparkling water (if desired). Add fruit to each glass, preferably on long skewers for easy snacking.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A punch, sangria traditionally consists of red wine and chopped fruit, often with other ingredients or spirits.\n\nSangria is very popular among foreign tourists in Spain even if locals do not consume the beverage that much. It is commonly served in bars, restaurants, and chiringuitos and at festivities throughout Portugal and Spain.",
+    "source": "https://www.acouplecooks.com/gin-gimlet-cocktail/",
+    "garnish": "Drop fruit chunks into a glass",
+    "abv": 36.36,
+    "tags": [
+        "Wine"
+    ],
+    "glass": "Wine",
+    "method": "Build",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///sangria.webp",
+            "sort": 1,
+            "placeholder_hash": "8PcJHwaaxKxvpmabiBWYpWZ3qGgJi4YA",
+            "copyright": "A Couple Cooks"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "red-wine",
+            "name": "Red wine",
+            "sort": 1,
+            "amount": 1,
+            "units": "bottle",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orange",
+            "name": "Orange",
+            "sort": 2,
+            "amount": 1,
+            "units": "whole",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "apple",
+            "name": "Apple",
+            "sort": 3,
+            "amount": 1,
+            "units": "whole",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "sugar",
+            "name": "Sugar",
+            "sort": 4,
+            "amount": 3,
+            "units": "tablespoons",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "brandy",
+            "name": "Brandy",
+            "sort": 5,
+            "amount": 10,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cointreau",
+            "name": "Cointreau",
+            "sort": 6,
+            "amount": 10,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon",
+            "name": "Lemon",
+            "sort": 7,
+            "amount": 1,
+            "units": "whole",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

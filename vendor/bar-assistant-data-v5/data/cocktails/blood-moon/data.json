@@ -1,0 +1,78 @@
+{
+    "_id": "blood-moon",
+    "name": "Blood Moon",
+    "instructions": "1. Build in a wine glass over ice and garnish with a orange half-moon",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The Blood Moon cocktail recipe is just one example of Joe Campanale's ode to aperitivo, on the menu at Alta Linea.",
+    "source": "https://punchdrink.com/recipes/blood-moon/",
+    "garnish": "orange half moon.",
+    "abv": 8.93,
+    "tags": [
+        "Bitter"
+    ],
+    "glass": "Wine",
+    "method": "Build",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///blood-moon.webp",
+            "sort": 1,
+            "placeholder_hash": "nEkOJwoGh5q0iGZZinemiGd3SHBJBXQD",
+            "copyright": "Punch Staff | Lizzie Munro"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "amaro",
+            "name": "Amaro",
+            "sort": 1,
+            "amount": 2,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "tonic",
+            "name": "Tonic",
+            "sort": 2,
+            "amount": 3,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "preferably Fever Tree",
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 3,
+            "amount": 0.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orange-bitters",
+            "name": "Orange bitters",
+            "sort": 4,
+            "amount": 2,
+            "units": "drops",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

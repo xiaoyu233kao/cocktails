@@ -1,0 +1,66 @@
+{
+    "_id": "single-village-fix",
+    "name": "Single Village Fix",
+    "instructions": "1. Add all ingredients to a shaker with ice\n2. Shake and strain into a chilled coupe.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "This three-ingredient mezcal cocktail from bartender Thad Vogler has become a modern classic.",
+    "source": "https://punchdrink.com/recipes/single-village-fix/",
+    "garnish": null,
+    "abv": 16,
+    "tags": [
+        "Citrusy"
+    ],
+    "glass": "Coupe",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///single-village-fix.webp",
+            "sort": 1,
+            "placeholder_hash": "lUkWHwIHh5l3h3h2iGiYZ4iHV0BXJXAF",
+            "copyright": "Punch Staff | Nicola Parisi"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "mezcal",
+            "name": "Mezcal",
+            "sort": 1,
+            "amount": 1.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 2,
+            "amount": 0.75,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "pineapple-syrup",
+            "name": "Pineapple Syrup",
+            "sort": 3,
+            "amount": 0.75,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "such as Small Hand Foods",
+            "substitutes": []
+        }
+    ]
+}

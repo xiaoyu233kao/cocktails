@@ -1,0 +1,90 @@
+{
+    "_id": "stones-throw",
+    "name": "Stone’s Throw",
+    "instructions": "1. Add all the ingredients to a shaker with ice.\n2. Shake to chill and strain into the glass.\n3. Garnish.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "What started as a thoughtful exercise about balance, turned into one of the favorite cocktails at Juniper and Ivy in San Diego. \"I wanted something bright, grounded, herbal but refreshing, a cocktail that felt like it belonged in the roaring '20s—whether in a dimly lit bar or on a sun-drenched patio,\" says drink creator and bar lead Alex Siegelin.",
+    "source": "https://imbibemagazine.com/recipe/stones-throw-from-juniper-and-ivy/",
+    "garnish": "Dehydrated lemon wheel",
+    "abv": 16.34,
+    "tags": [
+        "Dessert"
+    ],
+    "glass": "Coupe",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///stones-throw.webp",
+            "sort": 1,
+            "placeholder_hash": "5gcKDwJ/WrWiiWdLmJZXaoh3t5EFGmgA",
+            "copyright": "Imbibe Magazine | Courtesy of Juniper and Ivy"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 1,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cynar",
+            "name": "Cynar",
+            "sort": 2,
+            "amount": 1,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orange-curacao",
+            "name": "Orange Curaçao",
+            "sort": 3,
+            "amount": 0.75,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 4,
+            "amount": 0.75,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "mint",
+            "name": "Mint",
+            "sort": 5,
+            "amount": 5,
+            "units": "leaves",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": 6,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

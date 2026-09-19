@@ -1,0 +1,102 @@
+{
+    "_id": "coffee-enzoni",
+    "name": "Coffee Enzoni",
+    "instructions": "1. In a cocktail shaker, muddle the grapes\n2. Add the remaining ingredients\n3. Shake with ice for 10-12 seconds\n4. Double strain over ice into an old fashioned glass\n5. Garnish with 3 skewered black grapes",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The Enzoni is a personal favorite of mine. I first shared it in 2020 and the video has received almost 700,000 views (other people love it too!). I also featured it more recently in my top 3 cocktails video a few weeks ago before stumbling across Dan Fellows' caffeinated version. I knew I had to try it immediately and it did not disappoint!The Coffee Enzoni is a pretty straight forward variation on the original Enzoni with the use of black grapes (sable grapes if available) instead of green, and the addition of coffee liqueur. Whilst the original Enzoni is bright and bitter, the Coffee Enzoni is dark, rich and brooding. It features rich bitter coffee notes and a juicy, muscat grape flavor.Worth noting... Dan used an extra dry coffee liqueur with 100g of sugar per litre. Mr Black has 250g per litre. For comparison, Kahlua has 400g per litre. As a result, he adds 10 ml of a 2:1 light muscovado syrup to balance the drink. Because I used Mr Black, the additional syrup isn't required.",
+    "source": "https://stevethebartender.com.au/coffee-enzoni-cocktail-recipe/",
+    "garnish": null,
+    "abv": 17,
+    "tags": [
+        "Negroni"
+    ],
+    "glass": "Lowball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///coffee-enzoni.webp",
+            "sort": 1,
+            "placeholder_hash": "EigKJwakh3eAhoeHlWd2x3iGpwmJiYAG",
+            "copyright": "Steve the Bartender"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "coffee-liqueur",
+            "name": "Coffee liqueur",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "see notes above",
+            "substitutes": []
+        },
+        {
+            "_id": "campari",
+            "name": "Campari",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 4,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "grapes",
+            "name": "Grapes",
+            "sort": 5,
+            "amount": 8,
+            "units": "parts",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "Black grapes, muddled",
+            "substitutes": []
+        },
+        {
+            "_id": "saline-solution",
+            "name": "Saline solution",
+            "sort": 6,
+            "amount": 5,
+            "units": "drops",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "1:4",
+            "substitutes": []
+        }
+    ]
+}

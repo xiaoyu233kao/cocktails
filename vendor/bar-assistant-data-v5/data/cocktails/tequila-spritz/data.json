@@ -1,0 +1,91 @@
+{
+    "_id": "tequila-spritz",
+    "name": "Tequila Spritz",
+    "instructions": "1. In a 750ml bottle, combine the tequila, Aperol, sweet vermouth and bitters. Cap the bottle securely, then shake well to mix. Store in the freezer.\n2. To serve, pour into a wine glass filled halfway with ice cubes and an orange slice. Top with tonic water.\n3. NOTEStarting with a full bottle Pour off 15 oz. (450ml). Makes 5 to 7 cocktails.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "For those times when it's just too hot to make an effort, Freezer Door Cocktails author J.M. Hirsch shared 75 cocktails that can be built right in the liquor bottle and stored in the freezer. His batched Tequila Spritz is especially perfect for poolside sipping. \"This cocktail lives in a happy place somewhere between sangria and an Aperol Spritz,\" he writes. For those who prefer it without the tonic water, Hirsch suggests serving it in a coupe that's filled halfway with crushed ice.",
+    "source": "https://imbibemagazine.com/recipe/tequila-spritz-a-freezer-door-cocktail/",
+    "garnish": "Orange slice",
+    "abv": 23.05,
+    "tags": [
+        "Spritz",
+        "Batch"
+    ],
+    "glass": "Wine",
+    "method": "Build",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///tequila-spritz.webp",
+            "sort": 1,
+            "placeholder_hash": "UigKDwRAk4dlh4praod3SIl6lTBnDIYC",
+            "copyright": "Imbibe Magazine | Yuliya Razudkevichus."
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "tequila-blanco",
+            "name": "Tequila Blanco",
+            "sort": 1,
+            "amount": 300,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "aperol",
+            "name": "Aperol",
+            "sort": 2,
+            "amount": 202.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "sweet-vermouth",
+            "name": "Sweet Vermouth",
+            "sort": 3,
+            "amount": 202.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orange-bitters",
+            "name": "Orange bitters",
+            "sort": 4,
+            "amount": 0.25,
+            "units": "barspoon",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "tonic",
+            "name": "Tonic",
+            "sort": 5,
+            "amount": 1,
+            "units": "topup",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "to serve",
+            "substitutes": []
+        }
+    ]
+}

@@ -1,0 +1,90 @@
+{
+    "_id": "after-all-imperial",
+    "name": "After All Imperial",
+    "instructions": "1. Combine all ingredients, except sparkling wine, in a shaker and shake.\n2. Strain into a collins glass or flute and top with sparkling wine.\n3. Garnish with mint or rosemary",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A fruity spin on a light, bubbly classic",
+    "source": "https://tuxedono2.com/after-all-imperial-cocktail-recipe-3dc66829-73c3-4dab-b867-9bfefccaee15",
+    "garnish": "Sprig mint or rosemary for garnish",
+    "abv": 16.76,
+    "tags": [
+        "Fruity"
+    ],
+    "glass": "Highball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///after-all-imperial.webp",
+            "sort": 1,
+            "placeholder_hash": "SAgKFwIGx3eWhXhle1aoV5h3pyBHSmAF",
+            "copyright": "TuxedoNo2"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "apple-brandy",
+            "name": "Apple Brandy",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "peach-liqueur",
+            "name": "Peach liqueur",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "angostura-aromatic-bitters",
+            "name": "Angostura aromatic bitters",
+            "sort": 4,
+            "amount": 1,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "champagne",
+            "name": "Champagne",
+            "sort": 5,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

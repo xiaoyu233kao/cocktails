@@ -1,0 +1,56 @@
+{
+    "_id": "stinger",
+    "name": "Stinger",
+    "instructions": "Pour all ingredients into mixing glass with ice cubes. Stir well. Strain into chilled martini cocktail glass.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A Stinger is a duo cocktail made by adding crème de menthe to brandy (although recipes vary). The cocktail's origins can be traced to the United States in the 1890s, and the beverage remained widely popular in America until the 1970s. It was seen as a drink of the upper class, and has had a somewhat wide cultural impact.",
+    "source": "https://iba-world.com/stinger/",
+    "garnish": "Optional mint leave.",
+    "abv": 28.57,
+    "tags": [
+        "IBA Cocktail",
+        "The Unforgettables",
+        "Brandy"
+    ],
+    "glass": "Cocktail",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///stinger.webp",
+            "sort": 1,
+            "placeholder_hash": "1SgSJwZmV3iAh4d5eSmHl3h4mVAHCYIA",
+            "copyright": "A Couple Cooks"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "cognac",
+            "name": "Cognac",
+            "sort": 1,
+            "amount": 50,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "creme-de-menthe",
+            "name": "Crème de menthe",
+            "sort": 2,
+            "amount": 20,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

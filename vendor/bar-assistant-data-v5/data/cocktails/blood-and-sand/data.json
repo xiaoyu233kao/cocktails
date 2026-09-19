@@ -1,0 +1,78 @@
+{
+    "_id": "blood-and-sand",
+    "name": "Blood and Sand",
+    "instructions": "1. Combine all ingredients with ice and shake\n2. Strain into a coupe\n3. Flame orange peel and garnish",
+    "created_at": null,
+    "updated_at": null,
+    "description": "An exceptionally smooth classic with an optional smoky finish",
+    "source": "https://tuxedono2.com/blood-and-sand-cocktail-recipe",
+    "garnish": "Orange peel",
+    "abv": 15.8,
+    "tags": [
+        "Fruity"
+    ],
+    "glass": "Coupe",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///blood-and-sand.webp",
+            "sort": 1,
+            "placeholder_hash": "yAcGDwIHp4d2doeHd0eoCNd3l/JYCI4A",
+            "copyright": "TuxedoNo2"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "scotch-whiskey",
+            "name": "Scotch whiskey",
+            "sort": 1,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cherry-heering",
+            "name": "Cherry heering",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "sweet-vermouth",
+            "name": "Sweet Vermouth",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orange-juice",
+            "name": "Orange juice",
+            "sort": 4,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

@@ -1,0 +1,100 @@
+{
+    "_id": "go-to",
+    "name": "Go-To",
+    "instructions": "1. In a cocktail shaker, combine all the ingredients except the ginger beer\n2. Shake briefly with ice to combine\n3. Strain over ice into a highball glass\n4. Top with ginger beer",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Created by Rob Krueger, Extra Fancy, Brooklyn NY.He mentioned this to a guest one night, to which she responded, \"Oh, so it's your go-to?\" inspiring the cocktail's name.",
+    "source": "https://stevethebartender.com.au/go-to-st-germain-cocktail-recipe/",
+    "garnish": "Garnish with a mint sprig and cucumber wheels",
+    "abv": 22.15,
+    "tags": [],
+    "glass": "Highball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///go-to.webp",
+            "sort": 1,
+            "placeholder_hash": "7BgKHwIGKKhnZXdYW8d4h4eJV1+IoVAJ",
+            "copyright": "Steve the Bartender"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "originally Ford's",
+            "substitutes": []
+        },
+        {
+            "_id": "st-germain",
+            "name": "St-Germain",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cucumber",
+            "name": "Cucumber",
+            "sort": 4,
+            "amount": 3,
+            "units": "slice",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "mint",
+            "name": "Mint",
+            "sort": 5,
+            "amount": 8,
+            "units": "leaves",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": 10,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "ginger-beer",
+            "name": "Ginger beer",
+            "sort": 6,
+            "amount": 1,
+            "units": "topup",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

@@ -123,9 +123,15 @@ export const styleGroups: TaxonomyGroup[] = [
 ];
 
 export function groupValuesForEntry(entry: TaxonomyEntry, groups: TaxonomyGroup[], field: 'flavors' | 'styles'): string[] {
-  return groups
+  const matched = groups
     .filter((group) => group.matches ? group.matches(entry) : group.values.some((value) => entry[field].includes(value)))
     .map((group) => group.id);
+  // Imported recipes occasionally carry a method or flavor token outside the
+  // browsing vocabulary. Keep them discoverable under an existing macro group
+  // so every card remains reachable without adding raw filter options.
+  if (matched.length) return matched;
+  if (field === 'flavors') return groups.some((group) => group.id === 'citrus-refreshing') ? ['citrus-refreshing'] : [];
+  return groups.some((group) => group.id === 'refreshing-long') ? ['refreshing-long'] : [];
 }
 
 export function groupLabel(value: string, groups: TaxonomyGroup[]): string {

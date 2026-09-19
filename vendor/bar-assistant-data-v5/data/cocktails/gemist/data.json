@@ -1,0 +1,55 @@
+{
+    "_id": "gemist",
+    "name": "Gemišt",
+    "instructions": "Combine cold ingredients in a glass.\nIngredient amounts are usually eyeballed depending on the glass.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Coming from a german word \"gemischt\", meaning mixed. Popular in Balkan countries, especially with homemade dry white wines.",
+    "source": null,
+    "garnish": null,
+    "abv": 6,
+    "tags": [
+        "Spritz",
+        "Wine"
+    ],
+    "glass": "Lowball",
+    "method": "Build",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///gemist.webp",
+            "sort": 1,
+            "placeholder_hash": "4BgOFwKJdpmwiImHiHiHh3l2eQeGh5AI",
+            "copyright": ""
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "white-wine",
+            "name": "White wine",
+            "sort": 1,
+            "amount": 150,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "club-soda",
+            "name": "Club soda",
+            "sort": 2,
+            "amount": 100,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

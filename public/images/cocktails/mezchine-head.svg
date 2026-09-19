@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc" data-slug="mezchine-head">
+  <title id="title">梅斯卡尔机器头程序化示意图</title>
+  <desc id="desc">深色酒吧背景中的梅斯卡尔机器头酒杯、冰块与装饰。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111214"/><stop offset=".55" stop-color="#24201e"/><stop offset="1" stop-color="#0e1012"/></linearGradient>
+    <linearGradient id="drink" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d59a35" stop-opacity=".86"/><stop offset="1" stop-color="#211a18" stop-opacity=".94"/></linearGradient>
+    <radialGradient id="light" cx="0.16" cy="0.16" r="0.74"><stop stop-color="#d66f4b" stop-opacity=".58"/><stop offset="1" stop-color="#d66f4b" stop-opacity="0"/></radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="22"/></filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <ellipse cx="190" cy="120" rx="430" ry="350" fill="url(#light)" filter="url(#blur)"/>
+  <g><circle cx="165.6" cy="184.3" r="33" fill="#d66f4b" opacity="0.12"/><circle cx="694.8" cy="99.2" r="24" fill="#d66f4b" opacity="0.10"/><circle cx="405.0" cy="508.6" r="16" fill="#d66f4b" opacity="0.12"/><circle cx="497.4" cy="126.8" r="19" fill="#d66f4b" opacity="0.08"/><circle cx="132.0" cy="476.4" r="32" fill="#d66f4b" opacity="0.08"/><circle cx="690.6" cy="642.0" r="19" fill="#d66f4b" opacity="0.12"/><circle cx="132.0" cy="485.6" r="34" fill="#d66f4b" opacity="0.12"/><circle cx="951.0" cy="568.4" r="20" fill="#d66f4b" opacity="0.17"/></g>
+  <path d="M0 755 Q260 685 520 748 T1200 720 V900 H0 Z" fill="#090a0b" opacity=".86"/>
+  <ellipse cx="600" cy="720" rx="300" ry="28" fill="#000" opacity=".55"/>
+  <path d="M435 240 L765 240 L735 700 Q600 760 465 700 Z" fill="url(#drink)" stroke="#f5d6ad" stroke-width="6" opacity=".96"/>
+  <g fill="#f3dfc0" opacity=".52"><rect x="500" y="378" width="70" height="55" rx="9" transform="rotate(-12 535 405)"/><rect x="600" y="368" width="70" height="55" rx="9" transform="rotate(17 635 395)"/><rect x="555" y="440" width="70" height="55" rx="9" transform="rotate(-4 590 467)"/></g>
+  <ellipse cx="800" cy="270" rx="45" ry="10" fill="#f0ca79" opacity=".75"/>
+  <path d="M365 255 Q600 205 835 255" fill="none" stroke="#f7dfba" stroke-width="3" opacity=".36"/>
+</svg>

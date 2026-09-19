@@ -1,0 +1,76 @@
+{
+    "_id": "yellow",
+    "name": "Yellow",
+    "instructions": "1. Combine the ingredients in a cocktail shaker with ice and shake until chilled.\n2. Double-strain into a chilled coupe or cocktail glass.\n3. Express the lemon twists over the surface of the drink and discard.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The Yellow is a cocktail recipe combining London dry gin, yellow Chartreuse, Suze and lemon juice in a Last Word-like drink.",
+    "source": "https://punchdrink.com/recipes/yellow/",
+    "garnish": "2 lemon twists (discarded)",
+    "abv": 19,
+    "tags": [],
+    "glass": "Coupe",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///yellow.webp",
+            "sort": 0,
+            "placeholder_hash": "mggGDwK5bYWUflynx/m3R1mNt7MGCKcH",
+            "copyright": "Punch Staff | Puxan Photo"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "suze",
+            "name": "Suze",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "yellow-chartreuse",
+            "name": "Yellow Chartreuse",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 4,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

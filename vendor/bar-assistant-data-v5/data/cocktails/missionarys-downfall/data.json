@@ -1,0 +1,102 @@
+{
+    "_id": "missionarys-downfall",
+    "name": "Missionary’s Downfall",
+    "instructions": "1. Combine all ingredients in a blender.\n2. Blend for 10 seconds and serve in a snifter glass.\n3. Garnish with a pineapple wedge, mint, powdered sugar and an orchid.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Adapted from a recipe created in the late 1930s by Donn Beach at his Don The Beachcomber restaurant in Hollywood, California, USA.",
+    "source": "https://punchdrink.com/recipes/scotty-schuders-missionarys-downfall/",
+    "garnish": "pineapple wedge, bouquet of fresh mint, powdered sugar and an orchid",
+    "abv": 12.31,
+    "tags": [
+        "Tiki"
+    ],
+    "glass": "Hurricane",
+    "method": "Blend",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///missionarys-downfall.webp",
+            "sort": 1,
+            "placeholder_hash": "kxgGDwJJenhdl4iyaAd6WIeJWZUHr4kL",
+            "copyright": "Punch Staff | Joann Pai"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "light-rum",
+            "name": "Light Rum",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "honey-syrup",
+            "name": "Honey Syrup",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "mint",
+            "name": "Mint",
+            "sort": 4,
+            "amount": 15,
+            "units": "leaves",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "peach-liqueur",
+            "name": "Peach liqueur",
+            "sort": 5,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "pineapple-juice",
+            "name": "Pineapple juice",
+            "sort": 6,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "_id": "rob-roy-no-3",
+    "name": "Rob Roy No. 3",
+    "instructions": "1. Add all ingredients to a mixing glass.\n2. Add ice and stir until chilled.\n3. Strain into a rocks glass over ice.\n4. Garnish with an orange peel.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Brian Silva's overhaul of a classic scotch whisky cocktail recipe is inspired by the structure of a \"perfect\" cocktail.",
+    "source": "https://punchdrink.com/recipes/rob-roy-no-3/",
+    "garnish": "orange peel",
+    "abv": 26.81,
+    "tags": [],
+    "glass": "Lowball",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///rob-roy-no-3.webp",
+            "sort": 0,
+            "placeholder_hash": "5igSFwJ3d4d1d4ePeFd3WGd6ScAYAm0C",
+            "copyright": "Punch Staff | Daniel Krieger"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "scotch-whiskey",
+            "name": "Scotch whiskey",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "preferably Famous Grouse",
+            "substitutes": []
+        },
+        {
+            "_id": "dry-vermouth",
+            "name": "Dry Vermouth",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "vermouth-bianco",
+            "name": "Vermouth Bianco",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

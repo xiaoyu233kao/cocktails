@@ -1,0 +1,91 @@
+{
+    "_id": "green-eyes",
+    "name": "Green Eyes",
+    "instructions": "1. Dry-shake all ingredients without ice to combine, then add ice and shake again until chilled and foamy.\n2. Double-strain into a chilled glass with fresh ice; garnish.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Chartreuse ups the herbacousness of this gin cocktail from bartender Andrew Volk. Read more about Portland Hunt & Alpine in our feature on Portland, Maine.",
+    "source": "https://imbibemagazine.com/recipe/green-eyes-gin-cocktail/",
+    "garnish": "Cherry and slice of lime",
+    "abv": 20.25,
+    "tags": [
+        "Herbacious",
+        "Sour"
+    ],
+    "glass": "Lowball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///green-eyes.webp",
+            "sort": 0,
+            "placeholder_hash": "KugJFwJ6d5hwiniDh0h3Joh0ZBCpCaUN",
+            "copyright": "Imbibe Magazine"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "green-chartreuse",
+            "name": "Green Chartreuse",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 4,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "egg-white",
+            "name": "Egg White",
+            "sort": 5,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

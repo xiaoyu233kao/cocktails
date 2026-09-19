@@ -1,0 +1,68 @@
+{
+    "_id": "sidecar",
+    "name": "Sidecar",
+    "instructions": "Pour all ingredients into a cocktail shaker, shake well with ice, strain into a chilled cocktail glass.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The exact origin of the sidecar is unclear, but it is thought to have been invented around the end of World War I in either London or Paris. The drink was directly named for the motorcycle attachment, which was very commonly used back then.\n\nLike the daiquiri, the sidecar evolved from the original sour formula, but sidecars are often drier than sours, combining liqueurs like curaçao with citrus. Sidecars are considered more of a challenge for bartenders because the proportion of ingredients is more difficult to balance for liqueurs of variable sweetness.",
+    "source": "https://iba-world.com/sidecar/",
+    "garnish": "",
+    "abv": 24.89,
+    "tags": [
+        "IBA Cocktail",
+        "The Unforgettables",
+        "Citrusy"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///sidecar.webp",
+            "sort": 1,
+            "placeholder_hash": "SggKFwJVd3mmhHd8aQiZeKZ1J5B9BKYH",
+            "copyright": "A Couple Cooks"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "cognac",
+            "name": "Cognac",
+            "sort": 1,
+            "amount": 50,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "triple-sec",
+            "name": "Triple Sec",
+            "sort": 2,
+            "amount": 20,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 3,
+            "amount": 20,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

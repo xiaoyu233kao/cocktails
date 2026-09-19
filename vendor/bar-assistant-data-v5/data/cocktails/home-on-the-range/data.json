@@ -1,0 +1,76 @@
+{
+    "_id": "home-on-the-range",
+    "name": "Home on the Range",
+    "instructions": "1. Add all ingredients into a rocks glass\n2. Stir to combine\n3. Add a large ice cube and give it all a stir to chill\n4. Finish with both a lemon and orange twist, making sure the peel oil is expressed into the surface",
+    "created_at": null,
+    "updated_at": null,
+    "description": "It’s back to basics with another delicious simple Sasha Petraske recipe!\n\nI have really fallen in love with built-in-glass drinks. These are just constructed and mixed in a standard rocks glass or whatever you’re drinking from, and requires no additional equipment to stir, shake, or strain.\n\nNot only is it ultra simple with fewer things to wash, the extra potency to start sets the mood and anchors your palate for the rest of the drink as you slowly sip. I personally looove the super spirit-forward libations, and this intensity actually helps keep me from drinking it too quickly (often a problem for me for cocktails!). Something about the more rustic nature of it compared to a carefully chilled stirred&strained cocktail just really hits the spot for me.",
+    "source": "https://barfaith.com/home-on-the-range/",
+    "garnish": null,
+    "abv": 31.5,
+    "tags": [],
+    "glass": "Lowball",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///home-on-the-range.webp",
+            "sort": 1,
+            "placeholder_hash": "MQgKDwIKZ6RsZ3m7mTqZ6IaGeAEYRZAF",
+            "copyright": "Barfaith"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "bourbon-whiskey",
+            "name": "Bourbon Whiskey",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cointreau",
+            "name": "Cointreau",
+            "sort": 2,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "sweet-vermouth",
+            "name": "Sweet Vermouth",
+            "sort": 3,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "angostura-aromatic-bitters",
+            "name": "Angostura aromatic bitters",
+            "sort": 4,
+            "amount": 3,
+            "units": "dashes",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

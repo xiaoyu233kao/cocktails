@@ -1,0 +1,85 @@
+{
+    "_id": "last-word",
+    "name": "Last word",
+    "instructions": "Add all ingredients into a cocktail shaker. Shake with ice and strain into a chilled cocktail glass.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "While the drink eventually fell out of favor, it enjoyed a renewed popularity after being rediscovered by the bartender Murray Stenson in 2004 during his tenure at the Zig Zag Café and becoming a cult hit in the Seattle area.",
+    "source": "https://iba-world.com/last-word/",
+    "garnish": "Cherry at the bottom of the cocktail",
+    "abv": 25.4,
+    "tags": [
+        "IBA Cocktail",
+        "The Unforgettables"
+    ],
+    "glass": "Nick and Nora",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///last-word-1.webp",
+            "sort": 1,
+            "placeholder_hash": "VBgSFwQkiIeTdoh6eAe3d6h2h5BHdJAG",
+            "copyright": "Punch"
+        },
+        {
+            "uri": "file:///last-word-2.webp",
+            "sort": 2,
+            "placeholder_hash": "DwgOBwIUqIekhXhpega3d4h3OABtxaAN",
+            "copyright": "Gastronomer Lifestyle"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "green-chartreuse",
+            "name": "Green Chartreuse",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "maraschino",
+            "name": "Maraschino",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 4,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

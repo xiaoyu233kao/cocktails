@@ -1,0 +1,90 @@
+{
+    "_id": "eastside",
+    "name": "Eastside",
+    "instructions": "1. Add three cucumbers slices and mint leaves to a shaker.\n2. Muddle gently for 5-7 seconds.\n3. Add gin, lime juice, simple syrup, and cubed ice to shaker.\n4. Shake for 10-20 seconds.\n5. Fine strain into a cocktail glass.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The Eastside is a gin-based cocktail recipe that was created by George Delgado at Libation in New York City, New York. This variation was adapted from the book Steve The Bartender's Cocktail Guide by Steve Roennfeldt.",
+    "source": "https://sipsfromscripts.com/eastside-cocktail-recipe/",
+    "garnish": "Garnish with remaining cucumber slice and mint sprig.",
+    "abv": 17.07,
+    "tags": [
+        "Herbacious"
+    ],
+    "glass": "Coupe",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///eastside.webp",
+            "sort": 1,
+            "placeholder_hash": "n8gJFwoezGl2g3iNdwanqYaWeAEfinAN",
+            "copyright": "Steve The Bartender's Cocktail Guide"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cucumber",
+            "name": "Cucumber",
+            "sort": 4,
+            "amount": 4,
+            "units": "slice",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "mint",
+            "name": "Mint",
+            "sort": 5,
+            "amount": 8,
+            "units": "leaves",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

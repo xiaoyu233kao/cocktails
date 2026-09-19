@@ -1,0 +1,80 @@
+{
+    "_id": "army-navy",
+    "name": "Army & Navy",
+    "instructions": "1. Combine all ingredients in a cocktail shaker with ice and shake until chilled.\n2. Strain into a chilled coupe or cocktail glass.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The Army & Navy is a tropical gin cocktail recipe made with gin, lemon juice, orgeat and Angostura bitters.",
+    "source": "https://punchdrink.com/recipes/army-navy/",
+    "garnish": null,
+    "abv": 18.34,
+    "tags": [
+        "Sour",
+        "Citrusy",
+        "Nutty"
+    ],
+    "glass": "Coupe",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///army-navy.webp",
+            "sort": 1,
+            "placeholder_hash": "JikOJwZVZ3dgdXaqaFiYGIhza/dXh38F",
+            "copyright": "Punch Staff"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orgeat-syrup",
+            "name": "Orgeat Syrup",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "angostura-aromatic-bitters",
+            "name": "Angostura aromatic bitters",
+            "sort": 4,
+            "amount": 1,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

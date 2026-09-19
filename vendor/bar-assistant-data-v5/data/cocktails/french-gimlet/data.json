@@ -1,0 +1,67 @@
+{
+    "_id": "french-gimlet",
+    "name": "French Gimlet",
+    "instructions": "1. Combine all the ingredients into your cocktail shaker\n2. Shake with ice for 12-15 seconds\n3. Strain into a chilled coupe glass",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A simple 3-ingredient riff on a classic Gimlet. St-Germain Elderflower Liqueur is used as the sweetener to balance the tart lime juice. The French Gimlet highlights the bright, citrusy and floral notes of St Germain.",
+    "source": "https://stevethebartender.com.au/st-germain-elderflower-french-gimlet/",
+    "garnish": "Garnish with a lime wheel",
+    "abv": 22,
+    "tags": [
+        "Citrusy",
+        "Sweet"
+    ],
+    "glass": "Coupe",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///french-gimlet.webp",
+            "sort": 0,
+            "placeholder_hash": "5zgKDwJBaHckh3dQiFeGSKiHhwgRqUAG",
+            "copyright": "Steve the Bartender"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "st-germain",
+            "name": "St-Germain",
+            "sort": 2,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

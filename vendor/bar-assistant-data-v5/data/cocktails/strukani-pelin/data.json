@@ -1,0 +1,64 @@
+{
+    "_id": "strukani-pelin",
+    "name": "Štrukani Pelin",
+    "instructions": "1. A lemon slice is then squeezed directly into the glass and mixed.\n\nThe amount of lemon juice can vary, sometimes resulting in a drink with equal amounts of both ingredients. More elaborate versions often add orange juice, citrus zest, or spices.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Štrukani pelinkovac (or štrukani pelin) is a somewhat novel Croatian drink that combines pelinkovac (traditional herbal liqueur) with lemon juice. In its basic form, the drink is made with pelinkovac that is poured into an ice-filled glass.",
+    "source": "https://www.journal.hr/lifestyle/gastro/antique-pelinkovac-strukani-pelin-jesenski-koktel-cool-pice/",
+    "garnish": "Lemon wedge",
+    "abv": 9.19,
+    "tags": [],
+    "glass": "Lowball",
+    "method": "Build",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///strukani-pelin.webp",
+            "sort": 1,
+            "placeholder_hash": "owgOHwbY2YePdpeZhSand1h2R6AZFpcA",
+            "copyright": "Tasteatlas"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "pelinkovac",
+            "name": "Pelinkovac",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "tonic",
+            "name": "Tonic",
+            "sort": 3,
+            "amount": 50,
+            "units": "ml",
+            "optional": true,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

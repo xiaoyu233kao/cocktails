@@ -1,0 +1,79 @@
+{
+    "_id": "frozen-mudslide",
+    "name": "Frozen Mudslide",
+    "instructions": "1. In a blender jug, combine all the ingredients\n2. Blend until smooth\n3. Served in a tall glass",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Death and Co. bartender, Devon Tarby, reworked the 1980s mudslide. Incorporating ice cream into the mudslide removes the need for ice resulting in a richer flavour.",
+    "source": "https://stevethebartender.com.au/frozen-mudslide/",
+    "garnish": "Garnish with grated dark chocolate",
+    "abv": 19.54,
+    "tags": [
+        "Coffee",
+        "Sweet"
+    ],
+    "glass": "Highball",
+    "method": "Blend",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///frozen-mudslide.webp",
+            "sort": 0,
+            "placeholder_hash": "IEkKHwRLqVqPh4ZoeWZ4h4h3eQd4dXAI",
+            "copyright": "Steve the Bartender"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "coffee-liqueur",
+            "name": "Coffee liqueur",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "vodka",
+            "name": "Vodka",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "baileys-irish-cream",
+            "name": "Baileys Irish Cream",
+            "sort": 3,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "ice-cream",
+            "name": "Ice cream",
+            "sort": 4,
+            "amount": 3,
+            "units": "scoops",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

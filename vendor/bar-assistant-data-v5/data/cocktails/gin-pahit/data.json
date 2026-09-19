@@ -1,0 +1,66 @@
+{
+    "_id": "gin-pahit",
+    "name": "Gin Pahit",
+    "instructions": "1. Add all ingredients to a cocktail shaker and shake with ice.\n2. Strain into a Nick & Nora glass, then garnish with the lemon twist on the rim of the glass.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "An easy cocktail recipe from Malaysia. The classic drink combines gin, bitters and absinthe, but this simply version forgoes the latter.",
+    "source": "https://punchdrink.com/recipes/gin-pahit/",
+    "garnish": "lemon twist",
+    "abv": 27.88,
+    "tags": [
+        "Bitter"
+    ],
+    "glass": "Nick and Nora",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///gin-pahit.webp",
+            "sort": 0,
+            "placeholder_hash": "rQgSFwIGNFmYiIeGh5d3iHeIF7CHQGgH",
+            "copyright": "Punch Staff | Lizzie Munro"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 75,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "preferably Tanglin Orchid",
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "angostura-aromatic-bitters",
+            "name": "Angostura aromatic bitters",
+            "sort": 3,
+            "amount": 3,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

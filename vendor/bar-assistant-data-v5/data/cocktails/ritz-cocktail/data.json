@@ -1,0 +1,88 @@
+{
+    "_id": "ritz-cocktail",
+    "name": "Ritz Cocktail",
+    "instructions": "1. Combine the first 4 ingredients in a shaker and fill with ice. Shake well to chill, then strain into a chilled glass. Top with Champagne and garnish.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Dale DeGroff raised the cocktail flag over New York during his tenure at the Rainbow Room in the 1980s and '90s. His Ritz Cocktail, created while working at Aurora in 1985, bears the DNA of traditional classics, and it helped usher in a new wave of talented bartenders.",
+    "source": "https://imbibemagazine.com/recipe/ritz-cocktail/?utm_source=Tasting+Notes&utm_campaign=0195568f8d-2024-11-27-ROTW-Clausmopolitan_COPY_01&utm_medium=email&utm_term=0_34951449a6-0195568f8d-114967543&mc_cid=0195568f8d&mc_eid=5c8172abd7",
+    "garnish": "Orange zest",
+    "abv": 17.49,
+    "tags": [],
+    "glass": "Coupe",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///ritz-cocktail.webp",
+            "sort": 1,
+            "placeholder_hash": "uhgGHwK3poeDWImdZvd3moZmhtQGN24A",
+            "copyright": "Imbibe Magazine"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "cognac",
+            "name": "Cognac",
+            "sort": 1,
+            "amount": 0.75,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cointreau",
+            "name": "Cointreau",
+            "sort": 2,
+            "amount": 0.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 3,
+            "amount": 0.25,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "maraschino",
+            "name": "Maraschino",
+            "sort": 4,
+            "amount": 0.25,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "champagne",
+            "name": "Champagne",
+            "sort": 5,
+            "amount": 2,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": 3,
+            "note": "or other sparkling wine",
+            "substitutes": []
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "_id": "final-ward",
+    "name": "Final Ward",
+    "instructions": "1. Combine all the ingredients into your cocktail shaker\n2. Shake with ice for 12 seconds\n3. Strain into a chilled cocktail glass",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The Final Ward is perhaps the best-know riff on the classic Last Word and was created in 2007 by Phil Ward at Death & Co. NYC. It is still comprised of equal parts with rye whiskey replacing the gin and fresh lemon juice in place of lime.\n\nThe Last Word is a gin-based prohibition-era cocktail which was rediscovered in 2004 and becoming a cult hit in the Seattle area.",
+    "source": "https://stevethebartender.com.au/final-ward-cocktail-recipe-last-word-riff/",
+    "garnish": "Cocktail cherry at the bottom of the glass",
+    "abv": 25.4,
+    "tags": [
+        "Citrusy",
+        "Herbacious"
+    ],
+    "glass": "Nick and Nora",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": "last-word",
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///final-ward.webp",
+            "sort": 1,
+            "placeholder_hash": "nBgSFwJXmHhzdoh/eKeXWId4iUT4aIIP",
+            "copyright": "The Educated Barfly"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "rye-whiskey",
+            "name": "Rye whiskey",
+            "sort": 1,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "green-chartreuse",
+            "name": "Green Chartreuse",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "maraschino",
+            "name": "Maraschino",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 4,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

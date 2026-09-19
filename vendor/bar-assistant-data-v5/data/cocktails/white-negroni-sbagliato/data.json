@@ -1,0 +1,66 @@
+{
+    "_id": "white-negroni-sbagliato",
+    "name": "White Negroni Sbagliato",
+    "instructions": "1. Build over a large cube in a double Old-Fashioned glass.\n2. Garnish with a long slice of cucumber and a twist of orange zest.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "This White Negroni Sbagliato recipe by Brooklyn's Long Island Bar mixes herbal Suze and bianco vermouth for a summer to fall spritz.",
+    "source": "https://punchdrink.com/recipes/white-negroni-sbagliato/",
+    "garnish": "cucumber and orange peel",
+    "abv": 11.21,
+    "tags": [
+        "Savory"
+    ],
+    "glass": "Lowball",
+    "method": "Build",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///white-negroni-sbagliato.webp",
+            "sort": 0,
+            "placeholder_hash": "bSkKLwT8ozrMZYejh6ZJOYiYZXA2BFgI",
+            "copyright": "Punch Staff | Lizzie Munro"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "suze",
+            "name": "Suze",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "vermouth-bianco",
+            "name": "Vermouth Bianco",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "prosecco",
+            "name": "Prosecco",
+            "sort": 3,
+            "amount": 120,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

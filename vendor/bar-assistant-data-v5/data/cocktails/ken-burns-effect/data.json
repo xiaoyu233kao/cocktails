@@ -1,0 +1,76 @@
+{
+    "_id": "ken-burns-effect",
+    "name": "Ken Burns Effect",
+    "instructions": "1. Combine all ingredients in a mixing glass and stir.\n2. Strain and pour into a coupe glass.\n3. Garnish with an orange twist.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "This cocktail recipe is a riff on the Manhattan that swaps vermouth for Dry Sack sherry, a blend of Oloroso and PX and maraschino liqueur.",
+    "source": "https://punchdrink.com/recipes/ken-burns-effect/",
+    "garnish": "orange twist",
+    "abv": 29.06,
+    "tags": [],
+    "glass": "Coupe",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///ken-burns-effect.webp",
+            "sort": 0,
+            "placeholder_hash": "kxgODwJgmXiweXZtdniHeHh5iPgWd18A",
+            "copyright": "Punch Staff | Daniel Krieger"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "rye-whiskey",
+            "name": "Rye whiskey",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "sherry",
+            "name": "Sherry",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "maraschino",
+            "name": "Maraschino",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "angostura-aromatic-bitters",
+            "name": "Angostura aromatic bitters",
+            "sort": 4,
+            "amount": 1,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

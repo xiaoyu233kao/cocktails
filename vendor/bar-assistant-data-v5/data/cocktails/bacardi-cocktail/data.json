@@ -1,0 +1,79 @@
+{
+    "_id": "bacardi-cocktail",
+    "name": "Bacardi Cocktail",
+    "instructions": "Shake together with ice. Strain into glass and serve",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The Bacardí Cocktail was originally the same as the Daiquiri, containing rum, lime juice, and sugar; The Grenadine version of the Bacardí Cocktail originated in the US, while the original non-red Bacardí company recipe originated from Cuba.\nOn April 28, 1936 the New York Supreme Court ruled that the drink must contain Bacardí rum in order to be called a Bacardí cocktail.",
+    "source": "https://en.wikipedia.org/wiki/Bacardi_cocktail",
+    "garnish": "Lime",
+    "abv": 21.94,
+    "tags": [
+        "Sweet",
+        "Summer"
+    ],
+    "glass": "Coupe",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///bacardi-cocktail.webp",
+            "sort": 1,
+            "placeholder_hash": "SxgGFwYXd4d3d4ZriJaJCKWalNCJCZ4H",
+            "copyright": "Liquor.com / Tim Nusog"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "light-rum",
+            "name": "Light Rum",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "grenadine-syrup",
+            "name": "Grenadine Syrup",
+            "sort": 3,
+            "amount": 7.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 4,
+            "amount": 1,
+            "units": "barspoon",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

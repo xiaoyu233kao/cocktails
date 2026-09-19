@@ -1,0 +1,67 @@
+{
+    "_id": "campari-spritz",
+    "name": "Campari Spritz",
+    "instructions": "Combine all in wine glass",
+    "created_at": null,
+    "updated_at": null,
+    "description": null,
+    "source": null,
+    "garnish": "Orange wheel",
+    "abv": 12.58,
+    "tags": [
+        "Spritz",
+        "Bitter"
+    ],
+    "glass": "Wine",
+    "method": "Build",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///campari-spritz.webp",
+            "sort": 1,
+            "placeholder_hash": "MvgFLwrWSnZ1iXePc4poN7eGmbBoCIkD",
+            "copyright": "ACoupleCooks"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "campari",
+            "name": "Campari",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "prosecco",
+            "name": "Prosecco",
+            "sort": 2,
+            "amount": 90,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "club-soda",
+            "name": "Club soda",
+            "sort": 3,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

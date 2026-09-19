@@ -1,0 +1,96 @@
+{
+    "_id": "enzoni",
+    "name": "Enzoni",
+    "instructions": "Muddle grapes, add ingredients, shake then double strain. Garnish with more green grapes on a cocktail pick.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The Enzoni Cocktail is a true modern classic that will impress your guests! This gin-based drink is perfect for any occasion and is a fun and delicious take on some of your favorite classic cocktails!",
+    "source": "https://www.reddit.com/r/cocktails/comments/10cogce/enzoni/",
+    "garnish": "Grapes on a pick",
+    "abv": 16,
+    "tags": [
+        "Negroni"
+    ],
+    "glass": "Lowball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///enzoni-1.webp",
+            "sort": 1,
+            "placeholder_hash": "ZxgWFwKKeHePd4eGd2iHiId4ZwJ6C1AE",
+            "copyright": "Reddit"
+        },
+        {
+            "uri": "file:///enzoni-2.webp",
+            "sort": 2,
+            "placeholder_hash": "VOgJJwxIl4hQeHiLiTeYiHaYxzBnDIIE",
+            "copyright": "It's a drink"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "campari",
+            "name": "Campari",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 3,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "simple-syrup",
+            "name": "Simple Syrup",
+            "sort": 4,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "grapes",
+            "name": "Grapes",
+            "sort": 5,
+            "amount": 5,
+            "units": "whole",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

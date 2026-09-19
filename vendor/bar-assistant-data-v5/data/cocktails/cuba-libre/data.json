@@ -1,0 +1,68 @@
+{
+    "_id": "cuba-libre",
+    "name": "Cuba Libre",
+    "instructions": "Build all ingredients in a highball glass filled with ice.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The cocktail originated in the early 20th century in Cuba, after the country won independence in the Spanish–American War. It subsequently became popular across Cuba, the United States, and other countries. Its simple recipe and inexpensive, ubiquitous ingredients have made it one of the world's most-popular alcoholic drinks. Drink critics often consider the drink mediocre, but it has been noted for its historical significance.\n\nTraditionally, the cola ingredient is Coca-Cola (\"Coke\") and the alcohol is a light rum such as Bacardi; however, the drink may be made with various types of rums and cola brands, and lime juice may or may not be included.",
+    "source": "https://iba-world.com/cuba-libre/",
+    "garnish": "Garnish with lime wedge.",
+    "abv": 10.1,
+    "tags": [
+        "Contemporary Classics",
+        "IBA Cocktail",
+        "Summer"
+    ],
+    "glass": "Highball",
+    "method": "Build",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///cuba-libre.webp",
+            "sort": 1,
+            "placeholder_hash": "1SgKHwZbaIhUgHqLiHh4SIeHd2BnBoUF",
+            "copyright": "Jamie Oliver"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "light-rum",
+            "name": "Light Rum",
+            "sort": 1,
+            "amount": 50,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "cola",
+            "name": "Cola",
+            "sort": 2,
+            "amount": 120,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 3,
+            "amount": 10,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

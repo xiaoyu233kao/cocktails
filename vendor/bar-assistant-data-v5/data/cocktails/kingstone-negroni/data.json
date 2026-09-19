@@ -1,0 +1,80 @@
+{
+    "_id": "kingstone-negroni",
+    "name": "Kingstone Negroni",
+    "instructions": "Combine all ingredients and stir with ice. Strain into a rocks glass over a large ice cube and garnish with a long, trimmed orange peel.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "First created in 2009 by Joaquín Simó, partner at New York’s Pouring Ribbons, the Kingston Negroni was an immediate hit. Simó credits the creation to his first taste of Smith & Cross overproof Jamaican rum. “It’s certainly not the most imaginative thing I’ve ever done—I simply Mr. Potato-Headed rum for gin in a classic Negroni spec—but it still strikes me as strange that the first thought I had when smelling and tasting a huge, funky, estery, hogo-reeking, grilled banana bread, smoking allspice branches–laden brute of an overproof Jamaican rum was wondering how it would work in a stirred aperitivo,” says Simó. “Smith & Cross is no shrinking violet, so it stands up to the bombastic chocolate and bitter orange notes in the vermouth while drying out the Campari’s richness and tempering its bitterness. Further evidence that less can sometimes be quite a bit more.”",
+    "source": "https://imbibemagazine.com/recipe/kingston-negroni-recipe/",
+    "garnish": "orange slice",
+    "abv": 23.06,
+    "tags": [
+        "Negroni"
+    ],
+    "glass": "Lowball",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": "negroni",
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///kingstone-negroni-1.webp",
+            "sort": 1,
+            "placeholder_hash": "4TgKJwiJaYd/eHiMd5h4SIh4iQRHOHAD",
+            "copyright": "Reddit"
+        },
+        {
+            "uri": "file:///kingstone-negroni-2.webp",
+            "sort": 2,
+            "placeholder_hash": "nYkGDwSOhViLQJnLiKjImYd5WbUMJYYA",
+            "copyright": "Imbibe"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "jamaican-rum",
+            "name": "Jamaican Rum",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": [
+                {
+                    "_id": "dark-rum",
+                    "name": "Dark Rum",
+                    "amount": null,
+                    "units": null,
+                    "amount_max": null
+                }
+            ]
+        },
+        {
+            "_id": "sweet-vermouth",
+            "name": "Sweet Vermouth",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "campari",
+            "name": "Campari",
+            "sort": 3,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

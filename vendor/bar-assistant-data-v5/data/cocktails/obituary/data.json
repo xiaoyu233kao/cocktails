@@ -1,0 +1,64 @@
+{
+    "_id": "obituary",
+    "name": "Obituary",
+    "instructions": "1. Combine all ingredients in a mixing glass.\n2. Add ice and stir to chill.\n3. Strain into a chilled Martini glass.\n4. Express and discard the lemon twist.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A drier take on the lesser-known New Orleans Martini cocktail recipe from popular Brooklyn bar Maison Premiere.",
+    "source": "https://punchdrink.com/recipes/obituary/",
+    "garnish": "lemon twist, discarded",
+    "abv": 30.57,
+    "tags": [],
+    "glass": "Cocktail",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///obituary.webp",
+            "sort": 0,
+            "placeholder_hash": "UQgOFwImiJeQhoh9eQeYl4hnhQbXeHAN",
+            "copyright": "Punch Staff | Lizzie Munro"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "gin",
+            "name": "Gin",
+            "sort": 1,
+            "amount": 82.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "preferably Hayman's London dry or Thomas Dakin Red Cole",
+            "substitutes": []
+        },
+        {
+            "_id": "dry-vermouth",
+            "name": "Dry Vermouth",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "preferably Bordiga Extra Dry",
+            "substitutes": []
+        },
+        {
+            "_id": "absinthe",
+            "name": "Absinthe",
+            "sort": 3,
+            "amount": 6,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "preferably La Muse Verte",
+            "substitutes": []
+        }
+    ]
+}

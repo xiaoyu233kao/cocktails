@@ -1,0 +1,76 @@
+{
+    "_id": "palmetto-no-2",
+    "name": "Palmetto No. 2",
+    "instructions": "1. Strain into a coupe.",
+    "created_at": null,
+    "updated_at": null,
+    "description": null,
+    "source": "https://alpenz.com/recipe-yubeBzov2U.html",
+    "garnish": "Garnish with an orange peel.",
+    "abv": 24.23,
+    "tags": [],
+    "glass": "Lowball",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///palmetto-no-2.webp",
+            "sort": 1,
+            "placeholder_hash": "axgKFwTyd3dyjXeFd/hIp0mMhfGXGY8J",
+            "copyright": "Haus Alpenz"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "brown-rum",
+            "name": "Brown Rum",
+            "sort": 1,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "sweet-vermouth",
+            "name": "Sweet Vermouth",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orange-bitters",
+            "name": "Orange bitters",
+            "sort": 3,
+            "amount": 1,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "angostura-aromatic-bitters",
+            "name": "Angostura aromatic bitters",
+            "sort": 4,
+            "amount": 1,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

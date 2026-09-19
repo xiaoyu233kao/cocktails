@@ -1,0 +1,91 @@
+{
+    "_id": "whiskey-peach-smash",
+    "name": "Whiskey Peach Smash",
+    "instructions": "1. Muddle the fruit and lemon wedges with the Curaçao.\n2. Add the mint leaves and the bourbon.\n3. Shake well and strain into a double rocks glass filled with ice.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "A riff on the OG Whiskey Smash, Dale DeGroff's Whiskey Peach Smash recipe adds fresh fruit and citrus to energize the classic formula.",
+    "source": "https://punchdrink.com/recipes/whiskey-peach-smash/",
+    "garnish": "Garnish with a peach slice and a mint sprig",
+    "abv": 32,
+    "tags": [
+        "Smash",
+        "Summer"
+    ],
+    "glass": "Lowball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///whiskey-peach-smash.webp",
+            "sort": 0,
+            "placeholder_hash": "CAgGDwJVl3d7hniweQept5ZdOEAIl4AE",
+            "copyright": "Punch Staff"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "bourbon-whiskey",
+            "name": "Bourbon Whiskey",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "dry-curacao",
+            "name": "Dry Curaçao",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "peach",
+            "name": "Peach",
+            "sort": 3,
+            "amount": 2,
+            "units": "slice",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon",
+            "name": "Lemon",
+            "sort": 4,
+            "amount": 3,
+            "units": "wedges",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "mint",
+            "name": "Mint",
+            "sort": 5,
+            "amount": 4,
+            "units": "leaves",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

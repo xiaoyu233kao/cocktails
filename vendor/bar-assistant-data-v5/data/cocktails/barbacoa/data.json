@@ -1,0 +1,102 @@
+{
+    "_id": "barbacoa",
+    "name": "Barbacoa",
+    "instructions": "1. In a cocktail shaker, combine all the ingredients and muddle them together.\n2. Add ice and shake until chilled.\n3. Pour into a double Old-Fashioned glass.\n4. Garnish with a piece of beef jerky.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "The Barbacoa is a mezcal cocktail recipe that muddles fresh ginger syrup and lemon juice with bell peppers and Fresno chile.",
+    "source": "https://punchdrink.com/recipes/barbacoa/",
+    "garnish": "beef jerky",
+    "abv": 17.07,
+    "tags": [
+        "Savory"
+    ],
+    "glass": "Lowball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///barbacoa.webp",
+            "sort": 0,
+            "placeholder_hash": "0hgOJwQWZ4mFiXiAi5h4l3d6ZyAoB4EF",
+            "copyright": "Punch Staff | Shannon Sturgis"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "mezcal",
+            "name": "Mezcal",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "agave-syrup",
+            "name": "Agave Syrup",
+            "sort": 2,
+            "amount": 22.5,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "ginger-syrup",
+            "name": "Ginger syrup",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 4,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime",
+            "name": "Lime",
+            "sort": 5,
+            "amount": 3,
+            "units": "wedge",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "chilli-pepper",
+            "name": "Chilli Pepper",
+            "sort": 6,
+            "amount": 1,
+            "units": "slice",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "thinly sliced",
+            "substitutes": []
+        }
+    ]
+}

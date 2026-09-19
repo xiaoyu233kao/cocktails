@@ -1,0 +1,79 @@
+{
+    "_id": "amaretto-sour",
+    "name": "Amaretto Sour",
+    "instructions": "1. Combine all ingredients and, if using an egg white, dry shake\n2. Add ice and shake for 10 sec\n3. Strain into a glass",
+    "created_at": null,
+    "updated_at": null,
+    "description": "Amaretto is an Italian liqueur that’s typically flavored with almonds or apricot stones. Its distinctive flavor can be incorporated into numerous cocktails, but it’s best known for the Amaretto Sour, a drink that tends to get a bad rap. That’s because, too often, the cocktail is overly sweet and relies on premade sour mix.",
+    "source": null,
+    "garnish": "Spray aromatic bitters over foaming cocktail from atomiser and then garnish with lemon & cherry sail (lemon slice & Luxardo Maraschino cherry on stick)",
+    "abv": 11.04,
+    "tags": [
+        "Sour",
+        "Sweet"
+    ],
+    "glass": "Lowball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///amaretto-sour.webp",
+            "sort": 1,
+            "placeholder_hash": "MCkKLwb1nWmIiHedZpZ4pml5p2BICnUD",
+            "copyright": "The Spruce Eats"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "amaretto",
+            "name": "Amaretto",
+            "sort": 1,
+            "amount": 60,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lemon-juice",
+            "name": "Lemon juice",
+            "sort": 2,
+            "amount": 30,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "angostura-aromatic-bitters",
+            "name": "Angostura aromatic bitters",
+            "sort": 3,
+            "amount": 1,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "egg-white",
+            "name": "Egg White",
+            "sort": 4,
+            "amount": 15,
+            "units": "ml",
+            "optional": true,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

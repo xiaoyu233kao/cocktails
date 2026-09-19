@@ -1,0 +1,66 @@
+{
+    "_id": "garibaldi-spritz",
+    "name": "Garibaldi Spritz",
+    "instructions": "1. To an ice-filled Collins glass, add the Campari and orange juice and stir to combine.\n2. Top with prosecco and garnish.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "This version of the classic Garibaldi cocktail recipe dials back the Campari and tops all with prosecco, turning the classic into a spritz.",
+    "source": "https://punchdrink.com/recipes/garibaldi-spritz/",
+    "garnish": "orange slice",
+    "abv": 6.25,
+    "tags": [
+        "Spritz"
+    ],
+    "glass": "Highball",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///garibaldi-spritz.webp",
+            "sort": 1,
+            "placeholder_hash": "YFkKJwY/SmiOZYholje4h3d4mJAnCWQE",
+            "copyright": "Punch Staff | Lizzie Munro"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "campari",
+            "name": "Campari",
+            "sort": 1,
+            "amount": 1.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "orange-juice",
+            "name": "Orange juice",
+            "sort": 2,
+            "amount": 3.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "prosecco",
+            "name": "Prosecco",
+            "sort": 3,
+            "amount": 1,
+            "units": "topup",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

@@ -1,0 +1,124 @@
+{
+    "_id": "lena",
+    "name": "Leña",
+    "instructions": "1. Rim a rocks glass with Tajín and set aside.\n2. Combine all ingredients in a cocktail shaker with ice and shake until chilled.\n3. Strain into the prepared glass over ice.\n4. Garnish with a pineapple half-wheel.",
+    "created_at": null,
+    "updated_at": null,
+    "description": "This cocktail recipe from one of the Best New Bartenders of 2025 merges a spicy Margarita and a Jungle Bird into a tropical mezcal drink.",
+    "source": "https://punchdrink.com/recipes/lena/",
+    "garnish": "Tajín (to rim the glass), pineapple half-wheel",
+    "abv": 12.44,
+    "tags": [
+        "Smokey",
+        "Sweet",
+        "Herbacious"
+    ],
+    "glass": "Lowball",
+    "method": "Shake",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///lena.webp",
+            "sort": 1,
+            "placeholder_hash": "3WoKHwBamahgqIi3eoeFRnp5eEBXC5AF",
+            "copyright": "Punch Staff | Michael Persico"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "tequila-blanco",
+            "name": "Tequila Blanco",
+            "sort": 0,
+            "amount": 1,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "pineapple-juice",
+            "name": "Pineapple juice",
+            "sort": 0,
+            "amount": 1,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "lime-juice",
+            "name": "Lime juice",
+            "sort": 0,
+            "amount": 0.75,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "mezcal",
+            "name": "Mezcal",
+            "sort": 0,
+            "amount": 0.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "such as Del Maguey Vida",
+            "substitutes": []
+        },
+        {
+            "_id": "gentian-liqueur",
+            "name": "Gentian Liqueur",
+            "sort": 0,
+            "amount": 0.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "such as Luxardo Bitter Bianco",
+            "substitutes": []
+        },
+        {
+            "_id": "agave-syrup",
+            "name": "Agave Syrup",
+            "sort": 0,
+            "amount": 0.5,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": "combine equal parts agave nectar and hot water",
+            "substitutes": []
+        },
+        {
+            "_id": "ancho-reyes",
+            "name": "Ancho Reyes",
+            "sort": 0,
+            "amount": 0.25,
+            "units": "oz",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": [
+                {
+                    "_id": "tabasco",
+                    "name": "Tabasco",
+                    "amount": 5,
+                    "units": "dashes",
+                    "amount_max": 7
+                }
+            ]
+        }
+    ]
+}

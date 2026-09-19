@@ -67,7 +67,7 @@ const cocktails = defineCollection({
     steps: z.array(z.string().min(1)).min(1),
     glass: z.string().min(1),
     garnish: z.string().min(1),
-    image: z.string().regex(/^\/images\/cocktails\/[a-z0-9]+(?:-[a-z0-9]+)*\.(?:webp|avif|png|jpe?g)$/),
+    image: z.string().regex(/^\/images\/cocktails\/[a-z0-9]+(?:-[a-z0-9]+)*\.(?:webp|avif|svg|png|jpe?g)$/),
     imageAlt: z.string().min(1),
     imageCredit: imageCreditSchema,
     source: sourceSchema,

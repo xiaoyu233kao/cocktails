@@ -1,0 +1,90 @@
+{
+    "_id": "la-rosita",
+    "name": "La Rosita",
+    "instructions": "1. Stir ingredients in a mixing tin with ice\n2. Strain into a glass filled with cracked ice and garnish",
+    "created_at": null,
+    "updated_at": null,
+    "description": "This slightly bitter combination shows how complex a cocktail can be, even when made with fairly basic ingredients.",
+    "source": "https://imbibemagazine.com/recipe/the-rosita-cocktail-recipe/",
+    "garnish": "Lemon twist",
+    "abv": 25.18,
+    "tags": [
+        "Negroni"
+    ],
+    "glass": "Lowball",
+    "method": "Stir",
+    "utensils": [],
+    "parent_cocktail_id": null,
+    "year": null,
+    "author": null,
+    "images": [
+        {
+            "uri": "file:///la-rosita.webp",
+            "sort": 1,
+            "placeholder_hash": "ykgGDwTKHHoGqKjGJ1XMKld3COkXcacA",
+            "copyright": "Imbibe Magazine | Emma Janzen"
+        }
+    ],
+    "ingredients": [
+        {
+            "_id": "tequila-reposado",
+            "name": "Tequila Reposado",
+            "sort": 1,
+            "amount": 45,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "sweet-vermouth",
+            "name": "Sweet Vermouth",
+            "sort": 2,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "dry-vermouth",
+            "name": "Dry Vermouth",
+            "sort": 3,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "campari",
+            "name": "Campari",
+            "sort": 4,
+            "amount": 15,
+            "units": "ml",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        },
+        {
+            "_id": "angostura-aromatic-bitters",
+            "name": "Angostura aromatic bitters",
+            "sort": 5,
+            "amount": 1,
+            "units": "dash",
+            "optional": false,
+            "is_specified": false,
+            "amount_max": null,
+            "note": null,
+            "substitutes": []
+        }
+    ]
+}

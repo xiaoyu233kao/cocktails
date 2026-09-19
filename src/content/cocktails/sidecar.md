@@ -21,6 +21,15 @@ ingredients:
     aliases: [lemon juice, fresh lemon, 柠檬汁]
 tags: [cognac, citrus, shaken, sour]
 summary: 干邑、橙味利口酒与柠檬汁带来紧致、干爽的柑橘酸酒。
+background: >-
+  边车至少在一战后欧洲酒吧环境中出现，1910 年代已有文字记录；Harry MacElhone 与 Pat McGarry 的署名分别连接巴黎与伦敦，但谁先创制尚无一致结论。它属于 Daisy 类酸酒结构，名称常被解释为与摩托车边车或随行客人的酒吧故事有关，具体命名经过仍缺乏决定性证据。现代 IBA 配方以干邑、橙味利口酒和柠檬汁摇制，滤入冰镇鸡尾酒杯，可做糖口或橙皮。它如今是最具代表性的干邑酸酒之一。
+historySources:
+  - label: "IBA Sidecar"
+    url: "https://iba-world.com/iba-cocktail/sidecar/"
+    checkedAt: 2026-09-19
+  - label: "American Prohibition Museum — Sidecar"
+    url: "https://www.americanprohibitionmuseum.com/cocktails/sidecar"
+    checkedAt: 2026-09-19
 steps:
   - 将所有原料与冰块加入摇酒器。
   - 摇匀后滤入冰镇鸡尾酒杯。
@@ -29,15 +38,12 @@ garnish: 无（可选糖口或橙皮）
 image: /images/cocktails/sidecar.webp
 imageAlt: 鸡尾酒杯中的边车
 imageCredit:
-  kind: photo
-  creator: Achim Schleuning
-  source: https://commons.wikimedia.org/wiki/File:Sidecar_Cocktail.jpg
-  sourceUrl: https://commons.wikimedia.org/wiki/File:Sidecar_Cocktail.jpg
-  license: CC BY-SA 4.0
-  licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+  kind: generated
+  creator: OpenAI image generation
+  source: OpenAI built-in image generation
+  license: AI 生成示意图
   modified: true
-  attribution: Achim Schleuning, CC BY-SA 4.0
-  checkedAt: 2026-09-18
+  checkedAt: 2026-09-19
 source:
   label: IBA Sidecar
   url: https://iba-world.com/iba-cocktail/sidecar/

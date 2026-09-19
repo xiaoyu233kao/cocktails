@@ -26,6 +26,15 @@ ingredients:
     aliases: [angostura, bitters, 苦精]
 tags: [rye-whiskey, spicy, stirred, aperitivo]
 summary: 黑麦威士忌与甜红味美思的经典搅拌型组合，苦精收束香气。
+background: >-
+  曼哈顿至少在 1880 年代美国鸡尾酒书中已出现，1884 年已有多本酒书同时收录；流行的曼哈顿俱乐部创制说缺乏决定性证据，因此起源地点与人物尚无一致结论。名称通常与纽约曼哈顿及其俱乐部文化相连。经典结构以黑麦威士忌、甜红味美思和安格式苦精搅拌，滤入冰镇鸡尾酒杯并以樱桃收尾；不同年代也出现波本、加拿大威士忌及 Perfect Manhattan 等变体。它从晚 19 世纪的城市酒吧进入现代经典谱系，今天仍是最具代表性的搅拌型威士忌短饮之一。
+historySources:
+  - label: "IBA Manhattan"
+    url: "https://iba-world.com/iba-cocktail/manhattan/"
+    checkedAt: 2026-09-19
+  - label: "Oxford Companion to Spirits & Cocktails — Manhattan"
+    url: "https://www.spiritsanddistilling.com/dictionary/acref-9780199311132-e-359"
+    checkedAt: 2026-09-19
 steps:
   - 将所有原料加入装满冰块的搅拌杯。
   - 搅拌至充分冰镇，滤入冰镇鸡尾酒杯。
@@ -36,11 +45,10 @@ imageAlt: 饰以樱桃的曼哈顿鸡尾酒
 imageCredit:
   kind: generated
   creator: OpenAI image generation
-  source: Generated in Codex image workflow
-  license: Generated asset; no third-party photo license
+  source: OpenAI built-in image generation
+  license: AI 生成示意图
   modified: true
-  attribution: null
-  checkedAt: 2026-09-18
+  checkedAt: 2026-09-19
 source:
   label: IBA Manhattan
   url: https://iba-world.com/iba-cocktail/manhattan/

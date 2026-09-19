@@ -1,6 +1,6 @@
 # Cocktail Atlas
 
-中文家庭调酒配方图鉴，使用 Astro 构建为静态 GitHub Pages 网站。网站以 IBA 当前目录为标准配方的首要来源，约收录 30 款常见鸡尾酒，并为搜索、组合筛选和图片灯箱提供渐进增强。
+中文家庭调酒配方图鉴，使用 Astro 构建为静态 GitHub Pages 网站。网站以 IBA 当前目录为标准配方的首要来源，约收录 30 款常见鸡尾酒，并为搜索、组合筛选和图片灯箱提供渐进增强。当前首批 30 款图片全部采用统一风格的 AI 生成示意图，由 OpenAI image generation 的 built-in source 生成，并以本地 WebP 提供。
 
 默认发布假设是公开仓库 `xiaoyu233kao/cocktails`，项目地址为
 `https://xiaoyu233kao.github.io/cocktails/`。发布前请核实账号根站的 Pages
@@ -26,7 +26,7 @@ BASE_PATH=/new-repo SITE_URL=https://example.github.io npm run build
 ## 新增配方
 
 1. 复制 `CONTENT-SCHEMA.md` 中的 frontmatter，在 `src/content/cocktails/<slug>.md` 创建文件。
-2. 将图片保存为 `public/images/cocktails/<slug>.webp`（建议 4:3、宽度至少 1200px），并在 `imageCredit` 记录来源、许可、修改权限和核对日期。
+2. 默认使用 OpenAI image generation 的 built-in source 生成同系列 AI 示意图，将图片保存为 `public/images/cocktails/<slug>.webp`（建议 4:3、宽度至少 1200px），并在 `imageCredit` 标记 `kind: generated`、`creator: OpenAI image generation`、`source: OpenAI built-in image generation` 和 `license: AI 生成示意图`。若未来改用授权照片，必须记录作者、来源、许可、修改权限、必要署名及对应 URL。
 3. 在 `source` 保留 IBA 配方页面；故事和变体只有逐条可靠来源时才添加。步骤用原创中文表达，保留已核实的配方事实。
 4. 运行 `npm run test:content`、`npm run check` 和 `npm run build`。内容校验会确认至少保留 30 条配方、slug 唯一，并检查每个 frontmatter 图片路径对应非空本地文件。
 

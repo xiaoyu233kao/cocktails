@@ -178,10 +178,12 @@ h1, h2, h3 { font-family: var(--font-serif); line-height: 1.15; }
   width: 100%;
   padding: 0;
   overflow: hidden;
+  color: inherit;
   background: var(--surface-raised);
   border: 0;
   border-radius: var(--radius-md);
-  cursor: zoom-in;
+  text-decoration: none;
+  cursor: pointer;
   aspect-ratio: 4 / 3;
 }
 .card-media::after { position: absolute; inset: 0; background: linear-gradient(180deg, transparent 50%, rgba(0,0,0,0.5)); content: ''; pointer-events: none; }
@@ -254,6 +256,7 @@ h1, h2, h3 { font-family: var(--font-serif); line-height: 1.15; }
 .source-link { color: var(--accent-bright); font-size: 0.78rem; text-decoration: none; overflow-wrap: anywhere; }
 .source-link:hover { text-decoration: underline; }
 .source-note { display: block; margin-top: 0.6rem; color: var(--muted); font-size: 0.7rem; }
+.history-sources { display: grid; gap: 0.35rem; }
 .variant-list { display: grid; gap: 1rem; }
 .variant { padding: 1rem; background: rgba(241,227,209,0.045); border-radius: var(--radius-sm); }
 .variant h3 { margin-bottom: 0.35rem; font-family: var(--font-sans); font-size: 0.95rem; }

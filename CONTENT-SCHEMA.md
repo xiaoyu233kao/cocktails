@@ -54,13 +54,10 @@ image: /images/cocktails/negroni.webp
 imageAlt: 装饰着橙皮的尼格罗尼
 imageCredit:
   kind: generated
-  creator: Cocktail Atlas Studio
-  source: Internal generated illustration
-  sourceUrl: https://example.com/generation-record
-  license: Internal generated asset; permitted for this site
-  licenseUrl: https://example.com/license
-  modified: false
-  attribution: null
+  creator: OpenAI image generation
+  source: OpenAI built-in image generation
+  license: AI 生成示意图
+  modified: true
   checkedAt: 2026-09-18
 source:
   label: IBA Negroni
@@ -113,13 +110,11 @@ basename as the Markdown file. Prefer a 4:3 image with a minimum width of
 asset. A `.avif` sibling is welcome for optimization, but the `.webp` path
 must remain available as the fallback referenced by frontmatter.
 
-Keep asset provenance in `imageCredit` and, when useful, a matching
-`public/images/cocktails/<slug>.credit.md` note. Record whether the image is a
-licensed photograph or a generated illustration, the creator/source, optional
-source and license URLs, license, modification permission, attribution text,
-and verification date. Do not
-hotlink images. Use `imageAlt` to describe the visible drink rather than the
-file name.
+当前首批 30 款图片全部是统一风格的 AI 生成示意图，默认使用
+`OpenAI image generation` 的 built-in source。新增配方也应生成同系列图片，并在
+`imageCredit` 使用上面的 `generated` 记录。若未来采用授权照片，才将 `kind` 改为
+`photo`，并记录作者、来源、`sourceUrl`、许可、`licenseUrl`、修改权限、必要署名和核对日期。
+不要热链图片。使用 `imageAlt` 描述可见饮品，而不是文件名。
 
 Content agents should reserve disjoint slugs and asset basenames. If a recipe
 is missing its final image, keep its frontmatter path stable and add a

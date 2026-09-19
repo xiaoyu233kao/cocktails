@@ -46,14 +46,22 @@ imageCredit:
   kind: "generated"
   creator: "OpenAI image generation"
   source: "OpenAI built-in image generation"
-  license: "Project-generated asset; no third-party photo license claimed."
+  license: "AI 生成示意图"
   modified: true
-  attribution: null
-  checkedAt: 2026-09-18
+  checkedAt: 2026-09-19
 source:
   label: "IBA Bloody Mary"
   url: "https://iba-world.com/iba-cocktail/bloody-mary/"
   checkedAt: 2026-09-18
+background: >-
+  血腥玛丽的起源与命名没有一致结论。20 世纪 1920 年代，美国酒吧记录中已出现伏特加与番茄汁的组合；George Jessel 常被认为较早推广这一方向，Fernand Petiot 则在纽约 St. Regis 等场所把柠檬汁、伍斯特沙司、辣椒酱、芹盐和黑胡椒等调味发展得更完整。名称“Bloody Mary”可能与多个人名或政治联想有关，缺乏单一可证实的来源。它在禁酒令后和航空旅行时代逐渐成为早午餐与长途旅行场景的标志饮品。IBA 版本以伏特加、番茄汁、柠檬汁及复合调味为骨架，强调按口味调整咸辣。
+historySources:
+  - label: "IBA Bloody Mary"
+    url: "https://iba-world.com/iba-cocktail/bloody-mary/"
+    checkedAt: 2026-09-19
+  - label: "The History of the Bloody Mary, Difford's Guide"
+    url: "https://www.diffordsguide.com/encyclopedia/496/cocktails/the-history-of-the-bloody-mary"
+    checkedAt: 2026-09-19
 story:
   text: "血腥玛丽的起源和命名仍有争议。Difford's Guide 汇总的研究认为，George Jessel 可能较早把伏特加与番茄汁作为饮品推广；Fernand Petiot 后来在纽约 St. Regis 等地把调味做得更完整。"
   source:

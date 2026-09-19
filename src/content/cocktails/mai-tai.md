@@ -39,6 +39,15 @@ ingredients:
     aliases: ["sugar syrup", "simple syrup", "糖浆"]
 tags: ["rum", "citrus", "tropical", "nutty", "shaken", "short"]
 summary: "两种朗姆酒与橙味利口酒、杏仁糖浆和青柠构成浓郁而平衡的热带风味。"
+background: >-
+  迈泰通常被认为由 Victor J. Bergeron（Trader Vic）于 1944 年在加州奥克兰创制；名称据常见记载来自大溪地语 mai tai-roa aé，意为“非常好”，但 Donn Beachcomber 的先行主张使归属仍有争议。早期配方以牙买加朗姆、马提尼克朗姆、橙味利口酒、杏仁糖浆和青柠构成，强调朗姆的层次、柑橘酸度与杏仁香，而不是果汁甜饮。后来旅游酒吧版本常加橙汁、菠萝汁并堆叠水果，造成风格分化。现代 IBA 配方保留短饮结构，常被视为提基鸡尾酒的代表。
+historySources:
+  - label: "IBA Mai-Tai"
+    url: "https://iba-world.com/iba-cocktail/mai-tai/"
+    checkedAt: 2026-09-19
+  - label: "Mai Tai (Trader Vic's), Difford's Guide"
+    url: "https://www.diffordsguide.com/cocktails/recipe/1219/mai-tai-trader-vics"
+    checkedAt: 2026-09-19
 steps:
   - "将所有原料加入装有冰块的调酒器，充分摇匀。"
   - "连同冰块倒入双层古典杯或 highball 杯。"
@@ -47,15 +56,12 @@ garnish: "菠萝条、薄荷叶与青柠皮"
 image: "/images/cocktails/mai-tai.webp"
 imageAlt: "以菠萝条、薄荷叶和青柠皮装饰的迈泰"
 imageCredit:
-  kind: "photo"
-  creator: "Edsel Little"
-  source: "Wikimedia Commons, File:VTR - Mai Tai.jpg"
-  sourceUrl: "https://commons.wikimedia.org/wiki/File:VTR_-_Mai_Tai.jpg"
-  license: "CC BY-SA 2.0"
-  licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0/"
+  kind: "generated"
+  creator: "OpenAI image generation"
+  source: "OpenAI built-in image generation"
+  license: "AI 生成示意图"
   modified: true
-  attribution: "Edsel Little, via Wikimedia Commons; cropped and converted to WebP."
-  checkedAt: 2026-09-18
+  checkedAt: 2026-09-19
 source:
   label: "IBA Mai-Tai"
   url: "https://iba-world.com/iba-cocktail/mai-tai/"

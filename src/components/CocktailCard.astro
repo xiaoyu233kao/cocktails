@@ -30,17 +30,14 @@ const search = [
   data-ingredients={data.ingredients.flatMap((item: any) => [item.nameZh, item.nameEn, ...item.aliases]).join('|')}
   data-search={search}
 >
-  <button
+  <a
     class="card-media"
-    type="button"
-    data-lightbox-src={imageUrl}
-    data-lightbox-alt={data.imageAlt}
-    data-lightbox-caption={`${data.nameZh} · ${data.nameEn}`}
-    aria-label={`查看${data.nameZh}大图`}
+    href={detailUrl}
+    aria-label={`查看${data.nameZh}配方`}
   >
     <img src={imageUrl} alt={data.imageAlt} loading="lazy" width="1200" height="900" />
-    <span class="card-zoom-label">查看大图</span>
-  </button>
+    <span class="card-zoom-label">查看配方</span>
+  </a>
   <a class="card-body card-body-link" href={detailUrl} aria-label={`查看${data.nameZh}配方`}>
     <div class="card-kicker">{labelFor(data.baseSpirit)} · {data.category}</div>
     <h2 class="card-title">{data.nameZh}</h2>

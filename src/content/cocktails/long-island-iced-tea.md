@@ -47,6 +47,15 @@ ingredients:
     aliases: ["cola", "可乐"]
 tags: ["vodka", "citrus", "sweet", "cola", "built", "highball", "long"]
 summary: "五种基酒以柠檬和糖浆调和，再用可乐补足颜色和焦糖香。"
+background: >-
+  长岛冰茶在 20 世纪 70 年代美国酒吧文化中流行，常见说法将现代版本归于纽约长岛 Oak Beach Inn 的 Robert “Rosebud” Butt；另一种把它归给 Tennessee 的 Old Man Bishop，文献支持较弱，起源尚无一致结论。名称来自成品的茶色，而非真正含茶。五种烈酒以等量少量叠加，配柠檬、糖浆并用可乐补色和气泡，形成类似冰茶的外观。它从比赛与酒吧营销中扩散，如今被视为高酒精、易饮但需注意强度的派对型长饮。
+historySources:
+  - label: "IBA Long Island Iced Tea"
+    url: "https://iba-world.com/iba-cocktail/long-island-iced-tea/"
+    checkedAt: 2026-09-19
+  - label: "Long Island Iced Tea, Oxford Companion to Spirits & Cocktails"
+    url: "https://www.spiritsanddistilling.com/dictionary/acref-9780199311132-e-355"
+    checkedAt: 2026-09-19
 steps:
   - "把伏特加、龙舌兰酒、白朗姆酒、金酒、君度、柠檬汁和糖浆倒入装满冰块的 highball 杯。"
   - "补入可乐，轻轻搅拌至融合。"
@@ -55,15 +64,12 @@ garnish: "可选柠檬片"
 image: "/images/cocktails/long-island-iced-tea.webp"
 imageAlt: "高球杯中的长岛冰茶并以柠檬片装饰"
 imageCredit:
-  kind: "photo"
-  creator: "Alisdair McDiarmid"
-  source: "Wikimedia Commons, File:Long Island Iced Tea with Lemon and Straw.jpg"
-  sourceUrl: "https://commons.wikimedia.org/wiki/File:Long_Island_Iced_Tea_with_Lemon_and_Straw.jpg"
-  license: "CC BY 2.0"
-  licenseUrl: "https://creativecommons.org/licenses/by/2.0/"
+  kind: "generated"
+  creator: "OpenAI image generation"
+  source: "OpenAI built-in image generation"
+  license: "AI 生成示意图"
   modified: true
-  attribution: "Alisdair McDiarmid, via Wikimedia Commons; cropped and converted to WebP."
-  checkedAt: 2026-09-18
+  checkedAt: 2026-09-19
 source:
   label: "IBA Long Island Iced Tea"
   url: "https://iba-world.com/iba-cocktail/long-island-iced-tea/"

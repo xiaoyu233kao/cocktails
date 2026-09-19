@@ -21,6 +21,15 @@ ingredients:
     aliases: [lime juice, fresh lime, 青柠汁]
 tags: [vodka, ginger, built, mule]
 summary: 伏特加与姜汁啤酒在铜杯中形成辛香、气泡与青柠的清爽组合。
+background: >-
+  莫斯科骡子通常被放在 1941 年前后的洛杉矶 Cock ’n Bull 酒吧语境中，John G. Martin 推广伏特加、John Morgan 消化姜汁啤酒，铜杯则提供了醒目的传播形式；两人的角色与首创细节在不同叙述中略有差异，起源仍应视为常见说法。名称中的“莫斯科”借用当时美国人对伏特加的俄国联想，“骡子”指姜汁啤酒的辛辣冲击。配方以伏特加、姜汁啤酒和青柠构成，铜杯有助于保冷与形成品牌识别。它在 20 世纪中期经历推广后复兴，如今是最具辨识度的姜味高球之一。
+historySources:
+  - label: "IBA Moscow Mule"
+    url: "https://iba-world.com/iba-cocktail/moscow-mule/"
+    checkedAt: 2026-09-19
+  - label: "Oxford Companion to Spirits & Cocktails — Moscow Mule"
+    url: "https://www.spiritsanddistilling.com/dictionary/acref-9780199311132-e-371"
+    checkedAt: 2026-09-19
 steps:
   - 将伏特加和姜汁啤酒加入 Mule 铜杯或岩石杯。
   - 加入青柠汁和冰块，轻轻搅拌。
@@ -29,15 +38,12 @@ garnish: 青柠片
 image: /images/cocktails/moscow-mule.webp
 imageAlt: 铜杯中饰以青柠的莫斯科骡子
 imageCredit:
-  kind: photo
-  creator: edseloh
-  source: https://commons.wikimedia.org/wiki/File:Moscow_Mule.jpg
-  sourceUrl: https://commons.wikimedia.org/wiki/File:Moscow_Mule.jpg
-  license: CC BY-SA 2.0
-  licenseUrl: https://creativecommons.org/licenses/by-sa/2.0/
+  kind: generated
+  creator: OpenAI image generation
+  source: OpenAI built-in image generation
+  license: AI 生成示意图
   modified: true
-  attribution: edseloh, CC BY-SA 2.0
-  checkedAt: 2026-09-18
+  checkedAt: 2026-09-19
 source:
   label: IBA Moscow Mule
   url: https://iba-world.com/iba-cocktail/moscow-mule/

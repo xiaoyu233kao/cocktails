@@ -31,6 +31,15 @@ ingredients:
     aliases: ["espresso", "coffee", "浓缩咖啡"]
 tags: ["vodka", "coffee", "bitter", "sweet", "shaken", "up", "after-dinner"]
 summary: "伏特加和咖啡利口酒托住新鲜浓缩咖啡，摇出细密泡沫和烘焙香。"
+background: >-
+  浓缩咖啡马天尼通常被认为在 1980 年代伦敦 Soho 的酒吧文化中成形，调酒师 Dick Bradsell 常被认为是关键人物；不过早期名称、配方细节与确切首杯记录仍有差异，尚无一致结论。名称直接来自以浓缩咖啡为核心的现代马天尼式饮品。早期版本以伏特加、咖啡利口酒、糖和浓缩咖啡摇制，细密泡沫与三颗咖啡豆成为视觉标志。随着精品咖啡和餐后鸡尾酒兴起，它从伦敦酒吧传播至全球，如今常被定位为兼具咖啡提神感与甜苦平衡的餐后短饮。
+historySources:
+  - label: "IBA Espresso Martini"
+    url: "https://iba-world.com/iba-cocktail/espresso-martini/"
+    checkedAt: 2026-09-19
+  - label: "A toast to Dick Bradsell, Difford's Guide"
+    url: "https://www.diffordsguide.com/encyclopedia/1265/people/a-toast-to-dick-bradsell"
+    checkedAt: 2026-09-19
 steps:
   - "将伏特加、咖啡利口酒、糖浆和一份浓缩咖啡加入装有冰块的调酒器。"
   - "用力摇匀至充分冰镇并形成泡沫，滤入冰镇鸡尾酒杯。"
@@ -42,10 +51,9 @@ imageCredit:
   kind: "generated"
   creator: "OpenAI image generation"
   source: "OpenAI built-in image generation"
-  license: "Project-generated asset; no third-party photo license claimed."
+  license: "AI 生成示意图"
   modified: true
-  attribution: null
-  checkedAt: 2026-09-18
+  checkedAt: 2026-09-19
 source:
   label: "IBA Espresso Martini"
   url: "https://iba-world.com/iba-cocktail/espresso-martini/"

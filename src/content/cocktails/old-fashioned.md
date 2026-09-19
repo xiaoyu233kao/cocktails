@@ -1,6 +1,6 @@
 ---
 slug: old-fashioned
-nameZh: 古典
+nameZh: "古典鸡尾酒"
 nameEn: Old Fashioned
 category: The Unforgettables
 baseSpirit: whiskey
@@ -23,8 +23,17 @@ ingredients:
     nameEn: Plain Water
     amount: few dashes
     aliases: [water, 清水]
-tags: [whiskey, bittersweet, built, stirred]
+tags: [whiskey, bittersweet, built, stirred, "古典"]
 summary: 方糖与苦精把威士忌的木质、香料和柑橘气息收拢成经典的一杯。
+background: >-
+  古典鸡尾酒的名称来自 19 世纪中后期客人要求“按老式方式”调制鸡尾酒的习惯，而不是一个可确定的单一发明者。Pendennis Club 的创始故事流传很广，但牛津资料认为证据不足；更可靠的历史线索是 1860—80 年代美国酒吧中以烈酒、糖、苦精和水构成的旧式结构。现代 IBA 版本以波本或黑麦威士忌为基酒，在古典杯加冰搅拌，并以橙与樱桃收香。它如今被视为最典型的威士忌 spirit-forward 短饮之一。
+historySources:
+  - label: "IBA Old Fashioned"
+    url: "https://iba-world.com/iba-cocktail/old-fashioned/"
+    checkedAt: 2026-09-19
+  - label: "Oxford Companion to Spirits & Cocktails — Old Fashioned"
+    url: "https://www.spiritsanddistilling.com/dictionary/acref-9780199311132-e-377"
+    checkedAt: 2026-09-19
 steps:
   - 将方糖放入古典杯，滴上苦精和几滴清水，捣至溶解。
   - 加冰块与威士忌，轻轻搅拌至冰镇。
@@ -33,15 +42,12 @@ garnish: 橙片或橙皮、鸡尾酒樱桃
 image: /images/cocktails/old-fashioned.webp
 imageAlt: 饰以橙皮和樱桃的古典鸡尾酒
 imageCredit:
-  kind: photo
-  creator: Edcross
-  source: https://commons.wikimedia.org/wiki/File:Oldfashioned-cocktail.png
-  sourceUrl: https://commons.wikimedia.org/wiki/File:Oldfashioned-cocktail.png
-  license: Public domain
-  licenseUrl: https://creativecommons.org/publicdomain/mark/1.0/
+  kind: generated
+  creator: OpenAI image generation
+  source: OpenAI built-in image generation
+  license: AI 生成示意图
   modified: true
-  attribution: null
-  checkedAt: 2026-09-18
+  checkedAt: 2026-09-19
 source:
   label: IBA Old Fashioned
   url: https://iba-world.com/iba-cocktail/old-fashioned/

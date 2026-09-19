@@ -26,6 +26,15 @@ ingredients:
     aliases: [lime juice, fresh lime, 青柠汁]
 tags: [tequila, citrus, shaken, sour]
 summary: 龙舌兰、橙味利口酒与青柠汁组成的明亮酸甜三角。
+background: >-
+  玛格丽塔的确切发明者与地点尚无一致结论，常见说法把它放在 1930—40 年代墨西哥边境酒吧，并与调酒师、社交名媛或旅店客人的故事相连；这些叙述不能互相完全印证。名称是女性名 Margarita（西语“玛格丽塔”）的形式，也常被解释为 Daisy 类酸酒的墨西哥版本。现代经典结构以龙舌兰、橙味利口酒和青柠汁摇制，杯沿可做半圈盐口。1970 年代冷冻玛格丽塔机推动大众化，今天则横跨经典短饮、盐口酒吧款和各种风味变体。
+historySources:
+  - label: "IBA Margarita"
+    url: "https://iba-world.com/iba-cocktail/margarita/"
+    checkedAt: 2026-09-19
+  - label: "The History of the Margarita, Smithsonian Magazine"
+    url: "https://www.smithsonianmag.com/arts-culture/the-history-of-the-margarita-57990212/"
+    checkedAt: 2026-09-19
 steps:
   - 将所有原料与冰块加入摇酒器。
   - 摇匀后滤入冰镇鸡尾酒杯；可选半圈盐口。
@@ -37,10 +46,9 @@ imageCredit:
   kind: generated
   creator: OpenAI image generation
   source: OpenAI built-in image generation
-  license: Project-generated asset; no third-party photo license claimed.
+  license: AI 生成示意图
   modified: true
-  attribution: null
-  checkedAt: 2026-09-18
+  checkedAt: 2026-09-19
 source:
   label: IBA Margarita
   url: https://iba-world.com/iba-cocktail/margarita/

@@ -31,6 +31,15 @@ ingredients:
     aliases: ["champagne", "sparkling wine", "香槟", "起泡酒"]
 tags: ["gin", "citrus", "sparkling", "dry", "shaken", "aperitivo"]
 summary: "金酒、柠檬和糖浆先调出酸甜骨架，再由香槟带来轻盈气泡。"
+background: >-
+  法式 75 在一战后巴黎与伦敦的酒吧语境中逐步定型，名称借用法国 75 毫米野战炮，象征强烈冲击感。20 世纪 10 年代已有相近结构的记录，1927 年 Judge Jr. 的《Here's How》印行了金酒、柠檬、糖与香槟的组合；具体发明者仍有争议，不能简单归于单一酒吧。现代 IBA 配方先摇匀前三项再补香槟，以笛杯呈现。它由战争时代的命名意象进入经典开胃酒谱系，今天常作为庆祝场合的轻盈气泡鸡尾酒。
+historySources:
+  - label: "IBA French 75"
+    url: "https://iba-world.com/iba-cocktail/french-75/"
+    checkedAt: 2026-09-19
+  - label: "French 75 cocktail history, Difford's Guide"
+    url: "https://www.diffordsguide.com/encyclopedia/1267/cocktails/french-75-cocktail-history"
+    checkedAt: 2026-09-19
 steps:
   - "将金酒、柠檬汁和糖浆加入装有冰块的调酒器，摇匀。"
   - "滤入香槟笛杯，补入香槟后轻轻搅拌。"
@@ -39,15 +48,12 @@ garnish: "无（IBA）"
 image: "/images/cocktails/french-75.webp"
 imageAlt: "香槟笛杯中的法式75气泡鸡尾酒"
 imageCredit:
-  kind: "photo"
-  creator: "Gary J. Wood"
-  source: "Wikimedia Commons, File:French 75.jpg"
-  sourceUrl: "https://commons.wikimedia.org/wiki/File:French_75.jpg"
-  license: "CC BY-SA 2.0"
-  licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0/"
+  kind: "generated"
+  creator: "OpenAI image generation"
+  source: "OpenAI built-in image generation"
+  license: "AI 生成示意图"
   modified: true
-  attribution: "Gary J. Wood, via Wikimedia Commons; cropped and converted to WebP."
-  checkedAt: 2026-09-18
+  checkedAt: 2026-09-19
 source:
   label: "IBA French 75"
   url: "https://iba-world.com/iba-cocktail/french-75/"
@@ -72,4 +78,3 @@ variants:
       url: "https://www.diffordsguide.com/encyclopedia/1267/cocktails/french-75-cocktail-history"
       checkedAt: 2026-09-18
 ---
-

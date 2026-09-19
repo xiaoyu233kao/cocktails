@@ -41,6 +41,15 @@ ingredients:
     aliases: [angostura, bitters, 苦精]
 tags: [gin, tropical, shaken, sling]
 summary: 菠萝、樱桃与草本利口酒把金酒拉入一杯色彩明亮的热带长饮。
+background: >-
+  新加坡司令通常与 1915 年前后的莱佛士酒店长吧相连，酒店将海南籍调酒师 Ngiam Tong Boon 视为关键人物；但早期配方、创作者与现行版本之间存在断层，很多细节来自酒店后来的复原与传播，不能写成完全确定。它属于英属亚洲 sling 家族，以金酒、樱桃利口酒、草本与橙味利口酒、菠萝、青柠、石榴糖浆和苦精构成。20 世纪中叶后随酒店文化和旅游业全球化，成为热带长饮象征；现代 IBA 版本强调红粉色、菠萝香与飓风杯。
+historySources:
+  - label: "IBA Singapore Sling"
+    url: "https://iba-world.com/iba-cocktail/singapore-sling/"
+    checkedAt: 2026-09-19
+  - label: "Raffles — How the Singapore Sling Conquered the World"
+    url: "https://www.raffles.com/magazine/singapore/How-the-Singapore-Sling-conquered-the-world-/"
+    checkedAt: 2026-09-19
 steps:
   - 将所有原料与冰块加入摇酒器。
   - 摇匀后滤入飓风杯。
@@ -51,11 +60,10 @@ imageAlt: 饰以菠萝和樱桃的新加坡司令
 imageCredit:
   kind: generated
   creator: OpenAI image generation
-  source: Generated in Codex image workflow
-  license: Generated asset; no third-party photo license
+  source: OpenAI built-in image generation
+  license: AI 生成示意图
   modified: true
-  attribution: null
-  checkedAt: 2026-09-18
+  checkedAt: 2026-09-19
 source:
   label: IBA Singapore Sling
   url: https://iba-world.com/iba-cocktail/singapore-sling/

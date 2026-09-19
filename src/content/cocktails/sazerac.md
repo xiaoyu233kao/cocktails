@@ -25,6 +25,15 @@ ingredients:
     aliases: [Peychaud's, bitters, 佩肖苦精]
 tags: [cognac, anise, stirred, spirit-forward]
 summary: 苦艾香气先行，干邑、方糖和佩肖苦精组成新奥尔良风格的浓郁短饮。
+background: >-
+  萨泽拉克与 19 世纪新奥尔良的药房、咖啡馆和 Sazerac House 文化相连。药剂师 Antoine Peychaud 的苦精、1852 年开张的 Sazerac Coffee House 以及早期干邑配方构成主要历史线索；内战后干邑供应紧张，黑麦威士忌逐渐成为常见替代。具体首创者与最初配方仍有争议，不宜归于单一人物。现代 IBA 版本用苦艾冲洗杯身，以糖、佩肖苦精和干邑搅拌，滤出无冰短饮并以柠檬皮收香。它被视为新奥尔良代表性鸡尾酒。
+historySources:
+  - label: "IBA Sazerac"
+    url: "https://iba-world.com/iba-cocktail/sazerac/"
+    checkedAt: 2026-09-19
+  - label: "Sazerac Company — Our Story"
+    url: "https://www.sazerac.com/our-company/our-story.html"
+    checkedAt: 2026-09-19
 steps:
   - 用苦艾酒冲洗冰镇古典杯，加入碎冰暂放。
   - 将其余原料在搅拌杯中加冰搅拌，倒掉杯中冰块和多余苦艾酒。
@@ -34,15 +43,12 @@ garnish: 柠檬皮
 image: /images/cocktails/sazerac.webp
 imageAlt: 饰以柠檬皮的萨泽拉克
 imageCredit:
-  kind: photo
-  creator: Marler
-  source: https://commons.wikimedia.org/wiki/File:Sazerac.jpg
-  sourceUrl: https://commons.wikimedia.org/wiki/File:Sazerac.jpg
-  license: CC BY-SA 3.0
-  licenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
+  kind: generated
+  creator: OpenAI image generation
+  source: OpenAI built-in image generation
+  license: AI 生成示意图
   modified: true
-  attribution: Marler, CC BY-SA 3.0
-  checkedAt: 2026-09-18
+  checkedAt: 2026-09-19
 source:
   label: IBA Sazerac
   url: https://iba-world.com/iba-cocktail/sazerac/

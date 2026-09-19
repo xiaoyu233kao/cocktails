@@ -21,6 +21,15 @@ ingredients:
     aliases: [sweet vermouth, rosso vermouth, 甜味美思]
 tags: [gin, bitter, stirred, aperitivo]
 summary: 金酒、金巴利与甜红味美思各一份，苦甜与柑橘香气平衡鲜明。
+background: >-
+  尼格罗尼的定型故事常放在 1919 年佛罗伦萨 Caffè Casoni：Count Camillo Negroni 据说请调酒师 Fosco Scarselli 以金酒替代 Americano 的苏打水，形成更强的苦甜结构；这一故事有品牌与历史资料支持，但细节仍不应写成绝对事实。名称来自 Negroni 家族。经典配方以金酒、金巴利和甜红味美思各一份，搅拌后在古典杯大冰块上呈现，以橙片收香。它从意大利开胃酒文化进入全球酒吧，现代常被视作平衡苦味、柑橘与草本香气的标志性短饮。
+historySources:
+  - label: "IBA Negroni"
+    url: "https://iba-world.com/iba-cocktail/negroni/"
+    checkedAt: 2026-09-19
+  - label: "Negroni History, Campari"
+    url: "https://negroni.campari.com/history/"
+    checkedAt: 2026-09-19
 steps:
   - 将所有原料直接倒入装满冰块的冰镇古典杯。
   - 轻轻搅拌至冰镇并融合。
@@ -29,15 +38,12 @@ garnish: 半片橙子
 image: /images/cocktails/negroni.webp
 imageAlt: 饰以橙片的尼格罗尼
 imageCredit:
-  kind: photo
-  creator: Geoff Peters
-  source: https://commons.wikimedia.org/wiki/File:Negroni_served_in_Vancouver_BC.jpg
-  sourceUrl: https://commons.wikimedia.org/wiki/File:Negroni_served_in_Vancouver_BC.jpg
-  license: CC BY 2.0
-  licenseUrl: https://creativecommons.org/licenses/by/2.0/
+  kind: generated
+  creator: OpenAI image generation
+  source: OpenAI built-in image generation
+  license: AI 生成示意图
   modified: true
-  attribution: Geoff Peters, CC BY 2.0
-  checkedAt: 2026-09-18
+  checkedAt: 2026-09-19
 source:
   label: IBA Negroni
   url: https://iba-world.com/iba-cocktail/negroni/

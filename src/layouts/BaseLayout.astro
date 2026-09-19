@@ -7,12 +7,14 @@ interface Props {
   title?: string;
   description?: string;
   image?: string;
+  lightbox?: boolean;
 }
 
 const {
   title = 'Cocktail Atlas｜鸡尾酒配方图鉴',
   description = '以 IBA 标准为线索，整理经典鸡尾酒的配方、风味与调制方式。',
   image,
+  lightbox = false,
 } = Astro.props;
 const canonical = Astro.site ? new URL(Astro.url.pathname, Astro.site).toString() : Astro.url.toString();
 const socialImage = image ? new URL(withBase(image), Astro.site || Astro.url).toString() : undefined;
@@ -62,6 +64,6 @@ const socialImage = image ? new URL(withBase(image), Astro.site || Astro.url).to
         <div class="footer-meta">COCKTAIL ATLAS<br />静态内容 · 2026</div>
       </div>
     </footer>
-    <Lightbox />
+    {lightbox && <Lightbox />}
   </body>
 </html>

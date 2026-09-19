@@ -34,6 +34,15 @@ ingredients:
     aliases: [soda, sparkling water, 苏打]
 tags: [white-rum, minty, built, highball]
 summary: 薄荷、青柠与白朗姆在气泡中展开，清爽而有层次。
+background: >-
+  莫希托常被追溯到 16 世纪古巴的 el Draque：青柠、糖和甘蔗蒸馏酒的早期组合后来逐步演变为以白朗姆为基酒的饮品；这一谱系有历史记载，但具体首创者尚无一致结论。19 世纪末朗姆酒取代 aguardiente，薄荷、青柠、蔗糖与苏打的组合逐渐稳定。20 世纪海明威在哈瓦那的饮酒故事帮助它进入全球流行文化，但不应把名人宣传当作唯一来源。现代 IBA 版本以高球杯、碎冰和薄荷枝呈现，定位为清爽、低负担感的热带长饮。
+historySources:
+  - label: "IBA Mojito"
+    url: "https://iba-world.com/iba-cocktail/mojito/"
+    checkedAt: 2026-09-19
+  - label: "Mojito History, Smithsonian Institution"
+    url: "https://americanhistory.si.edu/sites/default/files/file-uploader/Cook%20History-September%2017-Mojito.pdf"
+    checkedAt: 2026-09-19
 steps:
   - 在杯中将薄荷枝、白蔗糖与青柠汁轻轻混合，避免把薄荷捣碎。
   - 加少量苏打水和冰块，倒入朗姆酒，再补满苏打水并轻轻搅拌。
@@ -44,11 +53,10 @@ imageAlt: 饰以薄荷和青柠的莫希托鸡尾酒
 imageCredit:
   kind: generated
   creator: OpenAI image generation
-  source: Generated in Codex image workflow
-  license: Generated asset; no third-party photo license
+  source: OpenAI built-in image generation
+  license: AI 生成示意图
   modified: true
-  attribution: null
-  checkedAt: 2026-09-18
+  checkedAt: 2026-09-19
 source:
   label: IBA Mojito
   url: https://iba-world.com/iba-cocktail/mojito/

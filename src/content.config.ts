@@ -60,6 +60,8 @@ const cocktails = defineCollection({
     ingredients: z.array(ingredientSchema).min(1),
     tags: z.array(z.string().min(1)).min(1),
     summary: z.string().min(1),
+    background: z.string().min(1).optional(),
+    historySources: z.array(sourceSchema).min(1).optional(),
     steps: z.array(z.string().min(1)).min(1),
     glass: z.string().min(1),
     garnish: z.string().min(1),

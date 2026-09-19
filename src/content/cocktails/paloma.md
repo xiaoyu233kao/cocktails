@@ -25,6 +25,15 @@ ingredients:
     aliases: [grapefruit soda, pink grapefruit, 葡萄柚汽水]
 tags: [tequila, grapefruit, built, highball]
 summary: 龙舌兰与粉红葡萄柚汽水带来酸苦、气泡和一小撮盐的清爽高球。
+background: >-
+  帕洛玛的确切创作者和首发地点尚无一致结论，20 世纪中叶的墨西哥酒吧与特基拉帕克常被视为其传播背景；名称 Paloma 在西语中意为“鸽子”。早期配方既有葡萄柚汽水版本，也有鲜葡萄柚、糖浆和苏打水的手工版本，配方并非从一开始就统一。现代 IBA 结构以龙舌兰、青柠、一小撮盐和粉红葡萄柚汽水构成长饮，青柠片增添香气。它如今常被定位为玛格丽塔之外最具代表性的墨西哥龙舌兰高球。
+historySources:
+  - label: "IBA Paloma"
+    url: "https://iba-world.com/iba-cocktail/paloma/"
+    checkedAt: 2026-09-19
+  - label: "Oxford Companion to Spirits & Cocktails — Paloma"
+    url: "https://www.spiritsanddistilling.com/dictionary/acref-9780199311132-e-379"
+    checkedAt: 2026-09-19
 steps:
   - 将龙舌兰倒入高球杯，挤入青柠汁。
   - 加冰和一小撮盐，补满粉红葡萄柚汽水并轻轻搅拌。
@@ -36,10 +45,9 @@ imageCredit:
   kind: generated
   creator: OpenAI image generation
   source: OpenAI built-in image generation
-  license: Project-generated asset; no third-party photo license claimed.
+  license: AI 生成示意图
   modified: true
-  attribution: null
-  checkedAt: 2026-09-18
+  checkedAt: 2026-09-19
 source:
   label: IBA Paloma
   url: https://iba-world.com/iba-cocktail/paloma/

@@ -13,7 +13,7 @@ const { entry } = Astro.props;
 const { data } = entry;
 const imageUrl = withBase(data.image);
 ---
-<BaseLayout title={`${data.nameZh}｜${data.nameEn}｜Cocktail Atlas`} description={data.summary} image={data.image}>
+<BaseLayout title={`${data.nameZh}｜${data.nameEn}｜Cocktail Atlas`} description={data.summary} image={data.image} lightbox>
   <article>
     <header class="detail-header">
       <div class="shell">
@@ -50,7 +50,7 @@ const imageUrl = withBase(data.image);
               </li>
             ))}
           </ul>
-          <span class="source-note">来源：<a class="source-link" href={data.source.url} rel="noreferrer">{data.source.label}</a> · 核对于 {displayDate(data.source.checkedAt)}</span>
+          <span class="source-note">来源：<a class="source-link" href={data.source.url} rel="noreferrer">{data.source.label}</a> · 核对日期：{displayDate(data.source.checkedAt)}</span>
         </section>
         <section aria-labelledby="steps-heading">
           <h2 id="steps-heading">调制步骤</h2>
@@ -58,7 +58,17 @@ const imageUrl = withBase(data.image);
             {data.steps.map((step) => <li>{step}</li>)}
           </ol>
         </section>
-        {data.story && <section aria-labelledby="story-heading">
+        {data.background && <section aria-labelledby="background-heading">
+          <h2 id="background-heading">背景</h2>
+          <p class="story">{data.background}</p>
+          {(data.historySources ?? []).length > 0 && <div class="history-sources">
+            <span class="source-note">背景来源</span>
+            {(data.historySources ?? []).map((historySource) => (
+              <a class="source-link" href={historySource.url} rel="noreferrer">{historySource.label} ↗</a>
+            ))}
+          </div>}
+        </section>}
+        {!data.background && data.story && <section aria-labelledby="story-heading">
           <h2 id="story-heading">一小段背景</h2>
           <p class="story">{data.story.text}</p>
           <a class="source-link" href={data.story.source.url} rel="noreferrer">{data.story.source.label} ↗</a>
@@ -93,7 +103,7 @@ const imageUrl = withBase(data.image);
             {data.imageCredit.licenseUrl ? <a class="source-link" href={data.imageCredit.licenseUrl} rel="noreferrer">{data.imageCredit.license}</a> : data.imageCredit.license}
           </p>
           {data.imageCredit.attribution && <p class="credit">署名：{data.imageCredit.attribution}</p>}
-          <span class="source-note">核对于 {displayDate(data.imageCredit.checkedAt)}</span>
+          <span class="source-note">核对日期：{displayDate(data.imageCredit.checkedAt)}</span>
         </section>
       </aside>
     </div>

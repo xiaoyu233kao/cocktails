@@ -1,6 +1,6 @@
 ---
 slug: pisco-sour
-nameZh: 秘鲁酸酒
+nameZh: "皮斯科酸"
 nameEn: Pisco Sour
 category: Contemporary Classics
 baseSpirit: pisco
@@ -23,25 +23,31 @@ ingredients:
     nameEn: Raw Whole Egg White
     amount: 1
     aliases: [egg white, egg, 蛋清]
-tags: [pisco, citrus, shaken, sour]
+tags: [pisco, citrus, shaken, sour, "秘鲁酸酒"]
 summary: 皮斯科的葡萄香气与柠檬、糖浆和蛋清形成细腻泡沫。
+background: >-
+  皮斯科酸的早期谱系通常与秘鲁利马 Morris’ Bar 的 Victor Morris 相连，1916 年前后他被视为把皮斯科、柠檬、糖和蛋清组合成现代酸酒的重要人物；但智利与秘鲁都发展出自己的传统，创作归属与具体演变尚无一致结论。名称直接来自基酒 pisco 与 sour 结构。现代 IBA 配方以皮斯科、柠檬、糖浆和蛋清摇出细密泡沫，表面滴苦精。它如今既是秘鲁国家饮品象征，也是南美酸酒的代表。
+historySources:
+  - label: "IBA Pisco Sour"
+    url: "https://iba-world.com/iba-cocktail/pisco-sour/"
+    checkedAt: 2026-09-19
+  - label: "Oxford Companion to Spirits & Cocktails — Victor Morris"
+    url: "https://www.spiritsanddistilling.com/dictionary/acref-9780199311132-e-68"
+    checkedAt: 2026-09-19
 steps:
   - 将所有原料加入摇酒器，加冰充分摇匀。
   - 滤入冰镇高脚杯。
 glass: Goblet
 garnish: 表面滴几滴苦精
 image: /images/cocktails/pisco-sour.webp
-imageAlt: 表面点有苦精的皮斯科酸酒
+imageAlt: 表面点有苦精的皮斯科酸
 imageCredit:
-  kind: photo
-  creator: Edsel Little
-  source: https://commons.wikimedia.org/wiki/File:VTR_-_Pisco_Sour.jpg
-  sourceUrl: https://commons.wikimedia.org/wiki/File:VTR_-_Pisco_Sour.jpg
-  license: CC BY-SA 2.0
-  licenseUrl: https://creativecommons.org/licenses/by-sa/2.0/
+  kind: generated
+  creator: OpenAI image generation
+  source: OpenAI built-in image generation
+  license: AI 生成示意图
   modified: true
-  attribution: Edsel Little, via Wikimedia Commons; framed to 4:3, color-adjusted, and converted to WebP.
-  checkedAt: 2026-09-18
+  checkedAt: 2026-09-19
 source:
   label: IBA Pisco Sour
   url: https://iba-world.com/iba-cocktail/pisco-sour/

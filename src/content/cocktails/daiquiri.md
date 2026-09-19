@@ -25,7 +25,7 @@ ingredients:
     nameEn: "Superfine Sugar"
     amount: "2 bar spoons"
     aliases: ["caster sugar", "superfine sugar", "细砂糖"]
-tags: ["rum", "citrus", "sour", "sweet", "shaken", "up"]
+tags: ["rum", "citrus", "sour", "sweet", "shaken", "up", "黛绮莉", "戴克瑞"]
 summary: "白朗姆、青柠和细砂糖组成干净利落的酸甜结构。"
 steps:
   - "把朗姆酒、青柠汁和细砂糖加入调酒器，先搅拌至糖尽量溶解。"
@@ -38,14 +38,22 @@ imageCredit:
   kind: "generated"
   creator: "OpenAI image generation"
   source: "OpenAI built-in image generation"
-  license: "Project-generated asset; no third-party photo license claimed."
+  license: "AI 生成示意图"
   modified: true
-  attribution: null
-  checkedAt: 2026-09-18
+  checkedAt: 2026-09-19
 source:
   label: "IBA Daiquiri"
   url: "https://iba-world.com/iba-cocktail/daiquiri/"
   checkedAt: 2026-09-18
+background: >-
+  代基里以古巴圣地亚哥附近的矿区和村庄 Daiquirí 命名。常见说法把它归于美国矿业工程师 Jennings Cox，并称其在 19 世纪末用朗姆、青柠和糖招待客人；但这段创制故事与更早的加勒比酸味酒传统并存，时间线和个人归属仍有争议。20 世纪初，代基里经美国海军、古巴酒店与纽约酒吧传播，后来在冷冻调酒机和文学作品的影响下形成多种版本。IBA 版本回到干净的短饮结构，用白色古巴朗姆、鲜榨青柠汁和细砂糖摇匀，冰镇后滤入鸡尾酒杯，不加装饰。
+historySources:
+  - label: "IBA Daiquiri"
+    url: "https://iba-world.com/iba-cocktail/daiquiri/"
+    checkedAt: 2026-09-19
+  - label: "Daiquiri cocktail history, Difford's Guide"
+    url: "https://www.diffordsguide.com/g/1083/daiquiri-cocktail/story"
+    checkedAt: 2026-09-19
 story:
   text: "代基里以古巴圣地亚哥附近的矿区和村庄命名，常见说法把它归于美国矿业工程师 Jennings Cox；但朗姆、青柠和糖的组合更早已有，创制过程仍有不同叙述。"
   source:

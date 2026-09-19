@@ -25,7 +25,7 @@ ingredients:
     nameEn: "Soda Water"
     amount: "A splash"
     aliases: ["soda", "club soda", "苏打水"]
-tags: ["campari", "bitter", "citrus", "herbal", "built", "aperitivo", "highball"]
+tags: ["campari", "bitter", "citrus", "herbal", "built", "aperitivo", "highball", "美国佬", "阿美利加诺"]
 summary: "金巴利与甜红味美思的苦甜骨架，靠苏打水拉出清爽口感。"
 steps:
   - "在装满冰块的古典杯中直接加入金巴利和甜红味美思。"
@@ -38,14 +38,22 @@ imageCredit:
   kind: "generated"
   creator: "OpenAI image generation"
   source: "OpenAI built-in image generation"
-  license: "Project-generated asset; no third-party photo license claimed."
+  license: "AI 生成示意图"
   modified: true
-  attribution: null
-  checkedAt: 2026-09-18
+  checkedAt: 2026-09-19
 source:
   label: "IBA Americano"
   url: "https://iba-world.com/iba-cocktail/americano/"
   checkedAt: 2026-09-18
+background: >-
+  阿美利卡诺通常被认为源自 19 世纪末米兰与都灵之间的意式苦味酒组合，早期名称 Milano–Torino，分别指金巴利与甜味美思的产地。20 世纪初，美国旅客在意大利酒吧点用苏打水拉长的版本，“Americano”名称逐渐固定；但确切命名时间尚无一致结论。它后来成为 aperitivo 文化的代表，也被视为尼格罗尼的直接前身：把苏打水换成金酒即可形成更浓郁的结构。今天 IBA 配方保留等量金巴利、甜红味美思和少量苏打水，强调苦甜、草本与清爽气泡。
+historySources:
+  - label: "IBA Americano"
+    url: "https://iba-world.com/iba-cocktail/americano/"
+    checkedAt: 2026-09-19
+  - label: "The Art Journal: Americano, Campari"
+    url: "https://www.campari.com/app/uploads/2022/03/THE-ART-JOURNAL-12-Americano-min.pdf"
+    checkedAt: 2026-09-19
 story:
   text: "阿美利卡诺的前身常被称为 Milano-Torino；金巴利来自米兰、甜味美思来自都灵。20世纪初它在美国访客中流行，后来以 Americano 之名广为人知。"
   source:

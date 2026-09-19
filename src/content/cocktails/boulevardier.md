@@ -1,6 +1,6 @@
 ---
 slug: "boulevardier"
-nameZh: "布勒瓦迪耶"
+nameZh: "花花公子"
 nameEn: "Boulevardier"
 category: "The Unforgettables"
 baseSpirit: "whiskey"
@@ -25,7 +25,7 @@ ingredients:
     nameEn: "Sweet Red Vermouth"
     amount: "30 ml"
     aliases: ["sweet vermouth", "red vermouth", "vermouth rosso", "甜红味美思"]
-tags: ["whiskey", "bitter", "woody", "herbal", "stirred", "spirit-forward", "aperitivo"]
+tags: ["whiskey", "bitter", "woody", "herbal", "stirred", "spirit-forward", "aperitivo", "布尔瓦迪耶", "布勒瓦迪耶", "林荫大道"]
 summary: "威士忌让金巴利与甜红味美思的苦甜结构更厚重，适合慢饮。"
 steps:
   - "将所有原料加入装有冰块的搅拌杯。"
@@ -33,21 +33,27 @@ steps:
 glass: "Chilled cocktail glass"
 garnish: "橙皮；可选柠檬皮"
 image: "/images/cocktails/boulevardier.webp"
-imageAlt: "琥珀色布勒瓦迪耶以橙皮装饰并盛在低矮酒杯中"
+imageAlt: "琥珀色花花公子以橙皮装饰并盛在低矮酒杯中"
 imageCredit:
-  kind: "photo"
-  creator: "Edsel Little"
-  source: "Wikimedia Commons, File:VTR Happy Hour - Boulevardier.jpg"
-  sourceUrl: "https://commons.wikimedia.org/wiki/File:VTR_Happy_Hour_-_Boulevardier.jpg"
-  license: "CC BY-SA 2.0"
-  licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0/"
+  kind: "generated"
+  creator: "OpenAI image generation"
+  source: "OpenAI built-in image generation"
+  license: "AI 生成示意图"
   modified: true
-  attribution: "Edsel Little, via Wikimedia Commons; cropped and converted to WebP."
-  checkedAt: 2026-09-18
+  checkedAt: 2026-09-19
 source:
   label: "IBA Boulevardier"
   url: "https://iba-world.com/iba-cocktail/boulevardier/"
   checkedAt: 2026-09-18
+background: >-
+  布勒瓦迪耶的最早可靠印刷记录通常追溯到 Harry MacElhone 1927 年的 Barflies and Cocktails，书中把配方归给美国作家兼巴黎杂志 The Boulevardier 的创办人 Erskine Gwynne；但“谁先创制”仍应按史料措辞理解，不能当作完全确定的个人发明。它以威士忌替代尼格罗尼的金酒，保留金巴利与甜红味美思，因此兼有木质、苦甜和草本层次。20 世纪后半叶经典鸡尾酒复兴让这杯酒重新进入酒吧菜单，波本和黑麦都会使用。IBA 版本按威士忌、金巴利、甜味美思的厚重比例搅拌，通常以橙皮收尾。
+historySources:
+  - label: "IBA Boulevardier"
+    url: "https://iba-world.com/iba-cocktail/boulevardier/"
+    checkedAt: 2026-09-19
+  - label: "Boulevardier, Difford's Guide"
+    url: "https://www.diffordsguide.com/cocktails/recipe/2955/boulevardier"
+    checkedAt: 2026-09-19
 story:
   text: "布勒瓦迪耶最早见于 Harry MacElhone 1927 年的 Barflies and Cocktails，由 Arthur Moss 在书中记作 Erskine Gwynne 创制；酒名也呼应 Gwynne 共同创办的巴黎杂志 The Boulevardier。"
   source:

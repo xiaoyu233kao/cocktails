@@ -1,19 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc" data-slug="little-italy">
-  <title id="title">小意大利程序化示意图</title>
-  <desc id="desc">深色酒吧背景中的小意大利酒杯、冰块与装饰。</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title-little-italy desc-little-italy" data-slug="little-italy" data-glass="martini" data-ice="up" data-foam="false" data-bubbles="false" data-rim="none">
+  <title id="title-little-italy">小意大利程序化示意图</title>
+  <desc id="desc-little-italy">深色酒吧台面光影中的小意大利，martini杯型，up冰型与none装饰。</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111214"/><stop offset=".55" stop-color="#24201e"/><stop offset="1" stop-color="#0e1012"/></linearGradient>
-    <linearGradient id="drink" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8a4b35" stop-opacity=".86"/><stop offset="1" stop-color="#211a18" stop-opacity=".94"/></linearGradient>
-    <radialGradient id="light" cx="0.16" cy="0.16" r="0.74"><stop stop-color="#d66f4b" stop-opacity=".58"/><stop offset="1" stop-color="#d66f4b" stop-opacity="0"/></radialGradient>
-    <filter id="blur"><feGaussianBlur stdDeviation="22"/></filter>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b0d0f"/><stop offset=".52" stop-color="#27201d"/><stop offset="1" stop-color="#0b0c10"/></linearGradient>
+    <linearGradient id="drink" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a54835" stop-opacity=".96"/><stop offset=".55" stop-color="#7e302d" stop-opacity=".84"/><stop offset="1" stop-color="#1e2521" stop-opacity=".96"/></linearGradient>
+    <radialGradient id="light" cx="0.16" cy="0.12" r=".78"><stop stop-color="#709eb4" stop-opacity=".62"/><stop offset="1" stop-color="#709eb4" stop-opacity="0"/></radialGradient>
+    <linearGradient id="edgeLight" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#f8dfb8" stop-opacity=".05"/><stop offset=".5" stop-color="#f8dfb8" stop-opacity=".65"/><stop offset="1" stop-color="#f8dfb8" stop-opacity=".05"/></linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="23"/></filter>
+    <clipPath id="liquid-clip"><path d="M390 250 L810 250 L600 505 Z"/></clipPath>
   </defs>
   <rect width="1200" height="900" fill="url(#bg)"/>
-  <ellipse cx="190" cy="120" rx="430" ry="350" fill="url(#light)" filter="url(#blur)"/>
-  <g><circle cx="304.2" cy="211.9" r="33" fill="#d66f4b" opacity="0.16"/><circle cx="442.8" cy="246.4" r="14" fill="#d66f4b" opacity="0.17"/><circle cx="363.0" cy="138.3" r="30" fill="#d66f4b" opacity="0.18"/><circle cx="430.2" cy="140.6" r="23" fill="#d66f4b" opacity="0.15"/><circle cx="526.8" cy="409.7" r="19" fill="#d66f4b" opacity="0.16"/><circle cx="888.0" cy="632.8" r="28" fill="#d66f4b" opacity="0.17"/><circle cx="925.8" cy="359.1" r="14" fill="#d66f4b" opacity="0.10"/><circle cx="489.0" cy="646.6" r="21" fill="#d66f4b" opacity="0.13"/></g>
-  <path d="M0 755 Q260 685 520 748 T1200 720 V900 H0 Z" fill="#090a0b" opacity=".86"/>
-  <ellipse cx="600" cy="720" rx="300" ry="28" fill="#000" opacity=".55"/>
-  <path d="M405 245 Q600 350 795 245 L745 430 Q600 520 455 430 Z" fill="url(#drink)" stroke="#f5d6ad" stroke-width="5" opacity=".96"/><path d="M600 430 L600 635" stroke="#f5d6ad" stroke-width="6"/><path d="M485 650 Q600 625 715 650" fill="none" stroke="#f5d6ad" stroke-width="6"/>
-  <g fill="#f3dfc0" opacity=".52"><rect x="500" y="358" width="70" height="55" rx="9" transform="rotate(-12 535 385)"/><rect x="600" y="348" width="70" height="55" rx="9" transform="rotate(17 635 375)"/><rect x="555" y="420" width="70" height="55" rx="9" transform="rotate(-4 590 447)"/></g>
-  <ellipse cx="800" cy="270" rx="45" ry="10" fill="#f0ca79" opacity=".75"/>
-  <path d="M365 255 Q600 205 835 255" fill="none" stroke="#f7dfba" stroke-width="3" opacity=".36"/>
+  <ellipse cx="165" cy="110" rx="450" ry="360" fill="url(#light)" filter="url(#blur)"/>
+  <g><circle cx="953.2" cy="458.5" r="17" fill="#709eb4" opacity="0.19"/><circle cx="698.0" cy="126.7" r="23" fill="#709eb4" opacity="0.18"/><circle cx="724.4" cy="330.4" r="32" fill="#709eb4" opacity="0.16"/><circle cx="913.6" cy="149.8" r="36" fill="#709eb4" opacity="0.13"/><circle cx="482.4" cy="84.7" r="24" fill="#709eb4" opacity="0.18"/><circle cx="579.2" cy="271.6" r="10" fill="#709eb4" opacity="0.14"/><circle cx="68.8" cy="145.6" r="8" fill="#709eb4" opacity="0.07"/><circle cx="359.2" cy="219.1" r="20" fill="#709eb4" opacity="0.17"/><circle cx="561.6" cy="151.9" r="24" fill="#709eb4" opacity="0.17"/><circle cx="579.2" cy="298.9" r="26" fill="#709eb4" opacity="0.15"/><circle cx="1036.8" cy="559.3" r="16" fill="#709eb4" opacity="0.12"/><circle cx="693.6" cy="82.6" r="11" fill="#709eb4" opacity="0.09"/></g>
+  <path d="M0 745 Q250 670 510 744 T1200 715 V900 H0 Z" fill="#08090a" opacity=".9"/>
+  <path d="M80 770 Q390 730 600 760 T1120 750" fill="none" stroke="url(#edgeLight)" stroke-width="3" opacity=".6"/>
+  <ellipse cx="600" cy="735" rx="315" ry="31" fill="#000" opacity=".56"/>
+  <g clip-path="url(#liquid-clip)"><rect x="300" y="260" width="600" height="250" fill="url(#drink)" opacity="0.84"/></g>
+  <path d="M390 250 L810 250 L600 505 Z" fill="none" stroke="#f5d9ae" stroke-width="6" opacity=".9"/>
+  <path d="M600 505 L600 650 M480 665 Q600 640 720 665" fill="none" stroke="#f5d9ae" stroke-width="6" opacity=".9" stroke-linecap="round"/>
+
+
+
+
+
 </svg>

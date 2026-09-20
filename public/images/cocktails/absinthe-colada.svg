@@ -1,19 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc" data-slug="absinthe-colada">
-  <title id="title">苦艾椰林程序化示意图</title>
-  <desc id="desc">深色酒吧背景中的苦艾椰林酒杯、冰块与装饰。</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title-absinthe-colada desc-absinthe-colada" data-slug="absinthe-colada" data-glass="hurricane" data-ice="standard" data-foam="false" data-bubbles="true" data-rim="none">
+  <title id="title-absinthe-colada">苦艾椰林程序化示意图</title>
+  <desc id="desc-absinthe-colada">深色酒吧台面光影中的苦艾椰林，hurricane杯型，standard冰型与mint装饰。</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111214"/><stop offset=".55" stop-color="#24201e"/><stop offset="1" stop-color="#0e1012"/></linearGradient>
-    <linearGradient id="drink" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d59a35" stop-opacity=".86"/><stop offset="1" stop-color="#211a18" stop-opacity=".94"/></linearGradient>
-    <radialGradient id="light" cx="0.16" cy="0.16" r="0.74"><stop stop-color="#a4c46b" stop-opacity=".58"/><stop offset="1" stop-color="#a4c46b" stop-opacity="0"/></radialGradient>
-    <filter id="blur"><feGaussianBlur stdDeviation="22"/></filter>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b0d0f"/><stop offset=".52" stop-color="#27201d"/><stop offset="1" stop-color="#0b0c10"/></linearGradient>
+    <linearGradient id="drink" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e4b54e" stop-opacity=".96"/><stop offset=".55" stop-color="#edcf78" stop-opacity=".84"/><stop offset="1" stop-color="#1e2521" stop-opacity=".96"/></linearGradient>
+    <radialGradient id="light" cx="0.16" cy="0.12" r=".78"><stop stop-color="#c59ba9" stop-opacity=".62"/><stop offset="1" stop-color="#c59ba9" stop-opacity="0"/></radialGradient>
+    <linearGradient id="edgeLight" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#f8dfb8" stop-opacity=".05"/><stop offset=".5" stop-color="#f8dfb8" stop-opacity=".65"/><stop offset="1" stop-color="#f8dfb8" stop-opacity=".05"/></linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="23"/></filter>
+    <clipPath id="liquid-clip"><path d="M450 270 Q600 205 750 270 L720 675 Q600 750 480 675 Z"/></clipPath>
   </defs>
   <rect width="1200" height="900" fill="url(#bg)"/>
-  <ellipse cx="190" cy="120" rx="430" ry="350" fill="url(#light)" filter="url(#blur)"/>
-  <g><circle cx="224.4" cy="110.7" r="35" fill="#a4c46b" opacity="0.10"/><circle cx="703.2" cy="177.4" r="25" fill="#a4c46b" opacity="0.11"/><circle cx="535.2" cy="483.3" r="13" fill="#a4c46b" opacity="0.17"/><circle cx="862.8" cy="414.3" r="11" fill="#a4c46b" opacity="0.12"/><circle cx="980.4" cy="237.2" r="19" fill="#a4c46b" opacity="0.14"/><circle cx="132.0" cy="490.2" r="27" fill="#a4c46b" opacity="0.11"/><circle cx="1047.6" cy="262.5" r="14" fill="#a4c46b" opacity="0.14"/><circle cx="867.0" cy="435.0" r="23" fill="#a4c46b" opacity="0.17"/></g>
-  <path d="M0 755 Q260 685 520 748 T1200 720 V900 H0 Z" fill="#090a0b" opacity=".86"/>
-  <ellipse cx="600" cy="720" rx="300" ry="28" fill="#000" opacity=".55"/>
-  <path d="M450 255 Q600 205 750 255 L715 680 Q600 745 485 680 Z" fill="url(#drink)" stroke="#f5d6ad" stroke-width="6" opacity=".96"/>
-  <g fill="#f3dfc0" opacity=".52"><rect x="500" y="328" width="70" height="55" rx="9" transform="rotate(-12 535 355)"/><rect x="600" y="318" width="70" height="55" rx="9" transform="rotate(17 635 345)"/><rect x="555" y="390" width="70" height="55" rx="9" transform="rotate(-4 590 417)"/></g>
-  <path d="M730 305 Q790 210 845 275" fill="none" stroke="#83a85c" stroke-width="8"/><ellipse cx="770" cy="255" rx="16" ry="35" fill="#83a85c" transform="rotate(35 770 255)"/><ellipse cx="810" cy="230" rx="16" ry="35" fill="#9abd71" transform="rotate(60 810 230)"/>
-  <path d="M365 255 Q600 205 835 255" fill="none" stroke="#f7dfba" stroke-width="3" opacity=".36"/>
+  <ellipse cx="165" cy="110" rx="450" ry="360" fill="url(#light)" filter="url(#blur)"/>
+  <g><circle cx="803.6" cy="389.2" r="12" fill="#c59ba9" opacity="0.15"/><circle cx="676.0" cy="500.5" r="12" fill="#c59ba9" opacity="0.11"/><circle cx="975.2" cy="80.5" r="31" fill="#c59ba9" opacity="0.09"/><circle cx="460.4" cy="458.5" r="27" fill="#c59ba9" opacity="0.16"/><circle cx="742.0" cy="443.8" r="9" fill="#c59ba9" opacity="0.15"/><circle cx="214.0" cy="177.1" r="36" fill="#c59ba9" opacity="0.07"/><circle cx="332.8" cy="571.9" r="19" fill="#c59ba9" opacity="0.12"/><circle cx="1155.6" cy="376.6" r="15" fill="#c59ba9" opacity="0.08"/><circle cx="240.4" cy="397.6" r="37" fill="#c59ba9" opacity="0.07"/><circle cx="935.6" cy="307.3" r="37" fill="#c59ba9" opacity="0.15"/><circle cx="187.6" cy="529.9" r="28" fill="#c59ba9" opacity="0.08"/><circle cx="896.0" cy="544.6" r="13" fill="#c59ba9" opacity="0.17"/></g>
+  <path d="M0 745 Q250 670 510 744 T1200 715 V900 H0 Z" fill="#08090a" opacity=".9"/>
+  <path d="M80 770 Q390 730 600 760 T1120 750" fill="none" stroke="url(#edgeLight)" stroke-width="3" opacity=".6"/>
+  <ellipse cx="600" cy="735" rx="315" ry="31" fill="#000" opacity=".56"/>
+  <g clip-path="url(#liquid-clip)"><rect x="300" y="280" width="600" height="410" fill="url(#drink)" opacity="0.64"/><g fill="#f5e5c7" opacity=".38"><rect x="485" y="322" width="72" height="62" rx="10" transform="rotate(-12 521 353)"/><rect x="598" y="310" width="76" height="64" rx="10" transform="rotate(15 636 342)"/><rect x="550" y="395" width="78" height="60" rx="10" transform="rotate(-5 589 425)"/></g><g fill="#f7e9cc" opacity=".55"><circle cx="625" cy="349" r="6"/><circle cx="648" cy="433" r="2"/><circle cx="505" cy="487" r="2"/><circle cx="521" cy="336" r="2"/><circle cx="532" cy="472" r="4"/><circle cx="709" cy="349" r="6"/><circle cx="719" cy="431" r="6"/><circle cx="616" cy="458" r="4"/><circle cx="511" cy="388" r="3"/><circle cx="626" cy="538" r="5"/><circle cx="669" cy="377" r="6"/><circle cx="583" cy="370" r="4"/><circle cx="499" cy="504" r="2"/><circle cx="689" cy="343" r="2"/></g></g>
+  <path d="M450 270 Q600 205 750 270 L720 675 Q600 750 480 675 Z" fill="none" stroke="#f5d9ae" stroke-width="6" opacity=".9"/>
+
+
+
+
+
+  <path d="M740 300 Q795 200 860 245" fill="none" stroke="#709852" stroke-width="8"/><ellipse cx="775" cy="250" rx="18" ry="37" fill="#8eb56a" transform="rotate(30 775 250)"/><ellipse cx="820" cy="228" rx="17" ry="34" fill="#6d9d58" transform="rotate(55 820 228)"/><ellipse cx="840" cy="280" rx="15" ry="31" fill="#a7c875" transform="rotate(80 840 280)"/>
 </svg>

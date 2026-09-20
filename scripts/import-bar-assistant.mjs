@@ -347,7 +347,7 @@ function backgroundText({ nameZh, ingredients, baseSpirit, method, glass, garnis
   return result;
 }
 
-function renderSvg({ slug, nameZh, recipe }) {
+function renderSvgLegacy({ slug, nameZh, recipe }) {
   const hash = sha256(slug);
   const number = (offset) => Number.parseInt(hash.slice(offset, offset + 2), 16);
   const liquidColors = ['#b84c2d', '#d59a35', '#c96b38', '#7c9b54', '#895f9f', '#8a4b35', '#d3bd6b', '#507d8f'];
@@ -407,7 +407,177 @@ function renderSvg({ slug, nameZh, recipe }) {
   ${ice}
   ${garnish}
   <path d="M365 255 Q600 205 835 255" fill="none" stroke="#f7dfba" stroke-width="3" opacity=".36"/>
-</svg>\n`;
+</svg>\n`.replace(/[ \t]+$/gm, '');
+}
+
+// Keep the community artwork local and deterministic. The tokens below are
+// derived from the recipe rather than from source images: the same recipe
+// always gets the same composition, while its ingredients and service notes
+// change the liquid, glass, ice, foam, bubbles, rim and garnish.
+function renderSvg({ slug, nameZh, recipe }) {
+  const ingredientText = (recipe.ingredients ?? [])
+    .map((item) => `${item._id ?? ''} ${item.name ?? ''}`)
+    .join(' ')
+    .toLowerCase();
+  const sourceText = `${slug} ${recipe.name ?? ''} ${recipe.method ?? ''} ${recipe.glass ?? ''} ${recipe.garnish ?? ''} ${recipe.description ?? ''} ${recipe.tags ?? ''} ${ingredientText}`.toLowerCase();
+  const hash = sha256(`${slug}|${ingredientText}|${recipe.method ?? ''}|${recipe.glass ?? ''}`);
+  const number = (offset) => Number.parseInt(hash.slice(offset % (hash.length - 2), (offset % (hash.length - 2)) + 2), 16);
+  const pick = (values, offset = 0) => values[number(offset) % values.length];
+  const glassText = String(recipe.glass ?? '').toLowerCase();
+  const methodText = String(recipe.method ?? '').toLowerCase();
+  const garnishText = String(recipe.garnish ?? '').toLowerCase();
+  const spritzLike = /\bspritz(?:er)?\b/.test(sourceText);
+  const rimSourceText = `${garnishText} ${recipe.description ?? ''} ${recipe.instructions ?? ''} ${recipe.rim ?? ''}`.toLowerCase();
+  const glassKind = /tiki/.test(glassText) ? 'tiki'
+    : /julep/.test(glassText) ? 'julep'
+      : /copper|mug/.test(glassText) ? 'mug'
+        : /hurricane/.test(glassText) ? 'hurricane'
+          : /shot/.test(glassText) ? 'shot'
+            : /flute|champagne/.test(glassText) ? 'flute'
+              : /coupe/.test(glassText) ? 'coupe'
+                : /martini|cocktail|nick/.test(glassText) ? 'martini'
+                  : /wine|goblet/.test(glassText) ? 'wine'
+                    : /highball|fizzio|collins/.test(glassText) ? 'highball' : 'rocks';
+  const servedUp = !spritzLike && /up|straight|neat|coupe|martini|cocktail|nick|flute/.test(`${glassText} ${methodText}`)
+    && !/mug|julep|tiki|hurricane|highball|rocks/.test(glassText);
+  const iceKind = /frozen|slush|snow|granita|frappe/.test(sourceText) || /blend/.test(methodText) ? 'frozen'
+    : /crushed|pebble|swizzle|snow cone|sno-cone/.test(sourceText) ? 'crushed'
+      : /large cube|king cube|big rock|single cube|one large/.test(sourceText) ? 'big'
+        : spritzLike ? 'standard' : servedUp ? 'up' : 'standard';
+  const foamBase = /egg\s*white|eggwhite|aquafaba|foam|froth|whipped\s+cream/.test(sourceText);
+  const flipFoam = /\bflip\b/.test(sourceText) && /egg|yolk|cream|milk/.test(ingredientText);
+  const fizzFoam = /\bfizz\b/.test(sourceText) && /egg\s*white|eggwhite|aquafaba|foam|froth|whipped\s+cream/.test(ingredientText);
+  const foam = foamBase || flipFoam || fizzFoam;
+  const bubbles = /champagne|prosecco|sparkling|tonic|soda|cola|coke|ginger\s*beer|ginger\s*ale|lemon[- ]lime\s+soda|beer|cider|fizz|bubbles/.test(sourceText);
+  const explicitRim = /\brim(?:med|ming)?\b|\bedge(?:d)?\b/.test(rimSourceText);
+  const garnishSalt = /\bsalt(?:ed)?\b|taj[ií]n|chili salt|chilli salt/.test(garnishText);
+  const rimKind = /taj[ií]n|chili salt|chilli salt/.test(rimSourceText) && (explicitRim || garnishSalt) ? 'tajin'
+    : (explicitRim && /salt|saline/.test(rimSourceText)) || garnishSalt ? 'salt'
+      : /sugar rim|sugared|cinnamon sugar/.test(rimSourceText) && (explicitRim || /sugar/.test(garnishText)) ? 'sugar' : 'none';
+  const garnishSignals = {
+    citrus: /lemon|lime|orange|grapefruit|yuzu|citrus|peel|twist|wheel|wedge/.test(garnishText),
+    cherry: /cherry|maraschino|berry|berries/.test(garnishText),
+    mint: /mint|basil|rosemary|thyme|sage|herb/.test(garnishText),
+    olive: /olive|pick/.test(garnishText),
+    pineapple: /pineapple|frond|leaf/.test(garnishText),
+    flower: /orchid|gardenia|flower|blossom|petal|violet/.test(garnishText),
+    spice: /cinnamon|nutmeg|clove|cardamom|star anise|pepper|spice/.test(garnishText),
+  };
+  const garnishKinds = Object.entries(garnishSignals).filter(([, matches]) => matches).map(([kind]) => kind);
+  const garnishKind = garnishKinds.join('+') || 'none';
+
+  const liquidPalette = ingredientText.match(/coffee|espresso|cacao|cocoa|chocolate|cola/)
+    ? ['#4b281d', '#7a4329', '#a56636']
+    : ingredientText.match(/berry|berries|cherry|hibiscus|pomegranate|cranberry|grenadine/)
+      ? ['#7f263b', '#b6404b', '#d26d5b']
+      : ingredientText.match(/mint|basil|cucumber|celery|matcha|herb|chartreuse/)
+        ? ['#497453', '#6f9a60', '#a8b86c']
+        : ingredientText.match(/campari|aperol|select aperitivo|amaro|bitter|cynar|fernet|red\s+(?:bitter|vermouth|wine)|rosso/)
+          ? ['#7e302d', '#a54835', '#bf6a43']
+          : ingredientText.match(/pineapple|passion|mango|banana|apricot|peach|tropical|orange|lemon|lime|grapefruit|yuzu/)
+            ? ['#d18d2b', '#e4b54e', '#edcf78']
+            : ingredientText.match(/mezcal|smok|peat|scotch|whiskey|bourbon|rye|brandy|cognac|rum|rhum/)
+              ? ['#86502c', '#b8783b', '#d39e55']
+              : ['#a6b8b4', '#cbd0b0', '#e0d7b6'];
+  const liquid = pick(liquidPalette, 0);
+  const liquidAlt = pick(liquidPalette, 4);
+  const liquidDark = pick(['#24191b', '#30231b', '#1e2521', '#272036'], 8);
+  const backgroundAccent = pick(['#d79754', '#c46c58', '#9bb46b', '#709eb4', '#c59ba9'], 10);
+  const isClear = /clear|dry|vodka|gin|tonic|soda|white/.test(sourceText) && !/coffee|berry|chocolate|red|cream/.test(sourceText);
+  const opacity = iceKind === 'frozen' ? 0.92 : isClear ? 0.48 : bubbles ? 0.64 : 0.84;
+  const spec = {
+    rocks: { path: 'M420 305 L780 305 L748 620 Q600 700 452 620 Z', liquidY: 315, liquidH: 310, rim: 'M420 305 Q600 330 780 305', stem: '' },
+    highball: { path: 'M455 235 L745 235 L725 710 Q600 765 475 710 Z', liquidY: 245, liquidH: 480, rim: 'M455 235 L745 235', stem: '' },
+    coupe: { path: 'M390 250 Q600 340 810 250 L760 430 Q600 520 440 430 Z', liquidY: 270, liquidH: 230, rim: 'M390 250 Q600 340 810 250', stem: 'M600 430 L600 650 M480 665 Q600 640 720 665' },
+    martini: { path: 'M390 250 L810 250 L600 505 Z', liquidY: 260, liquidH: 250, rim: 'M390 250 L810 250', stem: 'M600 505 L600 650 M480 665 Q600 640 720 665' },
+    flute: { path: 'M510 225 L690 225 L675 635 Q600 680 525 635 Z', liquidY: 235, liquidH: 430, rim: 'M510 225 L690 225', stem: 'M600 635 L600 695 M505 710 Q600 690 695 710' },
+    hurricane: { path: 'M450 270 Q600 205 750 270 L720 675 Q600 750 480 675 Z', liquidY: 280, liquidH: 410, rim: 'M450 270 Q600 205 750 270', stem: '' },
+    mug: { path: 'M445 275 Q600 235 755 275 L735 640 Q600 715 465 640 Z', liquidY: 285, liquidH: 380, rim: 'M445 275 Q600 235 755 275', stem: 'M755 350 Q900 330 890 485 Q875 570 742 520' },
+    julep: { path: 'M465 265 L735 265 L710 665 Q600 730 490 665 Z', liquidY: 275, liquidH: 400, rim: 'M465 265 L735 265', stem: '' },
+    tiki: { path: 'M465 250 Q600 195 735 250 L720 650 Q600 735 480 650 Z', liquidY: 260, liquidH: 400, rim: 'M465 250 Q600 195 735 250', stem: '' },
+    shot: { path: 'M515 385 L685 385 L670 585 Q600 615 530 585 Z', liquidY: 395, liquidH: 185, rim: 'M515 385 L685 385', stem: '' },
+    wine: { path: 'M425 215 Q600 330 775 215 L742 520 Q725 625 600 650 Q475 625 458 520 Z', liquidY: 230, liquidH: 390, rim: 'M425 215 Q600 330 775 215', stem: 'M600 650 L600 745 M470 765 Q600 735 730 765' },
+  }[glassKind];
+  const layers = /layer|pousse|float|separate|rainbow/.test(sourceText);
+  const liquidMarkup = layers
+    ? `<rect x="300" y="${spec.liquidY}" width="600" height="${Math.round(spec.liquidH * 0.36)}" fill="${liquidDark}" opacity="${opacity}"/><rect x="300" y="${Math.round(spec.liquidY + spec.liquidH * 0.34)}" width="600" height="${Math.round(spec.liquidH * 0.34)}" fill="${liquidAlt}" opacity="${opacity}"/><rect x="300" y="${Math.round(spec.liquidY + spec.liquidH * 0.67)}" width="600" height="${Math.round(spec.liquidH * 0.36)}" fill="${liquid}" opacity="${opacity}"/>`
+    : `<rect x="300" y="${spec.liquidY}" width="600" height="${spec.liquidH}" fill="url(#drink)" opacity="${opacity}"/>`;
+  const frozenIceMarkup = `<path d="M430 ${spec.liquidY + 25} Q600 ${spec.liquidY - 8} 770 ${spec.liquidY + 25} L750 ${spec.liquidY + 75} Q600 ${spec.liquidY + 105} 450 ${spec.liquidY + 75} Z" fill="#f3e9cf" opacity=".25"/><g fill="#f8efd6" stroke="#fff6df" stroke-width="2" opacity=".46">${Array.from({ length: 28 }, (_, index) => {
+    const cx = 445 + number(140 + index) % 310;
+    const cy = spec.liquidY + 28 + number(180 + index) % Math.max(80, spec.liquidH - 55);
+    const rx = 6 + number(220 + index) % 13;
+    const ry = 5 + number(260 + index) % 10;
+    return `<path d="M${cx} ${cy - ry} L${cx + rx} ${cy - 2} L${cx + Math.round(rx / 2)} ${cy + ry} L${cx - rx} ${cy + 2} Z"/>`;
+  }).join('')}</g>`;
+  const iceMarkup = iceKind === 'up' ? ''
+    : iceKind === 'big'
+      ? `<rect x="535" y="${spec.liquidY + 90}" width="135" height="120" rx="18" fill="#f5e5c7" opacity=".46" transform="rotate(-8 602 ${spec.liquidY + 150})"/>`
+      : iceKind === 'crushed'
+        ? `<g fill="#f5e5c7" opacity=".46">${Array.from({ length: 13 }, (_, index) => `<circle cx="${470 + number(20 + index) % 240}" cy="${spec.liquidY + 55 + number(36 + index) % Math.max(60, spec.liquidH - 70)}" r="${8 + number(52 + index) % 13}"/>`).join('')}</g>`
+        : iceKind === 'frozen'
+          ? frozenIceMarkup
+          : `<g fill="#f5e5c7" opacity=".38"><rect x="485" y="${spec.liquidY + 42}" width="72" height="62" rx="10" transform="rotate(-12 521 ${spec.liquidY + 73})"/><rect x="598" y="${spec.liquidY + 30}" width="76" height="64" rx="10" transform="rotate(15 636 ${spec.liquidY + 62})"/><rect x="550" y="${spec.liquidY + 115}" width="78" height="60" rx="10" transform="rotate(-5 589 ${spec.liquidY + 145})"/></g>`;
+  const foamMarkup = foam ? `<path d="M430 ${spec.liquidY + 8} Q600 ${spec.liquidY - 28} 770 ${spec.liquidY + 8} Q600 ${spec.liquidY + 70} 430 ${spec.liquidY + 8} Z" fill="#f5e8ce" opacity=".72"/><path d="M485 ${spec.liquidY + 8} Q600 ${spec.liquidY - 10} 715 ${spec.liquidY + 8}" fill="none" stroke="#fff6df" stroke-width="8" opacity=".45"/>` : '';
+  const bubbleMarkup = bubbles ? `<g fill="#f7e9cc" opacity=".55">${Array.from({ length: 14 }, (_, index) => `<circle cx="${470 + number(66 + index) % 250}" cy="${spec.liquidY + 30 + number(82 + index) % Math.max(60, spec.liquidH - 45)}" r="${2 + number(98 + index) % 5}"/>`).join('')}</g>` : '';
+  const rimMarkup = rimKind === 'none' ? ''
+    : `<path d="${spec.rim}" fill="none" stroke="${rimKind === 'tajin' ? '#c96b3b' : rimKind === 'sugar' ? '#f4e5bb' : '#e9d48b'}" stroke-width="${rimKind === 'tajin' ? 15 : 11}" stroke-linecap="round" stroke-dasharray="${rimKind === 'tajin' ? '5 9' : '2 8'}" opacity=".9"/>`;
+  let garnishMarkup = '';
+  if (garnishSignals.citrus) {
+    garnishMarkup = `<path d="M730 292 Q815 205 875 290" fill="none" stroke="#e9b64e" stroke-width="17" stroke-linecap="round"/><path d="M742 292 Q810 225 865 290" fill="none" stroke="#6f8e4f" stroke-width="4"/><circle cx="820" cy="258" r="28" fill="none" stroke="#efcc69" stroke-width="7" opacity=".78"/>`;
+  }
+  if (garnishSignals.cherry) {
+    garnishMarkup += `<circle cx="784" cy="258" r="25" fill="#a94348"/><circle cx="830" cy="270" r="22" fill="#c65353"/><path d="M784 242 Q780 175 830 168 M830 250 Q825 204 850 185" fill="none" stroke="#729152" stroke-width="6"/>`;
+  }
+  if (garnishSignals.mint) {
+    garnishMarkup += `<path d="M740 300 Q795 200 860 245" fill="none" stroke="#709852" stroke-width="8"/><ellipse cx="775" cy="250" rx="18" ry="37" fill="#8eb56a" transform="rotate(30 775 250)"/><ellipse cx="820" cy="228" rx="17" ry="34" fill="#6d9d58" transform="rotate(55 820 228)"/><ellipse cx="840" cy="280" rx="15" ry="31" fill="#a7c875" transform="rotate(80 840 280)"/>`;
+  }
+  if (garnishSignals.olive) {
+    garnishMarkup += `<path d="M760 295 Q820 225 858 190" fill="none" stroke="#6f8e4f" stroke-width="5"/><circle cx="807" cy="250" r="28" fill="#72834d"/><circle cx="850" cy="207" r="25" fill="#81985a"/><circle cx="807" cy="250" r="7" fill="#d9ad63"/><circle cx="850" cy="207" r="6" fill="#d9ad63"/>`;
+  }
+  if (garnishSignals.pineapple) {
+    garnishMarkup += `<path d="M785 298 L760 210 M800 300 L800 195 M815 300 L845 210 M795 295 L775 225 M810 295 L835 225" stroke="#82a95d" stroke-width="9" stroke-linecap="round"/><path d="M770 300 Q800 276 830 300" fill="none" stroke="#e3b74e" stroke-width="22" stroke-linecap="round"/>`;
+  }
+  if (garnishSignals.flower) {
+    garnishMarkup += `<g transform="translate(810 235)"><circle r="17" fill="#e9b64e"/><ellipse rx="21" ry="39" fill="#d88a89" transform="rotate(0) translate(0 -31)"/><ellipse rx="21" ry="39" fill="#d9a3c0" transform="rotate(72) translate(0 -31)"/><ellipse rx="21" ry="39" fill="#d88a89" transform="rotate(144) translate(0 -31)"/><ellipse rx="21" ry="39" fill="#d9a3c0" transform="rotate(216) translate(0 -31)"/><ellipse rx="21" ry="39" fill="#d88a89" transform="rotate(288) translate(0 -31)"/></g>`;
+  }
+  if (garnishSignals.spice) {
+    garnishMarkup += `<path d="M770 296 L840 215 M790 303 L860 222" stroke="#a8733e" stroke-width="13" stroke-linecap="round"/><path d="M835 210 Q855 190 878 211 Q855 230 835 210" fill="#b98a4f" opacity=".8"/><circle cx="812" cy="250" r="7" fill="#e1bf74"/><circle cx="832" cy="264" r="6" fill="#e1bf74"/>`;
+  }
+  const bokeh = Array.from({ length: 12 }, (_, index) => {
+    const x = 60 + number(120 + index * 2) * 4.4;
+    const y = 70 + number(121 + index * 2) * 2.1;
+    const radius = 8 + number(122 + index * 2) % 34;
+    return `<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${radius}" fill="${backgroundAccent}" opacity="${(0.06 + (number(123 + index * 2) % 14) / 100).toFixed(2)}"/>`;
+  }).join('');
+  const titleId = `title-${slug}`;
+  const descId = `desc-${slug}`;
+  const face = glassKind === 'tiki' ? '<g fill="#241c18" opacity=".86"><path d="M532 390 L565 374 L590 397 L564 421 L535 410 Z"/><path d="M610 397 L635 374 L668 390 L665 410 L636 421 Z"/><path d="M525 462 L550 446 L575 464 L600 447 L625 464 L650 446 L675 462 L650 484 L625 470 L600 490 L575 470 L550 484 Z"/></g><path d="M548 463 L575 476 L600 461 L625 476 L652 463" fill="none" stroke="#c58b57" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>' : '';
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="${escapeXml(titleId)} ${escapeXml(descId)}" data-slug="${escapeXml(slug)}" data-glass="${glassKind}" data-ice="${iceKind}" data-foam="${foam}" data-bubbles="${bubbles}" data-rim="${rimKind}">
+  <title id="${escapeXml(titleId)}">${escapeXml(nameZh)}程序化示意图</title>
+  <desc id="${escapeXml(descId)}">深色酒吧台面光影中的${escapeXml(nameZh)}，${escapeXml(glassKind)}杯型，${escapeXml(iceKind)}冰型与${escapeXml(garnishKind)}装饰。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b0d0f"/><stop offset=".52" stop-color="#27201d"/><stop offset="1" stop-color="#0b0c10"/></linearGradient>
+    <linearGradient id="drink" x1="0" y1="0" x2="1" y2="1"><stop stop-color="${liquid}" stop-opacity=".96"/><stop offset=".55" stop-color="${liquidAlt}" stop-opacity=".84"/><stop offset="1" stop-color="${liquidDark}" stop-opacity=".96"/></linearGradient>
+    <radialGradient id="light" cx="0.16" cy="0.12" r=".78"><stop stop-color="${backgroundAccent}" stop-opacity=".62"/><stop offset="1" stop-color="${backgroundAccent}" stop-opacity="0"/></radialGradient>
+    <linearGradient id="edgeLight" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#f8dfb8" stop-opacity=".05"/><stop offset=".5" stop-color="#f8dfb8" stop-opacity=".65"/><stop offset="1" stop-color="#f8dfb8" stop-opacity=".05"/></linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="23"/></filter>
+    <clipPath id="liquid-clip"><path d="${spec.path}"/></clipPath>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <ellipse cx="165" cy="110" rx="450" ry="360" fill="url(#light)" filter="url(#blur)"/>
+  <g>${bokeh}</g>
+  <path d="M0 745 Q250 670 510 744 T1200 715 V900 H0 Z" fill="#08090a" opacity=".9"/>
+  <path d="M80 770 Q390 730 600 760 T1120 750" fill="none" stroke="url(#edgeLight)" stroke-width="3" opacity=".6"/>
+  <ellipse cx="600" cy="735" rx="315" ry="31" fill="#000" opacity=".56"/>
+  <g clip-path="url(#liquid-clip)">${liquidMarkup}${iceMarkup}${bubbleMarkup}${foamMarkup}</g>
+  <path d="${spec.path}" fill="none" stroke="#f5d9ae" stroke-width="6" opacity=".9"/>
+  ${spec.stem ? `<path d="${spec.stem}" fill="none" stroke="#f5d9ae" stroke-width="6" opacity=".9" stroke-linecap="round"/>` : ''}
+  ${glassKind === 'mug' ? '<path d="M742 350 Q905 325 895 485 Q875 575 742 520" fill="none" stroke="#f5d9ae" stroke-width="6" opacity=".9"/>' : ''}
+  ${glassKind === 'tiki' ? '<path d="M490 300 Q600 325 710 300 M500 610 Q600 635 700 610" fill="none" stroke="#f5d9ae" stroke-width="4" opacity=".45"/>' : ''}
+  ${face}
+  ${rimMarkup}
+  ${garnishMarkup}
+</svg>\n`.replace(/[ \t]+$/gm, '');
 }
 
 async function loadExisting() {

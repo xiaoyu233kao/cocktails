@@ -114,16 +114,16 @@ story:
 ## Asset naming
 
 Store one primary local image per recipe at
-`public/images/cocktails/<slug>.webp` (community imports may use a generated
-`<slug>.svg`). Use lowercase ASCII slugs and the same
+`public/images/cocktails/<slug>.webp`). Use lowercase ASCII slugs and the same
 basename as the Markdown file. Prefer a 4:3 image with a minimum width of
 1200px; the card uses `object-fit: cover`, while the lightbox shows the full
 asset. A `.avif` sibling is welcome for optimization, but the `.webp` path
 must remain available as the fallback referenced by frontmatter.
 
-当前 IBA 目录的 102 款图片采用统一风格的本地 WebP 示意图；Bar Assistant
-社区条目使用 `Cocktail Atlas procedural illustration` 生成的本地 SVG。新增配方也应生成同系列图片，并在
-`imageCredit` 使用上面的 `generated` 记录。若未来采用授权照片，才将 `kind` 改为
+当前 IBA 目录的 102 款图片采用统一风格的本地 WebP 示意图；精选 Bar Assistant
+社区条目也预留本地 WebP 路径，并在补图后使用 `OpenAI image generation` 与
+`OpenAI built-in image generation` 记录生成 credit。新增配方也应生成同系列图片，并在
+`imageCredit` 使用上面的 `generated` 记录。社区图片暂缺时保持 frontmatter 路径稳定，由内容校验报告待补 warning；若未来采用授权照片，才将 `kind` 改为
 `photo`，并记录作者、来源、`sourceUrl`、许可、`licenseUrl`、修改权限、必要署名和核对日期。
 不要热链图片。使用 `imageAlt` 描述可见饮品，而不是文件名。
 

@@ -5,9 +5,11 @@ nameEn: Cable Car
 category: Bar Assistant Community
 baseSpirit: rum
 flavors:
-  - fresh
+  - sour
   - sweet
+  - spiced
 styles:
+  - sour
   - short
 ingredients:
   - nameZh: 深色朗姆酒
@@ -38,11 +40,12 @@ tags:
   - community
   - bar-assistant
   - rum
-  - fresh
+  - sour
   - sweet
+  - spiced
   - short
-summary: 缆车以深色朗姆酒、君度、柠檬汁为核心，采用摇和调制，呈现清新、甜润的风味结构。
-background: 缆车以深色朗姆酒、君度、柠檬汁为核心，资料记录的基酒结构归入朗姆酒，并采用摇和完成混合。成酒建议装入酒碟杯，以肉桂糖口收尾；清新、甜润共同构成它的主要风味，甜酸、酒体和稀释度会随原料与冰量变化。建议先充分冷却，再在合适的冰量下尽快饮用，以保持香气、口感和温度的平衡。当前快照未提供可核验的创制年份或作者，因此不对年代、地点和人物作历史推断；原始来源与快照地址见来源字段。
+summary: 缆车以深色朗姆酒、君度、柠檬汁为核心，采用摇和调制，呈现酸爽、甜润、辛香的风味结构。
+background: 缆车以深色朗姆酒、君度、柠檬汁为核心，资料记录的基酒结构归入朗姆酒，并采用摇和完成混合。成酒建议装入酒碟杯，以肉桂糖口收尾；酸爽、甜润、辛香共同构成它的主要风味，甜酸、酒体和稀释度会随原料与冰量变化。建议先充分冷却，再在合适的冰量下尽快饮用，以保持香气、口感和温度的平衡。当前快照未提供可核验的创制年份或作者，因此不对年代、地点和人物作历史推断；原始来源与快照地址见来源字段。
 historySources:
   - label: 原始来源 · Cable Car
     url: https://www.drinkexistence.com/cable-car-cocktail/
@@ -55,13 +58,13 @@ steps:
   - 以肉桂糖口装饰后尽快饮用。
 glass: Coupe
 garnish: 肉桂糖口
-image: /images/cocktails/cable-car.svg
-imageAlt: 缆车的程序化酒杯示意图
+image: /images/cocktails/cable-car.webp
+imageAlt: 缆车的生成式酒杯示意图
 imageCredit:
   kind: generated
-  creator: Cocktail Atlas procedural illustration
-  source: local generator
-  license: Project generated asset
+  creator: OpenAI image generation
+  source: OpenAI built-in image generation
+  license: AI 生成示意图
   modified: true
   checkedAt: 2026-09-20
 source:

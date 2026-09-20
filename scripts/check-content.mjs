@@ -12,6 +12,8 @@ const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..'
 const contentRoot = path.join(repoRoot, 'src', 'content', 'cocktails');
 const imageRoot = path.join(repoRoot, 'public', 'images', 'cocktails');
 const manifestPath = path.join(repoRoot, 'src', 'data', 'community-import-manifest.json');
+const curatedAllowlistPath = path.join(repoRoot, 'src', 'data', 'community-curated-allowlist.json');
+const communityClassificationsPath = path.join(repoRoot, 'src', 'data', 'community-classifications.json');
 const vendorManifestPath = path.join(repoRoot, 'vendor', 'bar-assistant-data-v5', 'manifest.json');
 const vendorRoot = path.join(repoRoot, 'vendor', 'bar-assistant-data-v5');
 const expectedVendorCommit = '5a504d474614494119882eb91a8ffdc5491a483f';
@@ -95,13 +97,24 @@ try {
 
 let importManifest = null;
 try { importManifest = JSON.parse(await readFile(manifestPath, 'utf8')); } catch { errors.push('missing or invalid src/data/community-import-manifest.json'); }
+let curatedAllowlist = null;
+try { curatedAllowlist = JSON.parse(await readFile(curatedAllowlistPath, 'utf8')); } catch { errors.push('missing or invalid src/data/community-curated-allowlist.json'); }
+let communityClassifications = null;
+try { communityClassifications = JSON.parse(await readFile(communityClassificationsPath, 'utf8')); } catch { errors.push('missing or invalid src/data/community-classifications.json'); }
 let vendorManifest = null;
 try { vendorManifest = JSON.parse(await readFile(vendorManifestPath, 'utf8')); } catch { errors.push('missing or invalid vendor/bar-assistant-data-v5/manifest.json'); }
 
 const communityManifestEntries = new Map((importManifest?.entries ?? []).map((entry) => [entry.slug, entry]));
+const curatedSlugs = new Set((curatedAllowlist?.slugs ?? []).map((slug) => String(slug)));
+const curatedManualSlugs = new Set((curatedAllowlist?.manualSlugs ?? []).map((slug) => String(slug)));
 const expectedCommunity = Number(importManifest?.communityCount ?? 0);
 const expectedTotal = officialNames.length + expectedCommunity;
 if (importManifest && importManifest.combinedCount !== expectedTotal) errors.push(`community manifest combinedCount ${importManifest.combinedCount} does not equal ${expectedTotal}`);
+if (curatedAllowlist && curatedSlugs.size !== 38) errors.push(`curated community allowlist must contain 38 Bar Assistant slugs, found ${curatedSlugs.size}`);
+if (curatedAllowlist && curatedManualSlugs.size !== 1) errors.push(`curated community allowlist must contain 1 manual slug, found ${curatedManualSlugs.size}`);
+if (importManifest && expectedCommunity !== 39) errors.push(`curated community manifest must contain 39 entries, found ${expectedCommunity}`);
+if (importManifest && expectedTotal !== 141) errors.push(`curated catalog must contain 141 recipes, found ${expectedTotal}`);
+if (communityClassifications && Object.keys(communityClassifications).length !== 39) errors.push(`community classifications must contain 39 entries, found ${Object.keys(communityClassifications).length}`);
 if (vendorManifest) {
   if (vendorManifest.commit !== expectedVendorCommit) errors.push(`vendor snapshot commit mismatch: ${vendorManifest.commit}`);
   if (vendorManifest.recipeCount !== 663) errors.push(`vendor snapshot expected 663 recipe rows, found ${vendorManifest.recipeCount}`);
@@ -149,11 +162,14 @@ for (const file of files) {
   if (!/^\/images\/cocktails\/[a-z0-9]+(?:-[a-z0-9]+)*\.(?:webp|avif|svg|png|jpe?g)$/.test(image)) errors.push(`${pathname}: invalid image path ${image}`);
   else {
     imagePaths.add(image);
-    try {
+      try {
       const imageFile = path.join(repoRoot, 'public', image.slice(1));
       const imageStats = await stat(imageFile);
       if (!imageStats.isFile() || imageStats.size < 1) errors.push(`${pathname}: image is empty ${image}`);
-    } catch { errors.push(`${pathname}: missing local image ${image}`); }
+    } catch {
+      if (community) warnings.push(`${pathname}: missing pending community image ${image}`);
+      else errors.push(`${pathname}: missing local image ${image}`);
+    }
   }
   if (!data.imageCredit || data.imageCredit.kind !== 'generated') errors.push(`${pathname}: imageCredit.kind must be generated`);
   for (const field of ['creator', 'source', 'license']) if (typeof data.imageCredit?.[field] !== 'string' || !data.imageCredit[field].trim()) errors.push(`${pathname}: imageCredit.${field} is required`);
@@ -169,9 +185,22 @@ for (const file of files) {
     else {
       const manifestEntry = communityManifestEntries.get(slug);
       if (manifestEntry.nameEn !== data.nameEn || manifestEntry.file !== pathname || manifestEntry.image !== data.image) errors.push(`${pathname}: differs from community import manifest`);
-      if (!/^https:\/\/github\.com\/bar-assistant\/data\/blob\//.test(String(data.source?.url ?? ''))) errors.push(`${pathname}: community source must point to the Bar Assistant snapshot`);
-      if (path.extname(image) !== '.svg') errors.push(`${pathname}: community image must be generated SVG`);
-      if (data.imageCredit.creator !== 'Cocktail Atlas procedural illustration' || data.imageCredit.source !== 'local generator') errors.push(`${pathname}: community image credit must identify the local procedural generator`);
+      const manual = Boolean(manifestEntry.manual);
+      if (manual) {
+        if (!curatedManualSlugs.has(slug)) errors.push(`${pathname}: manual community slug is not in the curated allowlist`);
+      } else {
+        if (!curatedSlugs.has(slug)) errors.push(`${pathname}: community slug is not in the curated Bar Assistant allowlist`);
+        if (!/^https:\/\/github\.com\/bar-assistant\/data\/blob\//.test(String(data.source?.url ?? ''))) errors.push(`${pathname}: community source must point to the Bar Assistant snapshot`);
+      }
+      if (path.extname(image) !== '.webp') errors.push(`${pathname}: community image must use the reserved WebP path`);
+      if (data.imageCredit.creator !== 'OpenAI image generation' || data.imageCredit.source !== 'OpenAI built-in image generation') errors.push(`${pathname}: community image credit must identify OpenAI image generation`);
+    }
+    const expectedClassification = communityClassifications?.[slug];
+    if (!expectedClassification) errors.push(`${pathname}: missing curated classification entry`);
+    else {
+      for (const field of ['baseSpirit', 'flavors', 'styles']) {
+        if (JSON.stringify(data[field]) !== JSON.stringify(expectedClassification[field])) errors.push(`${pathname}: ${field} differs from curated classification`);
+      }
     }
   }
   if (!Array.isArray(data.historySources) || !data.historySources.length) errors.push(`${pathname}: historySources must contain at least one source`);
@@ -185,6 +214,14 @@ if (slugs.size !== files.length) errors.push(`expected unique slugs for ${files.
 if (names.size !== files.length) errors.push(`expected unique English names for ${files.length} recipes, found ${names.size}`);
 for (const name of officialSet) if (![...names.keys()].includes(name)) errors.push(`missing IBA name: ${name}`);
 for (const slug of communityManifestEntries.keys()) if (!slugs.has(slug)) errors.push(`manifest community slug has no Markdown: ${slug}`);
+const generatedManifestEntries = [...communityManifestEntries.values()].filter((entry) => !entry.manual);
+const manualManifestEntries = [...communityManifestEntries.values()].filter((entry) => entry.manual);
+if (generatedManifestEntries.length !== curatedSlugs.size) errors.push(`community manifest has ${generatedManifestEntries.length} generated entries; expected ${curatedSlugs.size}`);
+for (const slug of curatedSlugs) if (!communityManifestEntries.has(slug)) errors.push(`curated allowlist slug has no manifest entry: ${slug}`);
+for (const slug of curatedManualSlugs) if (!communityManifestEntries.has(slug)) errors.push(`curated manual slug has no manifest entry: ${slug}`);
+for (const entry of generatedManifestEntries) if (!curatedSlugs.has(entry.slug)) errors.push(`manifest generated entry is outside curated allowlist: ${entry.slug}`);
+for (const entry of manualManifestEntries) if (!curatedManualSlugs.has(entry.slug)) errors.push(`manifest manual entry is outside curated allowlist: ${entry.slug}`);
+if (communityClassifications) for (const slug of Object.keys(communityClassifications)) if (!communityManifestEntries.has(slug)) errors.push(`community classification has no manifest entry: ${slug}`);
 for (const missing of importManifest?.missingNameZh ?? []) warnings.push(`missing community Chinese name mapping: ${missing}`);
 
 if (vendorManifest?.files) {
@@ -199,6 +236,7 @@ if (vendorManifest?.files) {
 
 if (importManifest?.entries) {
   for (const item of importManifest.entries) {
+    if (item.manual) continue;
     const sourceFile = path.join(vendorRoot, 'data', 'cocktails', item.sourceId, 'data.json');
     try {
       const bytes = await readFile(sourceFile);

@@ -6,8 +6,8 @@ category: Bar Assistant Community
 baseSpirit: tequila
 flavors:
   - fresh
+  - sweet
 styles:
-  - built
   - highball
 ingredients:
   - nameZh: 白龙舌兰
@@ -34,10 +34,10 @@ tags:
   - tequila
   - classics
   - fresh
-  - built
+  - sweet
   - highball
-summary: 巴坦加以白龙舌兰、青柠汁、可乐为核心，采用直接调制调制，呈现清新的风味结构。
-background: 巴坦加以白龙舌兰、青柠汁、可乐为核心，资料记录的基酒结构归入龙舌兰酒，并采用直接调制完成混合。成酒建议装入高球杯，以盐收尾；清新共同构成它的主要风味，甜酸、酒体和稀释度会随原料与冰量变化。建议先充分冷却，再在合适的冰量下尽快饮用，以保持香气、口感和温度的平衡。当前快照未提供可核验的创制年份或作者，因此不对年代、地点和人物作历史推断；原始来源与快照地址见来源字段。
+summary: 巴坦加以白龙舌兰、青柠汁、可乐为核心，采用直接调制调制，呈现清新、甜润的风味结构。
+background: 巴坦加以白龙舌兰、青柠汁、可乐为核心，资料记录的基酒结构归入龙舌兰酒，并采用直接调制完成混合。成酒建议装入高球杯，以盐收尾；清新、甜润共同构成它的主要风味，甜酸、酒体和稀释度会随原料与冰量变化。建议先充分冷却，再在合适的冰量下尽快饮用，以保持香气、口感和温度的平衡。当前快照未提供可核验的创制年份或作者，因此不对年代、地点和人物作历史推断；原始来源与快照地址见来源字段。
 historySources:
   - label: 原始来源 · Batanga
     url: https://imbibemagazine.com/recipe/la-batanga-from-ghost-donkey/
@@ -50,13 +50,13 @@ steps:
   - 以盐装饰后尽快饮用。
 glass: Highball
 garnish: 盐
-image: /images/cocktails/batanga.svg
-imageAlt: 巴坦加的程序化酒杯示意图
+image: /images/cocktails/batanga.webp
+imageAlt: 巴坦加的生成式酒杯示意图
 imageCredit:
   kind: generated
-  creator: Cocktail Atlas procedural illustration
-  source: local generator
-  license: Project generated asset
+  creator: OpenAI image generation
+  source: OpenAI built-in image generation
+  license: AI 生成示意图
   modified: true
   checkedAt: 2026-09-20
 source:

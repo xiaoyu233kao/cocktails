@@ -3,14 +3,11 @@ slug: carajillo
 nameZh: 卡拉希略
 nameEn: Carajillo
 category: Bar Assistant Community
-baseSpirit: none
+baseSpirit: multi
 flavors:
   - sweet
   - coffee
 styles:
-  - short
-  - rocks
-  - hot
   - after-dinner
 ingredients:
   - nameZh: 43号利口酒
@@ -28,15 +25,12 @@ ingredients:
 tags:
   - community
   - bar-assistant
-  - none
+  - multi
   - coffee
   - sweet
-  - short
-  - rocks
-  - hot
   - after-dinner
 summary: 卡拉希略以43号利口酒、浓缩咖啡为核心，采用摇和调制，呈现甜润、咖啡的风味结构。
-background: 卡拉希略以43号利口酒、浓缩咖啡为核心，资料记录的基酒结构归入无酒精，并采用摇和完成混合。成酒建议装入古典杯，以橙皮扭饰收尾；甜润、咖啡共同构成它的主要风味，甜酸、酒体和稀释度会随原料与冰量变化。建议先充分冷却，再在合适的冰量下尽快饮用，以保持香气、口感和温度的平衡。当前快照未提供可核验的创制年份或作者，因此不对年代、地点和人物作历史推断；原始来源与快照地址见来源字段。
+background: 卡拉希略以43号利口酒、浓缩咖啡为核心，资料记录的基酒结构归入复合基酒，并采用摇和完成混合。成酒建议装入古典杯，以橙皮扭饰收尾；甜润、咖啡共同构成它的主要风味，甜酸、酒体和稀释度会随原料与冰量变化。建议先充分冷却，再在合适的冰量下尽快饮用，以保持香气、口感和温度的平衡。当前快照未提供可核验的创制年份或作者，因此不对年代、地点和人物作历史推断；原始来源与快照地址见来源字段。
 historySources:
   - label: 原始来源 · Carajillo
     url: https://imbibemagazine.com/recipe/carajillo/
@@ -49,13 +43,13 @@ steps:
   - 以橙皮扭饰装饰后尽快饮用。
 glass: Lowball
 garnish: 橙皮扭饰
-image: /images/cocktails/carajillo.svg
-imageAlt: 卡拉希略的程序化酒杯示意图
+image: /images/cocktails/carajillo.webp
+imageAlt: 卡拉希略的生成式酒杯示意图
 imageCredit:
   kind: generated
-  creator: Cocktail Atlas procedural illustration
-  source: local generator
-  license: Project generated asset
+  creator: OpenAI image generation
+  source: OpenAI built-in image generation
+  license: AI 生成示意图
   modified: true
   checkedAt: 2026-09-20
 source:

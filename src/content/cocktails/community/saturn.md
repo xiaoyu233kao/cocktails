@@ -5,14 +5,13 @@ nameEn: Saturn
 category: Bar Assistant Community
 baseSpirit: gin
 flavors:
-  - fresh
+  - sour
   - fruity
   - tropical
   - sweet
 styles:
+  - sour
   - short
-  - tropical
-  - rocks
 ingredients:
   - nameZh: 金酒
     nameEn: Gin
@@ -50,13 +49,12 @@ tags:
   - gin
   - summer
   - tropical
-  - fresh
+  - sour
   - fruity
   - sweet
   - short
-  - rocks
-summary: 土星以金酒、柠檬汁、百香果糖浆为核心，采用摇和调制，呈现清新、果香、热带的风味结构。
-background: 土星以金酒、柠檬汁、百香果糖浆为核心，资料记录的基酒结构归入金酒，并采用摇和完成混合。成酒建议装入古典杯，以按资料指定的装饰收尾；清新、果香、热带共同构成它的主要风味，甜酸、酒体和稀释度会随原料与冰量变化。建议先充分冷却，再在合适的冰量下尽快饮用，以保持香气、口感和温度的平衡。当前快照未提供可核验的创制年份或作者，因此不对年代、地点和人物作历史推断；原始来源与快照地址见来源字段。
+summary: 土星以金酒、柠檬汁、百香果糖浆为核心，采用摇和调制，呈现酸爽、果香、热带的风味结构。
+background: 土星以金酒、柠檬汁、百香果糖浆为核心，资料记录的基酒结构归入金酒，并采用摇和完成混合。成酒建议装入古典杯，以按资料指定的装饰收尾；酸爽、果香、热带共同构成它的主要风味，甜酸、酒体和稀释度会随原料与冰量变化。建议先充分冷却，再在合适的冰量下尽快饮用，以保持香气、口感和温度的平衡。当前快照未提供可核验的创制年份或作者，因此不对年代、地点和人物作历史推断；原始来源与快照地址见来源字段。
 historySources:
   - label: 原始来源 · Saturn
     url: https://www.liberandcompany.com/collections/recipes/products/saturn
@@ -70,13 +68,13 @@ steps:
   - 以按资料指定的装饰装饰后尽快饮用。
 glass: Lowball
 garnish: 按资料指定的装饰
-image: /images/cocktails/saturn.svg
-imageAlt: 土星的程序化酒杯示意图
+image: /images/cocktails/saturn.webp
+imageAlt: 土星的生成式酒杯示意图
 imageCredit:
   kind: generated
-  creator: Cocktail Atlas procedural illustration
-  source: local generator
-  license: Project generated asset
+  creator: OpenAI image generation
+  source: OpenAI built-in image generation
+  license: AI 生成示意图
   modified: true
   checkedAt: 2026-09-20
 source:

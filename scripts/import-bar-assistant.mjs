@@ -114,6 +114,26 @@ async function readAliases() {
   return raw.filter((item) => item && typeof item.targetSlug === 'string' && Array.isArray(item.aliases));
 }
 
+async function readCuratedAllowlist() {
+  const file = path.join(dataRoot, 'community-curated-allowlist.json');
+  if (!(await exists(file))) throw new Error('Missing src/data/community-curated-allowlist.json');
+  const raw = JSON.parse(await readFile(file, 'utf8'));
+  if (!raw || !Array.isArray(raw.slugs) || !raw.slugs.length) throw new Error('Curated community allowlist has no slugs');
+  return {
+    ...raw,
+    slugs: unique(raw.slugs.map((slug) => slugify(slug))),
+    manualSlugs: unique((raw.manualSlugs ?? []).map((slug) => slugify(slug))),
+  };
+}
+
+async function readClassificationOverrides() {
+  const file = path.join(dataRoot, 'community-classifications.json');
+  if (!(await exists(file))) return {};
+  const raw = JSON.parse(await readFile(file, 'utf8'));
+  if (!raw || typeof raw !== 'object' || Array.isArray(raw)) throw new Error('community-classifications.json must contain a mapping');
+  return raw;
+}
+
 async function readIngredientLabels() {
   const file = path.join(dataRoot, 'ingredient-labels.json');
   const labels = (await exists(file)) ? JSON.parse(await readFile(file, 'utf8')) : { exact: {}, contains: [] };
@@ -598,9 +618,19 @@ async function loadExisting() {
     const data = parseFrontmatter(await readFile(file, 'utf8'));
     if (data) entries.push({ file, data });
   }
-  const generatedEntries = entries.filter((entry) => entry.data.category === 'Bar Assistant Community');
-  for (const entry of generatedEntries) previousSlugs.add(entry.data.slug);
-  return { previous, previousSlugs, entries, ibaEntries: entries.filter((entry) => !previousSlugs.has(entry.data.slug)) };
+  const communityEntries = entries.filter((entry) => (
+    entry.data.category === 'Bar Assistant Community'
+    || entry.data.category === 'Curated Community'
+    || entry.file.startsWith(`${communityRoot}${path.sep}`)
+  ));
+  for (const entry of communityEntries) previousSlugs.add(entry.data.slug);
+  return {
+    previous,
+    previousSlugs,
+    entries,
+    communityEntries,
+    ibaEntries: entries.filter((entry) => !communityEntries.includes(entry)),
+  };
 }
 
 async function readVendor() {
@@ -647,7 +677,7 @@ function mapTags(recipe) {
   return unique((recipe.tags ?? []).map((tag) => tagMap[String(tag).toLowerCase()] || slugify(tag)).filter(Boolean));
 }
 
-function buildEntry(item, nameZh, labels, usedSlugs, ibaNames) {
+function buildEntry(item, nameZh, labels, usedSlugs, ibaNames, classifications = {}) {
   const recipe = item.recipe;
   const nameEn = String(recipe.name).trim();
   const normalized = normalizeName(nameEn);
@@ -656,14 +686,15 @@ function buildEntry(item, nameZh, labels, usedSlugs, ibaNames) {
   let suffix = 2;
   while (usedSlugs.has(slug)) slug = `${slugify(nameEn, slugify(item.id))}-${suffix++}`;
   usedSlugs.add(slug);
+  const classification = classifications[slug];
   const ingredients = (recipe.ingredients ?? []).slice().sort((a, b) => Number(a.sort ?? 0) - Number(b.sort ?? 0)).map((ingredient) => {
     const ingredientZh = ingredientNameZh(ingredient.name, ingredient._id, labels);
     const aliases = unique([String(ingredient.name).trim(), ingredientZh, ...(ingredient.substitutes ?? []).map((item) => String(item._id ?? '').trim())]);
     return { nameZh: ingredientZh, nameEn: String(ingredient.name).trim(), amount: amountText(ingredient), aliases };
   });
-  const baseSpirit = inferBaseSpirit(recipe);
-  const flavors = inferFlavors(recipe);
-  const styles = inferStyles(recipe, flavors);
+  const baseSpirit = classification?.baseSpirit || inferBaseSpirit(recipe);
+  const flavors = classification?.flavors || inferFlavors(recipe);
+  const styles = classification?.styles || inferStyles(recipe, flavors);
   const tags = unique(['community', 'bar-assistant', baseSpirit, ...mapTags(recipe), ...flavors, ...styles]);
   const method = String(recipe.method ?? '').trim();
   const glass = String(recipe.glass ?? '').trim() || '资料未指定';
@@ -688,13 +719,13 @@ function buildEntry(item, nameZh, labels, usedSlugs, ibaNames) {
     steps: stepsZh(recipe, ingredients, glass, garnish),
     glass,
     garnish,
-    image: `/images/cocktails/${slug}.svg`,
-    imageAlt: `${nameZh}的程序化酒杯示意图`,
+    image: `/images/cocktails/${slug}.webp`,
+    imageAlt: `${nameZh}的生成式酒杯示意图`,
     imageCredit: {
       kind: 'generated',
-      creator: 'Cocktail Atlas procedural illustration',
-      source: 'local generator',
-      license: 'Project generated asset',
+      creator: 'OpenAI image generation',
+      source: 'OpenAI built-in image generation',
+      license: 'AI 生成示意图',
       modified: true,
       checkedAt,
     },
@@ -716,7 +747,15 @@ function buildEntry(item, nameZh, labels, usedSlugs, ibaNames) {
 
 async function removePrevious(previous) {
   for (const entry of previous?.entries ?? []) {
-    for (const file of [entry.file, entry.image ? `public${entry.image}` : null]) {
+    // Curated manual entries are kept in the repository and are not generated
+    // by this importer. Existing WebP files are also retained so a rerun does
+    // not erase images generated by a separate asset pass; legacy SVGs are
+    // removed with the old generated entry.
+    if (entry.manual) continue;
+    const imageFile = entry.image && path.extname(entry.image).toLowerCase() === '.svg'
+      ? `public${entry.image}`
+      : null;
+    for (const file of [entry.file, imageFile]) {
       if (!file) continue;
       const absolute = path.join(repoRoot, file);
       if (absolute.startsWith(contentRoot) || absolute.startsWith(imageRoot)) {
@@ -761,19 +800,26 @@ async function applyAliasTags(existingEntries, aliases) {
 }
 
 async function main() {
-  const [{ manifest, recipes }, labels, namesA, namesMZ, aliases, existing] = await Promise.all([
+  const [{ manifest, recipes }, labels, namesA, namesMZ, aliases, curated, classifications, existing] = await Promise.all([
     readVendor(),
     readIngredientLabels(),
     readNameMap(path.join(dataRoot, 'community-names-a-l.json')),
     readNameMap(path.join(dataRoot, 'community-names-m-z.json')),
     readAliases(),
+    readCuratedAllowlist(),
+    readClassificationOverrides(),
     loadExisting(),
   ]);
   const nameMap = new Map([...namesA, ...namesMZ]);
   const ibaNames = new Set(existing.ibaEntries.map((entry) => normalizeName(entry.data.nameEn)));
   const aliasMap = buildAliasMap(aliases);
+  const curatedSlugs = new Set(curated.slugs);
+  const curatedNames = new Set(curated.slugs.map((slug) => normalizeName(slug)));
+  const isCurated = (item) => curatedSlugs.has(slugify(item.recipe.name)) || curatedNames.has(normalizeName(item.recipe.name));
   const usedSlugs = new Set(existing.ibaEntries.map((entry) => entry.data.slug));
   const { selected, duplicates } = chooseByName(recipes);
+  const selectedCurated = selected.filter(isCurated);
+  const skippedNotAllowlisted = selected.filter((item) => !isCurated(item)).map((item) => item.recipe.name);
   const skippedIbaNames = selected.filter((item) => ibaNames.has(normalizeName(item.recipe.name))).length;
   const skippedAliasNames = selected
     .filter((item) => !ibaNames.has(normalizeName(item.recipe.name)) && aliasMap.has(normalizeName(item.recipe.name)))
@@ -784,18 +830,46 @@ async function main() {
       sourceId: item.id,
     }));
   const community = [];
-  for (const item of selected) {
+  for (const item of selectedCurated) {
     const normalized = normalizeName(item.recipe.name);
     if (ibaNames.has(normalized) || aliasMap.has(normalized)) continue;
     const nameZh = nameMap.get(normalized) || item.recipe.name;
-    const entry = buildEntry(item, nameZh, labels, usedSlugs, ibaNames);
+    const entry = buildEntry(item, nameZh, labels, usedSlugs, ibaNames, classifications);
     if (entry) community.push(entry);
   }
   community.sort((a, b) => a.data.nameEn.localeCompare(b.data.nameEn));
   const missingNameZh = community.filter((entry) => !entry.nameZhMapped).map((entry) => entry.data.nameEn);
+  const manualEntries = existing.communityEntries.filter((entry) => curated.manualSlugs.includes(entry.data.slug));
+  const manualManifestEntries = manualEntries.map((entry) => ({
+    slug: entry.data.slug,
+    nameEn: entry.data.nameEn,
+    nameZh: entry.data.nameZh,
+    nameZhMapped: true,
+    manual: true,
+    sourceId: null,
+    sourceSha256: null,
+    sourceUrl: entry.data.source?.url ?? null,
+    file: path.relative(repoRoot, entry.file).replaceAll(path.sep, '/'),
+    image: entry.data.image,
+  }));
+  const manifestEntries = [
+    ...community.map((entry) => ({
+      slug: entry.data.slug,
+      nameEn: entry.data.nameEn,
+      nameZh: entry.data.nameZh,
+      nameZhMapped: entry.nameZhMapped,
+      manual: false,
+      sourceId: entry.source.id,
+      sourceSha256: entry.source.sha256,
+      sourceUrl: entry.sourceUrl,
+      file: entry.file,
+      image: entry.data.image,
+    })),
+    ...manualManifestEntries,
+  ];
   const importManifest = {
     format: 1,
-    kind: 'community-import',
+    kind: 'community-curated-import',
     generatedAt: checkedAt,
     vendor: {
       provider: manifest.provider,
@@ -807,35 +881,34 @@ async function main() {
     },
     sourceRows: recipes.length,
     sourceUniqueNames: selected.length,
+    selectedCuratedCount: selectedCurated.length,
     duplicateGroups: duplicates,
     aliasRules: aliases,
     aliasesApplied: aliases.map((item) => ({ targetSlug: item.targetSlug, targetNameEn: item.targetNameEn, aliases: item.aliases })),
     skippedAliasNames,
+    skippedNotAllowlisted,
+    curatedAllowlist: {
+      file: 'src/data/community-curated-allowlist.json',
+      slugs: curated.slugs,
+      manualSlugs: curated.manualSlugs,
+    },
     ibaCount: existing.ibaEntries.length,
-    communityCount: community.length,
-    combinedCount: existing.ibaEntries.length + community.length,
+    communityCount: manifestEntries.length,
+    combinedCount: existing.ibaEntries.length + manifestEntries.length,
     missingNameZh,
-    entries: community.map((entry) => ({
-      slug: entry.data.slug,
-      nameEn: entry.data.nameEn,
-      nameZh: entry.data.nameZh,
-      nameZhMapped: entry.nameZhMapped,
-      sourceId: entry.source.id,
-      sourceSha256: entry.source.sha256,
-      sourceUrl: entry.sourceUrl,
-      file: entry.file,
-      image: entry.data.image,
-    })),
+    entries: manifestEntries,
   };
   console.log(JSON.stringify({
     vendorRoot,
     sourceRows: recipes.length,
     sourceUniqueNames: selected.length,
+    selectedCuratedCount: selectedCurated.length,
     duplicateGroups: duplicates.length,
     skippedIbaNames,
     skippedAliasNames: skippedAliasNames.length,
+    skippedNotAllowlisted: skippedNotAllowlisted.length,
     ibaCount: existing.ibaEntries.length,
-    communityCount: community.length,
+    communityCount: manifestEntries.length,
     combinedCount: importManifest.combinedCount,
     missingNameZh: missingNameZh.length,
     dryRun,
@@ -849,11 +922,9 @@ async function main() {
   for (const entry of community) {
     const file = path.join(repoRoot, entry.file);
     await writeFile(file, `---\n${stringify(entry.data, { lineWidth: 0 })}---\n`, 'utf8');
-    await writeFile(path.join(repoRoot, 'public', entry.data.image.replace(/^\//, '')), renderSvg({
-      slug: entry.data.slug,
-      nameZh: entry.data.nameZh,
-      recipe: entry.source.recipe,
-    }), 'utf8');
+  }
+  for (const item of await readdir(imageRoot, { withFileTypes: true })) {
+    if (item.isFile() && item.name.toLowerCase().endsWith('.svg')) await unlink(path.join(imageRoot, item.name)).catch(() => {});
   }
   await writeFile(importManifestPath, `${JSON.stringify(importManifest, null, 2)}\n`, 'utf8');
 }

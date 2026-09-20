@@ -7,7 +7,7 @@
   "commit": "5a504d474614494119882eb91a8ffdc5491a483f",
   "importedAt": "2026-09-20",
   "recipeCount": 663,
-  "imagePolicy": "Source images intentionally excluded; Cocktail Atlas generates local SVG illustrations.",
+  "imagePolicy": "Source images intentionally excluded and not reused; Cocktail Atlas generates local AI WebP illustrations.",
   "files": [
     {
       "id": "1934-cosmo",
